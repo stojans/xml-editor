@@ -1,0 +1,22 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+RTE Data Exchange                        | Rte_IWriteRef        | RTVImageCntrl_PpTVICTraceData_DeTraceData 
+UDS Diagnostic, Routine Call             | Rte_Receive          | CtCdTVIC_PpDiagTVICRead_DeTV_Write_CdTVIC_Parameter_0x1009 
+Diagnostic, Get DTC Event                | Rte_Call             | CtCdTVIC_PpEventHandling_GetEventStatus  
+UDS Diagnostic, Messwerte                | Rte_IWrite           | RTVImageCntrl_PpDiagTVICWrite_DeMesswerte_TVIC 
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpTVMasterTVImageCntrl_DeTVImageRequest 
+RTE Data Exchange                        | Rte_Receive          | CtCdTVIC_PpFRTVMasterIn_DeFRTVMasterIn   
+SWC Version Info                         | Rte_Call             | CtCdTVIC_PpPFServer_MW_SetSwcInfo        
+Persistency, Big Data                    | Rte_IStatus          | RTVImageCntrl_PpBdTVICRead_DeBdDePrbsMeasurementTVICRW_Normal 
+Diagnostic, Set DTC Event                | Rte_Call             | CtCdTVIC_PpEventHandling_SetEventStatus  
+UDS Diagnostic, Routine Return           | Rte_Send             | CtCdTVIC_PpDiagTVICWrite_DeTV_Write_CdTVIC_Parameter_0x1009 
+Persistency, Big Data                    | Rte_IWriteRef        | RTVImageCntrl_PpBdTVICWrite_DeBdDePrbsMeasurementTVICRW_Normal 
+Persistency, Big Data                    | Rte_IRead            | RTVImageCntrl_PpBdTVICRead_DeBdDePrbsMeasurementTVICRW_Normal 
+RTE Data Exchange                        | Rte_Receive          | CtCdTVIC_PpTVMasterTVImageCntrl_DeTVMasterCameraExtrinsics 
+RTE Data Exchange                        | Rte_Receive          | CtCdTVIC_PpLcsTVicNvramStorageSRHTrigger_DeCancelAll 
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpTVMasterTVImageCntrl_DeTVImageRequest 
+RTE Data Exchange                        | Rte_Write            | CtCdTVIC_PpLcsTVicNvramStorageSRHStatus_DeWriteAllStatus 
+RTE Data Exchange                        | Rte_Receive          | CtCdTVIC_PpLcsTVicNvramStorageSRHTrigger_DeWriteAll 
+RTE Data Exchange                        | Rte_Receive          | CtCdTVIC_PpTVPoCMeasurement_DeTVPoCMeasurement 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 18

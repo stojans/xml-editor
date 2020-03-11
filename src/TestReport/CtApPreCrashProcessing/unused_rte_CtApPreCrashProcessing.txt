@@ -1,0 +1,40 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+LCS                                      | Rte_IStatus          | RPreCrashProcessing_PpPFProvidedData_DeLCSMVHState 
+Time Service, Convert AGT                | Rte_Call             | CtApPreCrashProcessing_PpPFServer_TS_ConvertAgt2Zgt 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApPreCrashProcessing_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+RTE Data Exchange                        | Rte_IStatus          | RPreCrashProcessing_PpPFHwMeasurements_DeVBAT_MAIN 
+RTE Data Exchange                        | Rte_IStatus          | RPreCrashProcessing_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+RTE Data Exchange                        | Rte_IRead            | RPreCrashProcessing_PpPFProvidedData_DeTotalSysRestartCnt 
+LCS                                      | Rte_IRead            | RPreCrashProcessing_PpPFProvidedData_DeLCSSystemState 
+Diagnostic, DTC clear                    | Rte_Receive          | CtApPreCrashProcessing_PpDiagGlobalRead_DeFSPCleared 
+RTE Data Exchange                        | Rte_IStatus          | RPreCrashProcessing_PpPFProvidedData_DeTotalSysRestartCnt 
+LCS                                      | Rte_IRead            | RPreCrashProcessing_PpPFProvidedData_DeLCSSRHState 
+RTE Data Exchange                        | Rte_IWriteRef        | RPreCrashProcessing_PpFRPreCrashOut_DeTraceData 
+Diagnostic, Global                       | Rte_Read             | CtApPreCrashProcessing_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+RTE Data Exchange                        | Rte_IStatus          | RPreCrashProcessing_PpPFHwMeasurements_DeTHS 
+RTE Data Exchange                        | Rte_Read             | CtApPreCrashProcessing_PpDiagCoding_DePermitCodingPersistence 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApPreCrashProcessing_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+Diagnostic, Coding                       | Rte_IsUpdated        | CtApPreCrashProcessing_PpDiagCoding_DeCoding 
+Time Service, Timestamp                  | Rte_Call             | CtApPreCrashProcessing_PpPFServer_TS_GetZgtTimestamp 
+LCS                                      | Rte_IStatus          | RPreCrashProcessing_PpPFProvidedData_DeLCSSystemState 
+RTE Data Exchange                        | Rte_IRead            | RPreCrashProcessing_PpPFHwMeasurements_DeTHS 
+Diagnostic, Global                       | Rte_Read             | CtApPreCrashProcessing_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+HW Variant Interface                     | Rte_IStatus          | RPreCrashProcessing_PpPFProvidedData_DeVARHWVariant 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApPreCrashProcessing_PpDiagCoding_DePermitCodingPersistence 
+LCS                                      | Rte_IStatus          | RPreCrashProcessing_PpPFProvidedData_DeLCSAPHState 
+RTE Data Exchange                        | Rte_IWrite           | RPreCrashProcessing_PpFRPreCrashOut_DeTraceData 
+HW Variant Interface                     | Rte_IRead            | RPreCrashProcessing_PpPFProvidedData_DeVARHWVariant 
+LCS                                      | Rte_IRead            | RPreCrashProcessing_PpPFProvidedData_DeLCSMVHState 
+RTE Data Exchange                        | Rte_IRead            | RPreCrashProcessing_PpPFHwMeasurements_DeVBAT_MAIN 
+Diagnostic, Get DTC Event                | Rte_Call             | CtApPreCrashProcessing_PpEventHandling_GetEventStatus 
+Diagnostic, Global                       | Rte_Read             | CtApPreCrashProcessing_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+LCS                                      | Rte_IStatus          | RPreCrashProcessing_PpPFProvidedData_DeLCSSRHState 
+Time Service, Convert ZGT                | Rte_Call             | CtApPreCrashProcessing_PpPFServer_TS_ConvertZgt2Agt 
+Time Service, AGT                        | Rte_Call             | CtApPreCrashProcessing_PpPFServer_TS_GetAgtTimestamp 
+Time Service, Remaining Time Budget      | Rte_Call             | CtApPreCrashProcessing_PpPFServer_TS_GetRemainingTimeBudget 
+RTE Data Exchange                        | Rte_IRead            | RPreCrashProcessing_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApPreCrashProcessing_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+LCS                                      | Rte_IRead            | RPreCrashProcessing_PpPFProvidedData_DeLCSAPHState 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 36

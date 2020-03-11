@@ -1,0 +1,82 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+RTE Data Exchange                        | Rte_IRead            | ROBFLightMain_PpDsRoadGraphDataSet_DeRoadgraphSWEData 
+IF-Set Version                           | Rte_IStatus          | ROBFLightMain_PpPFProvidedData_DeIFSETVersion 
+Diagnostic, Global                       | Rte_Read             | CtApObjectFusionLight_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+RTE Data Exchange                        | Rte_IWriteRef        | ROBFLightMain_PpObjectFusionLightTraceData_DeTraceData 
+RTE Data Exchange                        | Rte_IStatus          | ROBFLightMain_PpDsRoadGraphDataSet_DeRoadgraphEHRDBData 
+Diagnostic, DTC clear                    | Rte_Receive          | CtApObjectFusionLight_PpDiagGlobalRead_DeFSPCleared 
+RTE Data Exchange                        | Rte_IStatus          | ROBFLightMain_PpDsObjectFusionDataSet_DeOFParameters 
+RTE Data Exchange                        | Rte_IRead            | ROBFLightMain_PpDsRoadGraphDataSet_DeRoadgraphSNAVData 
+RTE Data Exchange                        | Rte_IRead            | ROBFLightMain_PpDsRoadGraphDataSet_DeRoadgraphSPOSData 
+RTE Data Exchange                        | Rte_IRead            | ROBFLightMain_PpDsRoadGraphDataSet_DeRoadgraphEHRDBData 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApObjectFusionLight_PpCalibFailMV_DeCalibrationMV 
+RTE Data Exchange                        | Rte_IRead            | ROBFLightMain_PpDsRoadGraphDataSet_DeRoadgraphRGLDIAGData 
+RTE Data Exchange                        | Rte_IRead            | ROBFLightMain_PpDsRoadGraphDataSet_DeRoadgraphSOBJData 
+Diagnostic, Global                       | Rte_Read             | CtApObjectFusionLight_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+LCS                                      | Rte_IStatus          | ROBFLightMain_PpPFProvidedData_DeLCSSRHState 
+RTE Data Exchange                        | Rte_IStatus          | ROBFLightMain_PpDsRoadGraphDataSet_DeRoadgraphROBJData 
+Time Service, AGT                        | Rte_Call             | CtApObjectFusionLight_PpPFServer_TS_GetAgtTimestamp 
+LCS                                      | Rte_IRead            | ROBFLightMain_PpPFProvidedData_DeLCSMVHState 
+Diagnostic, Coding                       | Rte_IsUpdated        | CtApObjectFusionLight_PpDiagCoding_DeCoding 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApObjectFusionLight_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+RTE Data Exchange                        | Rte_IRead            | ROBFLightMain_PpDsRoadGraphDataSet_DeRoadgraphRGLAData 
+RTE Data Exchange                        | Rte_IRead            | ROBFLightMain_PpObjOBFMV_DeOBFObjMVPED   
+RTE Data Exchange                        | Rte_IStatus          | ROBFLightMain_PpPFHwMeasurements_DeTHS   
+IF-Set Version                           | Rte_IRead            | ROBFLightMain_PpPFProvidedData_DeIFSETVersion 
+Diagnostic, Set DTC Event                | Rte_Call             | CtApObjectFusionLight_PpEventHandling_SetEventStatus 
+Diagnostic, Global                       | Rte_Read             | CtApObjectFusionLight_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+RTE Data Exchange                        | Rte_IRead            | ROBFLightMain_PpDsObjectFusionDataSet_DeOFParameters 
+RTE Data Exchange                        | Rte_IRead            | ROBFLightMain_PpPFProvidedData_DeTotalSysRestartCnt 
+RTE Data Exchange                        | Rte_Read             | CtApObjectFusionLight_PpDiagCoding_DePermitCodingPersistence 
+Diagnostic, Get DTC Event                | Rte_Call             | CtApObjectFusionLight_PpEventHandling_GetEventStatus 
+RTE Data Exchange                        | Rte_IStatus          | ROBFLightMain_PpDsRoadGraphDataSet_DeRoadgraphSEData 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApObjectFusionLight_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+LCS                                      | Rte_IStatus          | ROBFLightMain_PpPFProvidedData_DeLCSMVHState 
+RTE Data Exchange                        | Rte_IStatus          | ROBFLightMain_PpDsRoadGraphDataSet_DeRoadgraphRGLDIAGData 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApObjectFusionLight_PpCalibFailMV_DeFailsafeMV 
+Time Service, Convert ZGT                | Rte_Call             | CtApObjectFusionLight_PpPFServer_TS_ConvertZgt2Agt 
+Time Service, Convert AGT                | Rte_Call             | CtApObjectFusionLight_PpPFServer_TS_ConvertAgt2Zgt 
+RTE Data Exchange                        | Rte_IStatus          | ROBFLightMain_PpDsRoadGraphDataSet_DeRoadgraphWLAData 
+RTE Data Exchange                        | Rte_IRead            | ROBFLightMain_PpDsRoadGraphDataSet_DeRoadgraphRGLData 
+LCS                                      | Rte_IRead            | ROBFLightMain_PpPFProvidedData_DeLCSAPHState 
+RTE Data Exchange                        | Rte_IRead            | ROBFLightMain_PpPFHwMeasurements_DeVBAT_MAIN 
+LCS                                      | Rte_IStatus          | ROBFLightMain_PpPFProvidedData_DeLCSSystemState 
+RTE Data Exchange                        | Rte_IStatus          | ROBFLightMain_PpDsRoadGraphDataSet_DeRoadgraphSWEData 
+LCS                                      | Rte_IRead            | ROBFLightMain_PpPFProvidedData_DeLCSSystemState 
+RTE Data Exchange                        | Rte_IStatus          | ROBFLightMain_PpPFHwMeasurements_DeVBAT_MAIN 
+RTE Data Exchange                        | Rte_IRead            | ROBFLightMain_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+RTE Data Exchange                        | Rte_IStatus          | ROBFLightMain_PpDsRoadGraphDataSet_DeRoadgraphSPFData 
+RTE Data Exchange                        | Rte_IStatus          | ROBFLightMain_PpObjOBFMV_DeOBFObjMVPED   
+LCS                                      | Rte_IStatus          | ROBFLightMain_PpPFProvidedData_DeLCSSSHState 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApObjectFusionLight_PpDiagCoding_DePermitCodingPersistence 
+RTE Data Exchange                        | Rte_IRead            | ROBFLightMain_PpPFHwMeasurements_DeTHS   
+LCS                                      | Rte_IStatus          | ROBFLightMain_PpPFProvidedData_DeLCSAPHState 
+Diagnostic, Coding                       | Rte_Read             | CtApObjectFusionLight_PpDiagCoding_DeCoding 
+RTE Data Exchange                        | Rte_IStatus          | ROBFLightMain_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+LCS                                      | Rte_IRead            | ROBFLightMain_PpPFProvidedData_DeLCSSRHState 
+RTE Data Exchange                        | Rte_Read             | CtApObjectFusionLight_PpCalibFailMV_DeFailsafeMV 
+RTE Data Exchange                        | Rte_IStatus          | ROBFLightMain_PpPFProvidedData_DeTotalSysRestartCnt 
+RTE Data Exchange                        | Rte_Receive          | CtApObjectFusionLight_PpEML_DeEML        
+RTE Data Exchange                        | Rte_IStatus          | ROBFLightMain_PpDsRoadGraphDataSet_DeRoadgraphSOBJData 
+Time Service, Remaining Time Budget      | Rte_Call             | CtApObjectFusionLight_PpPFServer_TS_GetRemainingTimeBudget 
+RTE Data Exchange                        | Rte_IStatus          | ROBFLightMain_PpDsRoadGraphDataSet_DeRoadgraphERDData 
+RTE Data Exchange                        | Rte_Read             | CtApObjectFusionLight_PpCalibFailMV_DeMXBCalibrationStatusMV 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApObjectFusionLight_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+RTE Data Exchange                        | Rte_IStatus          | ROBFLightMain_PpDsRoadGraphDataSet_DeRoadgraphVZFData 
+RTE Data Exchange                        | Rte_IWrite           | ROBFLightMain_PpObjectFusionLightTraceData_DeTraceData 
+RTE Data Exchange                        | Rte_IStatus          | ROBFLightMain_PpDsRoadGraphDataSet_DeRoadgraphSPOSData 
+RTE Data Exchange                        | Rte_IRead            | ROBFLightMain_PpDsRoadGraphDataSet_DeRoadgraphERDData 
+RTE Data Exchange                        | Rte_IRead            | ROBFLightMain_PpDsRoadGraphDataSet_DeRoadgraphVZFData 
+RTE Data Exchange                        | Rte_IRead            | ROBFLightMain_PpDsRoadGraphDataSet_DeRoadgraphSEData 
+LCS                                      | Rte_IRead            | ROBFLightMain_PpPFProvidedData_DeLCSSSHState 
+RTE Data Exchange                        | Rte_IRead            | ROBFLightMain_PpDsRoadGraphDataSet_DeRoadgraphWLAData 
+RTE Data Exchange                        | Rte_IStatus          | ROBFLightMain_PpDsRoadGraphDataSet_DeRoadgraphRGLAData 
+RTE Data Exchange                        | Rte_IStatus          | ROBFLightMain_PpDsRoadGraphDataSet_DeRoadgraphSNAVData 
+RTE Data Exchange                        | Rte_IRead            | ROBFLightMain_PpDsRoadGraphDataSet_DeRoadgraphSPFData 
+RTE Data Exchange                        | Rte_IStatus          | ROBFLightMain_PpDsRoadGraphDataSet_DeRoadgraphRGLData 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApObjectFusionLight_PpCalibFailMV_DeMXBCalibrationStatusMV 
+RTE Data Exchange                        | Rte_IRead            | ROBFLightMain_PpDsRoadGraphDataSet_DeRoadgraphROBJData 
+RTE Data Exchange                        | Rte_IStatus          | ROBFLightMain_PpObjOBFMV_DeOBFObjMVMOD   
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 78

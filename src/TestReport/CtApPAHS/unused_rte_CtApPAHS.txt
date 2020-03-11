@@ -1,0 +1,102 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+BAP                                      | Rte_Call             | CtApPAHS_BapRequestPropFSG_AHC_FSG_Setup_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Result           | CtApPAHS_BapPropInit_AHC_Messages_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_IStatus          | RPAHSmain_PpWlaHeadlampOnlineCalMV_DeDetectionCountMV 
+Diagnostic, Global                       | Rte_Read             | CtApPAHS_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApPAHS_PpDiagCoding_DePermitCodingPersistence 
+BAP                                      | Rte_Result           | CtApPAHS_BapPropInit_AHC_FSG_OperationState_BAP_InitSendBufferUInt8 
+IF-Set Version                           | Rte_IStatus          | RPAHSmain_PpPFProvidedData_DeIFSETVersion 
+HW Variant Interface                     | Rte_IStatus          | RPAHSmain_PpPFProvidedData_DeVARHWVariant 
+Diagnostic, Global                       | Rte_Read             | CtApPAHS_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+RTE Data Exchange                        | Rte_IStatus          | RPAHSmain_PpLightResults_DePAHSHeadlightActualPos 
+BAP                                      | Rte_Result           | CtApPAHS_BapRequestError_AHC_Messages_BAP_RequestError 
+BAP                                      | Rte_Result           | CtApPAHS_BapPropInit_AHC_CalibrationControl_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Call             | CtApPAHS_BapPropInit_AHC_CalibrationControl_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Result           | CtApPAHS_BapRequestError_AHC_FSG_Setup_BAP_RequestError 
+BAP                                      | Rte_Result           | CtApPAHS_BapRequestError_AHC_FSG_OperationState_BAP_RequestError 
+RTE Data Exchange                        | Rte_IStatus          | RPAHSmain_PpZDML_DeZDMLAHS               
+LCS                                      | Rte_IRead            | RPAHSmain_PpPFProvidedData_DeLCSMVHState 
+UDS Diagnostic, Stellglied Call          | Rte_Receive          | CtApPAHS_PpDiagPAHSRead_DeAutomatic_calibration_headlamp_test_mode_0x81E0 
+RTE Data Exchange                        | Rte_IStatus          | RPAHSmain_PpWlaHeadlampOnlineCalMV_DeCalibrationStaticMV 
+RTE Data Exchange                        | Rte_IStatus          | RPAHSmain_PpFRPahsIn_DeFRPahsIn          
+HW Variant Interface                     | Rte_IRead            | RPAHSmain_PpPFProvidedData_DeVARHWVariant 
+BAP                                      | Rte_Result           | CtApPAHS_BapRequestError_AHC_FSG_Control_BAP_RequestError 
+BAP                                      | Rte_Call             | CtApPAHS_BapPropInit_AHC_Messages_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Call             | CtApPAHS_BapRequestError_AHC_FSG_Control_BAP_RequestError 
+BAP                                      | Rte_Call             | CtApPAHS_BapRequestError_AHC_FSG_OperationState_BAP_RequestError 
+Persistency, DataSet                     | Rte_IStatus          | RPAHSmain_PpDsPAHSDataSet_DePahsConfigMxb 
+Diagnostic, DTC clear                    | Rte_Receive          | CtApPAHS_PpDiagGlobalRead_DeFSPCleared   
+BAP                                      | Rte_Call             | CtApPAHS_BapRequestPropFSG_AHC_FSG_Control_Status_BAP_RequestUInt8 
+RTE Data Exchange                        | Rte_Receive          | CtApPAHS_PpEML_DeEML                     
+Time Service, AGT                        | Rte_Call             | CtApPAHS_PpPFServer_TS_GetAgtTimestamp   
+RTE Data Exchange                        | Rte_IStatus          | RPAHSmain_PpPFHwMeasurements_DeVBAT_MAIN 
+BAP                                      | Rte_Call             | CtApPAHS_BapRequestError_AHC_CalibrationControl_BAP_RequestError 
+LCS                                      | Rte_IRead            | RPAHSmain_PpPFProvidedData_DeLCSAPHState 
+BAP                                      | Rte_Read             | CtApPAHS_Bap_Allowed_DeBapAllowed        
+BAP                                      | Rte_Result           | CtApPAHS_BapRequestPropFSG_AHC_FSG_Control_Status_BAP_RequestUInt8 
+BAP                                      | Rte_Call             | CtApPAHS_BapPropInit_AHC_FSG_Setup_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_IStatus          | RPAHSmain_PpPahsAFSLightIn_DePahsAFSLightIn 
+LCS                                      | Rte_IRead            | RPAHSmain_PpPFProvidedData_DeLCSSystemState 
+Persistency, Data read                   | Rte_IsUpdated        | CtApPAHS_PpPdPAHSRead_DePahsDataStore_Normal 
+RTE Data Exchange                        | Rte_IStatus          | RPAHSmain_PpPFHwMeasurements_DeTHS       
+BAP                                      | Rte_Result           | CtApPAHS_BapPropInit_AHC_HeartBeat_BAP_InitSendBufferUInt8 
+RTE Data Exchange                        | Rte_IStatus          | RPAHSmain_PpLightResults_DeMXBDMLData    
+Diagnostic, Global                       | Rte_IsUpdated        | CtApPAHS_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+BAP                                      | Rte_Result           | CtApPAHS_BapRequestError_AHC_CalibrationControl_BAP_RequestError 
+BAP                                      | Rte_Call             | CtApPAHS_BapPropInit_AHC_FunctionList_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Call             | CtApPAHS_BapRequestPropFSG_AHC_FSG_OperationState_Status_BAP_RequestUInt8 
+BAP                                      | Rte_Result           | CtApPAHS_BapRequestPropFSG_AHC_FSG_OperationState_Status_BAP_RequestUInt8 
+RTE Data Exchange                        | Rte_IStatus          | RPAHSmain_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+BAP                                      | Rte_Call             | CtApPAHS_BapGet_AHC_State                
+BAP                                      | Rte_Result           | CtApPAHS_BapPropInit_AHC_FunctionList_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Call             | CtApPAHS_BapPropInit_AHC_CalibrationState_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Result           | CtApPAHS_BapRequestError_AHC_CalibrationState_BAP_RequestError 
+RTE Data Exchange                        | Rte_IRead            | RPAHSmain_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+BAP                                      | Rte_Call             | CtApPAHS_BapPropInit_AHC_HeartBeat_BAP_InitSendBufferUInt8 
+BAP                                      | Rte_Result           | CtApPAHS_BapPropInit_AHC_FSG_Control_BAP_InitSendBufferUInt8 
+RTE Data Exchange                        | Rte_IStatus          | RPAHSmain_PpWlaHeadlampOnlineCalMV_DeMXBCalibrationStatusMV 
+RTE Data Exchange                        | Rte_IStatus          | RPAHSmain_PpPFProvidedData_DeTotalSysRestartCnt 
+BAP                                      | Rte_Call             | CtApPAHS_BapRequestError_AHC_FSG_Setup_BAP_RequestError 
+RTE Data Exchange                        | Rte_IStatus          | RPAHSmain_PpWlaHeadlampOnlineCalMV_DeWlaHeadlampOnlineCal 
+RTE Data Exchange                        | Rte_Read             | CtApPAHS_PpDiagCoding_DePermitCodingPersistence 
+LCS                                      | Rte_IStatus          | RPAHSmain_PpPFProvidedData_DeLCSSystemState 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApPAHS_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+BAP                                      | Rte_IsUpdated        | CtApPAHS_Bap_Allowed_DeBapAllowed        
+BAP                                      | Rte_Result           | CtApPAHS_BapRequestPropFSG_AHC_CalibrationState_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Result           | CtApPAHS_BapPropInit_AHC_CalibrationState_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Call             | CtApPAHS_BapPropInit_AHC_BAP_Config_BAP_InitSendBufferByteSequence 
+Persistency, DataSet                     | Rte_IStatus          | RPAHSmain_PpDsPAHSDataSet_DePahsConfig   
+BAP                                      | Rte_Result           | CtApPAHS_BapRequestPropFSG_AHC_Messages_Status_BAP_RequestByteSequence 
+RTE Data Exchange                        | Rte_IRead            | RPAHSmain_PpPFProvidedData_DeTotalSysRestartCnt 
+BAP                                      | Rte_Result           | CtApPAHS_BapRequestPropFSG_AHC_FSG_Setup_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Call             | CtApPAHS_BapPropInit_AHC_FSG_Control_BAP_InitSendBufferUInt8 
+Persistency, DataSet                     | Rte_IRead            | RPAHSmain_PpDsPAHSDataSet_DePahsConfigLight 
+RTE Data Exchange                        | Rte_IStatus          | RPAHSmain_PpZDML_DeZDMLMXB               
+LCS                                      | Rte_IStatus          | RPAHSmain_PpPFProvidedData_DeLCSMVHState 
+Time Service, Convert AGT                | Rte_Call             | CtApPAHS_PpPFServer_TS_ConvertAgt2Zgt    
+RTE Data Exchange                        | Rte_IRead            | RPAHSmain_PpZDML_DeZDMLMXB               
+LCS                                      | Rte_IStatus          | RPAHSmain_PpPFProvidedData_DeLCSSSHState 
+LCS                                      | Rte_IStatus          | RPAHSmain_PpPFProvidedData_DeLCSAPHState 
+RTE Data Exchange                        | Rte_IRead            | RPAHSmain_PpLightResults_DeMXBDMLData    
+BAP                                      | Rte_Result           | CtApPAHS_BapPropInit_AHC_FSG_Setup_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Call             | CtApPAHS_BapRequestPropFSG_AHC_CalibrationControl_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Result           | CtApPAHS_BapRequestPropFSG_AHC_CalibrationControl_Status_BAP_RequestByteSequence 
+LCS                                      | Rte_IRead            | RPAHSmain_PpPFProvidedData_DeLCSSSHState 
+LCS                                      | Rte_IStatus          | RPAHSmain_PpPFProvidedData_DeLCSSRHState 
+LCS                                      | Rte_IRead            | RPAHSmain_PpPFProvidedData_DeLCSSRHState 
+BAP                                      | Rte_Result           | CtApPAHS_BapGet_AHC_State                
+Persistency, Data read                   | Rte_IsUpdated        | CtApPAHS_PpPdPAHSRead_DePahsH0V0Store_Normal 
+Persistency, DataSet                     | Rte_IStatus          | RPAHSmain_PpDsPAHSDataSet_DePahsConfigLight 
+RTE Data Exchange                        | Rte_IRead            | RPAHSmain_PpPFHwMeasurements_DeTHS       
+BAP                                      | Rte_Result           | CtApPAHS_BapPropInit_AHC_BAP_Config_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Call             | CtApPAHS_BapRequestError_AHC_Messages_BAP_RequestError 
+BAP                                      | Rte_Call             | CtApPAHS_BapRequestPropFSG_AHC_CalibrationState_Status_BAP_RequestByteSequence 
+Time Service, Convert ZGT                | Rte_Call             | CtApPAHS_PpPFServer_TS_ConvertZgt2Agt    
+BAP                                      | Rte_Call             | CtApPAHS_BapRequestPropFSG_AHC_Messages_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Call             | CtApPAHS_BapPropInit_AHC_FSG_OperationState_BAP_InitSendBufferUInt8 
+RTE Data Exchange                        | Rte_IRead            | RPAHSmain_PpPFHwMeasurements_DeVBAT_MAIN 
+IF-Set Version                           | Rte_IRead            | RPAHSmain_PpPFProvidedData_DeIFSETVersion 
+BAP                                      | Rte_Call             | CtApPAHS_BapRequestError_AHC_CalibrationState_BAP_RequestError 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 98

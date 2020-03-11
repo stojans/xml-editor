@@ -1,0 +1,143 @@
+Information from parsed log-file
+
+Compiler
+================
+Found:
+-mrtp
+-D_NO_EX
+-D_VX_CPU=_VX_ARMARCH7
+-Wpedantic
+-fno-exceptions
+-D_HAS_C9X
+-D_VX_TOOL_FAMILY=gnu
+-D_VX_TOOL=gnu
+-O2
+-D_VSB_CONFIG_FILE="<D:/ARTLINKSPU_Build_Observer/0500_Build/FP/local/../modules/_bin-mods-vxworks-asil/SSH_VSB/src_inc/usr/h/vsbConfig.h>"
+-fstrength-reduce
+-Wall
+-fasm
+-LD:/ARTLINKSPU_Build_Observer/0500_Build/FP/local/../modules/_bin-mods-vxworks-asil/SSH_VSB/src_inc/usr-zfas-asilb/lib
+-MP
+-std=c++98
+-D_C99
+-ID:/ARTLINKSPU_Build_Observer/0500_Build/FP/local/../modules/_bin-mods-vxworks-asil/SSH_VSB/src_inc/usr-zfas-asilb/h/usr/h/public
+-mfpu=neon
+-MD
+-fno-strict-aliasing
+-ID:/ARTLINKSPU_Build_Observer/0500_Build/FP/local/../modules/_bin-mods-vxworks-asil/SSH_VSB/src_inc/usr-zfas-asilb/h/usr/h
+-std=c99
+-Wno-long-long
+-fno-builtin
+-fno-rtti
+-fextended-identifiers
+-ID:/ARTLINKSPU_Build_Observer/0500_Build/FP/local/../modules/_bin-mods-vxworks-asil/SSH_VSB/src_inc/usr-zfas-asilb/h/share/h
+-g0
+-t7
+-mfloat-abi=softfp
+-DARMEL
+
+Unknown:
+-Wno-long-long
+-lc_internal_cert_zFAS
+-D_NO_EX
+-std=c++98
+-nostdlib
+-lc_cert_zFAS
+-static
+-LC:/data/vx7-Industrial/workspace/asilb-rtp/../vsbaltera/usr-zfas-asilb/lib
+-lgcc_cert_zFAS
+-specs=C:/data/vx7-Industrial/workspace/asilb-rtp/../vsbaltera/usr-zfas-asilb/gcc_linker_spec
+
+Not used Mandatory:
+-pedantic-errors
+-c
+
+Used Optional:
+-o <output_file>
+-L<library_name>
+-I<IncludeFolder>
+-fno-rtti
+
+Ignored:
+
+
+
+
+Linker
+================
+Found:
+-mrtp
+-fno-strict-aliasing
+-Wpedantic
+-fno-exceptions
+-lgcc_cert_zFAS
+-Wl,-u,__tls__
+-lc_internal_cert_zFAS
+-O2
+-fstrength-reduce
+-Wall
+-fasm
+-Xlinker -Map=../bin/CtApACFObserver.vxe.map
+-Wl,--end-group
+-specs=D:/ARTLINKSPU_Build_Observer/0500_Build/FP/local/../modules/_bin-mods-vxworks-asil/SSH_VSB/src_inc/usr-zfas-asilb/gcc_linker_spec
+-LD:/ARTLINKSPU_Build_Observer/0500_Build/FP/local/../modules/_bin-mods-vxworks-asil/SSH_VSB/src_inc/usr-zfas-asilb/lib
+-g0
+-mfpu=neon
+-o ../bin/CtApACFObserver.vxe
+-lc_cert_zFAS
+-static
+-Wl,-TC:/Windriver/compilers/gnu-4.8.1.5/../../vxworks-7/build/tool/gnu_4_8_1/usr/ldscript.vxe.arm
+-std=c99
+-fno-builtin
+-LD:/ARTLINKSPU_Build_Observer/0500_Build/FP/local/build/vxworks-asil/Release/src-mod/CtApACFObserver_Main/lib
+-Wl,--start-group
+-fextended-identifiers
+-Wl,--defsym,__wrs_rtp_base=0x80000000
+-t7
+-nostdlib
+-mfloat-abi=softfp
+
+Unknown:
+-Wno-long-long
+-lc_internal_cert_zFAS
+-D_NO_EX
+-std=c++98
+-nostdlib
+-lc_cert_zFAS
+-static
+-LC:/data/vx7-Industrial/workspace/asilb-rtp/../vsbaltera/usr-zfas-asilb/lib
+-lgcc_cert_zFAS
+-specs=C:/data/vx7-Industrial/workspace/asilb-rtp/../vsbaltera/usr-zfas-asilb/gcc_linker_spec
+
+Not used Mandatory:
+-llincore
+-LC:/data/vx7-Industrial/workspace/qmrtp/../vsb/usr/lib/common
+-pedantic-errors
+
+Used Optional:
+-o <output_file>
+-L<library_name>
+-I<IncludeFolder>
+-fno-rtti
+
+Ignored:
+
+
+
+
+Arguments
+================
+Flag arguments:
+-o: ['../bin/CtApACFObserver.vxe']
+
+Function arguments
+"CMakeFiles/CtApACFObserver.vxe.dir/dummy.c.obj"
+D:/ARTLINKSPU_Build_Observer/0500_Build/FP/local/../modules/_bin-mods-vxworks-asil/SSH_VSB/src_inc/usr-zfas-asilb/lib/crt0_cert_zFAS.o
+D:/ARTLINKSPU_Build_Observer/0500_Build/FP/local/inst-bin-mods-vxworks-asil/lib/lib_CpApACFObserver.a
+D:/ARTLINKSPU_Build_Observer/0500_Build/FP/local/inst-src-mods-vxworks-asil/lib/libCtApACFObserver_BDL.a
+D:/ARTLINKSPU_Build_Observer/0500_Build/FP/local/inst-src-mods-vxworks-asil/lib/libCtApACFObserver_Implementation.a
+D:/ARTLINKSPU_Build_Observer/0500_Build/FP/local/inst-src-mods-vxworks-asil/lib/libCtApACFObserver_ServerRunnables.a
+
+
+SWC-Specific definitions
+None

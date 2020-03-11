@@ -1,0 +1,65 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+RTE Data Exchange                        | Rte_IStatus          | RUltraSonicProcessing40ms_PpDsParkControlDataSet_DeIpaCfg_R 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdUltraSonicProcessing_PpDiagUltraSonicProcessingRead_DeProductionmode_0x04FE 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtCdUltraSonicProcessing_PpDiagUltraSonicProcessingRead_DePlatform_zFAS_Ethernet_Security_0xEFB0 
+LCS                                      | Rte_IStatus          | RUltraSonicProcessing40ms_PpPFProvidedData_DeLCSMVHState 
+LCS                                      | Rte_IRead            | RUltraSonicProcessing40ms_PpPFProvidedData_DeLCSAPHState 
+IF-Set Version                           | Rte_IRead            | RUltraSonicProcessing40ms_PpPFProvidedData_DeIFSETVersion 
+RTE Data Exchange                        | Rte_Read             | CtCdUltraSonicProcessing_PpPdParkControlRead_DeDynamicData_Pac_RW_Normal 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdUltraSonicProcessing_PpDiagUltraSonicProcessingRead_DePlatform_zFAS_USS_Design_Test_0x0502 
+LCS                                      | Rte_IStatus          | RUltraSonicProcessing40ms_PpPFProvidedData_DeLCSAPHState 
+RTE Data Exchange                        | Rte_IStatus          | RUltraSonicProcessing40ms_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+RTE Data Exchange                        | Rte_IRead            | RUltraSonicProcessing40ms_PpDsParkControlDataSet_DeVdimCfg 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtCdUltraSonicProcessing_PpDiagUltraSonicProcessingRead_DePlatform_zFAS_Logging_0x0503 
+LCS                                      | Rte_IRead            | RUltraSonicProcessing40ms_PpPFProvidedData_DeLCSSystemState 
+RTE Data Exchange                        | Rte_IStatus          | RUltraSonicProcessing40ms_PpFRUSpreProcessingIn_DeFRUSpreProcessingIn 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdUltraSonicProcessing_PpPdParkControlRead_DeDynamicData_Pac_RW_Normal 
+RTE Data Exchange                        | Rte_IRead            | RUltraSonicProcessing40ms_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+Persistency, Data read                   | Rte_IsUpdated        | CtCdUltraSonicProcessing_PpPdUltraSonicProcessingRead_DeDynamicData_Usp_RW_Normal 
+Diagnostic, Global                       | Rte_Read             | CtCdUltraSonicProcessing_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+RTE Data Exchange                        | Rte_IStatus          | RUltraSonicProcessing40ms_PpPFHwMeasurements_DeTHS 
+Diagnostic, Global                       | Rte_IsUpdated        | CtCdUltraSonicProcessing_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+RTE Data Exchange                        | Rte_Read             | CtCdUltraSonicProcessing_PpDiagCoding_DePermitCodingPersistence 
+Time Service, Convert ZGT                | Rte_Call             | CtCdUltraSonicProcessing_PpPFServer_TS_ConvertZgt2Agt 
+IF-Set Version                           | Rte_IStatus          | RUltraSonicProcessing40ms_PpPFProvidedData_DeIFSETVersion 
+LCS                                      | Rte_IRead            | RUltraSonicProcessing40ms_PpPFProvidedData_DeLCSSRHState 
+LCS                                      | Rte_IRead            | RUltraSonicProcessing40ms_PpPFProvidedData_DeLCSSSHState 
+RTE Data Exchange                        | Rte_IStatus          | RUltraSonicProcessing40ms_PpPFProvidedData_DeTotalSysRestartCnt 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtCdUltraSonicProcessing_PpDiagUltraSonicProcessingRead_DeIPA_new_functions_0x056A 
+LCS                                      | Rte_IStatus          | RUltraSonicProcessing40ms_PpPFProvidedData_DeLCSSRHState 
+LCS                                      | Rte_IStatus          | RUltraSonicProcessing40ms_PpPFProvidedData_DeLCSSystemState 
+RTE Data Exchange                        | Rte_IRead            | RUltraSonicProcessing40ms_PpDsParkControlDataSet_DeIpaCfg_R 
+Diagnostic, Global                       | Rte_IsUpdated        | CtCdUltraSonicProcessing_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+RTE Data Exchange                        | Rte_IRead            | RUltraSonicProcessing40ms_PpPFHwMeasurements_DeTHS 
+Time Service, AGT                        | Rte_Call             | CtCdUltraSonicProcessing_PpPFServer_TS_GetAgtTimestamp 
+RTE Data Exchange                        | Rte_Read             | CtCdUltraSonicProcessing_PpPdParkControlRead_DeIpaCfg_RW_Normal 
+RTE Data Exchange                        | Rte_IRead            | RUltraSonicProcessing40ms_PpPFProvidedData_DeTotalSysRestartCnt 
+LCS                                      | Rte_IRead            | RUltraSonicProcessing40ms_PpPFProvidedData_DeLCSMVHState 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdUltraSonicProcessing_PpDiagUltraSonicProcessingRead_DePlatform_zFAS_Ethernet_Security_0xEFB0 
+Diagnostic, Global                       | Rte_IsUpdated        | CtCdUltraSonicProcessing_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdUltraSonicProcessing_PpDiagCoding_DePermitCodingPersistence 
+RTE Data Exchange                        | Rte_IStatus          | RUltraSonicProcessing40ms_PpDsParkControlDataSet_DeVctmCfg 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdUltraSonicProcessing_PpPdParkControlRead_DeCustomerCfg_RW_Normal 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtCdUltraSonicProcessing_PpDiagUltraSonicProcessingRead_DePlatform_zFAS_USS_Design_Test_0x0502 
+HW Variant Interface                     | Rte_IRead            | RUltraSonicProcessing40ms_PpPFProvidedData_DeVARHWVariant 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdUltraSonicProcessing_PpDiagUltraSonicProcessingRead_DeIPA_new_functions_0x056A 
+RTE Data Exchange                        | Rte_IRead            | RUltraSonicProcessing40ms_PpDsParkControlDataSet_DeStateConfig 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdUltraSonicProcessing_PpPdParkControlRead_DeIpaCfg_RW_Normal 
+RTE Data Exchange                        | Rte_IRead            | RUltraSonicProcessing40ms_PpDsParkControlDataSet_DeColmCfg 
+RTE Data Exchange                        | Rte_IStatus          | RUltraSonicProcessing40ms_PpDsParkControlDataSet_DeFilmCfg 
+RTE Data Exchange                        | Rte_IStatus          | RUltraSonicProcessing40ms_PpDsParkControlDataSet_DeColmCfg 
+Time Service, Convert AGT                | Rte_Call             | CtCdUltraSonicProcessing_PpPFServer_TS_ConvertAgt2Zgt 
+RTE Data Exchange                        | Rte_IStatus          | RUltraSonicProcessing40ms_PpDsParkControlDataSet_DeStateConfig 
+RTE Data Exchange                        | Rte_IStatus          | RUltraSonicProcessing40ms_PpDsParkControlDataSet_DeVdimCfg 
+RTE Data Exchange                        | Rte_IRead            | RUltraSonicProcessing40ms_PpDsParkControlDataSet_DeVctmCfg 
+RTE Data Exchange                        | Rte_Read             | CtCdUltraSonicProcessing_PpPdParkControlRead_DeCustomerCfg_RW_Normal 
+RTE Data Exchange                        | Rte_IRead            | RUltraSonicProcessing40ms_PpDsParkControlDataSet_DeMopmCfg 
+HW Variant Interface                     | Rte_IStatus          | RUltraSonicProcessing40ms_PpPFProvidedData_DeVARHWVariant 
+LCS                                      | Rte_IStatus          | RUltraSonicProcessing40ms_PpPFProvidedData_DeLCSSSHState 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdUltraSonicProcessing_PpDiagUltraSonicProcessingRead_DePlatform_zFAS_Logging_0x0503 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtCdUltraSonicProcessing_PpDiagUltraSonicProcessingRead_DeProductionmode_0x04FE 
+RTE Data Exchange                        | Rte_IRead            | RUltraSonicProcessing40ms_PpDsParkControlDataSet_DeFilmCfg 
+RTE Data Exchange                        | Rte_IStatus          | RUltraSonicProcessing40ms_PpDsParkControlDataSet_DeMopmCfg 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 61

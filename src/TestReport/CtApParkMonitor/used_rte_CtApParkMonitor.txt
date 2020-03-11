@@ -1,0 +1,14 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+RTE Data Exchange                        | Rte_IRead            | RParkMonitor20ms_PpFRParkMonitorin_DeFRParkMonitorin 
+RTE Data Exchange                        | Rte_IStatus          | RParkMonitor20ms_PpParkControl2Monitor_DeParkControl2Monitor 
+RTE Data Exchange                        | Rte_IRead            | RParkMonitor20ms_PpGwSmaRequest_DeGwSmaRequest 
+SWC Version Info                         | Rte_Call             | CtApParkMonitor_PpPFServer_MW_SetSwcInfo 
+RTE Data Exchange                        | Rte_IWrite           | RParkMonitor20ms_PpFRParkMonitorout_DeFRParkMonitorout 
+RTE Data Exchange                        | Rte_IStatus          | RParkMonitor20ms_PpFRParkMonitorin_DeFRParkMonitorin 
+RTE Data Exchange                        | Rte_IStatus          | RParkMonitor20ms_PpGwSmaRequest_DeGwSmaRequest 
+RTE Data Exchange                        | Rte_IWrite           | RParkMonitor20ms_PpParkMonitor2Control_DeParkMonitor2Control 
+Time Service, Timestamp                  | Rte_Call             | CtApParkMonitor_PpPFServer_TS_GetZgtTimestamp 
+RTE Data Exchange                        | Rte_IRead            | RParkMonitor20ms_PpParkControl2Monitor_DeParkControl2Monitor 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 10

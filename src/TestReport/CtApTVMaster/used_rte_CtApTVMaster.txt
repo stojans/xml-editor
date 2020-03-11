@@ -1,0 +1,142 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+Persistency, Data read                   | Rte_Read             | CtApTVMaster_PpPdTVMasterRead_DeExtrinsicsEolLeft_Critical 
+Persistency, Data write                  | Rte_Write            | CtApTVMaster_PpPdTVMasterWrite_DeFavoriteList_Normal 
+UDS Diagnostic, Routine Call             | Rte_Receive          | CtApTVMaster_PpDiagTVMasterRead_DeTV_Trigger_EDRPiloFA_0x1007 
+RTE Data Exchange                        | Rte_IStatus          | RTVRmain_PpTVCntrlTVMaster_DeTVWingMirrorStatus 
+UDS Diagnostic, Stellglied Return        | Rte_Send             | CtApTVMaster_PpDiagTVMasterWrite_DePlatform_zFAS_Testpattern_TopView_Left_0x1065 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApTVMaster_PpDiagTVMasterRead_DeTV_enable_testscreen_0x0506 
+RTE Data Exchange                        | Rte_Read             | CtApTVMaster_PpFRParkControlout_DeFRParkControlout 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpPFWorkloadSRH_DeSRHWorkload 
+RTE Data Exchange                        | Rte_IRead            | RTVRmain_PpTVCntrlTVMaster_DeTVLogoStatus 
+Diagnostic, Global                       | Rte_Read             | CtApTVMaster_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+RTE Data Exchange                        | Rte_IWrite           | RTVRmain_PpTVmaster2ParkControl_DeTVmaster2ParkControl 
+UDS Diagnostic, Routine Return           | Rte_Send             | CtApTVMaster_PpDiagTVMasterWrite_DeTV_Trigger_EDRPiloFA_0x1007 
+Persistency, DataSet                     | Rte_IRead            | RTVRmain_PpDsTVMasterDataSet_DeCalibOlmcConfigParams 
+SWC Version Info                         | Rte_Call             | CtApTVMaster_PpPFServer_MW_SetSwcInfo    
+Persistency, DataSet                     | Rte_IStatus          | RTVRmain_PpDsTVMasterDataSet_DeExtrinsicsCadLeft 
+RTE Data Exchange                        | Rte_IRead            | RTVRmain_PpTVCntrlTVMaster_DeTVWingMirrorStatus 
+RTE Data Exchange                        | Rte_IStatus          | RTVRmain_PpParkControl2TVmaster_DeParkControl2TVmaster 
+UDS Diagnostic, Stellglied Call          | Rte_Receive          | CtApTVMaster_PpDiagTVMasterRead_DePlatform_zFAS_Testpattern_TopView_Left_0x1065 
+Persistency, DataSet                     | Rte_IRead            | RTVRmain_PpDsTVMasterDataSet_DeBlindnessParamsDefault 
+RTE Data Exchange                        | Rte_IRead            | RTVRmain_PpTVCntrlTVMaster_DeTVCleaningStatus 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApTVMaster_PpDiagTVMasterRead_DeProductionmode_0x04FE 
+EDR                                      | Rte_IStatus          | RTVRmain_PpEDRCamTriggerTV_DeEDRCamTrigger 
+BAP                                      | Rte_Receive          | CtApTVMaster_PpTVCntrlTVMaster_DeTVBapRequest 
+Persistency, DataSet                     | Rte_IRead            | RTVRmain_PpDsTVMasterDataSet_DeApplicationParamsTVMASTERDS 
+Persistency, DataSet                     | Rte_IRead            | RTVRmain_PpDsTVMasterDataSet_DeFavoriteListDefault 
+Persistency, Data read                   | Rte_Read             | CtApTVMaster_PpPdTVMasterRead_DeExtrinsicsEolBack_Critical 
+Diagnostic, DTC clear                    | Rte_Receive          | CtApTVMaster_PpDiagGlobalRead_DeFSPCleared 
+Persistency, DataSet                     | Rte_IStatus          | RTVRmain_PpDsTVMasterDataSet_DeCalibOlmcConfigParams 
+Diagnostic, Get DTC Event                | Rte_Call             | CtApTVMaster_PpEventHandling_GetEventStatus 
+Persistency, Data write                  | Rte_Write            | CtApTVMaster_PpPdTVMasterWrite_DeExtrinsicsEolBack_Critical 
+RTE Data Exchange                        | Rte_IWriteRef        | RTVRmain_PpTVMasterTraceData_DeTraceData 
+RTE Data Exchange                        | Rte_Receive          | CtApTVMaster_PpEML_DeEML                 
+UDS Diagnostic, Routine Return           | Rte_Send             | CtApTVMaster_PpDiagTVMasterWrite_DeTopView_delayed_camera_line_calibration_0x05AD 
+UDS Diagnostic, Routine Return           | Rte_Send             | CtApTVMaster_PpDiagTVMasterWrite_DeTV_Write_ApTVMaster_Parameter_0x1008 
+Persistency, DataSet                     | Rte_IStatus          | RTVRmain_PpDsTVMasterDataSet_DeViewParamsDefault 
+Persistency, DataSet                     | Rte_IRead            | RTVRmain_PpDsTVMasterDataSet_DeBlindnessParamsBack 
+UDS Diagnostic, Stellglied Call          | Rte_Receive          | CtApTVMaster_PpDiagTVMasterRead_DePlatform_zFAS_Testpattern__VideoOut_0x102F 
+Persistency, Big Data                    | Rte_IRead            | RTVRmain_PpBdTVMasterRead_DeDeBlindnessNvDataBack_Normal 
+Persistency, Data write                  | Rte_Write            | CtApTVMaster_PpPdTVMasterWrite_DeCtaParams_Normal 
+Persistency, Data write                  | Rte_Write            | CtApTVMaster_PpPdTVMasterWrite_DeExtrinsicsEolRight_Critical 
+Persistency, DataSet                     | Rte_IStatus          | RTVRmain_PpDsTVMasterDataSet_DeBlindnessParamsFront 
+Persistency, DataSet                     | Rte_IStatus          | RTVRmain_PpDsTVMasterDataSet_DeFavoriteListDefault 
+Persistency, Data read                   | Rte_Read             | CtApTVMaster_PpPdTVMasterRead_DeExtrinsicsOnlineLeft_Normal 
+EDR                                      | Rte_IStatus          | RTVRmain_PpDsEDRPiDrivingDataSet_DeEdrPiDrivingParamBlock 
+Persistency, Data read                   | Rte_Read             | CtApTVMaster_PpPdTVMasterRead_DeExtrinsicsOnlineBack_Normal 
+Persistency, Data write                  | Rte_Write            | CtApTVMaster_PpPdTVMasterWrite_DeExtrinsicsOnlineBack_Normal 
+EDR                                      | Rte_IRead            | RTVRmain_PpDsEDRPiDrivingDataSet_DeEdrPiDrivingParamBlock 
+RTE Data Exchange                        | Rte_IStatus          | RTVRmain_PpTVCntrlTVMaster_DeTVCleaningStatus 
+RTE Data Exchange                        | Rte_IWriteRef        | RTVRmain_PpTVMasterTVImageCntrl_DeTVImageRequest 
+Persistency, Data write                  | Rte_Write            | CtApTVMaster_PpPdTVMasterWrite_DeExtrinsicsEolFront_Critical 
+Persistency, DataSet                     | Rte_IStatus          | RTVRmain_PpDsTVMasterDataSet_DeBlindnessParamsRight 
+Persistency, DataSet                     | Rte_IRead            | RTVRmain_PpDsTVMasterDataSet_DeBlindnessParamsRight 
+Persistency, Data read                   | Rte_Read             | CtApTVMaster_PpPdTVMasterRead_DeExtrinsicsEolFront_Critical 
+Time Service, AGT                        | Rte_Call             | CtApTVMaster_PpPFServer_TS_GetAgtTimestamp 
+EDR                                      | Rte_IRead            | RTVRmain_PpEDRCamTriggerTV_DeEDRCamTrigger 
+Persistency, DataSet                     | Rte_IRead            | RTVRmain_PpDsTVMasterDataSet_DeCalibParamsDefault 
+RTE Data Exchange                        | Rte_IRead            | RTVRmain_PpParkProcessing2TVmaster_DeFATopView 
+UDS Diagnostic, Stellglied Return        | Rte_Send             | CtApTVMaster_PpDiagTVMasterWrite_DeDe5th_Camera_Activation_Request_0x1010 
+Persistency, Data write                  | Rte_Write            | CtApTVMaster_PpPdTVMasterWrite_DeExtrinsicsOnlineFront_Normal 
+Persistency, DataSet                     | Rte_IStatus          | RTVRmain_PpDsTVMasterDataSet_DeSuspensionAtCad 
+Persistency, DataSet                     | Rte_IRead            | RTVRmain_PpDsTVMasterDataSet_DeCalibFlmcConfigParams 
+Persistency, DataSet                     | Rte_IStatus          | RTVRmain_PpDsTVMasterDataSet_DeCalibPgmConfigParams 
+UDS Diagnostic, Routine Return           | Rte_Send             | CtApTVMaster_PpDiagTVMasterWrite_DeTV_Restore_defaults_0x1004 
+Persistency, DataSet                     | Rte_IRead            | RTVRmain_PpDsTVMasterDataSet_DeSuspensionAtCad 
+Persistency, DataSet                     | Rte_IRead            | RTVRmain_PpDsTVMasterDataSet_DeBlindnessParamsLeft 
+RTE Data Exchange                        | Rte_IWriteRef        | RTVRmain_PpTVMasterBlindnessReport_DeTVMasterBlindnessReport 
+Time Service, Timestamp                  | Rte_Call             | CtApTVMaster_PpPFServer_TS_GetZgtTimestamp 
+UDS Diagnostic, Messwerte                | Rte_Write            | CtApTVMaster_PpDiagTVMasterWrite_DeMesswerte_TVMaster 
+Persistency, DataSet                     | Rte_IRead            | RTVRmain_PpDsTVMasterDataSet_DeBlindnessParamsFront 
+Persistency, DataSet                     | Rte_IStatus          | RTVRmain_PpDsTVMasterDataSet_DeExtrinsicsCadFront 
+Persistency, Big Data                    | Rte_IWriteRef        | RTVRmain_PpBdTVMasterWrite_DeDeBlindnessNvDataFront_Normal 
+UDS Diagnostic, Routine Call             | Rte_Receive          | CtApTVMaster_PpDiagTVMasterRead_DeTV_Restore_defaults_0x1004 
+BAP                                      | Rte_Receive          | CtApTVMaster_PpTVCntrlTVMaster_DeTVBapArrayRequest 
+UDS Diagnostic, Stellglied Call          | Rte_Receive          | CtApTVMaster_PpDiagTVMasterRead_DeTV_Camera_Activation_Request_0x10FA 
+UDS Diagnostic, Routine Return           | Rte_Send             | CtApTVMaster_PpDiagTVMasterWrite_DeTopView_camera_line_calibration_0x0543 
+Persistency, Data read                   | Rte_Read             | CtApTVMaster_PpPdTVMasterRead_DeExtrinsicsEolRight_Critical 
+UDS Diagnostic, Routine Call             | Rte_Receive          | CtApTVMaster_PpDiagTVMasterRead_DeTopView_delayed_camera_line_calibration_0x05AD 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpDiagTVMasterRead_DeTV_enable_debug_calibration_0x0509 
+Persistency, Data read                   | Rte_Read             | CtApTVMaster_PpPdTVMasterRead_DeCtaParams_Normal 
+BAP                                      | Rte_Send             | CtApTVMaster_PpTVMasterTVCntrl_DeTVBapResponse 
+Persistency, DataSet                     | Rte_IStatus          | RTVRmain_PpDsTVMasterDataSet_DeApplicationParamsTVMASTERDS 
+UDS Diagnostic, Stellglied Call          | Rte_Receive          | CtApTVMaster_PpDiagTVMasterRead_DeDe5th_Camera_Activation_Request_0x1010 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApTVMaster_PpDiagTVMasterRead_DeTV_enable_textoverlay_0x0507 
+RTE Data Exchange                        | Rte_Send             | CtApTVMaster_PpTVMasterTVImageCntrl_DeTVMasterCameraExtrinsics 
+UDS Diagnostic, Routine Call             | Rte_Receive          | CtApTVMaster_PpDiagTVMasterRead_DeTopView_camera_line_calibration_0x0543 
+UDS Diagnostic, Routine Return           | Rte_Send             | CtApTVMaster_PpDiagTVMasterWrite_DeTV_Camera_online_calibration_0x1005 
+Persistency, Data write                  | Rte_Write            | CtApTVMaster_PpPdTVMasterWrite_DeExtrinsicsOnlineRight_Normal 
+Persistency, DataSet                     | Rte_IRead            | RTVRmain_PpDsTVMasterDataSet_DeViewParamsDefault 
+UDS Diagnostic, Stellglied Return        | Rte_Send             | CtApTVMaster_PpDiagTVMasterWrite_DePlatform_zFAS_Testpattern__VideoOut_0x102F 
+Persistency, DataSet                     | Rte_IStatus          | RTVRmain_PpDsTVMasterDataSet_DeBlindnessParamsLeft 
+RTE Data Exchange                        | Rte_IRead            | RTVRmain_PpParkControl2TVmaster_DeParkControl2TVmaster 
+Persistency, DataSet                     | Rte_IRead            | RTVRmain_PpDsTVMasterDataSet_DeExtrinsicsCadFront 
+Persistency, DataSet                     | Rte_IStatus          | RTVRmain_PpDsTVMasterDataSet_DeVehicleMeasurements 
+Persistency, DataSet                     | Rte_IStatus          | RTVRmain_PpDsTVMasterDataSet_DeCalibParamsDefault 
+Persistency, Big Data                    | Rte_IStatus          | RTVRmain_PpBdTVMasterRead_DeDeBlindnessNvDataBack_Normal 
+RTE Data Exchange                        | Rte_IStatus          | RTVRmain_PpMBFTVRenderFences_DeRenderFences 
+RTE Data Exchange                        | Rte_Receive          | CtApTVMaster_PpFRTVMasterIn_DeFRTVMasterIn 
+UDS Diagnostic, Routine Call             | Rte_Receive          | CtApTVMaster_PpDiagTVMasterRead_DeTV_Write_ApTVMaster_Parameter_0x1008 
+Persistency, DataSet                     | Rte_IRead            | RTVRmain_PpDsTVMasterDataSet_DeCalibPgmConfigParams 
+Persistency, DataSet                     | Rte_IStatus          | RTVRmain_PpDsTVMasterDataSet_DeBlindnessParamsBack 
+RTE Data Exchange                        | Rte_IWriteRef        | RTVRmain_PpTVMasterCameraCalibration_DeTVMasterCameraCalibration 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpDiagTVMasterRead_DeTV_personalisation_index_0x050B 
+Persistency, DataSet                     | Rte_IRead            | RTVRmain_PpDsTVMasterDataSet_DeVehicleMeasurements 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApTVMaster_PpDiagTVMasterRead_DeTV_enable_debug_blindness_0x050A 
+RTE Data Exchange                        | Rte_IStatus          | RTVRmain_PpParkProcessing2TVmaster_DeFATopView 
+BAP                                      | Rte_Send             | CtApTVMaster_PpTVMasterTVCntrl_DeTVBapArrayResponse 
+UDS Diagnostic, Stellglied Return        | Rte_Send             | CtApTVMaster_PpDiagTVMasterWrite_DeTV_Camera_Activation_Request_0x10FA 
+RTE Data Exchange                        | Rte_IStatus          | RTVRmain_PpTVCntrlTVMaster_DeTVLogoStatus 
+Diagnostic, Global                       | Rte_Read             | CtApTVMaster_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+UDS Diagnostic, Routine Call             | Rte_Receive          | CtApTVMaster_PpDiagTVMasterRead_DeTV_Camera_online_calibration_0x1005 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpDiagTVMasterRead_DeTV_enable_textoverlay_0x0507 
+RTE Data Exchange                        | Rte_IRead            | RTVRmain_PpTVImageCntrlTVMaster_DeCameraPparFromCam 
+Persistency, DataSet                     | Rte_IStatus          | RTVRmain_PpDsTVMasterDataSet_DeExtrinsicsCadRight 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpDiagTVMasterRead_DeTV_enable_debug_blindness_0x050A 
+Diagnostic, Coding                       | Rte_Read             | CtApTVMaster_PpDiagCoding_DeCoding       
+Persistency, DataSet                     | Rte_IStatus          | RTVRmain_PpDsTVMasterDataSet_DeCalibFlmcConfigParams 
+Persistency, Big Data                    | Rte_IStatus          | RTVRmain_PpBdTVMasterRead_DeDeBlindnessNvDataFront_Normal 
+Persistency, Big Data                    | Rte_IWriteRef        | RTVRmain_PpBdTVMasterWrite_DeDeBlindnessNvDataBack_Normal 
+Persistency, Big Data                    | Rte_IRead            | RTVRmain_PpBdTVMasterRead_DeDeBlindnessNvDataFront_Normal 
+RTE Data Exchange                        | Rte_IRead            | RTVRmain_PpMBFTVRenderFences_DeRenderFences 
+RTE Data Exchange                        | Rte_Write            | CtApTVMaster_PpTVMasterTVCntrl_DeTVCleanRequest 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpDiagTVMasterRead_DeTV_enable_testscreen_0x0506 
+Persistency, DataSet                     | Rte_IRead            | RTVRmain_PpDsTVMasterDataSet_DeExtrinsicsCadBack 
+Persistency, Data write                  | Rte_Write            | CtApTVMaster_PpPdTVMasterWrite_DeExtrinsicsOnlineLeft_Normal 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApTVMaster_PpDiagTVMasterRead_DeTV_personalisation_index_0x050B 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApTVMaster_PpDiagTVMasterRead_DeTV_enable_debug_calibration_0x0509 
+Diagnostic, Set DTC Event                | Rte_Call             | CtApTVMaster_PpEventHandling_SetEventStatus 
+Persistency, Data read                   | Rte_Read             | CtApTVMaster_PpPdTVMasterRead_DeFavoriteList_Normal 
+Persistency, DataSet                     | Rte_IRead            | RTVRmain_PpDsTVMasterDataSet_DeExtrinsicsCadLeft 
+Persistency, Data write                  | Rte_Write            | CtApTVMaster_PpPdTVMasterWrite_DeExtrinsicsEolLeft_Critical 
+RTE Data Exchange                        | Rte_Read             | CtApTVMaster_PpPFWorkloadSRH_DeSRHWorkload 
+RTE Data Exchange                        | Rte_IStatus          | RTVRmain_PpTVImageCntrlTVMaster_DeCameraPparFromCam 
+Persistency, DataSet                     | Rte_IStatus          | RTVRmain_PpDsTVMasterDataSet_DeExtrinsicsCadBack 
+Persistency, Data read                   | Rte_Read             | CtApTVMaster_PpPdTVMasterRead_DeExtrinsicsOnlineFront_Normal 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApTVMaster_PpDiagTVMasterRead_DeProductionmode_deactivate_0x04FC 
+Persistency, DataSet                     | Rte_IRead            | RTVRmain_PpDsTVMasterDataSet_DeExtrinsicsCadRight 
+Persistency, DataSet                     | Rte_IStatus          | RTVRmain_PpDsTVMasterDataSet_DeBlindnessParamsDefault 
+Persistency, Data read                   | Rte_Read             | CtApTVMaster_PpPdTVMasterRead_DeExtrinsicsOnlineRight_Normal 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 138

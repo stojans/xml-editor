@@ -1,0 +1,21 @@
+#MAP: E:\zFAS-Jenkins\workspace\zFAS_AIT_Master_AAT\SW\0300_ApplicationLayer\branches\CL3_REL_320_3XX\0350_SWC-SET\CtApParkProcessing\05_data\CtApParkProcessing.vxe.map
+#symbol: .init           0x800000b4        0xc
+#symbol: .iplt           0x800000c0        0x0
+#symbol: .text           0x800000c0   0x130034
+#symbol: .fini           0x801300f4        0xc
+#symbol: .rodata         0x80130100     0xa128
+#symbol: .tdata          0x8013b000        0x4
+#symbol: .ctors          0x8013b004       0x40
+#symbol: .dtors          0x8013b044       0x10
+#symbol: .got            0x8013b054        0x0
+#symbol: .data           0x8013b058     0x273c
+#symbol: .edata          0x8013d794        0x0
+#symbol: .bss            0x8013d798    0x332e8
+#symbol: .comment        0x00000000       0x2f
+#symbol: .stack          0x00080000        0x0
+LIBS;libCtApParkProcessing_BDL.a;libCtApParkProcessing_Implementation.a;libCtApParkProcessing_ServerRunnables.a;lib_CpApParkProcessing.a;libc.a;libc_internal.a;libdsi.a;libgcc.a;liblincore.a;libnet.a;libstdc++.a;
+#CODE;STACK;ROM;RAM
+FORMAT;ROM_CODE;STACK;ROM;RAM;RAM_CODE;FastRAM;FastRAM_CODE
+HEX;130034;00080000;0x13c898;0x16fb80;130034;0;0
+DEC;1245236;524288;1296536;1506176;1245236;0;0
+KB;1216;512;1266;1470;1216;0;0

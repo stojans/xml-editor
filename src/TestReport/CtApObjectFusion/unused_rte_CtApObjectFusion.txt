@@ -1,0 +1,47 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+LCS                                      | Rte_IStatus          | ROBFmain_PpPFProvidedData_DeLCSAPHState  
+RTE Data Exchange                        | Rte_IStatus          | ROBFmain_PpCalibFailMV_DeMXBCalibrationStatusMV 
+Diagnostic, Global                       | Rte_Read             | CtApObjectFusion_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+LCS                                      | Rte_IStatus          | ROBFmain_PpPFProvidedData_DeLCSSSHState  
+Time Service, AGT                        | Rte_Call             | CtApObjectFusion_PpPFServer_TS_GetAgtTimestamp 
+HW Variant Interface                     | Rte_IRead            | ROBFmain_PpPFProvidedData_DeVARHWVariant 
+LCS                                      | Rte_IRead            | ROBFmain_PpPFProvidedData_DeLCSAPHState  
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApObjectFusion_PpDiagObjectFusionRead_DeObject_Fusion_development_adaption_channel_0x054F 
+RTE Data Exchange                        | Rte_IRead            | ROBFmain_PpPFHwMeasurements_DeVBAT_MAIN  
+RTE Data Exchange                        | Rte_IRead            | ROBFmain_PpDsUltraSonicProcessingDataSet_DeUlsmFenceCfg 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApObjectFusion_PpDiagObjectFusionRead_DeObject_Fusion_development_adaption_channel_0x054F 
+Time Service, Timestamp                  | Rte_Call             | CtApObjectFusion_PpPFServer_TS_GetZgtTimestamp 
+RTE Data Exchange                        | Rte_IStatus          | ROBFmain_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+LCS                                      | Rte_IRead            | ROBFmain_PpPFProvidedData_DeLCSSSHState  
+LCS                                      | Rte_IRead            | ROBFmain_PpPFProvidedData_DeLCSSRHState  
+IF-Set Version                           | Rte_IRead            | ROBFmain_PpPFProvidedData_DeIFSETVersion 
+RTE Data Exchange                        | Rte_IRead            | ROBFmain_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+RTE Data Exchange                        | Rte_IRead            | ROBFmain_PpPFProvidedData_DeTotalSysRestartCnt 
+LCS                                      | Rte_IStatus          | ROBFmain_PpPFProvidedData_DeLCSSRHState  
+IF-Set Version                           | Rte_IStatus          | ROBFmain_PpPFProvidedData_DeIFSETVersion 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApObjectFusion_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApObjectFusion_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApObjectFusion_PpDiagCoding_DePermitCodingPersistence 
+LCS                                      | Rte_IStatus          | ROBFmain_PpPFProvidedData_DeLCSMVHState  
+Diagnostic, Global                       | Rte_Read             | CtApObjectFusion_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+RTE Data Exchange                        | Rte_IStatus          | ROBFmain_PpCalibFailMV_DeFailsafeMV      
+RTE Data Exchange                        | Rte_IStatus          | ROBFmain_PpDsUltraSonicProcessingDataSet_DeUlsmFenceCfg 
+RTE Data Exchange                        | Rte_Read             | CtApObjectFusion_PpDiagCoding_DePermitCodingPersistence 
+RTE Data Exchange                        | Rte_IRead            | ROBFmain_PpCalibFailMV_DeMXBCalibrationStatusMV 
+RTE Data Exchange                        | Rte_IStatus          | ROBFmain_PpPFHwMeasurements_DeVBAT_MAIN  
+LCS                                      | Rte_IStatus          | ROBFmain_PpPFProvidedData_DeLCSSystemState 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApObjectFusion_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+Time Service, Convert ZGT                | Rte_Call             | CtApObjectFusion_PpPFServer_TS_ConvertZgt2Agt 
+RTE Data Exchange                        | Rte_Receive          | CtApObjectFusion_PpTVIP2PerceptionAvailability_DeStatusTVIPSensors 
+Diagnostic, Global                       | Rte_Read             | CtApObjectFusion_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+LCS                                      | Rte_IRead            | ROBFmain_PpPFProvidedData_DeLCSSystemState 
+LCS                                      | Rte_IRead            | ROBFmain_PpPFProvidedData_DeLCSMVHState  
+Time Service, Convert AGT                | Rte_Call             | CtApObjectFusion_PpPFServer_TS_ConvertAgt2Zgt 
+HW Variant Interface                     | Rte_IStatus          | ROBFmain_PpPFProvidedData_DeVARHWVariant 
+RTE Data Exchange                        | Rte_IStatus          | ROBFmain_PpPFProvidedData_DeTotalSysRestartCnt 
+RTE Data Exchange                        | Rte_IRead            | ROBFmain_PpCalibFailMV_DeFailsafeMV      
+RTE Data Exchange                        | Rte_IStatus          | ROBFmain_PpPFHwMeasurements_DeTHS        
+RTE Data Exchange                        | Rte_IRead            | ROBFmain_PpPFHwMeasurements_DeTHS        
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 43

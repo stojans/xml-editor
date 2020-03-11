@@ -1,0 +1,49 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveControl_PpFoDFunctionActivationState_DeFoDFunctionActivationState 
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveControl_PpPemPlanning_DePemPlanning 
+RTE Data Exchange                        | Rte_IWrite           | RInnoDriveControl_PpFRInnoDriveOut_DePduGrp_PACC02_03 
+RTE Data Exchange                        | Rte_Call             | CtApInnoDriveControl_PpRGApiLight_RGApi_GetTreeConfiguration 
+SWC Version Info                         | Rte_Call             | CtApInnoDriveControl_PpPFServer_MW_SetSwcInfo 
+RTE Data Exchange                        | Rte_Call             | CtApInnoDriveControl_PpRGApiLight_RGApi_GetAttributeData 
+Diagnostic, Global                       | Rte_Read             | CtApInnoDriveControl_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveControl_PpOBFLightOutObjects_DeObjectListOBFLightOut 
+RTE Data Exchange                        | Rte_IWrite           | RInnoDriveControl_PpFRInnoDriveOut_DePduGrp_PACC02_02 
+RTE Data Exchange                        | Rte_Call             | CtApInnoDriveControl_PpRGApiLight_RGApi_GetGpsData 
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveControl_PpFRInnoDriveIn_DeFRInnoDriveIn 
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveControl_PpRGLVZE_DeVZE         
+RTE Data Exchange                        | Rte_IWrite           | RInnoDriveControl_PpPemControl_DePemControl 
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveControl_PpPemPlanning_DePemPlanning 
+RTE Data Exchange                        | Rte_Call             | CtApInnoDriveControl_PpRGApiLight_RGApi_GetRootTreeStateSpeedLimitIndex 
+RTE Data Exchange                        | Rte_Call             | CtApInnoDriveControl_PpRGApiLight_RGApi_GetSegmentData 
+RTE Data Exchange                        | Rte_IWrite           | RInnoDriveControl_PpFRInnoDriveOut_DePduGrp_PACC02_01 
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveControl_PpDsInnoDriveDataSet_DeInnoDriveCtrlParameterSetCtrl 
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveControl_PpRGLanes_DeLanes      
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveControl_PpFRRGout_DeFRRGout    
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveControl_PpDsInnoDriveDataSet_DeInnoDriveCtrlVehicleModel 
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveControl_PpDsInnoDriveDataSet_DeInnoDriveCtrlParameterSetCtrl 
+RTE Data Exchange                        | Rte_Call             | CtApInnoDriveControl_PpRGApiLight_RGApi_GetRootSegment 
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveControl_PpFRRGout_DeFRRGout    
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveControl_PpOBFLightOutObjects_DeObjectListOBFLightOut 
+UDS Diagnostic, Messwerte                | Rte_Write            | CtApInnoDriveControl_PpDiagInnoDriveControlWrite_DeMesswerte_InnoDriveControl 
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveControl_PpFoDFunctionActivationState_DeFoDFunctionActivationState 
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveControl_PpRGLanes_DeLanes      
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveControl_PpRGLVZE_DeVZE         
+RTE Data Exchange                        | Rte_Receive          | CtApInnoDriveControl_PpEML_DeEML         
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveControl_PpFRInnoDriveIn_DeFRInnoDriveIn 
+RTE Data Exchange                        | Rte_Call             | CtApInnoDriveControl_PpRGApiLight_RGApi_GetRootTreeStateAttributeValue 
+RTE Data Exchange                        | Rte_Call             | CtApInnoDriveControl_PpRGApiLight_RGApi_GetSpeedLimitData 
+RTE Data Exchange                        | Rte_IWrite           | RInnoDriveControl_PpFoDReadyToRun_InnoDrive2_DeFoDReadyToRun_InnoDrive2 
+RTE Data Exchange                        | Rte_Call             | CtApInnoDriveControl_PpRGApiLight_RGApi_GetQuality 
+Diagnostic, Set DTC Event                | Rte_Call             | CtApInnoDriveControl_PpEventHandling_SetEventStatus 
+RTE Data Exchange                        | Rte_Call             | CtApInnoDriveControl_PpRGApiLight_RGApi_GetSystemData 
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveControl_PpDsInnoDriveDataSet_DeInnoDriveCtrlVehicleModel 
+RTE Data Exchange                        | Rte_IWrite           | RInnoDriveControl_PpFRInnoDriveOut_DePduGrp_PIF_01 
+RTE Data Exchange                        | Rte_IWrite           | RInnoDriveControl_PpFRInnoDriveOut_DeTraceData 
+RTE Data Exchange                        | Rte_Call             | CtApInnoDriveControl_PpRGApiLight_RGApi_GetPositionData 
+Time Service, Timestamp                  | Rte_Call             | CtApInnoDriveControl_PpPFServer_TS_GetZgtTimestamp 
+Diagnostic, Coding                       | Rte_Read             | CtApInnoDriveControl_PpDiagCoding_DeCoding 
+RTE Data Exchange                        | Rte_IWrite           | RInnoDriveControl_PpFRInnoDriveOut_DeFRInnoDriveOut 
+RTE Data Exchange                        | Rte_Call             | CtApInnoDriveControl_PpRGApiLight_RGApi_GetTreeChangeCount 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 45

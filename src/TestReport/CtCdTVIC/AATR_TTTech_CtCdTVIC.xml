@@ -1,0 +1,359 @@
+<ns0:A-AcceptTestReport xmlns:ns0="http://tttech.com/TestReports" xmlns:ns2="http://tttech.com/SuplierReleaseNotes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://tttech.com/TestReports TestReportScheme.0.9.1.xsd http://tttech.com/SuplierReleaseNotes ReleaseNotesScheme.0.9.1.xsd">
+    <ns0:Release>SYS-E350-I3.1.1-P51.5</ns0:Release>
+    <ns0:Platform>PIE-X351-I3.1.1-P51.5</ns0:Platform>
+    <ns0:SWC desc="Identification of SWC Release. This information will be used to check version consistency with embedded libraries (version output on target).">
+        <ns2:SWC_Name>CtCdTVIC</ns2:SWC_Name>
+        <ns2:SWC_Version desc="Release Version format must be NNN. BuildTimestamp format must be YYYYMMDDHHMMSS">
+            <ns2:ReleaseKind>E</ns2:ReleaseKind>
+            <ns2:ReleaseVersion>350</ns2:ReleaseVersion>
+            <ns2:IF-SET_Variant>3</ns2:IF-SET_Variant>
+            <ns2:IF-SET_Major>1</ns2:IF-SET_Major>
+            <ns2:IF-SET_Minor>1</ns2:IF-SET_Minor>
+            <ns2:Platform_Major>51</ns2:Platform_Major>
+            <ns2:Platform_Minor>4</ns2:Platform_Minor>
+            <ns2:Platform_BuildTimestamp>20190805182946</ns2:Platform_BuildTimestamp>
+            <ns2:SWC_Major>49</ns2:SWC_Major>
+            <ns2:SWC_Minor>33</ns2:SWC_Minor>
+            <ns2:SWC_BuildTimestamp>20190905123611</ns2:SWC_BuildTimestamp>
+        </ns2:SWC_Version>
+        <ns2:SWC_ASIL_Level>QM</ns2:SWC_ASIL_Level>
+        <ns2:SWC_Host>SRH</ns2:SWC_Host>
+        <ns2:Description />
+    </ns0:SWC>
+    <ns0:Comment />
+    <ns0:DocumentInfo desc="Description of the document (document version, document author, document status)">
+        <ns2:DocumentId>-</ns2:DocumentId>
+        <ns2:DocumentVersion>3.50.0</ns2:DocumentVersion>
+        <ns2:DocumentStatus>Released</ns2:DocumentStatus>
+        <ns2:DocumentDescription>Automatic creation of the document</ns2:DocumentDescription>
+        <ns2:DocumentAuthor desc="Please add author contact information. He/She releases the delivery and is the first contact person for questions and responsible for the delivery.">
+            <ns2:Name>Cedomir Jovanovic</ns2:Name>
+            <ns2:Company>RT-RK Institute for Computer Based Systems</ns2:Company>
+            <ns2:Address>Narodnog Fronta 23 D-E, Novi Sad, Serbia</ns2:Address>
+            <ns2:e-mail>cedomir.jovanovic@rt-rk.com</ns2:e-mail>
+            <ns2:Tel>+381 21 480 1241</ns2:Tel>
+        </ns2:DocumentAuthor>
+        <ns2:DocumentCreationDate>2019-09-10</ns2:DocumentCreationDate>
+    </ns0:DocumentInfo>
+    <ns0:RevisionHistory desc="Note the document revision history (changes in the document)">
+        <ns2:Revision desc="Briefly describe the history and changes made to the document, starting from first review.">
+            <ns2:Document_Version>3.50.0</ns2:Document_Version>
+            <ns2:Date>2019-09-10</ns2:Date>
+            <ns2:ResponsiblePerson>Cedomir Jovanovic</ns2:ResponsiblePerson>
+            <ns2:Description>Automatic creation of the document</ns2:Description>
+        </ns2:Revision>
+    </ns0:RevisionHistory>
+    <ns0:Test desc="Description of all test cases" integrationRecommendationResult="failed" result="failed">
+        <ns0:TestCase ID="1" desc="Description of one Application Test Report Test Case" priority="PRIO_B">
+            <ns2:Name>SWC limits check</ns2:Name>
+            <ns2:Description>Reads and checks all limits from Architectursteckbriefe. It creates temporary file swc_limits.csv used by other processes</ns2:Description>
+            <ns2:Comment />
+            <ns2:BugReference />
+            <ns2:Explanation>Architektursteckbriefe error: Missing data RAM_KB for Runnable RTVImageCntrlEV 
+
+Architektursteckbriefe error: Missing data FLASH_KB for Runnable RTVImageCntrlEV 
+
+Architektursteckbriefe error: Missing data HEAP_KB for Runnable RTVImageCntrlEV 
+
+Architektursteckbriefe error: Missing data STACK_B for Runnable RTVImageCntrlEV 
+</ns2:Explanation>
+            <ns2:Begin>
+                <ns2:Date>2019-09-10</ns2:Date>
+                <ns2:Time>17:15</ns2:Time>
+            </ns2:Begin>
+            <ns2:End>
+                <ns2:Date>2019-09-10</ns2:Date>
+                <ns2:Time>17:19</ns2:Time>
+            </ns2:End>
+            <ns0:TestCaseSummary result="failed">
+                <ns2:Ratio_A>4</ns2:Ratio_A>
+                <ns2:Ratio_B>1</ns2:Ratio_B>
+            </ns0:TestCaseSummary>
+            <ns0:TestCaseNumber />
+        </ns0:TestCase>
+        <ns0:TestCaseTable name="RTE symbols statistics" ref="21">
+            <ns0:TableHeader>
+                <ns0:TableCell align="left" width="">Category                                 </ns0:TableCell>
+            <ns0:TableCell align="right" width="60pt">   %      </ns0:TableCell><ns0:TableCell align="center" width="">        nr of used IF  /    number of available IF   
+</ns0:TableCell></ns0:TableHeader>
+            <ns0:TableRow>
+                <ns0:TableCell>UDS Diagnostic; Anpassung                </ns0:TableCell>
+            <ns0:TableCell>   0.00%  </ns0:TableCell><ns0:TableCell>    0  used  /    1  available 
+</ns0:TableCell></ns0:TableRow>
+        <ns0:TableRow><ns0:TableCell>UDS Diagnostic; Messwerte                </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    1  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>UDS Diagnostic; Stellglied Call          </ns0:TableCell><ns0:TableCell>         n/a  </ns0:TableCell><ns0:TableCell>    0  used  /    0  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>UDS Diagnostic; Stellglied Return        </ns0:TableCell><ns0:TableCell>         n/a  </ns0:TableCell><ns0:TableCell>    0  used  /    0  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>UDS Diagnostic; Routine Call             </ns0:TableCell><ns0:TableCell>  50.00%  </ns0:TableCell><ns0:TableCell>    1  used  /    2  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>UDS Diagnostic; Routine Return           </ns0:TableCell><ns0:TableCell>  50.00%  </ns0:TableCell><ns0:TableCell>    1  used  /    2  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Diagnostic; Coding                       </ns0:TableCell><ns0:TableCell>   0.00%  </ns0:TableCell><ns0:TableCell>    0  used  /    2  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Diagnostic; Set DTC Event                </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    1  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Diagnostic; Get DTC Event                </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    1  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Diagnostic; DTC clear                    </ns0:TableCell><ns0:TableCell>   0.00%  </ns0:TableCell><ns0:TableCell>    0  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Diagnostic; Global                       </ns0:TableCell><ns0:TableCell>   0.00%  </ns0:TableCell><ns0:TableCell>    0  used  /    6  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Persistency; Big Data                    </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    3  used  /    3  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Persistency; DataSet                     </ns0:TableCell><ns0:TableCell>   0.00%  </ns0:TableCell><ns0:TableCell>    0  used  /    4  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Persistency; APH status                  </ns0:TableCell><ns0:TableCell>         n/a  </ns0:TableCell><ns0:TableCell>    0  used  /    0  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Persistency; SSH status                  </ns0:TableCell><ns0:TableCell>         n/a  </ns0:TableCell><ns0:TableCell>    0  used  /    0  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Persistency; SRH status                  </ns0:TableCell><ns0:TableCell>         n/a  </ns0:TableCell><ns0:TableCell>    0  used  /    0  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Persistency; Data read                   </ns0:TableCell><ns0:TableCell>   0.00%  </ns0:TableCell><ns0:TableCell>    0  used  /   24  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Persistency; Data write                  </ns0:TableCell><ns0:TableCell>   0.00%  </ns0:TableCell><ns0:TableCell>    0  used  /   12  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Network; Partial Network                 </ns0:TableCell><ns0:TableCell>         n/a  </ns0:TableCell><ns0:TableCell>    0  used  /    0  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Network; ECU Run                         </ns0:TableCell><ns0:TableCell>         n/a  </ns0:TableCell><ns0:TableCell>    0  used  /    0  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Network; FlexRay Run                     </ns0:TableCell><ns0:TableCell>         n/a  </ns0:TableCell><ns0:TableCell>    0  used  /    0  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Network; Wake Up                         </ns0:TableCell><ns0:TableCell>         n/a  </ns0:TableCell><ns0:TableCell>    0  used  /    0  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Network; PDU group interface             </ns0:TableCell><ns0:TableCell>         n/a  </ns0:TableCell><ns0:TableCell>    0  used  /    0  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Time Service; Timestamp                  </ns0:TableCell><ns0:TableCell>   0.00%  </ns0:TableCell><ns0:TableCell>    0  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Time Service; Remaining Time Budget      </ns0:TableCell><ns0:TableCell>   0.00%  </ns0:TableCell><ns0:TableCell>    0  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Time Service; AGT                        </ns0:TableCell><ns0:TableCell>   0.00%  </ns0:TableCell><ns0:TableCell>    0  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Time Service; Convert ZGT                </ns0:TableCell><ns0:TableCell>   0.00%  </ns0:TableCell><ns0:TableCell>    0  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Time Service; Convert AGT                </ns0:TableCell><ns0:TableCell>   0.00%  </ns0:TableCell><ns0:TableCell>    0  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>SWC Version Info                         </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    1  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>LCS                                      </ns0:TableCell><ns0:TableCell>   0.00%  </ns0:TableCell><ns0:TableCell>    0  used  /   10  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>HW Variant Interface                     </ns0:TableCell><ns0:TableCell>   0.00%  </ns0:TableCell><ns0:TableCell>    0  used  /    2  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>IF-Set Version                           </ns0:TableCell><ns0:TableCell>   0.00%  </ns0:TableCell><ns0:TableCell>    0  used  /    2  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>BAP                                      </ns0:TableCell><ns0:TableCell>   0.00%  </ns0:TableCell><ns0:TableCell>    0  used  /    2  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>EDR                                      </ns0:TableCell><ns0:TableCell>         n/a  </ns0:TableCell><ns0:TableCell>    0  used  /    0  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>RTE Data Exchange                        </ns0:TableCell><ns0:TableCell>  11.00%  </ns0:TableCell><ns0:TableCell>    9  used  /   78  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>TOTAL                                    </ns0:TableCell><ns0:TableCell>  11.00%  </ns0:TableCell><ns0:TableCell>   18  used  /  160  available 
+</ns0:TableCell></ns0:TableRow></ns0:TestCaseTable>
+    <ns0:TestCase ID="2" desc="Description of one Application Test Report Test Case" priority="PRIO_A"><ns2:Name>Folder content check</ns2:Name><ns2:Description>Checks if delivered SWC contains all mandatory subfolders</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="3" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Release notes check</ns2:Name><ns2:Description>Check Release Notes document against the delivered SWC content</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation>There are undocumented files/folders in Data folder:[MISRA_CtCdTVIC.txt]!
+</ns2:Explanation><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="failed"><ns2:Ratio_A>1</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="4" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Supplier's AITR check</ns2:Name><ns2:Description>Verifies and checks the supplier's AITR document against the delivered SWC content.</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation>Embedded Library CtCdTVIC_in_ADTF.plb stated in XML document not found in deliveries!
+
+Embedded Library Noc2TVIC.plb stated in XML document not found in deliveries!
+
+Embedded Library TVIC2Video.plb stated in XML document not found in deliveries!
+
+There are undocumented files/folders in Data folder:[MISRA_CtCdTVIC.txt]!
+
+There are undocumented files/folders in SiL Library folder:[CtCdTVIC_in_ADTF.plb, Noc2TVIC.plb, TVIC2Video.plb]!
+</ns2:Explanation><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="failed"><ns2:Ratio_A>5</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="5" desc="Description of one Application Test Report Test Case" priority="PRIO_A"><ns2:Name>Check 02_libs content (Libraries delivered)</ns2:Name><ns2:Description>Checks the existance of the libraries in 02_libs folder. At least one library should exist in this folder. Existance should be checked by expected file extension</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="6" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Check for mandatory MAP file</ns2:Name><ns2:Description>Checks if mandatory MAP file exists in 05_data subfolder. There must be exactly one MAP file</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="7" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Check for mandatory MISRA file</ns2:Name><ns2:Description>Checks if mandatory MISRA file exists in 05_data subfolder. There must be exactly one MISRA file</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="8" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Check for mandatory BUILD LOG files</ns2:Name><ns2:Description>Checks if one or more build log files are delivered in 05_data subfolder</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="9" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Check for mandatory test cases in the delivery</ns2:Name><ns2:Description>Checks if all mandatory test cases are delivered in 04_test subfolder</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation>Missing mandatory Test Case folder [that ends with]'ETC001'
+
+Missing mandatory Test Case folder [that ends with]'ETC003'
+</ns2:Explanation><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="failed"><ns2:Ratio_A>2</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="10" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Test Case naming convention check</ns2:Name><ns2:Description>Checks if all delivered Test cases (mandatory and additional) follows the naming convention</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="11" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Mandatory Test Case folder content check</ns2:Name><ns2:Description>Checks if every mandatory test case folder contains all mandatory files.</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="not_executed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>0</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="12" desc="Description of one Application Test Report Test Case" priority="PRIO_C"><ns2:Name>Additional Test Case folder content check</ns2:Name><ns2:Description>Checks if additional test case folder (if any) contains all mandatory files.</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="13" desc="Description of one Application Test Report Test Case" priority="PRIO_C"><ns2:Name>Heap allowed but not used</ns2:Name><ns2:Description>Checks if SWC is allowed to use Heap but heap is never been used.</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="14" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Heap used but not allowed</ns2:Name><ns2:Description>Checks if SWC using the heap but it is not allowed to use.</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="15" desc="Description of one Application Test Report Test Case" priority="PRIO_C"><ns2:Name>Host check</ns2:Name><ns2:Description>Check if SWC's host stated in Release Notes document is correct (the same as the one stated in Architecture Model)</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="16" desc="Description of one Application Test Report Test Case" priority="PRIO_C"><ns2:Name>ASIL level check</ns2:Name><ns2:Description>Check if SWC's ASIL level stated in Release Notes documents is correct (the same as the one stated in Architecture Model)</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="17" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Supplier's AITR limits check</ns2:Name><ns2:Description>Checks the limits stated in supplier's AITR document against the limits in Architektursteckbriefe</ns2:Description><ns2:Comment>Heap  limit for runnable RTVImageCntrlEV not found or bad value in Architecturesteckbriefe. Heap limit cannot be checked. 
+
+Stack  limit for runnable RTVImageCntrlEV not found or bad value in Architecturesteckbriefe. Stack limit cannot be checked. 
+</ns2:Comment><ns2:BugReference /><ns2:Explanation>static test ram limit 10000.0 [Byte] found in Supplier's AITR file is less than expected limit from the Architecture
+
+static test rom limit 5000.0 [Byte] found in Supplier's AITR file is less than expected limit from the Architecture
+</ns2:Explanation><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="failed"><ns2:Ratio_A>2</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="18" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Mandatory test case result check</ns2:Name><ns2:Description>Checks the result of the mandatory test cases stated in supplier's AITR document</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation>Mandatory Test Case ID='ITC000' not executed.
+</ns2:Explanation><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="failed"><ns2:Ratio_A>1</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="19" desc="Description of one Application Test Report Test Case" priority="PRIO_C"><ns2:Name>Additional test case result check</ns2:Name><ns2:Description>Checks the result of the additional test cases stated in supplier's AITR document (if any)</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation>Aditional Test Case ID='ETC000' not executed.
+</ns2:Explanation><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="failed"><ns2:Ratio_A>1</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="20" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Interface check</ns2:Name><ns2:Description>Checks symbols used by delivered libraries against the allowed symbol set - white list (RTE symbols from Contract header and specific list of symbols from the Architecture Model)</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation>Unagreed symbols:  __aeabi_unwind_cpp_pr1 libCtCdTVICConti.a:CoaxPpar.cpp.o:,  __aeabi_unwind_cpp_pr1 libCtCdTVICConti.a:CtCdTVICImpl.cpp.o:,  __aeabi_unwind_cpp_pr1 libCtCdTVICConti.a:DataMonitor.cpp.o:,  __aeabi_unwind_cpp_pr1 libCtCdTVICConti.a:DataSet.cpp.o:,  __aeabi_unwind_cpp_pr1 libCtCdTVICConti.a:EglStream.cpp.o:,  __aeabi_unwind_cpp_pr1 libCtCdTVICConti.a:EglStreamConnectionHandler.cpp.o:,  __aeabi_unwind_cpp_pr1 libCtCdTVICConti.a:ErrorHandler.cpp.o:,  __aeabi_unwind_cpp_pr1 libCtCdTVICConti.a:IppEglStreamOutput.cpp.o:,  __aeabi_unwind_cpp_pr1 libCtCdTVICConti.a:IppFrameProperties.cpp.o:,  __aeabi_unwind_cpp_pr1 libCtCdTVICConti.a:IppOutputHandler.cpp.o:,  __aeabi_unwind_cpp_pr1 libCtCdTVICConti.a:IppPlugin.cpp.o:,  __aeabi_unwind_cpp_pr1 libCtCdTVICConti.a:Log.cpp.o:,  __aeabi_unwind_cpp_pr1 libCtCdTVICConti.a:NvMediaTypesLogDump.cpp.o:,  __aeabi_unwind_cpp_pr1 libCtCdTVICConti.a:PluginAEC.cpp.o:,  __aeabi_unwind_cpp_pr1 libCtCdTVICConti.a:PluginAWB.cpp.o:,  __aeabi_unwind_cpp_pr1 libCtCdTVICConti.a:Ppar3Formatter.cpp.o:,  __aeabi_unwind_cpp_pr1 libCtCdTVICConti.a:PparOutputFormatter.cpp.o:,  __aeabi_unwind_cpp_pr1 libCtCdTVICConti.a:PrbsBuffer.cpp.o:,  __aeabi_unwind_cpp_pr1 libCtCdTVICConti.a:RteTypesLogDump.cpp.o:,  __aeabi_unwind_cpp_pr1 libCtCdTVICConti.a:Semaphore.cpp.o:,  __aeabi_unwind_cpp_pr1 libCtCdTVICConti.a:TVICIppTypes.cpp.o:,  __aeabi_unwind_cpp_pr1 libCtCdTVICConti.a:WorkerThread.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:CoaxPpar.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:Condition.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:CtCdTVICImpl.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:DataMonitor.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:DataSet.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:EepromDevice.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:EglStream.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:EglStreamConnectionHandler.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:ErrorHandler.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:IppEglStreamOutput.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:IppEglStreamProducer.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:IppFrameProperties.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:IppInstance.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:IppOutputHandler.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:IppPluginManager.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:Log.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:LogConfig.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:LogUtil.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:Messwerte.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:Mutex.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:NvMediaTypesLogDump.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:PluginAWB.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:Ppar3Formatter.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:PparOutputFormatter.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:PrbsBuffer.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:PrintLogAdapter.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:RteTypesLogDump.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:Semaphore.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:TTTechLogAdapter.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:TVICCamStorage.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:TVICIpp.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:TVICIsc.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:WorkerThread.cpp.o:,  __aeabi_unwind_cpp_pr0 libCtCdTVICConti.a:YamlParserHelper.cpp.o:,  stdout libCtCdTVICConti.a:PrintLogAdapter.cpp.o:,  syscall libCtCdTVICConti.a:LogUtil.cpp.o:,  fread libCtCdTVICConti.a:api.c.o:,  fclose libCtCdTVICConti.a:Log.cpp.o:,  fclose libCtCdTVICConti.a:PrintLogAdapter.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:Condition.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:CtCdTVICImpl.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:DataMonitor.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:DataSet.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:EglStream.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:EglStreamConnectionHandler.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:ErrorHandler.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:IppEglStreamOutput.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:IppEglStreamProducer.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:IppFrameProperties.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:IppInstance.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:IppOutputHandler.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:IppPlugin.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:IppPluginManager.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:Log.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:LogConfig.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:LogDumpBuffer.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:Messwerte.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:Mutex.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:NvMediaTypesLogDump.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:PluginAEC.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:Ppar3Formatter.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:PparOutputFormatter.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:PrbsBuffer.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:RteTypesLogDump.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:Semaphore.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:TVICCamStorage.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:TVICIpp.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:TVICIppTypes.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:TVICIsc.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:WorkerThread.cpp.o:,  __gxx_personality_v0 libCtCdTVICConti.a:YamlParserHelper.cpp.o:,  sleep libCtCdTVICConti.a:fdCrossProcessUtil.c.o:,  sleep libCtCdTVICConti.a:swc_debug.c.o:,  __cxa_end_catch libCtCdTVICConti.a:CtCdTVICImpl.cpp.o:,  __cxa_end_catch libCtCdTVICConti.a:IppFrameProperties.cpp.o:,  __cxa_end_catch libCtCdTVICConti.a:Log.cpp.o:,  __cxa_end_catch libCtCdTVICConti.a:LogConfig.cpp.o:,  __cxa_end_catch libCtCdTVICConti.a:Messwerte.cpp.o:,  printf libCtCdTVICConti.a:Log.cpp.o:,  printf libCtCdTVICConti.a:isc_ov10640.c.o:,  printf libCtCdTVICConti.a:swc_debug.c.o:,  fflush libCtCdTVICConti.a:PrintLogAdapter.cpp.o:,  fopen libCtCdTVICConti.a:Log.cpp.o:,  fopen libCtCdTVICConti.a:PrintLogAdapter.cpp.o:,  strlen libCtCdTVICConti.a:DataMonitor.cpp.o:,  strlen libCtCdTVICConti.a:EglStream.cpp.o:,  strlen libCtCdTVICConti.a:Log.cpp.o:,  strlen libCtCdTVICConti.a:LogConfig.cpp.o:,  strlen libCtCdTVICConti.a:NvMediaTypesLogDump.cpp.o:,  strlen libCtCdTVICConti.a:PrintLogAdapter.cpp.o:,  strlen libCtCdTVICConti.a:RteTypesLogDump.cpp.o:,  strlen libCtCdTVICConti.a:Semaphore.cpp.o:,  strlen libCtCdTVICConti.a:TVICIppTypes.cpp.o:,  strlen libCtCdTVICConti.a:TVICIsc.cpp.o:,  strlen libCtCdTVICConti.a:YamlParserHelper.cpp.o:,  strlen libCtCdTVICConti.a:api.c.o:,  strlen libCtCdTVICConti.a:emitter.c.o:,  strlen libCtCdTVICConti.a:parser.c.o:,  strlen libCtCdTVICConti.a:scanner.c.o:,  fputc libCtCdTVICConti.a:PrintLogAdapter.cpp.o:,  puts libCtCdTVICConti.a:Log.cpp.o:,  fwrite libCtCdTVICConti.a:api.c.o:,  write libCtCdTVICConti.a:EglStreamConnectionHandler.cpp.o:,  fputs libCtCdTVICConti.a:PrintLogAdapter.cpp.o:,  sprintf libCtCdTVICConti.a:PrintLogAdapter.cpp.o:,  sprintf libCtCdTVICConti.a:dumper.c.o:,  __strdup libCtCdTVICConti.a:api.c.o:,  ferror libCtCdTVICConti.a:api.c.o:,  getenv libCtCdTVICConti.a:Log.cpp.o:,  getenv libCtCdTVICConti.a:TVICIsc.cpp.o:,  getenv libCtCdTVICConti.a:swc_debug.c.o:,  __cxa_begin_catch libCtCdTVICConti.a:CtCdTVICImpl.cpp.o:,  __cxa_begin_catch libCtCdTVICConti.a:IppFrameProperties.cpp.o:,  __cxa_begin_catch libCtCdTVICConti.a:Log.cpp.o:,  __cxa_begin_catch libCtCdTVICConti.a:LogConfig.cpp.o:,  __cxa_begin_catch libCtCdTVICConti.a:Messwerte.cpp.o:,  strcasecmp libCtCdTVICConti.a:YamlParserHelper.cpp.o:,  program_invocation_short_name libCtCdTVICConti.a:PrintLogAdapter.cpp.o:,  strerror libCtCdTVICConti.a:LogUtil.cpp.o:,  __cxa_rethrow libCtCdTVICConti.a:CtCdTVICImpl.cpp.o:,  __cxa_rethrow libCtCdTVICConti.a:IppFrameProperties.cpp.o:,  __cxa_rethrow libCtCdTVICConti.a:Log.cpp.o:,  __cxa_rethrow libCtCdTVICConti.a:LogConfig.cpp.o:,  __cxa_rethrow libCtCdTVICConti.a:Messwerte.cpp.o:,  strcpy libCtCdTVICConti.a:PrintLogAdapter.cpp.o:,  stderr libCtCdTVICConti.a:isc_ov10640.c.o:,  fprintf libCtCdTVICConti.a:isc_ov10640.c.o:
+
+Other considerations: 30 forbidden symbols found.
+#Undefined .cpp symbol count:	83
+
+#Heap functions called	15	times.
+</ns2:Explanation><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="failed"><ns2:Ratio_A>149</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="21" desc="Description of one Application Test Report Test Case" priority="PRIO_C"><ns2:Name>RTE inteface usage check</ns2:Name><ns2:Description>Checks if all RTE inteface are used</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation>89.00% of RTE interfaces not used,  11.00% used.
+Unused RTE Interfaces: Rte_IStatus_RTVImageCntrl_PpDsTVMasterDataSet_DeCalibOlmcConfigParams,
+Rte_IStatus_RTVImageCntrl_PpPFProvidedData_DeLCSSRHState,
+Rte_IRead_RTVImageCntrl_PpPFProvidedData_DeLCSSSHState,
+Rte_Read_CtCdTVIC_PpPdTVICRead_DeCameraDeviceInfoBack_Normal,
+Rte_Read_CtCdTVIC_PpPdTVICRead_DeIntrinsicsFront_Normal,
+Rte_IStatus_RTVImageCntrl_PpDsTVMasterDataSet_DeExtrinsicsCadFront,
+Rte_IRead_RTVImageCntrl_PpDsTVMasterDataSet_DeExtrinsicsCadBack,
+Rte_Write_CtCdTVIC_PpPdTVICWrite_DeCameraDeviceInfoFront_Normal,
+Rte_Read_CtCdTVIC_PpDiagCoding_DeCoding,
+Rte_IsUpdated_CtCdTVIC_PpPdTVICRead_DeApplicationParamsTVICRW_Normal,
+Rte_Write_CtCdTVIC_PpPdTVICWrite_DeFreezeFrameTvIC_Critical,
+Rte_IRead_RTVImageCntrl_PpDsTVMasterDataSet_DeViewParamsDefault,
+Rte_IStatus_RTVImageCntrl_PpPFProvidedData_DeLCSAPHState,
+Rte_Read_CtCdTVIC_PpPdTVICRead_DeFreezeFrameTvIC_Critical,
+Rte_IWrite_RTVImageCntrl_PpTVCameraRequest_DeTVCameraRequest,
+Rte_Call_CtCdTVIC_PpPFServer_TS_ConvertZgt2Agt,
+Rte_IRead_RTVImageCntrl_PpPFProvidedData_DeLCSAPHState,
+Rte_IsUpdated_CtCdTVIC_PpDiagCoding_DeCoding,
+Rte_IStatus_RTVImageCntrl_PpDsTVMasterDataSet_DeBlindnessParamsDefault,
+Rte_Write_CtCdTVIC_PpPdTVICWrite_DeCameraDeviceInfoBack_Normal,
+Rte_IStatus_RTVImageCntrl_PpCAM_VCC_Supervision_DeTVxISENSE,
+Rte_Write_CtCdTVIC_PpPdTVICWrite_DeApplicationParamsTVICRW_Normal,
+Rte_IStatus_RTVImageCntrl_PpPFProvidedData_DeCurConsecutiveSysRestartCnt,
+Rte_IStatus_RTVImageCntrl_PpDsTVMasterDataSet_DeBlindnessParamsRight,
+Rte_IRead_RTVImageCntrl_PpPFProvidedData_DeVARHWVariant,
+Rte_IRead_RTVImageCntrl_PpDsTVMasterDataSet_DeSuspensionAtCad,
+Rte_IsUpdated_CtCdTVIC_PpPdTVICRead_DeIntrinsicsBack_Normal,
+Rte_IStatus_RTVImageCntrl_PpPFHwMeasurements_DeVBAT_MAIN,
+Rte_IRead_RTVImageCntrl_PpDsTVICDataSet_DeIspParamsDefault,
+Rte_Read_CtCdTVIC_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB,
+Rte_Write_CtCdTVIC_PpPdTVICWrite_DeIntrinsicsRight_Normal,
+Rte_IStatus_RTVImageCntrl_PpTVCntrlTVMaster_DeTVCleaningStatus,
+Rte_IRead_RTVImageCntrl_PpCAM_VCC_Supervision_DeSYS_9V,
+Rte_IStatus_RTVImageCntrl_PpDsTVMasterDataSet_DeExtrinsicsCadLeft,
+Rte_IStatus_RTVImageCntrl_PpDsTVMasterDataSet_DeApplicationParamsTVMASTERDS,
+Rte_IsUpdated_CtCdTVIC_PpPdTVICRead_DeIntrinsicsRight_Normal,
+Rte_Read_CtCdTVIC_PpPdTVICRead_DeCameraDeviceInfoFront_Normal,
+Rte_IWrite_RTVImageCntrl_PpTVImageCntrlTVMaster_DeCameraPparFromCam,
+Rte_IStatus_RTVImageCntrl_PpPFProvidedData_DeLCSMVHState,
+Rte_IsUpdated_CtCdTVIC_PpPdTVICRead_DeIspParams_Normal,
+Rte_IStatus_RTVImageCntrl_PpDsTVMasterDataSet_DeVehicleMeasurements,
+Rte_IRead_RTVImageCntrl_PpPFProvidedData_DeCurConsecutiveSysRestartCnt,
+Rte_Read_CtCdTVIC_PpPdTVICRead_DeIntrinsicsBack_Normal,
+Rte_Read_CtCdTVIC_PpPdTVICRead_DeIntrinsicsRight_Normal,
+Rte_IStatus_RTVImageCntrl_PpDsTVMasterDataSet_DeFavoriteListDefault,
+Rte_IRead_RTVImageCntrl_PpDsTVMasterDataSet_DeExtrinsicsCadRight,
+Rte_Call_CtCdTVIC_PpPFServer_TS_GetRemainingTimeBudget,
+Rte_IRead_RTVImageCntrl_PpCAM_VCC_Supervision_DeVDD_CAM_PowerGood,
+Rte_IStatus_RTVImageCntrl_PpDsTVMasterDataSet_DeBlindnessParamsBack,
+Rte_IRead_RTVImageCntrl_PpPFProvidedData_DeTotalSysRestartCnt,
+Rte_Write_CtCdTVIC_PpPdTVICWrite_DeIntrinsicsBack_Normal,
+Rte_IRead_RTVImageCntrl_PpPFProvidedData_DeLCSMVHState,
+Rte_IRead_RTVImageCntrl_PpDsTVMasterDataSet_DeVehicleMeasurements,
+Rte_Read_CtCdTVIC_PpPdTVICRead_DeApplicationParamsTVICRW_Normal,
+Rte_IsUpdated_CtCdTVIC_PpPdTVICRead_DeIntrinsicsLeft_Normal,
+Rte_IsUpdated_CtCdTVIC_PpPdTVICRead_DeCameraDeviceInfoRight_Normal,
+Rte_IStatus_RTVImageCntrl_PpCAM_VCC_Supervision_DeTVxVCC,
+Rte_Read_CtCdTVIC_PpPdTVICRead_DeFspeTvIC_Critical,
+Rte_IStatus_RTVImageCntrl_PpTVCntrlTVMaster_DeTVWingMirrorStatus,
+Rte_Receive_CtCdTVIC_PpCAM_VCC_Supervision_DeVoltageDropDetectionStatus,
+Rte_IStatus_RTVImageCntrl_PpDsTVMasterDataSet_DeExtrinsicsCadRight,
+Rte_IWriteRef_RTVImageCntrl_PpTVImageCntrlTVMaster_DeCameraPparFromCam,
+Rte_IRead_RTVImageCntrl_PpTVCntrlTVMaster_DeTVCleaningStatus,
+Rte_IRead_RTVImageCntrl_PpDsTVMasterDataSet_DeExtrinsicsCadFront,
+Rte_IRead_RTVImageCntrl_PpDsTVMasterDataSet_DeBlindnessParamsRight,
+Rte_Read_CtCdTVIC_PpPdTVICRead_DeIntrinsicsLeft_Normal,
+Rte_Write_CtCdTVIC_PpPdTVICWrite_DeIntrinsicsLeft_Normal,
+Rte_Receive_CtCdTVIC_PpDiagGlobalRead_DeFSPCleared,
+Rte_IsUpdated_CtCdTVIC_PpPdTVICRead_DeCameraDeviceInfoBack_Normal,
+Rte_Receive_CtCdTVIC_PpEML_DeEML,
+Rte_IStatus_RTVImageCntrl_PpDsTVMasterDataSet_DeBlindnessParamsLeft,
+Rte_Call_CtCdTVIC_PpPFServer_TS_GetAgtTimestamp,
+Rte_IStatus_RTVImageCntrl_PpDsTVMasterDataSet_DeCalibPgmConfigParams,
+Rte_Write_CtCdTVIC_PpPdTVICWrite_DeIspParams_Normal,
+Rte_Call_CtCdTVIC_PpPFServer_TS_GetZgtTimestamp,
+Rte_IRead_RTVImageCntrl_PpPFProvidedData_DeLCSSRHState,
+Rte_IStatus_RTVImageCntrl_PpPFProvidedData_DeTotalSysRestartCnt,
+Rte_IRead_RTVImageCntrl_PpDsTVMasterDataSet_DeApplicationParamsTVMASTERDS,
+Rte_Read_CtCdTVIC_PpDiagCoding_DePermitCodingPersistence,
+Rte_Read_CtCdTVIC_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA,
+Rte_IRead_RTVImageCntrl_PpDsTVMasterDataSet_DeExtrinsicsCadLeft,
+Rte_IsUpdated_CtCdTVIC_PpPdTVICRead_DeFreezeFrameTvIC_Critical,
+Rte_IRead_RTVImageCntrl_PpDsTVMasterDataSet_DeBlindnessParamsBack,
+Rte_IRead_RTVImageCntrl_PpTVCntrlTVMaster_DeTVLogoStatus,
+Rte_IStatus_RTVImageCntrl_PpDsTVICDataSet_DeApplicationParamsTVICDS,
+Rte_Read_CtCdTVIC_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500,
+Rte_Receive_CtCdTVIC_PpTVCntrlTVMaster_DeTVBapArrayRequest,
+Rte_IStatus_RTVImageCntrl_PpCAM_VCC_Supervision_DeVDD_CAM_PowerGood,
+Rte_IStatus_RTVImageCntrl_PpDsTVICDataSet_DeIspParamsDefault,
+Rte_IsUpdated_CtCdTVIC_PpDiagTVICRead_DeProductionmode_0x04FE,
+Rte_IRead_RTVImageCntrl_PpCAM_VCC_Supervision_DeTVxISENSE,
+Rte_IStatus_RTVImageCntrl_PpDsTVMasterDataSet_DeCalibFlmcConfigParams,
+Rte_IStatus_RTVImageCntrl_PpPFProvidedData_DeIFSETVersion,
+Rte_IsUpdated_CtCdTVIC_PpPdTVICRead_DeIntrinsicsFront_Normal,
+Rte_Read_CtCdTVIC_PpPdTVICRead_DeCameraDeviceInfoLeft_Normal,
+Rte_IStatus_RTVImageCntrl_PpPFProvidedData_DeLCSSystemState,
+Rte_IWriteRef_RTVImageCntrl_PpTVCameraRequest_DeTVCameraRequest,
+Rte_IStatus_RTVImageCntrl_PpCAM_VCC_Supervision_DeSYS_9V,
+Rte_Receive_CtCdTVIC_PpTVCntrlTVMaster_DeTVBapRequest,
+Rte_IStatus_RTVImageCntrl_PpTVCntrlTVMaster_DeTVLogoStatus,
+Rte_IRead_RTVImageCntrl_PpDsTVMasterDataSet_DeBlindnessParamsLeft,
+Rte_IsUpdated_CtCdTVIC_PpDiagCoding_DePermitCodingPersistence,
+Rte_IRead_RTVImageCntrl_PpPFProvidedData_DeLCSSystemState,
+Rte_IRead_RTVImageCntrl_PpDsTVMasterDataSet_DeCalibFlmcConfigParams,
+Rte_IRead_RTVImageCntrl_PpDsTVICDataSet_DeApplicationParamsTVICDS,
+Rte_IRead_RTVImageCntrl_PpDsTVMasterDataSet_DeHmiConfig,
+Rte_IRead_RTVImageCntrl_PpDsTVMasterDataSet_DeCalibParamsDefault,
+Rte_IRead_RTVImageCntrl_PpCAM_VCC_Supervision_DeTVxVCC,
+Rte_Write_CtCdTVIC_PpPdTVICWrite_DeIntrinsicsFront_Normal,
+Rte_IStatus_RTVImageCntrl_PpDsTVMasterDataSet_DeCalibParamsDefault,
+Rte_IStatus_RTVImageCntrl_PpDsTVMasterDataSet_DeSuspensionAtCad,
+Rte_IStatus_RTVImageCntrl_PpPFHwMeasurements_DeTHS,
+Rte_Call_CtCdTVIC_PpPFServer_TS_ConvertAgt2Zgt,
+Rte_IRead_RTVImageCntrl_PpDsTVMasterDataSet_DeFavoriteListDefault,
+Rte_IStatus_RTVImageCntrl_PpDsTVMasterDataSet_DeViewParamsDefault,
+Rte_IStatus_RTVImageCntrl_PpDsTVMasterDataSet_DeExtrinsicsCadBack,
+Rte_IRead_RTVImageCntrl_PpDsTVMasterDataSet_DeBlindnessParamsFront,
+Rte_IRead_RTVImageCntrl_PpPFHwMeasurements_DeVBAT_MAIN,
+Rte_Write_CtCdTVIC_PpPdTVICWrite_DeCameraDeviceInfoRight_Normal,
+Rte_Read_CtCdTVIC_PpDiagTVICRead_DeProductionmode_0x04FE,
+Rte_IRead_RTVImageCntrl_PpPFHwMeasurements_DeTHS,
+Rte_IRead_RTVImageCntrl_PpPFProvidedData_DeIFSETVersion,
+Rte_IsUpdated_CtCdTVIC_PpPdTVICRead_DeCameraDeviceInfoFront_Normal,
+Rte_IRead_RTVImageCntrl_PpDsTVMasterDataSet_DeBlindnessParamsDefault,
+Rte_Write_CtCdTVIC_PpPdTVICWrite_DeCameraDeviceInfoLeft_Normal,
+Rte_IStatus_RTVImageCntrl_PpDsTVMasterDataSet_DeBlindnessParamsFront,
+Rte_IStatus_RTVImageCntrl_PpDsTVMasterDataSet_DeHmiConfig,
+Rte_IRead_RTVImageCntrl_PpDsTVMasterDataSet_DeCalibPgmConfigParams,
+Rte_Write_CtCdTVIC_PpPdTVICWrite_DeFspeTvIC_Critical,
+Rte_IRead_RTVImageCntrl_PpDsTVMasterDataSet_DeCalibOlmcConfigParams,
+Rte_Read_CtCdTVIC_PpPdTVICRead_DeCameraDeviceInfoRight_Normal,
+Rte_IsUpdated_CtCdTVIC_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB,
+Rte_Send_CtCdTVIC_PpDiagTVICWrite_DeTV_Trigger_PRBS_BER_measurement_0x1006,
+Rte_Read_CtCdTVIC_PpPdTVICRead_DeIspParams_Normal,
+Rte_IsUpdated_CtCdTVIC_PpPdTVICRead_DeFspeTvIC_Critical,
+Rte_IRead_RTVImageCntrl_PpTVCntrlTVMaster_DeTVWingMirrorStatus,
+Rte_IsUpdated_CtCdTVIC_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500,
+Rte_IStatus_RTVImageCntrl_PpPFProvidedData_DeVARHWVariant,
+Rte_IsUpdated_CtCdTVIC_PpPdTVICRead_DeCameraDeviceInfoLeft_Normal,
+Rte_Receive_CtCdTVIC_PpDiagTVICRead_DeTV_Trigger_PRBS_BER_measurement_0x1006,
+Rte_IsUpdated_CtCdTVIC_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA,
+Rte_IStatus_RTVImageCntrl_PpPFProvidedData_DeLCSSSHState</ns2:Explanation><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="failed"><ns2:Ratio_A>142</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="22" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Resource consumption check</ns2:Name><ns2:Description>Checks the resource consumption from the delivered MAP file against the limits in Architektursteckbriefe</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="23" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>XML content check</ns2:Name><ns2:Description>Checks if Release Notes document and supplier's AITR document (xml format)are valid XML file by the xml standards and by the XML Schema.</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="24" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>AIT version check</ns2:Name><ns2:Description>Checks if AIT version stated in delivered supplier's AITR exists in the list of allowed AIT versions by Preintegration environment (Architecture).</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="25" desc="Description of one Application Test Report Test Case" priority="PRIO_A"><ns2:Name>Release version check</ns2:Name><ns2:Description>Checks if the Release label stated in delivered Release Notes exists in the lists of Acceptable Releases by Preintegration environment(Architecture).</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation>List of expected Release versions =['PIE-X351-I3.1.1-P51.5', 'PIE-X300-I3.0.1-P40.0', 'PIE-X301-I3.0.1-P40.1', 'SYS-Z300-I3.0.1-P40.1', 'PIE-X310-I3.0.1-P40.5', 'SYS-Z310-I3.0.1-P40.5', 'PIE-X315-I3.0.1-P41.0', 'SYS-Z315-I3.0.1-P41.0', 'PIE-X320-I3.1.1-P41.5', 'PIE-X321-I3.1.1-P42.0', 'PIE2-Y320-I3.1.1-P42.0', 'SYS-Z320-I3.1.1-P42.5', 'SYS-Z322-I3.1.1-P43.0', 'PIE-X330-I3.1.1-P43.0', 'SYS-Z330-I3.1.1-P43.5', 'PIE-X340-I3.1.1-P44.5', 'SYS-0340-I3.1.1-P44.5', 'PIE-X345-I3.1.1-P45.0', 'SYS-0345-I3.1.1-P45.0', 'PIE-X350-I3.1.1-P50.0', 'SYS-0350-I3.1.1-P50.0', 'PIE-X351-I3.1.1-P50.1', 'SYS-A350-I3.1.1-P50.1', 'PIE-X352-I3.1.1-P50.2', 'SYS-0352-I3.1.1-P50.2', 'PIE-X351-I3.1.1-P51.1', 'SYS-B350-I3.1.1-P51.1', 'PIE-X351-I3.1.1-P51.2', 'SYS-C350-I3.1.1-P51.2', 'PIE-X351-I3.1.1-P51.3', 'SYS-C351-I3.1.1-P51.3', 'PIE-X351-I3.1.1-P51.4', 'SYS-D350-I3.1.1-P50.4', 'SYS-D351-I3.1.1-P50.4', 'SYS-0353-I3.1.1-P50.2'] - Release version found in Release Notes: SYS-D351-I3.1.1-P51.4
+</ns2:Explanation><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="failed"><ns2:Ratio_A>1</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="26" desc="Description of one Application Test Report Test Case" priority="PRIO_A"><ns2:Name>Check allowed compiler flags </ns2:Name><ns2:Description>Reads BUILD LOG files and checks compiler and linker flags found there against the allowed ones stated in the Preintegration environment (Architecture).</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation>List of used but not allowed compiler flags: -g3, -O1, -ggdb, -D_GLIBCXX_DEBUG, -Wunused-function
+
+List of used but not allowed linker flags: -static, -Wl,-Bdynamic, -pthread, -Wl,--dynamic-linker=/lib/ld-linux-armhf.so.3
+</ns2:Explanation><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="failed"><ns2:Ratio_A>2</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="27" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Compiler version check</ns2:Name><ns2:Description>Checks if Compiler version stated in delivered Release Notes is accepted by the Preintegration environment (Architecture).</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="28" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>MISRA level check</ns2:Name><ns2:Description>Reads MISRA measurements from supplier's AITR file and checks if level is correct. If MISRA measurements not delivered within AITR file test fails.</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="29" desc="Description of one Application Test Report Test Case" priority="PRIO_A"><ns2:Name>Is SWC buildable</ns2:Name><ns2:Description>Checks the result of Integrator's build process.</ns2:Description><ns2:Comment>Build successful.
+</ns2:Comment><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="30" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Memory Mapping check</ns2:Name><ns2:Description>Checks if all symbols used in component are in correct memory section.</ns2:Description><ns2:Comment>This test is executed for APH components only.
+</ns2:Comment><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="not_executed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>0</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="31" desc="Description of one Application Test Report Test Case" priority="PRIO_C"><ns2:Name>Extended Version check</ns2:Name><ns2:Description>Compares SW-C version with the release label from the build process. Both data is given by supplier in Release Notes.</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation>Check fails. Release label: SYS-D351-I3.1.1-P51.4 and SWC version: SWC-E350-I3.1.1-P51.4_20190805182946-S49.33_20190905123611
+</ns2:Explanation><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="failed"><ns2:Ratio_A>1</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="32" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Availability of dataset files check</ns2:Name><ns2:Description>The SWC delivery is checked. If it contains the .hex files in the RN (compares RN against the delivery)</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="33" desc="Description of one Application Test Report Test Case" priority="PRIO_A"><ns2:Name>Dataset version check</ns2:Name><ns2:Description>Checks the version found in every hex file against the version stated in RN</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="34" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Dataset filesize check</ns2:Name><ns2:Description>Checks the size found in every hex file against the size projected by the Architecture Model.</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="35" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Check mandatory compiler/linker flags </ns2:Name><ns2:Description>Reads BUILD LOG files and checks compiler and linker flags found there against the mandatory ones stated in the Preintegration environment (Architecture).</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation>List of not used mandatory compiler flags: -mfpu=neon
+
+List of not used mandatory linker flags: -lpthread
+</ns2:Explanation><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="failed"><ns2:Ratio_A>2</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase></ns0:Test>
+    <ns0:SupliersTestArtefacts>
+        <ns0:TestArtefact>
+            <ns2:Filename>libCtCdTVICConti.a</ns2:Filename>
+            <ns2:Version />
+            <ns2:Comment />
+        </ns0:TestArtefact>
+    <ns0:TestArtefact><ns2:Filename /><ns2:Version /><ns2:Comment /></ns0:TestArtefact></ns0:SupliersTestArtefacts>
+    <ns0:IntegratorsTestArtefacts>
+        <ns0:TestArtefact>
+            <ns2:Filename>AATR_TTTech_CtCdTVIC.xml</ns2:Filename>
+            <ns2:Version>2.0.2</ns2:Version>
+            <ns2:Comment>automatic creation</ns2:Comment>
+        </ns0:TestArtefact>
+    <ns0:TestArtefact><ns2:Filename>used_symbols_CtCdTVIC.txt</ns2:Filename><ns2:Version /><ns2:Comment>File containing all used symbols in swc libraries</ns2:Comment></ns0:TestArtefact><ns0:TestArtefact><ns2:Filename>used_rte_CtCdTVIC.txt</ns2:Filename><ns2:Version /><ns2:Comment>File containing  list of used RTE interfaces with its categories</ns2:Comment></ns0:TestArtefact><ns0:TestArtefact><ns2:Filename>AAT_release_notes20190910171546.log</ns2:Filename><ns2:Version /><ns2:Comment>File containing  all information about checks in AAT process</ns2:Comment></ns0:TestArtefact><ns0:TestArtefact><ns2:Filename>unused_rte_CtCdTVIC.txt</ns2:Filename><ns2:Version /><ns2:Comment>File containing  list of unused RTE interfaces with its categories</ns2:Comment></ns0:TestArtefact><ns0:TestArtefact><ns2:Filename>unagreed_symbols_CtCdTVIC.txt</ns2:Filename><ns2:Version /><ns2:Comment>File containing all unagreed symbols in swc libraries</ns2:Comment></ns0:TestArtefact><ns0:TestArtefact><ns2:Filename>used_categories_stats_CtCdTVIC.txt</ns2:Filename><ns2:Version /><ns2:Comment>File containing  statistic table of used RTE symbols in swc libraries</ns2:Comment></ns0:TestArtefact><ns0:TestArtefact><ns2:Filename>white_CtCdTVIC.dat</ns2:Filename><ns2:Version /><ns2:Comment>Whitelist file containting all allowed symbols specific to the SWC.</ns2:Comment></ns0:TestArtefact></ns0:IntegratorsTestArtefacts>
+    <ns0:TestManagement>
+        <ns0:PTC_IntegrityBaselineLabel>-</ns0:PTC_IntegrityBaselineLabel>
+        <ns0:PTC_IntegrityTestSession_ID>3302346</ns0:PTC_IntegrityTestSession_ID>
+        <ns0:PTC_IntegrationTestElement>851058</ns0:PTC_IntegrationTestElement>
+    </ns0:TestManagement>
+    <ns0:TestEnvironmentDefinition desc="Please describe the test enviroment." used_AIT-FW_ProvidedByIntegrator="yes">
+        <ns2:TestFrameworkInfo desc="Information about version of test framework">
+            <ns2:TestFrameworkVersion>C8_REL_REV176895</ns2:TestFrameworkVersion>
+        </ns2:TestFrameworkInfo>
+        <ns2:TestFrameworkDeviation>
+            <ns2:ChangeDescription>No changes</ns2:ChangeDescription>
+            <ns2:Effects>No effects</ns2:Effects>
+        </ns2:TestFrameworkDeviation>
+        <ns2:AdditionalSoftwareUsed>
+            <ns2:AdditionalTool desc="Information about SW Tool">
+                <ns2:SoftwareName />
+                <ns2:Version />
+                <ns2:Description />
+            </ns2:AdditionalTool>
+        </ns2:AdditionalSoftwareUsed>
+        <ns0:TestPC-SWimage />
+    </ns0:TestEnvironmentDefinition>
+    <ns0:MisraMeasurement allReportedViolationJustified="no" desc="If YES is set for All Violation Justified, MISRA test will pass even if number of MISRA violations are bigger than 0. Please check zFAS_UserManuals user documentation for clarification.">
+        <ns2:MandatoryLevel>0</ns2:MandatoryLevel>
+        <ns2:RequiredLevel>0</ns2:RequiredLevel>
+        <ns2:AdvisoryLevel>0</ns2:AdvisoryLevel>
+    </ns0:MisraMeasurement>
+    <ns0:SuppliersAdditionalInfo desc="Please add any other information, e.g. company relevant data. Additional Data is not automatically parsed or evaluated during integration">
+        <ns2:Additional_Data />
+    </ns0:SuppliersAdditionalInfo>
+    <ns0:KnownLimitation>
+        <ns2:CompanyIssueIdentifier />
+        <ns2:Description />
+    </ns0:KnownLimitation>
+    <ns0:Acronyms desc="Description of acronyms data">
+        <ns2:Acronym>
+            <ns2:name />
+            <ns2:Description />
+        </ns2:Acronym>
+    </ns0:Acronyms>
+    <ns0:References desc="Add references, e.g. to other documents.">
+        <ns2:Reference>
+            <ns2:name />
+            <ns2:Description />
+        </ns2:Reference>
+    </ns0:References>
+</ns0:A-AcceptTestReport>

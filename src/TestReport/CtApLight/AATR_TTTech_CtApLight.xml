@@ -1,0 +1,210 @@
+<ns0:A-AcceptTestReport xmlns:ns0="http://tttech.com/TestReports" xmlns:ns2="http://tttech.com/SuplierReleaseNotes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://tttech.com/TestReports TestReportScheme.0.9.1.xsd http://tttech.com/SuplierReleaseNotes ReleaseNotesScheme.0.9.1.xsd">
+    <ns0:Release>SYS-E350-I3.1.1-P51.5</ns0:Release>
+    <ns0:Platform>PIE-X351-I3.1.1-P51.5</ns0:Platform>
+    <ns0:SWC desc="Identification of SWC Release. This information will be used to check version consistency with embedded libraries (version output on target).">
+        <ns2:SWC_Name>CtApLight</ns2:SWC_Name>
+        <ns2:SWC_Version desc="Release Version format must be NNN. BuildTimestamp format must be YYYYMMDDHHMMSS">
+            <ns2:ReleaseKind>A</ns2:ReleaseKind>
+            <ns2:ReleaseVersion>350</ns2:ReleaseVersion>
+            <ns2:IF-SET_Variant>3</ns2:IF-SET_Variant>
+            <ns2:IF-SET_Major>1</ns2:IF-SET_Major>
+            <ns2:IF-SET_Minor>1</ns2:IF-SET_Minor>
+            <ns2:Platform_Major>50</ns2:Platform_Major>
+            <ns2:Platform_Minor>1</ns2:Platform_Minor>
+            <ns2:Platform_BuildTimestamp>20190330100846</ns2:Platform_BuildTimestamp>
+            <ns2:SWC_Major>35</ns2:SWC_Major>
+            <ns2:SWC_Minor>0</ns2:SWC_Minor>
+            <ns2:SWC_BuildTimestamp>20190418100129</ns2:SWC_BuildTimestamp>
+        </ns2:SWC_Version>
+        <ns2:SWC_ASIL_Level>QM</ns2:SWC_ASIL_Level>
+        <ns2:SWC_Host>APH</ns2:SWC_Host>
+        <ns2:Description />
+    </ns0:SWC>
+    <ns0:Comment />
+    <ns0:DocumentInfo desc="Description of the document (document version, document author, document status)">
+        <ns2:DocumentId>-</ns2:DocumentId>
+        <ns2:DocumentVersion>3.50.0</ns2:DocumentVersion>
+        <ns2:DocumentStatus>Released</ns2:DocumentStatus>
+        <ns2:DocumentDescription>Automatic creation of the document</ns2:DocumentDescription>
+        <ns2:DocumentAuthor desc="Please add author contact information. He/She releases the delivery and is the first contact person for questions and responsible for the delivery.">
+            <ns2:Name>Cedomir Jovanovic</ns2:Name>
+            <ns2:Company>RT-RK Institute for Computer Based Systems</ns2:Company>
+            <ns2:Address>Narodnog Fronta 23 D-E, Novi Sad, Serbia</ns2:Address>
+            <ns2:e-mail>cedomir.jovanovic@rt-rk.com</ns2:e-mail>
+            <ns2:Tel>+381 21 480 1241</ns2:Tel>
+        </ns2:DocumentAuthor>
+        <ns2:DocumentCreationDate>2019-09-10</ns2:DocumentCreationDate>
+    </ns0:DocumentInfo>
+    <ns0:RevisionHistory desc="Note the document revision history (changes in the document)">
+        <ns2:Revision desc="Briefly describe the history and changes made to the document, starting from first review.">
+            <ns2:Document_Version>3.50.0</ns2:Document_Version>
+            <ns2:Date>2019-09-10</ns2:Date>
+            <ns2:ResponsiblePerson>Cedomir Jovanovic</ns2:ResponsiblePerson>
+            <ns2:Description>Automatic creation of the document</ns2:Description>
+        </ns2:Revision>
+    </ns0:RevisionHistory>
+    <ns0:Test desc="Description of all test cases" integrationRecommendationResult="failed_integrate" result="failed">
+        <ns0:TestCase ID="1" desc="Description of one Application Test Report Test Case" priority="PRIO_B">
+            <ns2:Name>SWC limits check</ns2:Name>
+            <ns2:Description>Reads and checks all limits from Architectursteckbriefe. It creates temporary file swc_limits.csv used by other processes</ns2:Description>
+            <ns2:Comment />
+            <ns2:BugReference />
+            <ns2:Explanation />
+            <ns2:Begin>
+                <ns2:Date>2019-09-10</ns2:Date>
+                <ns2:Time>17:15</ns2:Time>
+            </ns2:Begin>
+            <ns2:End>
+                <ns2:Date>2019-09-10</ns2:Date>
+                <ns2:Time>17:18</ns2:Time>
+            </ns2:End>
+            <ns0:TestCaseSummary result="passed">
+                <ns2:Ratio_A>0</ns2:Ratio_A>
+                <ns2:Ratio_B>1</ns2:Ratio_B>
+            </ns0:TestCaseSummary>
+            <ns0:TestCaseNumber />
+        </ns0:TestCase>
+        <ns0:TestCaseTable name="RTE symbols statistics" ref="21">
+            <ns0:TableHeader>
+                <ns0:TableCell align="left" width="">Category                                 </ns0:TableCell>
+            <ns0:TableCell align="right" width="60pt">   %      </ns0:TableCell><ns0:TableCell align="center" width="">        nr of used IF  /    number of available IF   
+</ns0:TableCell></ns0:TableHeader>
+            <ns0:TableRow>
+                <ns0:TableCell>UDS Diagnostic; Anpassung                </ns0:TableCell>
+            <ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>   14  used  /   14  available 
+</ns0:TableCell></ns0:TableRow>
+        <ns0:TableRow><ns0:TableCell>UDS Diagnostic; Messwerte                </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    1  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>UDS Diagnostic; Stellglied Call          </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    8  used  /    8  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>UDS Diagnostic; Stellglied Return        </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    8  used  /    8  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>UDS Diagnostic; Routine Call             </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    2  used  /    2  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>UDS Diagnostic; Routine Return           </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    2  used  /    2  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Diagnostic; Coding                       </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    2  used  /    2  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Diagnostic; Set DTC Event                </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    1  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Diagnostic; Get DTC Event                </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    1  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Diagnostic; DTC clear                    </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    1  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Diagnostic; Global                       </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    6  used  /    6  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Persistency; Big Data                    </ns0:TableCell><ns0:TableCell>         n/a  </ns0:TableCell><ns0:TableCell>    0  used  /    0  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Persistency; DataSet                     </ns0:TableCell><ns0:TableCell>  50.00%  </ns0:TableCell><ns0:TableCell>    1  used  /    2  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Persistency; APH status                  </ns0:TableCell><ns0:TableCell>         n/a  </ns0:TableCell><ns0:TableCell>    0  used  /    0  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Persistency; SSH status                  </ns0:TableCell><ns0:TableCell>         n/a  </ns0:TableCell><ns0:TableCell>    0  used  /    0  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Persistency; SRH status                  </ns0:TableCell><ns0:TableCell>         n/a  </ns0:TableCell><ns0:TableCell>    0  used  /    0  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Persistency; Data read                   </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    2  used  /    2  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Persistency; Data write                  </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    1  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Network; Partial Network                 </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    1  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Network; ECU Run                         </ns0:TableCell><ns0:TableCell>         n/a  </ns0:TableCell><ns0:TableCell>    0  used  /    0  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Network; FlexRay Run                     </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    1  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Network; Wake Up                         </ns0:TableCell><ns0:TableCell>         n/a  </ns0:TableCell><ns0:TableCell>    0  used  /    0  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Network; PDU group interface             </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    3  used  /    3  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Time Service; Timestamp                  </ns0:TableCell><ns0:TableCell>   0.00%  </ns0:TableCell><ns0:TableCell>    0  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Time Service; Remaining Time Budget      </ns0:TableCell><ns0:TableCell>   0.00%  </ns0:TableCell><ns0:TableCell>    0  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Time Service; AGT                        </ns0:TableCell><ns0:TableCell>   0.00%  </ns0:TableCell><ns0:TableCell>    0  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Time Service; Convert ZGT                </ns0:TableCell><ns0:TableCell>   0.00%  </ns0:TableCell><ns0:TableCell>    0  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Time Service; Convert AGT                </ns0:TableCell><ns0:TableCell>   0.00%  </ns0:TableCell><ns0:TableCell>    0  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>SWC Version Info                         </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    1  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>LCS                                      </ns0:TableCell><ns0:TableCell>  40.00%  </ns0:TableCell><ns0:TableCell>    4  used  /   10  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>HW Variant Interface                     </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    2  used  /    2  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>IF-Set Version                           </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    2  used  /    2  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>BAP                                      </ns0:TableCell><ns0:TableCell>         n/a  </ns0:TableCell><ns0:TableCell>    0  used  /    0  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>EDR                                      </ns0:TableCell><ns0:TableCell>         n/a  </ns0:TableCell><ns0:TableCell>    0  used  /    0  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>RTE Data Exchange                        </ns0:TableCell><ns0:TableCell>  83.00%  </ns0:TableCell><ns0:TableCell>   80  used  /   96  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>TOTAL                                    </ns0:TableCell><ns0:TableCell>  83.00%  </ns0:TableCell><ns0:TableCell>  144  used  /  172  available 
+</ns0:TableCell></ns0:TableRow></ns0:TestCaseTable>
+    <ns0:TestCase ID="2" desc="Description of one Application Test Report Test Case" priority="PRIO_A"><ns2:Name>Folder content check</ns2:Name><ns2:Description>Checks if delivered SWC contains all mandatory subfolders</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="3" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Release notes check</ns2:Name><ns2:Description>Check Release Notes document against the delivered SWC content</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="4" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Supplier's AITR check</ns2:Name><ns2:Description>Verifies and checks the supplier's AITR document against the delivered SWC content.</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="5" desc="Description of one Application Test Report Test Case" priority="PRIO_A"><ns2:Name>Check 02_libs content (Libraries delivered)</ns2:Name><ns2:Description>Checks the existance of the libraries in 02_libs folder. At least one library should exist in this folder. Existance should be checked by expected file extension</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="6" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Check for mandatory MAP file</ns2:Name><ns2:Description>Checks if mandatory MAP file exists in 05_data subfolder. There must be exactly one MAP file</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="7" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Check for mandatory MISRA file</ns2:Name><ns2:Description>Checks if mandatory MISRA file exists in 05_data subfolder. There must be exactly one MISRA file</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="8" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Check for mandatory BUILD LOG files</ns2:Name><ns2:Description>Checks if one or more build log files are delivered in 05_data subfolder</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="9" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Check for mandatory test cases in the delivery</ns2:Name><ns2:Description>Checks if all mandatory test cases are delivered in 04_test subfolder</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="10" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Test Case naming convention check</ns2:Name><ns2:Description>Checks if all delivered Test cases (mandatory and additional) follows the naming convention</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="11" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Mandatory Test Case folder content check</ns2:Name><ns2:Description>Checks if every mandatory test case folder contains all mandatory files.</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="12" desc="Description of one Application Test Report Test Case" priority="PRIO_C"><ns2:Name>Additional Test Case folder content check</ns2:Name><ns2:Description>Checks if additional test case folder (if any) contains all mandatory files.</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="13" desc="Description of one Application Test Report Test Case" priority="PRIO_C"><ns2:Name>Heap allowed but not used</ns2:Name><ns2:Description>Checks if SWC is allowed to use Heap but heap is never been used.</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="14" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Heap used but not allowed</ns2:Name><ns2:Description>Checks if SWC using the heap but it is not allowed to use.</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="15" desc="Description of one Application Test Report Test Case" priority="PRIO_C"><ns2:Name>Host check</ns2:Name><ns2:Description>Check if SWC's host stated in Release Notes document is correct (the same as the one stated in Architecture Model)</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="16" desc="Description of one Application Test Report Test Case" priority="PRIO_C"><ns2:Name>ASIL level check</ns2:Name><ns2:Description>Check if SWC's ASIL level stated in Release Notes documents is correct (the same as the one stated in Architecture Model)</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="17" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Supplier's AITR limits check</ns2:Name><ns2:Description>Checks the limits stated in supplier's AITR document against the limits in Architektursteckbriefe</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="18" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Mandatory test case result check</ns2:Name><ns2:Description>Checks the result of the mandatory test cases stated in supplier's AITR document</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="19" desc="Description of one Application Test Report Test Case" priority="PRIO_C"><ns2:Name>Additional test case result check</ns2:Name><ns2:Description>Checks the result of the additional test cases stated in supplier's AITR document (if any)</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="20" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Interface check</ns2:Name><ns2:Description>Checks symbols used by delivered libraries against the allowed symbol set - white list (RTE symbols from Contract header and specific list of symbols from the Architecture Model)</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation>#NONE
+</ns2:Explanation><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="21" desc="Description of one Application Test Report Test Case" priority="PRIO_C"><ns2:Name>RTE inteface usage check</ns2:Name><ns2:Description>Checks if all RTE inteface are used</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation>17.00% of RTE interfaces not used,  83.00% used.
+Unused RTE Interfaces: Rte_IRead_RAFS_Main_PpPFHwMeasurements_DeTHS,
+Rte_IStatus_RAFS_Main_PpPFHwMeasurements_DeVBAT_MAIN,
+Rte_Call_CtApLight_PpPFServer_TS_GetAgtTimestamp,
+Rte_Call_CtApLight_PpPFServer_TS_GetZgtTimestamp,
+Rte_IWriteRef_RAFS_Main_PpFRLightOut_DeTraceData,
+Rte_IStatus_RAFS_Main_PpDsPAHSDataSet_DePahsConfigMxb,
+Rte_IStatus_RAFS_Main_PpDsLightDataSet_DeCalibrationParamData,
+Rte_IRead_RAFS_Main_PpDsPAHSDataSet_DePahsConfig,
+Rte_Call_CtApLight_PpPFServer_TS_GetRemainingTimeBudget,
+Rte_IRead_RAFS_Main_PpACF2ACFOBS_DeACF_LFV_NL,
+Rte_IRead_RAFS_Main_PpPFHwMeasurements_DeVBAT_MAIN,
+Rte_IStatus_RAFS_Main_PpPFProvidedData_DeLCSMVHState,
+Rte_IsUpdated_CtApLight_PpDiagCoding_DePermitCodingPersistence,
+Rte_Call_CtApLight_PpPFServer_TS_ConvertZgt2Agt,
+Rte_IWrite_RAFS_Main_PpFRLightOut_DeTraceData,
+Rte_IRead_RAFS_Main_PpPFProvidedData_DeLCSSSHState,
+Rte_IStatus_RAFS_Main_PpDsPAHSDataSet_DePahsConfig,
+Rte_IRead_RAFS_Main_PpDsPAHSDataSet_DePahsConfigLight,
+Rte_IStatus_RAFS_Main_PpDsPAHSDataSet_DePahsConfigLight,
+Rte_IStatus_RAFS_Main_PpPFProvidedData_DeLCSSRHState,
+Rte_IRead_RAFS_Main_PpPFProvidedData_DeLCSMVHState,
+Rte_Call_CtApLight_PpPFServer_TS_ConvertAgt2Zgt,
+Rte_IStatus_RAFS_Main_PpACF2ACFOBS_DeACF_LFV_NL,
+Rte_IRead_RAFS_Main_PpDsPAHSDataSet_DePahsConfigMxb,
+Rte_IStatus_RAFS_Main_PpPFProvidedData_DeLCSSSHState,
+Rte_IStatus_RAFS_Main_PpPFHwMeasurements_DeTHS,
+Rte_Read_CtApLight_PpDiagCoding_DePermitCodingPersistence,
+Rte_IRead_RAFS_Main_PpPFProvidedData_DeLCSSRHState</ns2:Explanation><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="failed"><ns2:Ratio_A>28</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="22" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Resource consumption check</ns2:Name><ns2:Description>Checks the resource consumption from the delivered MAP file against the limits in Architektursteckbriefe</ns2:Description><ns2:Comment>Since this is the APH component  and delivered Release version is not the same as the current Release version, test cannot be executed.
+</ns2:Comment><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="not_executed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>0</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="23" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>XML content check</ns2:Name><ns2:Description>Checks if Release Notes document and supplier's AITR document (xml format)are valid XML file by the xml standards and by the XML Schema.</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="24" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>AIT version check</ns2:Name><ns2:Description>Checks if AIT version stated in delivered supplier's AITR exists in the list of allowed AIT versions by Preintegration environment (Architecture).</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="25" desc="Description of one Application Test Report Test Case" priority="PRIO_A"><ns2:Name>Release version check</ns2:Name><ns2:Description>Checks if the Release label stated in delivered Release Notes exists in the lists of Acceptable Releases by Preintegration environment(Architecture).</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="26" desc="Description of one Application Test Report Test Case" priority="PRIO_A"><ns2:Name>Check allowed compiler flags </ns2:Name><ns2:Description>Reads BUILD LOG files and checks compiler and linker flags found there against the allowed ones stated in the Preintegration environment (Architecture).</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="27" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Compiler version check</ns2:Name><ns2:Description>Checks if Compiler version stated in delivered Release Notes is accepted by the Preintegration environment (Architecture).</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="28" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>MISRA level check</ns2:Name><ns2:Description>Reads MISRA measurements from supplier's AITR file and checks if level is correct. If MISRA measurements not delivered within AITR file test fails.</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="29" desc="Description of one Application Test Report Test Case" priority="PRIO_A"><ns2:Name>Is SWC buildable</ns2:Name><ns2:Description>Checks the result of Integrator's build process.</ns2:Description><ns2:Comment>Build successful.
+</ns2:Comment><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="30" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Memory Mapping check</ns2:Name><ns2:Description>Checks if all symbols used in component are in correct memory section.</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="31" desc="Description of one Application Test Report Test Case" priority="PRIO_C"><ns2:Name>Extended Version check</ns2:Name><ns2:Description>Compares SW-C version with the release label from the build process. Both data is given by supplier in Release Notes.</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="32" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Availability of dataset files check</ns2:Name><ns2:Description>The SWC delivery is checked. If it contains the .hex files in the RN (compares RN against the delivery)</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation>Hex file Audi\Default\CtApLight_PiDsLightDataSet_DeCalibrationParamData_MXBOFF.hex cannot be found in Arcitecture Model.
+
+Hex file Audi\Default\CtApLight_PiDsLightDataSet_DeCalibrationParamData_MXBON.hex cannot be found in Arcitecture Model.
+</ns2:Explanation><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="failed"><ns2:Ratio_A>2</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="33" desc="Description of one Application Test Report Test Case" priority="PRIO_A"><ns2:Name>Dataset version check</ns2:Name><ns2:Description>Checks the version found in every hex file against the version stated in RN</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="34" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Dataset filesize check</ns2:Name><ns2:Description>Checks the size found in every hex file against the size projected by the Architecture Model.</ns2:Description><ns2:Comment>Hex file Audi\Default\CtApLight_PiDsLightDataSet_DeCalibrationParamData_MXBOFF.hex cannot be found in Arcitecture Model. Test cannot be executed.
+
+Hex file Audi\Default\CtApLight_PiDsLightDataSet_DeCalibrationParamData_MXBON.hex cannot be found in Arcitecture Model. Test cannot be executed.
+</ns2:Comment><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="not_executed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>0</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="35" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Check mandatory compiler/linker flags </ns2:Name><ns2:Description>Reads BUILD LOG files and checks compiler and linker flags found there against the mandatory ones stated in the Preintegration environment (Architecture).</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:18</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase></ns0:Test>
+    <ns0:SupliersTestArtefacts>
+        <ns0:TestArtefact>
+            <ns2:Filename>libCtApLight_BDLd.a</ns2:Filename>
+            <ns2:Version />
+            <ns2:Comment />
+        </ns0:TestArtefact>
+    <ns0:TestArtefact><ns2:Filename>libCtApLight_Implementationd.a</ns2:Filename><ns2:Version /><ns2:Comment /></ns0:TestArtefact><ns0:TestArtefact><ns2:Filename>libCtApLight_ServerRunnablesd.a</ns2:Filename><ns2:Version /><ns2:Comment /></ns0:TestArtefact><ns0:TestArtefact><ns2:Filename /><ns2:Version /><ns2:Comment /></ns0:TestArtefact></ns0:SupliersTestArtefacts>
+    <ns0:IntegratorsTestArtefacts>
+        <ns0:TestArtefact>
+            <ns2:Filename>AATR_TTTech_CtApLight.xml</ns2:Filename>
+            <ns2:Version>2.0.2</ns2:Version>
+            <ns2:Comment>automatic creation</ns2:Comment>
+        </ns0:TestArtefact>
+    <ns0:TestArtefact><ns2:Filename>used_symbols_CtApLight.txt</ns2:Filename><ns2:Version /><ns2:Comment>File containing all used symbols in swc libraries</ns2:Comment></ns0:TestArtefact><ns0:TestArtefact><ns2:Filename>used_categories_stats_CtApLight.txt</ns2:Filename><ns2:Version /><ns2:Comment>File containing  statistic table of used RTE symbols in swc libraries</ns2:Comment></ns0:TestArtefact><ns0:TestArtefact><ns2:Filename>unused_rte_CtApLight.txt</ns2:Filename><ns2:Version /><ns2:Comment>File containing  list of unused RTE interfaces with its categories</ns2:Comment></ns0:TestArtefact><ns0:TestArtefact><ns2:Filename>AAT_release_notes20190910171546.log</ns2:Filename><ns2:Version /><ns2:Comment>File containing  all information about checks in AAT process</ns2:Comment></ns0:TestArtefact><ns0:TestArtefact><ns2:Filename>unagreed_symbols_CtApLight.txt</ns2:Filename><ns2:Version /><ns2:Comment>File containing all unagreed symbols in swc libraries</ns2:Comment></ns0:TestArtefact><ns0:TestArtefact><ns2:Filename>bad_memory_sections_CtApLight.txt</ns2:Filename><ns2:Version /><ns2:Comment>File containing information about bad memory sections</ns2:Comment></ns0:TestArtefact><ns0:TestArtefact><ns2:Filename>used_rte_CtApLight.txt</ns2:Filename><ns2:Version /><ns2:Comment>File containing  list of used RTE interfaces with its categories</ns2:Comment></ns0:TestArtefact><ns0:TestArtefact><ns2:Filename>white_CtApLight.dat</ns2:Filename><ns2:Version /><ns2:Comment>Whitelist file containting all allowed symbols specific to the SWC.</ns2:Comment></ns0:TestArtefact></ns0:IntegratorsTestArtefacts>
+    <ns0:TestManagement>
+        <ns0:PTC_IntegrityBaselineLabel>-</ns0:PTC_IntegrityBaselineLabel>
+        <ns0:PTC_IntegrityTestSession_ID>3302346</ns0:PTC_IntegrityTestSession_ID>
+        <ns0:PTC_IntegrationTestElement>735393</ns0:PTC_IntegrationTestElement>
+    </ns0:TestManagement>
+    <ns0:TestEnvironmentDefinition desc="Please describe the test enviroment." used_AIT-FW_ProvidedByIntegrator="yes">
+        <ns2:TestFrameworkInfo desc="Information about version of test framework">
+            <ns2:TestFrameworkVersion>C8_REL_REV176895</ns2:TestFrameworkVersion>
+        </ns2:TestFrameworkInfo>
+        <ns2:TestFrameworkDeviation>
+            <ns2:ChangeDescription>No changes</ns2:ChangeDescription>
+            <ns2:Effects>No effects</ns2:Effects>
+        </ns2:TestFrameworkDeviation>
+        <ns2:AdditionalSoftwareUsed>
+            <ns2:AdditionalTool desc="Information about SW Tool">
+                <ns2:SoftwareName />
+                <ns2:Version />
+                <ns2:Description />
+            </ns2:AdditionalTool>
+        </ns2:AdditionalSoftwareUsed>
+        <ns0:TestPC-SWimage />
+    </ns0:TestEnvironmentDefinition>
+    <ns0:MisraMeasurement allReportedViolationJustified="yes" desc="If YES is set for All Violation Justified, MISRA test will pass even if number of MISRA violations are bigger than 0. Please check zFAS_UserManuals user documentation for clarification.">
+        <ns2:MandatoryLevel>1</ns2:MandatoryLevel>
+        <ns2:RequiredLevel>0</ns2:RequiredLevel>
+        <ns2:AdvisoryLevel>0</ns2:AdvisoryLevel>
+    </ns0:MisraMeasurement>
+    <ns0:SuppliersAdditionalInfo desc="Please add any other information, e.g. company relevant data. Additional Data is not automatically parsed or evaluated during integration">
+        <ns2:Additional_Data />
+    </ns0:SuppliersAdditionalInfo>
+    <ns0:KnownLimitation>
+        <ns2:CompanyIssueIdentifier />
+        <ns2:Description />
+    </ns0:KnownLimitation>
+    <ns0:Acronyms desc="Description of acronyms data">
+        <ns2:Acronym>
+            <ns2:name />
+            <ns2:Description />
+        </ns2:Acronym>
+    </ns0:Acronyms>
+    <ns0:References desc="Add references, e.g. to other documents.">
+        <ns2:Reference>
+            <ns2:name />
+            <ns2:Description />
+        </ns2:Reference>
+    </ns0:References>
+</ns0:A-AcceptTestReport>

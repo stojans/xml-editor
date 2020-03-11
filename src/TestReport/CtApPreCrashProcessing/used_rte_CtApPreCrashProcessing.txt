@@ -1,0 +1,24 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+RTE Data Exchange                        | Rte_IWrite           | RPreCrashProcessing_PpFRPreCrashOut_DePduGrp_SDF2_SensorHeader 
+RTE Data Exchange                        | Rte_IRead            | RPreCrashProcessing_PpPerceptionAvailabilityPreCrash_DePerceptionAvailabilityPreCrash 
+LCS                                      | Rte_IStatus          | RPreCrashProcessing_PpPFProvidedData_DeLCSSSHState 
+Diagnostic, Set DTC Event                | Rte_Call             | CtApPreCrashProcessing_PpEventHandling_SetEventStatus 
+IF-Set Version                           | Rte_IRead            | RPreCrashProcessing_PpPFProvidedData_DeIFSETVersion 
+LCS                                      | Rte_IRead            | RPreCrashProcessing_PpPFProvidedData_DeLCSSSHState 
+RTE Data Exchange                        | Rte_IStatus          | RPreCrashProcessing_PpObjectListPreCrash_DeObjectListPreCrash 
+RTE Data Exchange                        | Rte_IRead            | RPreCrashProcessing_PpFRPreCrashProcessingIn_DeFRPreCrashProcessingIn 
+Diagnostic, Coding                       | Rte_Read             | CtApPreCrashProcessing_PpDiagCoding_DeCoding 
+Persistency, DataSet                     | Rte_IStatus          | RPreCrashProcessing_PpDsPreCrashProcessingDataSet_DeAlgoParamsOfCtApPCP 
+RTE Data Exchange                        | Rte_IRead            | RPreCrashProcessing_PpObjectListPreCrash_DeObjectListPreCrash 
+Persistency, DataSet                     | Rte_IRead            | RPreCrashProcessing_PpDsPreCrashProcessingDataSet_DeAlgoParamsOfCtApPCP 
+RTE Data Exchange                        | Rte_IWrite           | RPreCrashProcessing_PpFRPreCrashOut_DePduGrp_SDF2_Objekt_xx 
+RTE Data Exchange                        | Rte_Receive          | CtApPreCrashProcessing_PpEML_DeEML       
+RTE Data Exchange                        | Rte_IStatus          | RPreCrashProcessing_PpPerceptionAvailabilityPreCrash_DePerceptionAvailabilityPreCrash 
+RTE Data Exchange                        | Rte_IStatus          | RPreCrashProcessing_PpFRPreCrashProcessingIn_DeFRPreCrashProcessingIn 
+RTE Data Exchange                        | Rte_IWriteRef        | RPreCrashProcessing_PpFRPreCrashOut_DeSDF2 
+IF-Set Version                           | Rte_IStatus          | RPreCrashProcessing_PpPFProvidedData_DeIFSETVersion 
+RTE Data Exchange                        | Rte_IWrite           | RPreCrashProcessing_PpFRPreCrashOut_DeSDF2 
+SWC Version Info                         | Rte_Call             | CtApPreCrashProcessing_PpPFServer_MW_SetSwcInfo 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 20

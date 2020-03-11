@@ -1,0 +1,148 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+Diagnostic, Global                       | Rte_IsUpdated        | CtApLight_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApLight_PpDiagLightRead_DeMatrix_headlamp_effective_switch_on_0x0B7B 
+SWC Version Info                         | Rte_Call             | CtApLight_PpPFServer_MW_SetSwcInfo       
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApLight_PpDiagLightRead_DeHeadlamp_adjustment_right_0x0A48 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApLight_PpDiagLightRead_DeHeadlamp_left_low_beam_segment_control_0x0B7E 
+RTE Data Exchange                        | Rte_IRead            | RAFS_Main_PpAFSLightIn_DeAFSLightIn      
+RTE Data Exchange                        | Rte_IRead            | RAFS_Main_PpZDML_DeZDMLAHS               
+RTE Data Exchange                        | Rte_Receive          | CtApLight_PpDM_DeDM                      
+HW Variant Interface                     | Rte_IStatus          | RAFS_Main_PpPFProvidedData_DeVARHWVariant 
+RTE Data Exchange                        | Rte_IStatus          | RAFS_Main_PpFRLightIn_DeFRLightIn        
+Persistency, DataSet                     | Rte_IRead            | RAFS_Main_PpDsLightDataSet_DeCalibrationParamData 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApLight_PpDiagLightRead_DeMatrix_headlamp_effective_switch_on_0x0B7B 
+Network, FlexRay Run                     | Rte_IWriteRef        | RAFS_Main_PpEcuComRequestsLight_DeRequestsFlexRayRun 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApLight_PpDiagLightRead_DeMatrix_headlamp_general_dimming_0x2D3F 
+UDS Diagnostic, Routine Return           | Rte_Send             | CtApLight_PpDiagLightWrite_DeCalibration_matrix_headlamp_0x0263 
+Persistency, Data write                  | Rte_Write            | CtApLight_PpPdLightWrite_DeNVMemmoryData_Critical 
+UDS Diagnostic, Stellglied Call          | Rte_Receive          | CtApLight_PpDiagLightRead_DeHeadlamp_left_high_beam_segment_control_test_0x81AD 
+Diagnostic, Coding                       | Rte_Read             | CtApLight_PpDiagCoding_DeCoding          
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApLight_PpDiagLightRead_DeHeadlamp_right_high_beam_segment_control_0x0B7D 
+RTE Data Exchange                        | Rte_IRead            | RAFS_Main_PpCalibFailMV_DeCalibrationMV  
+UDS Diagnostic, Stellglied Call          | Rte_Receive          | CtApLight_PpDiagLightRead_DeHeadlamp_right_low_beam_segment_control_test_0x81B0 
+RTE Data Exchange                        | Rte_IStatus          | RAFS_Main_PpACF2ACFOBS_DeBP              
+RTE Data Exchange                        | Rte_Write            | CtApLight_PpDiagLightWrite_DeHeadlamp_right_high_beam_segment_control_0x0B7D 
+RTE Data Exchange                        | Rte_IRead            | RAFS_Main_PpRGExtPSD_DeRGExtPSD          
+RTE Data Exchange                        | Rte_IStatus          | RAFS_Main_PpCalibFailMV_DeCalibrationMV  
+RTE Data Exchange                        | Rte_IWriteRef        | RAFS_Main_PpLightInfo_DeMXBCalibrationCommandLight 
+RTE Data Exchange                        | Rte_IStatus          | RAFS_Main_PpPAHSresults_DePAHSresults    
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApLight_PpDiagLightRead_DeMatrix_headlamp_general_dimming_0x2D3F 
+UDS Diagnostic, Routine Call             | Rte_Receive          | CtApLight_PpDiagLightRead_DeCalibration_matrix_headlamp_0x0263 
+LCS                                      | Rte_IStatus          | RAFS_Main_PpPFProvidedData_DeLCSSystemState 
+RTE Data Exchange                        | Rte_IStatus          | RAFS_Main_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApLight_PpDiagLightRead_DeHeadlamp_right_low_beam_segment_control_0x0B7F 
+Persistency, Data read                   | Rte_IsUpdated        | CtApLight_PpPdLightRead_DeNVMemmoryData_Critical 
+RTE Data Exchange                        | Rte_IRead            | RAFS_Main_PpPerceptionAvailabilityLight_DePerceptionAvailabilityLight 
+RTE Data Exchange                        | Rte_IStatus          | RAFS_Main_PpAFSLightIn_DeAFSLightIn      
+RTE Data Exchange                        | Rte_IRead            | RAFS_Main_PpFoDFunctionActivationState_DeFoDFunctionActivationState 
+RTE Data Exchange                        | Rte_IWriteRef        | RAFS_Main_PpFoDReadyToRun_Light_DeFoDReadyToRun_FLA 
+UDS Diagnostic, Stellglied Return        | Rte_Send             | CtApLight_PpDiagLightWrite_DeLight_distribution_value_0x81E8 
+Network, Partial Network                 | Rte_IWriteRef        | RAFS_Main_PpEcuComRequestsLight_DePartialNetwork 
+RTE Data Exchange                        | Rte_IWriteRef        | RAFS_Main_PpAFSLightOut_DeAFSLightOut    
+RTE Data Exchange                        | Rte_IWriteRef        | RAFS_Main_PpFRLightOut_DeFRLightOut      
+UDS Diagnostic, Stellglied Call          | Rte_Receive          | CtApLight_PpDiagLightRead_DeReference_segment_control_matrix_headlamp_0x0380 
+RTE Data Exchange                        | Rte_IWriteRef        | RAFS_Main_PpEcuComRequestsLight_DeRequestsAFSCanRun 
+RTE Data Exchange                        | Rte_Write            | CtApLight_PpDiagLightWrite_DeCurvelight_during_standstill_0x0BDF 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApLight_PpDiagLightRead_DeHeadlamp_right_low_beam_segment_control_0x0B7F 
+RTE Data Exchange                        | Rte_IWriteRef        | RAFS_Main_PpLightResults_DePAHSHeadlightActualPos 
+RTE Data Exchange                        | Rte_Write            | CtApLight_PpDiagLightWrite_DeAutomatic_highbeam_during_standstill_0x0BE7 
+RTE Data Exchange                        | Rte_IWriteRef        | RAFS_Main_PpAFSLightOut_DePduGrp_LED_L_DABL_02 
+RTE Data Exchange                        | Rte_IRead            | RAFS_Main_PpRGLanes_DeLanes              
+Diagnostic, Get DTC Event                | Rte_Call             | CtApLight_PpEventHandling_GetEventStatus 
+UDS Diagnostic, Stellglied Call          | Rte_Receive          | CtApLight_PpDiagLightRead_DeHeadlamp_left_low_beam_segment_control_test_0x81AF 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApLight_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+RTE Data Exchange                        | Rte_IStatus          | RAFS_Main_PpPAHSresults_DePAHSHeadlightTargetPos 
+IF-Set Version                           | Rte_IRead            | RAFS_Main_PpPFProvidedData_DeIFSETVersion 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApLight_PpDiagLightRead_DeAutomatic_highbeam_during_standstill_0x0BE7 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApLight_PpDiagLightRead_DeMatrix_headlamp_steering_angle_control_0x0BE0 
+RTE Data Exchange                        | Rte_Write            | CtApLight_PpDiagLightWrite_DeMatrix_headlamp_steering_angle_control_0x0BE0 
+Network, PDU group interface             | Rte_IWriteRef        | RAFS_Main_PpFRLightOut_DePduGrp_LAPP_SM_01 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApLight_PpDiagLightRead_DeHeadlamp_adjustment_left_0x0A7E 
+UDS Diagnostic, Stellglied Return        | Rte_Send             | CtApLight_PpDiagLightWrite_DeReference_segment_control_matrix_headlamp_0x0380 
+Network, PDU group interface             | Rte_IWriteRef        | RAFS_Main_PpFRLightOut_DePduGrp_BVS_01   
+RTE Data Exchange                        | Rte_IStatus          | RAFS_Main_PpFoDFunctionActivationState_DeFoDFunctionActivationState 
+RTE Data Exchange                        | Rte_IRead            | RAFS_Main_PpPAHSresults_DePAHSHeadlightTargetPos 
+Diagnostic, DTC clear                    | Rte_Receive          | CtApLight_PpDiagGlobalRead_DeFSPCleared  
+RTE Data Exchange                        | Rte_IStatus          | RAFS_Main_PpRGExtPSD_DeRGExtPSD          
+RTE Data Exchange                        | Rte_IWriteRef        | RAFS_Main_PpAFSLightOut_DePduGrp_MXB_Soll_Fktxx 
+UDS Diagnostic, Messwerte                | Rte_Write            | CtApLight_PpDiagLightWrite_DeMesswerte_Light 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApLight_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApLight_PpDiagLightRead_DeCurvelight_during_standstill_0x0BDF 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApLight_PpDiagLightRead_DeMXB_Order_Reference_Run_Activation_Effect_0x0561 
+RTE Data Exchange                        | Rte_IWriteRef        | RAFS_Main_PpAFSLightOut_DePduGrp_LED_R_DABL_02 
+UDS Diagnostic, Stellglied Return        | Rte_Send             | CtApLight_PpDiagLightWrite_DeHeadlamp_right_high_beam_segment_control_test_0x81AE 
+RTE Data Exchange                        | Rte_IRead            | RAFS_Main_PpFRLightIn_DeFRLightIn        
+RTE Data Exchange                        | Rte_IWriteRef        | RAFS_Main_PpAFSKameraFDD_DePduGrp_Kamera_Status 
+Network, PDU group interface             | Rte_IWriteRef        | RAFS_Main_PpFRLightOut_DePduGrp_FLA_01   
+UDS Diagnostic, Stellglied Call          | Rte_Receive          | CtApLight_PpDiagLightRead_DeWarning_lamp_for_adaptive_light_test_0x81B1 
+UDS Diagnostic, Stellglied Call          | Rte_Receive          | CtApLight_PpDiagLightRead_DeLight_distribution_value_0x81E8 
+RTE Data Exchange                        | Rte_IWriteRef        | RAFS_Main_PpAFSLightOut_DePduGrp_SM_Lapp_02 
+RTE Data Exchange                        | Rte_Receive          | CtApLight_PpWlaRGLight_DeWlaObjects      
+RTE Data Exchange                        | Rte_IsUpdated        | CtApLight_PpDiagLightRead_DeHeadlamp_right_high_beam_segment_control_0x0B7D 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApLight_PpDiagLightRead_DeHeadlamp_left_high_beam_segment_control_0x0B7C 
+RTE Data Exchange                        | Rte_IWriteRef        | RAFS_Main_PpAFSLightOut_DePduGrp_BV_LWR_01 
+RTE Data Exchange                        | Rte_IStatus          | RAFS_Main_PpPerceptionAvailabilityLight_DePerceptionAvailabilityLight 
+RTE Data Exchange                        | Rte_Write            | CtApLight_PpDiagLightWrite_DeHeadlamp_right_low_beam_segment_control_0x0B7F 
+Diagnostic, Set DTC Event                | Rte_Call             | CtApLight_PpEventHandling_SetEventStatus 
+RTE Data Exchange                        | Rte_IStatus          | RAFS_Main_PpPFProvidedData_DeTotalSysRestartCnt 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApLight_PpDiagLightRead_DeAutomatic_highbeam_during_standstill_0x0BE7 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApLight_PpDiagLightRead_DeMatrix_headlamp_crab_angle_calibration_0x0BC5 
+UDS Diagnostic, Stellglied Call          | Rte_Receive          | CtApLight_PpDiagLightRead_DeHeadlamp_right_high_beam_segment_control_test_0x81AE 
+UDS Diagnostic, Routine Return           | Rte_Send             | CtApLight_PpDiagLightWrite_DeOffset_calculation_matrix_headlamp_0x0264 
+Diagnostic, Global                       | Rte_Read             | CtApLight_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApLight_PpDiagLightRead_DeHeadlamp_adjustment_right_0x0A48 
+RTE Data Exchange                        | Rte_IWriteRef        | RAFS_Main_PpLightResults_DeMXBDMLData    
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApLight_PpDiagLightRead_DeMatrix_headlamp_crab_angle_calibration_0x0BC5 
+RTE Data Exchange                        | Rte_IWriteRef        | RAFS_Main_PpAFSKameraFDD_DePduGrp_Kamera_FDD_Objxx 
+UDS Diagnostic, Stellglied Return        | Rte_Send             | CtApLight_PpDiagLightWrite_DeHeadlamp_left_low_beam_segment_control_test_0x81AF 
+UDS Diagnostic, Stellglied Return        | Rte_Send             | CtApLight_PpDiagLightWrite_DeMain_beam_activation_0x02D0 
+RTE Data Exchange                        | Rte_IStatus          | RAFS_Main_PpCalibFailMV_DeMXBCalibrationStatusMV 
+RTE Data Exchange                        | Rte_Send             | CtApLight_PpLightInfo_DeLightInfo        
+RTE Data Exchange                        | Rte_IRead            | RAFS_Main_PpZDML_DeZDMLMXB               
+RTE Data Exchange                        | Rte_IWriteRef        | RAFS_Main_PpEcuComRequestsLight_DeRequestsECURun 
+RTE Data Exchange                        | Rte_IStatus          | RAFS_Main_PpOBFLightOutObjects_DeObjectListOBFLightOut 
+RTE Data Exchange                        | Rte_IRead            | RAFS_Main_PpACF2ACFOBS_DeBP              
+RTE Data Exchange                        | Rte_IsUpdated        | CtApLight_PpDiagLightRead_DeMXB_Order_Reference_Run_Activation_Effect_0x0561 
+RTE Data Exchange                        | Rte_IWriteRef        | RAFS_Main_PpAFSLightOut_DePduGrp_LED_L_DABL 
+RTE Data Exchange                        | Rte_IWriteRef        | RAFS_Main_PpAFSLightOut_DePduGrp_MXB_02  
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApLight_PpDiagLightRead_DeProductionmode_0x04FE 
+RTE Data Exchange                        | Rte_IWriteRef        | RAFS_Main_PpAFSLightOut_DePduGrp_LED_R_DABL 
+RTE Data Exchange                        | Rte_IRead            | RAFS_Main_PpPFProvidedData_DeTotalSysRestartCnt 
+Diagnostic, Global                       | Rte_Read             | CtApLight_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+RTE Data Exchange                        | Rte_Write            | CtApLight_PpDiagLightWrite_DeHeadlamp_left_low_beam_segment_control_0x0B7E 
+RTE Data Exchange                        | Rte_IRead            | RAFS_Main_PpCalibFailMV_DeFailsafeMV     
+RTE Data Exchange                        | Rte_IStatus          | RAFS_Main_PpZDML_DeZDMLMXB               
+RTE Data Exchange                        | Rte_IStatus          | RAFS_Main_PpCalibFailMV_DeFailsafeMV     
+LCS                                      | Rte_IRead            | RAFS_Main_PpPFProvidedData_DeLCSSystemState 
+RTE Data Exchange                        | Rte_IRead            | RAFS_Main_PpPAHSresults_DePAHSresults    
+LCS                                      | Rte_IStatus          | RAFS_Main_PpPFProvidedData_DeLCSAPHState 
+RTE Data Exchange                        | Rte_IWriteRef        | RAFS_Main_PpAFSLightOut_DePduGrp_MXB_01  
+RTE Data Exchange                        | Rte_IsUpdated        | CtApLight_PpDiagLightRead_DeHeadlamp_adjustment_left_0x0A7E 
+Diagnostic, Global                       | Rte_Read             | CtApLight_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+UDS Diagnostic, Stellglied Return        | Rte_Send             | CtApLight_PpDiagLightWrite_DeWarning_lamp_for_adaptive_light_test_0x81B1 
+LCS                                      | Rte_IRead            | RAFS_Main_PpPFProvidedData_DeLCSAPHState 
+UDS Diagnostic, Stellglied Return        | Rte_Send             | CtApLight_PpDiagLightWrite_DeHeadlamp_right_low_beam_segment_control_test_0x81B0 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApLight_PpDiagLightRead_DeProductionmode_0x04FE 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApLight_PpDiagLightRead_DeHeadlamp_left_low_beam_segment_control_0x0B7E 
+RTE Data Exchange                        | Rte_IRead            | RAFS_Main_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+UDS Diagnostic, Stellglied Call          | Rte_Receive          | CtApLight_PpDiagLightRead_DeMain_beam_activation_0x02D0 
+RTE Data Exchange                        | Rte_IStatus          | RAFS_Main_PpZDML_DeZDMLAHS               
+RTE Data Exchange                        | Rte_IRead            | RAFS_Main_PpOBFLightOutObjects_DeObjectListOBFLightOut 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApLight_PpDiagLightRead_DeHeadlamp_left_high_beam_segment_control_0x0B7C 
+HW Variant Interface                     | Rte_IRead            | RAFS_Main_PpPFProvidedData_DeVARHWVariant 
+RTE Data Exchange                        | Rte_IWriteRef        | RAFS_Main_PpFoDReadyToRun_Light_DeFoDReadyToRun_MXB 
+RTE Data Exchange                        | Rte_Receive          | CtApLight_PpEML_DeEML                    
+RTE Data Exchange                        | Rte_Write            | CtApLight_PpDiagLightWrite_DeHeadlamp_left_high_beam_segment_control_0x0B7C 
+RTE Data Exchange                        | Rte_IWriteRef        | RAFS_Main_PpAFSKameraFDD_DeAFSKameraFDD  
+RTE Data Exchange                        | Rte_IRead            | RAFS_Main_PpCalibFailMV_DeMXBCalibrationStatusMV 
+Diagnostic, Coding                       | Rte_IsUpdated        | CtApLight_PpDiagCoding_DeCoding          
+RTE Data Exchange                        | Rte_IStatus          | RAFS_Main_PpRGLanes_DeLanes              
+IF-Set Version                           | Rte_IStatus          | RAFS_Main_PpPFProvidedData_DeIFSETVersion 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApLight_PpDiagLightRead_DeCurvelight_during_standstill_0x0BDF 
+UDS Diagnostic, Stellglied Return        | Rte_Send             | CtApLight_PpDiagLightWrite_DeHeadlamp_left_high_beam_segment_control_test_0x81AD 
+Persistency, Data read                   | Rte_Read             | CtApLight_PpPdLightRead_DeNVMemmoryData_Critical 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApLight_PpDiagLightRead_DeMatrix_headlamp_steering_angle_control_0x0BE0 
+UDS Diagnostic, Routine Call             | Rte_Receive          | CtApLight_PpDiagLightRead_DeOffset_calculation_matrix_headlamp_0x0264 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 144

@@ -1,0 +1,8 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+RTE Data Exchange                        | Rte_Write            | CtApACFObserver_PpACFOBS2ACFSMS_DeACFObsSMResult 
+Time Service, Timestamp                  | Rte_Call             | CtApACFObserver_PpPFServer_TS_GetZgtTimestamp 
+RTE Data Exchange                        | Rte_Write            | CtApACFObserver_PpACFOBS2ACF_DeACFObsACF 
+SWC Version Info                         | Rte_Call             | CtApACFObserver_PpPFServer_MW_SetSwcInfo 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 4

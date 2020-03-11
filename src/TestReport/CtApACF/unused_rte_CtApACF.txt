@@ -1,0 +1,88 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpFRUSout_DePduGrp_APS2_03    
+RTE Data Exchange                        | Rte_Read             | CtApACF_PpDiagCoding_DePermitCodingPersistence 
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpFRParkControlout_DePduGrp_ZFAS_01 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpFRParkControlout_DeTraceData 
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpFRParkControlout_DeTraceData 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApACF_PpDiagACFRead_DeEmergency_assist_start_hazard_warning_light_0x5559 
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpFRParkControlout_DeFRParkControlout 
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpFRParkControlout_DePduGrp_PLA2_01 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpSwapACF_DeSWAPActivationACF 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpFRParkControlout_DePduGrp_IPA_01 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpFRUSout_DePduGrp_APS2_02    
+LCS                                      | Rte_IRead            | RACFCyclic_PpPFProvidedData_DeLCSSRHState 
+IF-Set Version                           | Rte_IRead            | RACFCyclic_PpPFProvidedData_DeIFSETVersion 
+Time Service, Remaining Time Budget      | Rte_Call             | CtApACF_PpPFServer_TS_GetRemainingTimeBudget 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpFRParkControlout_DePduGrp_IPA_02 
+LCS                                      | Rte_IRead            | RACFCyclic_PpPFProvidedData_DeLCSAPHState 
+LCS                                      | Rte_IStatus          | RACFCyclic_PpPFProvidedData_DeLCSMVHState 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApACF_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpRGLVZE_DeTraceData          
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpFRUSout_DePduGrp_APS2_01    
+Time Service, AGT                        | Rte_Call             | CtApACF_PpPFServer_TS_GetAgtTimestamp    
+LCS                                      | Rte_IStatus          | RACFCyclic_PpPFProvidedData_DeLCSSystemState 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpFRParkControlout_DeFRParkControlout 
+Time Service, Convert ZGT                | Rte_Call             | CtApACF_PpPFServer_TS_ConvertZgt2Agt     
+Diagnostic, DTC clear                    | Rte_Receive          | CtApACF_PpDiagGlobalRead_DeFSPCleared    
+IF-Set Version                           | Rte_IStatus          | RACFCyclic_PpPFProvidedData_DeIFSETVersion 
+Diagnostic, Global                       | Rte_Read             | CtApACF_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpParkMAStatus_DeLaufzeitModusPACSTP 
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpFRUSout_DePduGrp_APS2_02    
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpPFProvidedData_DeTotalSysRestartCnt 
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpRGLVZE_DePduGrp_BVTS_xx     
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpFRUSout_DePduGrp_APS2_03    
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApACF_PpDiagACFRead_DeEmergency_assist_start_hazard_warning_light_0x5559 
+LCS                                      | Rte_IStatus          | RACFCyclic_PpPFProvidedData_DeLCSAPHState 
+LCS                                      | Rte_IStatus          | RACFCyclic_PpPFProvidedData_DeLCSSSHState 
+LCS                                      | Rte_IStatus          | RACFCyclic_PpPFProvidedData_DeLCSSRHState 
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpRGLVZE_DeBVTS               
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpPFHwMeasurements_DeTHS      
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpFRUSout_DeTraceData         
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpFRParkControlout_DePduGrp_Parkhilfe2_01 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApACF_PpDiagCoding_DePermitCodingPersistence 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpFRUSout_DePduGrp_APS2_01    
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpFRParkControlout_DePduGrp_ZFAS_01 
+BAP                                      | Rte_IsUpdated        | CtApACF_Bap_Allowed_DeBapAllowed         
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpFRParkControlout_DePduGrp_PLA2_01 
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpSwapACF_DeSWAPActivationACF 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpRGLVZE_DeBVTS               
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpPFHwMeasurements_DeTHS      
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpRGLVZE_DePduGrp_VZE_05      
+HW Variant Interface                     | Rte_IRead            | RACFCyclic_PpPFProvidedData_DeVARHWVariant 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpFRParkControlout_DePduGrp_Parkhilfe2_01 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpRGLVZE_DePduGrp_VZE_01      
+Time Service, Convert AGT                | Rte_Call             | CtApACF_PpPFServer_TS_ConvertAgt2Zgt     
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpRGLVZE_DePduGrp_VZE_05      
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpFRUSout_DePduGrp_APS2_Master 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpFRUSout_DePduGrp_APS2_Master 
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpFRParkControlout_DePduGrp_IPA_02 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpParkMAStatus_DeLaufzeitModusPACSTP 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpFRParkControlout_DePduGrp_PLA2_02 
+HW Variant Interface                     | Rte_IStatus          | RACFCyclic_PpPFProvidedData_DeVARHWVariant 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpParkMAStatus_DeLaufzeitAnforderungPACPPR 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApACF_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpFRParkControlout_DePduGrp_PLA2_Status_02 
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpFRParkControlout_DePduGrp_PLA2_Status_02 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpRGLVZE_DePduGrp_VZE_03      
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpPFProvidedData_DeTotalSysRestartCnt 
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpFRParkControlout_DePduGrp_IPA_01 
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpFRParkControlout_DePduGrp_Parkhilfe2_04 
+LCS                                      | Rte_IRead            | RACFCyclic_PpPFProvidedData_DeLCSMVHState 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpRGLVZE_DeTraceData          
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpRGLVZE_DePduGrp_VZE_03      
+LCS                                      | Rte_IRead            | RACFCyclic_PpPFProvidedData_DeLCSSystemState 
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpRGLVZE_DePduGrp_VZE_01      
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpFRParkControlout_DePduGrp_PLA2_02 
+LCS                                      | Rte_IRead            | RACFCyclic_PpPFProvidedData_DeLCSSSHState 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpFRUSout_DeTraceData         
+Diagnostic, Global                       | Rte_Read             | CtApACF_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpRGLVZE_DePduGrp_BVTS_xx     
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpParkMAStatus_DeLaufzeitAnforderungPACPPR 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpRGLVZE_DePduGrp_VZE_02      
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpRGLVZE_DePduGrp_VZE_02      
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpFRParkControlout_DePduGrp_Parkhilfe2_04 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 84

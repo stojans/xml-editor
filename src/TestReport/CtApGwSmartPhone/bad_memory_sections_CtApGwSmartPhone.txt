@@ -1,0 +1,9 @@
+#******************************************************************************
+# Filename: CtApGwSmartPhone
+# Date: 2019-09-10 17:16
+# SWC tested: CtApGwSmartPhone\branches\CL3_REL_320_3XX 
+# SWC Version:  SWC-0350-I3.1.1-P50.0_20190313230239-S51.2_20190717063506
+#******************************************************************************
+#NONE
+#List of unmapped symbols below:
+#NONE

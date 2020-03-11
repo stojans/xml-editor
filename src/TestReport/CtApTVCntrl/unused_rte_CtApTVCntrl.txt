@@ -1,0 +1,89 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+BAP                                      | Rte_Result           | CtApTVCntrl_BapRequestPropFSG_VPS_Display_StatusAck_BAP_RequestByteSequence 
+RTE Data Exchange                        | Rte_IRead            | RTVCntrl_PpFRParkControlout_DePduGrp_PLA2_01 
+LCS                                      | Rte_IStatus          | RTVCntrl_PpPFProvidedData_DeLCSSRHState  
+Diagnostic, Global                       | Rte_Read             | CtApTVCntrl_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+Time Service, Remaining Time Budget      | Rte_Call             | CtApTVCntrl_PpPFServer_TS_GetRemainingTimeBudget 
+RTE Data Exchange                        | Rte_IStatus          | RTVCntrl_PpFRParkControlout_DePduGrp_PLA2_Status_02 
+BAP                                      | Rte_Call             | CtApTVCntrl_BapRequestPropFSG_VPS_3D_BirdView_Config_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Call             | CtApTVCntrl_BapPropInit_VPS_HeartBeat_BAP_InitSendBufferUInt8 
+UDS Diagnostic, Stellglied Call          | Rte_Receive          | CtApTVCntrl_PpDiagTVCntrlRead_DeSwinging_Logo_Test_0x0998 
+LCS                                      | Rte_IRead            | RTVCntrl_PpPFProvidedData_DeLCSSSHState  
+RTE Data Exchange                        | Rte_IStatus          | RTVCntrl_PpPFHwMeasurements_DeTHS        
+Time Service, Convert AGT                | Rte_Call             | CtApTVCntrl_PpPFServer_TS_ConvertAgt2Zgt 
+Persistency, Data write                  | Rte_Write            | CtApTVCntrl_PpPdTVCntrlWrite_DeApplicationParamsTVCNTRLRW_Normal 
+Persistency, Data read                   | Rte_IsUpdated        | CtApTVCntrl_PpPdTVCntrlRead_DeFreezeFrameTvControl_Critical 
+RTE Data Exchange                        | Rte_IStatus          | RTVCntrl_PpFRParkControlout_DeTraceData  
+BAP                                      | Rte_Call             | CtApTVCntrl_BapRequestPropFSG_VPS_FSG_Setup2_Status_BAP_RequestByteSequence 
+LCS                                      | Rte_IStatus          | RTVCntrl_PpPFProvidedData_DeLCSSystemState 
+RTE Data Exchange                        | Rte_IStatus          | RTVCntrl_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+RTE Data Exchange                        | Rte_IRead            | RTVCntrl_PpFRParkControlout_DePduGrp_Parkhilfe2_01 
+BAP                                      | Rte_Call             | CtApTVCntrl_BapRequestPropFSG_VPS_DefaultView_Status_BAP_RequestUInt8 
+Persistency, Data read                   | Rte_IsUpdated        | CtApTVCntrl_PpPdTVCntrlRead_DeApplicationParamsTVCNTRLRW_Normal 
+Persistency, Data read                   | Rte_IsUpdated        | CtApTVCntrl_PpPdTVCntrlRead_DeFspeTvControl_Critical 
+HW Variant Interface                     | Rte_IStatus          | RTVCntrl_PpPFProvidedData_DeVARHWVariant 
+RTE Data Exchange                        | Rte_IStatus          | RTVCntrl_PpPFProvidedData_DeTotalSysRestartCnt 
+BAP                                      | Rte_Call             | CtApTVCntrl_BapGet_VPS_State             
+BAP                                      | Rte_Call             | CtApTVCntrl_BapRequestPropFSG_VPS_OPS_Overlay_Status_BAP_RequestByteSequence 
+UDS Diagnostic, Stellglied Return        | Rte_Send             | CtApTVCntrl_PpDiagTVCntrlWrite_DeSwinging_Logo_Test_0x0998 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVCntrl_PpDiagCoding_DePermitCodingPersistence 
+BAP                                      | Rte_IsUpdated        | CtApTVCntrl_Bap_Allowed_DeBapAllowed     
+BAP                                      | Rte_Call             | CtApTVCntrl_BapRequestPropFSG_VPS_ExtCamera_ManActivation_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Call             | CtApTVCntrl_BapRequestPropFSG_VPS_DefaultModeSV_Status_BAP_RequestByteSequence 
+RTE Data Exchange                        | Rte_Receive          | CtApTVCntrl_PpTVMasterTVImageCntrl_DeTVMasterCameraExtrinsics 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApTVCntrl_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+RTE Data Exchange                        | Rte_IRead            | RTVCntrl_PpFRParkControlout_DeTraceData  
+RTE Data Exchange                        | Rte_IStatus          | RTVCntrl_PpFRParkControlout_DePduGrp_Parkhilfe2_04 
+Persistency, Data read                   | Rte_Read             | CtApTVCntrl_PpPdTVCntrlRead_DeApplicationParamsTVCNTRLRW_Normal 
+LCS                                      | Rte_IRead            | RTVCntrl_PpPFProvidedData_DeLCSSystemState 
+BAP                                      | Rte_Call             | CtApTVCntrl_BapRequestPropFSG_VPS_DefaultModeBV_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Call             | CtApTVCntrl_BapRequestPropFSG_VPS_FollowUp_Time_Status_BAP_RequestUInt8 
+LCS                                      | Rte_IStatus          | RTVCntrl_PpPFProvidedData_DeLCSMVHState  
+BAP                                      | Rte_Call             | CtApTVCntrl_BapRequestPropFSG_VPS_Display_StatusAck_BAP_RequestByteSequence 
+RTE Data Exchange                        | Rte_IRead            | RTVCntrl_PpFRParkControlout_DePduGrp_ZFAS_01 
+RTE Data Exchange                        | Rte_IStatus          | RTVCntrl_PpFRParkControlout_DePduGrp_PLA2_02 
+Time Service, AGT                        | Rte_Call             | CtApTVCntrl_PpPFServer_TS_GetAgtTimestamp 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApTVCntrl_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+RTE Data Exchange                        | Rte_IRead            | RTVCntrl_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+RTE Data Exchange                        | Rte_IRead            | RTVCntrl_PpPFHwMeasurements_DeTHS        
+Persistency, DataSet                     | Rte_IStatus          | RTVCntrl_PpDsTVCntrlDataSet_DeApplicationParamsTVCNTRLDS_Dmy 
+LCS                                      | Rte_IRead            | RTVCntrl_PpPFProvidedData_DeLCSMVHState  
+Persistency, Data read                   | Rte_Read             | CtApTVCntrl_PpPdTVCntrlRead_DeFreezeFrameTvControl_Critical 
+RTE Data Exchange                        | Rte_IRead            | RTVCntrl_PpFRParkControlout_DePduGrp_IPA_02 
+RTE Data Exchange                        | Rte_IRead            | RTVCntrl_PpFRParkControlout_DePduGrp_Parkhilfe2_04 
+RTE Data Exchange                        | Rte_IRead            | RTVCntrl_PpPFProvidedData_DeTotalSysRestartCnt 
+LCS                                      | Rte_IStatus          | RTVCntrl_PpPFProvidedData_DeLCSAPHState  
+BAP                                      | Rte_Call             | CtApTVCntrl_BapRequestPropFSG_VPS_ExtCamera_Config_Status_BAP_RequestByteSequence 
+Diagnostic, Global                       | Rte_Read             | CtApTVCntrl_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+BAP                                      | Rte_Call             | CtApTVCntrl_BapRequestPropFSG_VPS_DefaultModeFV_Status_BAP_RequestByteSequence 
+RTE Data Exchange                        | Rte_IStatus          | RTVCntrl_PpFRParkControlout_DePduGrp_ZFAS_01 
+RTE Data Exchange                        | Rte_IWriteRef        | RTVCntrl_PpFRTVCntrlOut_DeTraceData      
+RTE Data Exchange                        | Rte_IRead            | RTVCntrl_PpPFHwMeasurements_DeVBAT_MAIN  
+Diagnostic, Global                       | Rte_IsUpdated        | CtApTVCntrl_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+RTE Data Exchange                        | Rte_Read             | CtApTVCntrl_PpDiagCoding_DePermitCodingPersistence 
+Persistency, DataSet                     | Rte_IRead            | RTVCntrl_PpDsTVCntrlDataSet_DeApplicationParamsTVCNTRLDS_Dmy 
+Time Service, Convert ZGT                | Rte_Call             | CtApTVCntrl_PpPFServer_TS_ConvertZgt2Agt 
+BAP                                      | Rte_Call             | CtApTVCntrl_BapPropInit_VPS_BAP_Config_BAP_InitSendBufferByteSequence 
+LCS                                      | Rte_IRead            | RTVCntrl_PpPFProvidedData_DeLCSSRHState  
+RTE Data Exchange                        | Rte_IWrite           | RTVCntrl_PpFRTVCntrlOut_DeTraceData      
+RTE Data Exchange                        | Rte_IRead            | RTVCntrl_PpFRParkControlout_DePduGrp_IPA_01 
+Diagnostic, Coding                       | Rte_IsUpdated        | CtApTVCntrl_PpDiagCoding_DeCoding        
+Persistency, Data write                  | Rte_Write            | CtApTVCntrl_PpPdTVCntrlWrite_DeFreezeFrameTvControl_Critical 
+BAP                                      | Rte_Call             | CtApTVCntrl_BapRequestPropFSG_VPS_DefaultModeRV_Status_BAP_RequestByteSequence 
+RTE Data Exchange                        | Rte_IStatus          | RTVCntrl_PpFRParkControlout_DePduGrp_IPA_02 
+RTE Data Exchange                        | Rte_IStatus          | RTVCntrl_PpPFHwMeasurements_DeVBAT_MAIN  
+RTE Data Exchange                        | Rte_IRead            | RTVCntrl_PpFRParkControlout_DePduGrp_PLA2_Status_02 
+RTE Data Exchange                        | Rte_IRead            | RTVCntrl_PpFRParkControlout_DePduGrp_PLA2_02 
+LCS                                      | Rte_IRead            | RTVCntrl_PpPFProvidedData_DeLCSAPHState  
+LCS                                      | Rte_IStatus          | RTVCntrl_PpPFProvidedData_DeLCSSSHState  
+IF-Set Version                           | Rte_IStatus          | RTVCntrl_PpPFProvidedData_DeIFSETVersion 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVCntrl_PpDiagTVCntrlRead_DeProductionmode_0x04FE 
+HW Variant Interface                     | Rte_IRead            | RTVCntrl_PpPFProvidedData_DeVARHWVariant 
+IF-Set Version                           | Rte_IRead            | RTVCntrl_PpPFProvidedData_DeIFSETVersion 
+BAP                                      | Rte_Call             | CtApTVCntrl_BapRequestPropFSG_VPS_3D_BirdView_Status_BAP_RequestByteSequence 
+RTE Data Exchange                        | Rte_IStatus          | RTVCntrl_PpFRParkControlout_DePduGrp_IPA_01 
+RTE Data Exchange                        | Rte_IStatus          | RTVCntrl_PpFRParkControlout_DePduGrp_Parkhilfe2_01 
+RTE Data Exchange                        | Rte_IStatus          | RTVCntrl_PpFRParkControlout_DePduGrp_PLA2_01 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 85

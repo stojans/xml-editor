@@ -1,0 +1,62 @@
+Information from parsed log-file
+
+Compiler
+================
+Found:
+
+
+Unknown:
+
+
+Not used Mandatory:
+-pthread
+-ftree-vectorize
+-fstack-usage
+-Wall
+-Wextra
+-mfpu=neon
+-mcpu=cortex-a15
+-fmessage-length=0
+-mfloat-abi=hard
+
+Used Optional:
+
+
+Ignored:
+
+
+
+
+Linker
+================
+Found:
+
+
+Unknown:
+
+
+Not used Mandatory:
+-Wl,--end-group
+-Wl,--start-group
+-lpthread
+-lrt
+
+Used Optional:
+
+
+Ignored:
+
+
+
+
+Arguments
+================
+Flag arguments:
+
+
+Function arguments
+
+
+
+SWC-Specific definitions
+None

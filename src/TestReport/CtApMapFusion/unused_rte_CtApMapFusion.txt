@@ -1,0 +1,50 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+LCS                                      | Rte_IRead            | RMBFmain_PpPFProvidedData_DeLCSMVHState  
+Diagnostic, Global                       | Rte_Read             | CtApMapFusion_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+RTE Data Exchange                        | Rte_IRead            | RMBFmain_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+RTE Data Exchange                        | Rte_IRead            | RMBFmain_PpPFProvidedData_DeTotalSysRestartCnt 
+IF-Set Version                           | Rte_IStatus          | RMBFmain_PpPFProvidedData_DeIFSETVersion 
+RTE Data Exchange                        | Rte_IWrite           | RMBFmain_PpMBFACFFences_DeObstacleFences 
+LCS                                      | Rte_IStatus          | RMBFmain_PpPFProvidedData_DeLCSSSHState  
+RTE Data Exchange                        | Rte_IWriteRef        | RMBFmain_PpMBFParkFences_DeUnconfidentObstacleFences 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApMapFusion_PpDiagMapFusionRead_DeMap_Fusion_Reset_0x0550 
+LCS                                      | Rte_IRead            | RMBFmain_PpPFProvidedData_DeLCSSRHState  
+RTE Data Exchange                        | Rte_IRead            | RMBFmain_PpPFHwMeasurements_DeTHS        
+LCS                                      | Rte_IRead            | RMBFmain_PpPFProvidedData_DeLCSSSHState  
+LCS                                      | Rte_IStatus          | RMBFmain_PpPFProvidedData_DeLCSSRHState  
+LCS                                      | Rte_IRead            | RMBFmain_PpPFProvidedData_DeLCSSystemState 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApMapFusion_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+RTE Data Exchange                        | Rte_IWriteRef        | RMBFmain_PpMBFACFFences_DeObstacleFences 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApMapFusion_PpDiagMapFusionRead_DeMap_Fusion_Reset_0x0550 
+RTE Data Exchange                        | Rte_IStatus          | RMBFmain_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+LCS                                      | Rte_IStatus          | RMBFmain_PpPFProvidedData_DeLCSAPHState  
+Time Service, AGT                        | Rte_Call             | CtApMapFusion_PpPFServer_TS_GetAgtTimestamp 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApMapFusion_PpDiagMapFusionRead_DeMap_Fusion_Map_Check_0x0551 
+Diagnostic, Global                       | Rte_Read             | CtApMapFusion_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+HW Variant Interface                     | Rte_IStatus          | RMBFmain_PpPFProvidedData_DeVARHWVariant 
+LCS                                      | Rte_IRead            | RMBFmain_PpPFProvidedData_DeLCSAPHState  
+Diagnostic, Global                       | Rte_Read             | CtApMapFusion_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApMapFusion_PpDiagMapFusionRead_DeMap_Fusion_Disable_MapFusion_0x0552 
+Persistency, Data write                  | Rte_Write            | CtApMapFusion_PpPdMapFusionWrite_DeMFPersistentyData_Normal 
+Persistency, Data read                   | Rte_Read             | CtApMapFusion_PpPdMapFusionRead_DeMFPersistentyData_Normal 
+Persistency, Data read                   | Rte_IsUpdated        | CtApMapFusion_PpPdMapFusionRead_DeMFPersistentyData_Normal 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApMapFusion_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+LCS                                      | Rte_IStatus          | RMBFmain_PpPFProvidedData_DeLCSMVHState  
+RTE Data Exchange                        | Rte_IStatus          | RMBFmain_PpPFHwMeasurements_DeTHS        
+Time Service, Convert AGT                | Rte_Call             | CtApMapFusion_PpPFServer_TS_ConvertAgt2Zgt 
+RTE Data Exchange                        | Rte_Read             | CtApMapFusion_PpDiagCoding_DePermitCodingPersistence 
+LCS                                      | Rte_IStatus          | RMBFmain_PpPFProvidedData_DeLCSSystemState 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApMapFusion_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+IF-Set Version                           | Rte_IRead            | RMBFmain_PpPFProvidedData_DeIFSETVersion 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApMapFusion_PpDiagCoding_DePermitCodingPersistence 
+Time Service, Convert ZGT                | Rte_Call             | CtApMapFusion_PpPFServer_TS_ConvertZgt2Agt 
+RTE Data Exchange                        | Rte_IStatus          | RMBFmain_PpPFProvidedData_DeTotalSysRestartCnt 
+RTE Data Exchange                        | Rte_IRead            | RMBFmain_PpPFHwMeasurements_DeVBAT_MAIN  
+RTE Data Exchange                        | Rte_IWrite           | RMBFmain_PpMBFParkFences_DeUnconfidentObstacleFences 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApMapFusion_PpDiagMapFusionRead_DeMap_Fusion_Map_Check_0x0551 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApMapFusion_PpDiagMapFusionRead_DeMap_Fusion_Disable_MapFusion_0x0552 
+HW Variant Interface                     | Rte_IRead            | RMBFmain_PpPFProvidedData_DeVARHWVariant 
+RTE Data Exchange                        | Rte_IStatus          | RMBFmain_PpPFHwMeasurements_DeVBAT_MAIN  
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 46

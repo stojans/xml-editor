@@ -1,0 +1,31 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+RTE Data Exchange                        | Rte_Receive          | CtApMapFusion_PpFencesFR_DeMRRObstacleFencesFL 
+RTE Data Exchange                        | Rte_Receive          | CtApMapFusion_PpFencesTVBV_DeTVBVObstacleFences 
+Time Service, Remaining Time Budget      | Rte_Call             | CtApMapFusion_PpPFServer_TS_GetRemainingTimeBudget 
+RTE Data Exchange                        | Rte_Receive          | CtApMapFusion_PpFencesFR_DeLSFreespaceFences 
+Persistency, DataSet                     | Rte_IRead            | RMBFmain_PpDsMapFusionDataSet_DeSoftwareParams 
+RTE Data Exchange                        | Rte_IWriteRef        | RMBFmain_PpMapFusionTraceData_DeTraceData 
+Diagnostic, DTC clear                    | Rte_Receive          | CtApMapFusion_PpDiagGlobalRead_DeFSPCleared 
+RTE Data Exchange                        | Rte_Receive          | CtApMapFusion_PpFencesMV_DeFencesMV      
+Persistency, DataSet                     | Rte_IStatus          | RMBFmain_PpDsMapFusionDataSet_DeSoftwareParams 
+Diagnostic, Set DTC Event                | Rte_Call             | CtApMapFusion_PpEventHandling_SetEventStatus 
+RTE Data Exchange                        | Rte_Receive          | CtApMapFusion_PpFencesTVBV_DeTVBVFreespaceFences 
+Diagnostic, Coding                       | Rte_Read             | CtApMapFusion_PpDiagCoding_DeCoding      
+RTE Data Exchange                        | Rte_IWriteRef        | RMBFmain_PpMBFParkFences_DeObstacleFences 
+RTE Data Exchange                        | Rte_Receive          | CtApMapFusion_PpFencesFR_DeLRRObstacleFences 
+Diagnostic, Coding                       | Rte_IsUpdated        | CtApMapFusion_PpDiagCoding_DeCoding      
+RTE Data Exchange                        | Rte_Receive          | CtApMapFusion_PpEML_DeEML                
+Time Service, Timestamp                  | Rte_Call             | CtApMapFusion_PpPFServer_TS_GetZgtTimestamp 
+RTE Data Exchange                        | Rte_Receive          | CtApMapFusion_PpFencesUltraSonic_DeUSObstacleFences 
+Diagnostic, Get DTC Event                | Rte_Call             | CtApMapFusion_PpEventHandling_GetEventStatus 
+RTE Data Exchange                        | Rte_IWriteRef        | RMBFmain_PpMBFDMLFences_DeObstacleFences 
+RTE Data Exchange                        | Rte_Receive          | CtApMapFusion_PpFencesUltraSonic_DeUSFreespaceFences 
+SWC Version Info                         | Rte_Call             | CtApMapFusion_PpPFServer_MW_SetSwcInfo   
+RTE Data Exchange                        | Rte_Receive          | CtApMapFusion_PpObjectListMF_DeOBFOutObjectsMF 
+UDS Diagnostic, Messwerte                | Rte_Write            | CtApMapFusion_PpDiagMapFusionWrite_DeMesswerte_MapFusion 
+RTE Data Exchange                        | Rte_Receive          | CtApMapFusion_PpFencesFR_DeMRRObstacleFencesFR 
+RTE Data Exchange                        | Rte_Receive          | CtApMapFusion_PpFencesFR_DeLSObstacleFences 
+RTE Data Exchange                        | Rte_IWriteRef        | RMBFmain_PpMBFTVRenderFences_DeRenderFences 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 27

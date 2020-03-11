@@ -1,0 +1,16 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+RTE Data Exchange                        | Rte_IWrite           | RACFStateMachineSlaveCyclic_PpACFSM_DeACFSM 
+RTE Data Exchange                        | Rte_IWrite           | RACFStateMachineSlaveCyclic_PpACFSMS2ACFOBS_DeACFSMS2ACFOBS 
+RTE Data Exchange                        | Rte_IWrite           | RACFStateMachineSlaveCyclic_PpFRACFStateMachineOut_DePduGrp_STP_03 
+Network, FlexRay Run                     | Rte_IWrite           | RACFStateMachineSlaveCyclic_PpEcuComRequestsACFSMS_DeRequestsFlexRayRun 
+RTE Data Exchange                        | Rte_IWrite           | RACFStateMachineSlaveCyclic_PpFRACFStateMachineOut_DeTraceData 
+SWC Version Info                         | Rte_Call             | CtApACFStateMachineSlave_PpPFServer_MW_SetSwcInfo 
+Time Service, Timestamp                  | Rte_Call             | CtApACFStateMachineSlave_PpPFServer_TS_GetZgtTimestamp 
+Persistency, Data write                  | Rte_Write            | CtApACFStateMachineSlave_PpPdACFStateMachineSlaveWrite_DeAcfSmSlavePersistent_Normal 
+EDR                                      | Rte_Send             | CtApACFStateMachineSlave_PpACFSMEDRPiDriving_DeACFSMEDRPiDriving 
+UDS Diagnostic, Messwerte                | Rte_Write            | CtApACFStateMachineSlave_PpDiagACFStateMachineSlaveWrite_DeMesswerte_ACFStateMachineSlave 
+RTE Data Exchange                        | Rte_Write            | CtApACFStateMachineSlave_PpFRACFStateMachineOut_DeFRACFStateMachineOut 
+RTE Data Exchange                        | Rte_IWrite           | RACFStateMachineSlaveCyclic_PpFRACFStateMachineOut_DePduGrp_FAS_VK_01 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 12

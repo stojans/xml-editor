@@ -1,0 +1,72 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+RTE Data Exchange                        | Rte_IWrite           | RQVAmain_PpFRKASQVAout_DeKAS             
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApKASQVA_PpDiagKASQVARead_DeProductionmode_0x04FE 
+BAP                                      | Rte_Result           | CtApKASQVA_BapPropInit_FTA_HeartBeat_BAP_InitSendBufferUInt8 
+Network, PDU group interface             | Rte_IWrite           | RQVAmain_PpFRKASQVAout_DePduGrp_PCS_Li   
+BAP                                      | Rte_Call             | CtApKASQVA_BapRequestPropFSG_FTA_FSG_OperationState_Status_BAP_RequestUInt8 
+Persistency, Data read                   | Rte_Read             | CtApKASQVA_PpPdKASQVARead_DeCtApKasqvaKasPersonal_Normal 
+BAP                                      | Rte_Result           | CtApKASQVA_BapRequestError_FTA_FTA_BAP_RequestError 
+BAP                                      | Rte_Call             | CtApKASQVA_BapRequestPropFSG_FTA_FTA_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Result           | CtApKASQVA_BapRequestPropFSG_FTA_FTA_SensorData_Status_BAP_RequestByteSequence 
+Network, PDU group interface             | Rte_IWrite           | RQVAmain_PpFRKASQVAout_DePduGrp_KAS_01   
+BAP                                      | Rte_Call             | CtApKASQVA_BapPropInit_FTA_FSG_Control_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Result           | CtApKASQVA_BapPropInit_FTA_FTA_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Call             | CtApKASQVA_BapPropInit_FTA_FSG_Setup_BAP_InitSendBufferByteSequence 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApKASQVA_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+BAP                                      | Rte_Result           | CtApKASQVA_BapRequestPropFSG_FTA_FTA_Status_BAP_RequestByteSequence 
+RTE Data Exchange                        | Rte_IStatus          | RQVAmain_PpPerceptionAvailabilityKASQVA_DePerceptionAvailabilityKASQVA 
+BAP                                      | Rte_Result           | CtApKASQVA_BapPropInit_FTA_FSG_Control_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_IStatus          | RQVAmain_PpFASProfileMasterKAS_DeFASProfileMasterKAS 
+Diagnostic, Set DTC Event                | Rte_Call             | CtApKASQVA_PpEventHandling_SetEventStatus 
+RTE Data Exchange                        | Rte_IStatus          | RQVAmain_PpFRKASQVAin_DeFRKASQVAin       
+BAP                                      | Rte_Call             | CtApKASQVA_BapRequestPropFSG_FTA_FTA_SensorData_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Call             | CtApKASQVA_BapRequestError_FTA_FTA_BAP_RequestError 
+SWC Version Info                         | Rte_Call             | CtApKASQVA_PpPFServer_MW_SetSwcInfo      
+Persistency, DataSet                     | Rte_IRead            | RQVAmain_PpDsKASQVADataSet_DeCtApKasqvaDictionary 
+BAP                                      | Rte_Read             | CtApKASQVA_Bap_Allowed_DeBapAllowed      
+RTE Data Exchange                        | Rte_IWrite           | RQVAmain_PpFRKASQVAout_DePCSRe           
+BAP                                      | Rte_Result           | CtApKASQVA_BapPropInit_FTA_BAP_Config_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_IStatus          | RQVAmain_PpParkKAS_DeParkKAS             
+Time Service, Timestamp                  | Rte_Call             | CtApKASQVA_PpPFServer_TS_GetZgtTimestamp 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApKASQVA_PpDiagKASQVARead_DeKA_Adaption_KA_0x0519 
+RTE Data Exchange                        | Rte_IRead            | RQVAmain_PpObjectListKASQVA_DeObjArrayKASQVA 
+RTE Data Exchange                        | Rte_IRead            | RQVAmain_PpFASProfileMasterKAS_DeFASProfileMasterKAS 
+BAP                                      | Rte_Result           | CtApKASQVA_BapPropInit_FTA_FSG_OperationState_BAP_InitSendBufferUInt8 
+RTE Data Exchange                        | Rte_IRead            | RQVAmain_PpParkKAS_DeParkKAS             
+RTE Data Exchange                        | Rte_IWrite           | RQVAmain_PpKASPark_DeKASPark             
+RTE Data Exchange                        | Rte_IWrite           | RQVAmain_PpKASAsm_DeKASAsm               
+BAP                                      | Rte_Call             | CtApKASQVA_BapPropInit_FTA_FSG_OperationState_BAP_InitSendBufferUInt8 
+RTE Data Exchange                        | Rte_Receive          | CtApKASQVA_PpEML_DeEML                   
+Network, PDU group interface             | Rte_IWrite           | RQVAmain_PpFRKASQVAout_DePduGrp_PCS_Re   
+RTE Data Exchange                        | Rte_IWrite           | RQVAmain_PpFRKASQVAout_DePCSLi           
+RTE Data Exchange                        | Rte_IRead            | RQVAmain_PpFRKASQVAin_DeFRKASQVAin       
+Persistency, Data write                  | Rte_Write            | CtApKASQVA_PpPdKASQVAWrite_DeCtApKasqvaKasPersonal_Normal 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApKASQVA_PpDiagKASQVARead_DeProductionmode_0x04FE 
+RTE Data Exchange                        | Rte_IStatus          | RQVAmain_PpIPAState_DeIPAState           
+BAP                                      | Rte_Call             | CtApKASQVA_BapPropInit_FTA_FunctionList_BAP_InitSendBufferByteSequence 
+Diagnostic, Global                       | Rte_Read             | CtApKASQVA_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+BAP                                      | Rte_Call             | CtApKASQVA_BapPropInit_FTA_BAP_Config_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_IRead            | RQVAmain_PpPerceptionAvailabilityKASQVA_DePerceptionAvailabilityKASQVA 
+BAP                                      | Rte_Result           | CtApKASQVA_BapPropInit_FTA_FunctionList_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Result           | CtApKASQVA_BapPropInit_FTA_FTA_SensorData_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_IWrite           | RQVAmain_PpKASStatusProfileMaster_DeKASStatusProfileMaster 
+Persistency, DataSet                     | Rte_IStatus          | RQVAmain_PpDsKASQVADataSet_DeCtApKasqvaDictionary 
+BAP                                      | Rte_Call             | CtApKASQVA_BapPropInit_FTA_HeartBeat_BAP_InitSendBufferUInt8 
+BAP                                      | Rte_Call             | CtApKASQVA_BapPropInit_FTA_FTA_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApKASQVA_PpDiagKASQVARead_DeKA_Adaption_PCS_0x051A 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApKASQVA_PpDiagKASQVARead_DeKA_Adaption_KA_0x0519 
+BAP                                      | Rte_Result           | CtApKASQVA_BapRequestPropFSG_FTA_FSG_OperationState_Status_BAP_RequestUInt8 
+UDS Diagnostic, Messwerte                | Rte_IWrite           | RQVAmain_PpDiagKASQVAWrite_DeMesswerte_KASQVA 
+Diagnostic, Coding                       | Rte_Read             | CtApKASQVA_PpDiagCoding_DeCoding         
+BAP                                      | Rte_Result           | CtApKASQVA_BapPropInit_FTA_FSG_Setup_BAP_InitSendBufferByteSequence 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApKASQVA_PpDiagKASQVARead_DeKA_Adaption_PCS_0x051A 
+Time Service, Remaining Time Budget      | Rte_Call             | CtApKASQVA_PpPFServer_TS_GetRemainingTimeBudget 
+RTE Data Exchange                        | Rte_IWrite           | RQVAmain_PpFRKASQVAout_DeTraceData       
+BAP                                      | Rte_Call             | CtApKASQVA_BapPropInit_FTA_FTA_SensorData_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_IStatus          | RQVAmain_PpObjectListKASQVA_DeObjArrayKASQVA 
+RTE Data Exchange                        | Rte_IRead            | RQVAmain_PpIPAState_DeIPAState           
+Diagnostic, Get DTC Event                | Rte_Call             | CtApKASQVA_PpEventHandling_GetEventStatus 
+BAP                                      | Rte_Write            | CtApKASQVA_Bap_Freigabe_FTA_BapFreigabe  
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 68

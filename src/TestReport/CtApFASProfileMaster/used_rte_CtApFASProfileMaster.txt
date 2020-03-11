@@ -1,0 +1,137 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapPropInit_FAS_Profiles_FSG_Control_BAP_InitSendBufferUInt8 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapPropInit_FAS_Profiles_FSG_Setup_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapPropInit_DAF_Interface_FSG_Control_BAP_InitSendBufferUInt8 
+RTE Data Exchange                        | Rte_IRead            | RFASProfileMasterCyclic_PpKASStatusProfileMaster_DeKASStatusProfileMaster 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapRequestPropFSG_DAF_Interface_FSG_Control_Status_BAP_RequestUInt8 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_Time_for_retry_profile_status_0x0534 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_Status_Distance_Warner_High_after_Kl_15_on_0x0546 
+RTE Data Exchange                        | Rte_IRead            | RFASProfileMasterCyclic_PpFRACFStateMachineOut_DeFRACFStateMachineOut 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_Status_Nightvision_after_Kl_15_on_0x054A 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapRequestPropFSG_FAS_Profiles_SetupProfile_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapPropInit_DAF_Interface_BAP_Config_BAP_InitSendBufferByteSequence 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_Distance_Warner_High_activation_clearing_0x0539 
+Time Service, Timestamp                  | Rte_Call             | CtApFASProfileMaster_PpPFServer_TS_GetZgtTimestamp 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapPropInit_FAS_Profiles_FSG_OperationState_BAP_InitSendBufferUInt8 
+RTE Data Exchange                        | Rte_IWrite           | RFASProfileMasterCyclic_PpFASProfileMasterACF_DeFASProfileMasterACF 
+Persistency, Data write                  | Rte_Write            | CtApFASProfileMaster_PpPdFASProfileMasterWrite_DeFASProfileMasterParameters_Critical 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapRequestFSG_DAF_Interface_DelPilotSysStateList_Processing_BAP_RequestUInt8 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapRequestPropFSG_DAF_Interface_FSG_OperationState_Status_BAP_RequestUInt8 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapPropInit_DAF_Interface_DataTransmissionInfo_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapPropInit_DAF_Interface_FunctionList_BAP_InitSendBufferByteSequence 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_Tiredness_Warning_activation_clearing_0x053A 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapRequestError_FAS_Profiles_Display_BAP_RequestError 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapRequestPropFSG_DAF_Interface_FSG_OperationState_Status_BAP_RequestUInt8 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapRequestPropFSG_FAS_Profiles_SetupProfile_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapPropInit_DAF_Interface_FSG_Control_BAP_InitSendBufferUInt8 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_Distance_Warner_Low_activation_clearing_0x0540 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapPropInit_FAS_Profiles_FunctionList_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapRequestFSG_DAF_Interface_DelPilotSysStateList_Result_BAP_RequestUInt8 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_Status_Active_Lane_Daparture_Warning_after_Kl_15_on_0x0544 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_Number_of_minimum_profile_members_0x0532 
+BAP                                      | Rte_Write            | CtApFASProfileMaster_Bap_Freigabe_FAS_Profiles_BapFreigabe 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapRequestPropFSG_DAF_Interface_FSG_Control_Status_BAP_RequestUInt8 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_Status_Crossing_Assist_after_Kl_15_on_0x0543 
+RTE Data Exchange                        | Rte_IRead            | RFASProfileMasterCyclic_PpFRFASProfileMasterIn_DeFRFASProfileMasterIn 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapRequestFSG_DAF_Interface_DataTransmission_Result_BAP_RequestByteSequence 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapRequestError_DAF_Interface_DataTransmission_BAP_RequestError 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_Status_PreSense_after_Kl_15_on_0x054C 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_Nightvision_activation_clearing_0x053D 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapRequestPropFSG_FAS_Profiles_Messages_Status_BAP_RequestUInt8 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapPropInit_DAF_Interface_FSG_Setup_BAP_InitSendBufferByteSequence 
+UDS Diagnostic, Messwerte                | Rte_IWrite           | RFASProfileMasterCyclic_PpDiagFASProfileMasterWrite_DeMesswerte_FASProfileMaster 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_Crossing_Assist_activation_clearing_0x0536 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapRequestFSG_FAS_Profiles_FAS_ProfileConfiguration_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapPropInit_FAS_Profiles_FunctionList_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapRequestError_FAS_Profiles_SetupProfile_BAP_RequestError 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapRequestFSG_DAF_Interface_DataTransmission_Processing_BAP_RequestByteSequence 
+Persistency, DataSet                     | Rte_IRead            | RFASProfileMasterCyclic_PpDsFASProfileMasterDataSet_DeFASProfileMasterDataSet 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapPropInit_FAS_Profiles_SetupProfile_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_IRead            | RFASProfileMasterCyclic_PpFoDFASProfileMaster_DeFoDFASProfileMaster 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapPropInit_FAS_Profiles_FSG_OperationState_BAP_InitSendBufferUInt8 
+RTE Data Exchange                        | Rte_Receive          | CtApFASProfileMaster_PpEthCom2PMTransferStatus_DeEthCom2PMTransferStatus 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapRequestFSG_DAF_Interface_DataTransmission_Processing_BAP_RequestByteSequence 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_Dead_time_after_activation_FAS_Profile_push_button_0x0541 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapRequestFSG_DAF_Interface_PilotedSystemStateList_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapRequestPropFSG_DAF_Interface_DataTransmissionInfo_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapRequestPropFSG_FAS_Profiles_FSG_Setup_Status_BAP_RequestByteSequence 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_Local_Emergency_Warning_activation_clearing_0x053E 
+BAP                                      | Rte_Read             | CtApFASProfileMaster_Bap_Allowed_DeBapAllowed 
+Persistency, Data read                   | Rte_Read             | CtApFASProfileMaster_PpPdFASProfileMasterRead_DeFASProfileMasterParameters_Critical 
+LCS                                      | Rte_IRead            | RFASProfileMasterCyclic_PpPFProvidedData_DeLCSAPHState 
+BAP                                      | Rte_Write            | CtApFASProfileMaster_Bap_Freigabe_DAF_Interface_BapFreigabe 
+Diagnostic, Get DTC Event                | Rte_Call             | CtApFASProfileMaster_PpEventHandling_GetEventStatus 
+Network, PDU group interface             | Rte_IWrite           | RFASProfileMasterCyclic_PpFRFASProfileMasterOut_DePduGrp_FAS_ProfileMaster_01 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapPropInit_FAS_Profiles_SetupProfile_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapRequestError_FAS_Profiles_Display_BAP_RequestError 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_Status_Exit_Warner_after_Kl_15_on_0x0549 
+RTE Data Exchange                        | Rte_IRead            | RFASProfileMasterCyclic_PpFRParkMonitorout_DeFRParkMonitorout 
+Diagnostic, Coding                       | Rte_Read             | CtApFASProfileMaster_PpDiagCoding_DeCoding 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_Status_Traffic_Jam_Pilot_after_Kl_15_on_0x0545 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapRequestPropFSG_FAS_Profiles_FSG_Setup_Status_BAP_RequestByteSequence 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_Status_Distance_Warner_Low_after_Kl_15_on_0x054D 
+UDS Diagnostic, Routine Return           | Rte_Send             | CtApFASProfileMaster_PpDiagFASProfileMasterWrite_DeProfile_master_reset_personalized_settings_0x067B 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapRequestPropFSG_FAS_Profiles_FSG_Control_Status_BAP_RequestUInt8 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapPropInit_FAS_Profiles_BAP_Config_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapRequestFSG_DAF_Interface_DelPilotSysStateList_Result_BAP_RequestUInt8 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapRequestPropFSG_DAF_Interface_FSG_Setup_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapRequestFSG_DAF_Interface_PilotedSystemStateList_Changed_BAP_RequestByteSequence 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapRequestError_FAS_Profiles_FAS_ProfileConfiguration_BAP_RequestError 
+RTE Data Exchange                        | Rte_IWrite           | RFASProfileMasterCyclic_PpFASProfileMasterKAS_DeFASProfileMasterKAS 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapPropInit_FAS_Profiles_FSG_Setup_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_IRead            | RFASProfileMasterCyclic_PpPFHwMeasurements_DeTHS 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_Number_of_profiles_0x0530 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapRequestPropFSG_FAS_Profiles_Display_Status_BAP_RequestByteSequence 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_Exit_Warner_activation_clearing_0x053C 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapPropInit_FAS_Profiles_Messages_BAP_InitSendBufferUInt8 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapRequestPropFSG_FAS_Profiles_FSG_OperationState_Status_BAP_RequestUInt8 
+RTE Data Exchange                        | Rte_Send             | CtApFASProfileMaster_PpPM2EthComTransferCommand_DePM2EthComTransferCommand 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapPropInit_DAF_Interface_FunctionList_BAP_InitSendBufferByteSequence 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_Status_Emergency_Assist_after_Kl_15_on_0x0542 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_Traffic_Jam_Pilot_activation_clearing_0x0538 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_Number_of_profile_members_0x0531 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapPropInit_DAF_Interface_FSG_OperationState_BAP_InitSendBufferUInt8 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_Emergency_Assist_activation_clearing_0x0535 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapPropInit_FAS_Profiles_BAP_Config_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapPropInit_DAF_Interface_DataTransmissionInfo_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapRequestPropFSG_FAS_Profiles_Display_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapRequestPropFSG_DAF_Interface_DataTransmissionInfo_Status_BAP_RequestByteSequence 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_Status_Tiredness_Warning_after_Kl_15_on_0x0547 
+Network, Partial Network                 | Rte_IWrite           | RFASProfileMasterCyclic_PpEcuComRequestsFASProfileMaster_DePartialNetwork 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_Status_Side_Assist_after_Kl_15_on_0x0548 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapPropInit_DAF_Interface_FSG_Setup_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapPropInit_FAS_Profiles_Display_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapPropInit_FAS_Profiles_FSG_Control_BAP_InitSendBufferUInt8 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapRequestFSG_DAF_Interface_DataTransmission_Result_BAP_RequestByteSequence 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapRequestError_DAF_Interface_DataTransmission_BAP_RequestError 
+RTE Data Exchange                        | Rte_IRead            | RFASProfileMasterCyclic_PpACFStatusProfileMaster_DeACFStatusProfileMaster 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapPropInit_DAF_Interface_FSG_OperationState_BAP_InitSendBufferUInt8 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapRequestError_FAS_Profiles_FAS_ProfileConfiguration_BAP_RequestError 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapRequestError_DAF_Interface_PilotedSystemStateList_BAP_RequestError 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapRequestError_FAS_Profiles_SetupProfile_BAP_RequestError 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapRequestFSG_DAF_Interface_PilotedSystemStateList_Changed_BAP_RequestByteSequence 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapRequestFSG_DAF_Interface_PilotedSystemStateList_Status_BAP_RequestByteSequence 
+UDS Diagnostic, Routine Call             | Rte_Receive          | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeProfile_master_reset_personalized_settings_0x067B 
+Diagnostic, Set DTC Event                | Rte_Call             | CtApFASProfileMaster_PpEventHandling_SetEventStatus 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_Status_Local_Emergency_Warning_after_Kl_15_on_0x054B 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_PreSense_activation_clearing_0x053F 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_Number_of_retries_0x0533 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapRequestPropFSG_FAS_Profiles_FSG_OperationState_Status_BAP_RequestUInt8 
+SWC Version Info                         | Rte_Call             | CtApFASProfileMaster_PpPFServer_MW_SetSwcInfo 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapRequestError_DAF_Interface_PilotedSystemStateList_BAP_RequestError 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapRequestError_DAF_Interface_FSG_Control_BAP_RequestError 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_Side_Assist_activation_clearing_0x053B 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapRequestError_DAF_Interface_FSG_Control_BAP_RequestError 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapRequestPropFSG_DAF_Interface_FSG_Setup_Status_BAP_RequestByteSequence 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_Active_Lane_Daparture_Warning_activation_clearing_0x0537 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApFASProfileMaster_PpDiagFASProfileMasterRead_DeFAS_PM_Logic_FAS_push_button_popup_or_toggle_0x054E 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapRequestFSG_DAF_Interface_DelPilotSysStateList_Processing_BAP_RequestUInt8 
+BAP                                      | Rte_Call             | CtApFASProfileMaster_BapPropInit_FAS_Profiles_Messages_BAP_InitSendBufferUInt8 
+RTE Data Exchange                        | Rte_IWrite           | RFASProfileMasterCyclic_PpFRFASProfileMasterOut_DeFRFASProfileMasterOut 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapPropInit_DAF_Interface_BAP_Config_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_IRead            | RFASProfileMasterCyclic_PpPFHwMeasurements_DeVBAT_MAIN 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapRequestFSG_FAS_Profiles_FAS_ProfileConfiguration_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Result           | CtApFASProfileMaster_BapPropInit_FAS_Profiles_Display_BAP_InitSendBufferByteSequence 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 133

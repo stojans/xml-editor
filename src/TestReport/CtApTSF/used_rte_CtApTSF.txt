@@ -1,0 +1,93 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+BAP                                      | Rte_Call             | CtApTSF_BapRequestPropFSG_VZA_SystemMessages_Status_BAP_RequestByteSequence 
+RTE Data Exchange                        | Rte_Call             | CtApTSF_PpRGApiLight_RGApi_GetSpeedLimit 
+BAP                                      | Rte_Call             | CtApTSF_BapPropInit_VZA_BAP_Config_BAP_InitSendBufferByteSequence 
+Persistency, Data write                  | Rte_Write            | CtApTSF_PpPdTSFWrite_DeCtApTSFOutputPersistence_Normal 
+BAP                                      | Rte_Result           | CtApTSF_BapPropInit_VZA_FSG_OperationState_BAP_InitSendBufferUInt8 
+RTE Data Exchange                        | Rte_IRead            | RApTSFMain_PpLanesMV_DeLanes             
+BAP                                      | Rte_Call             | CtApTSF_BapPropInit_VZA_RoadSign_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Call             | CtApTSF_BapRequestPropFSG_VZA_FSG_Setup_Status_BAP_RequestByteSequence 
+RTE Data Exchange                        | Rte_IWriteRef        | RApTSFMain_PpFRVZE_DePduGrp_VZE_03       
+BAP                                      | Rte_Result           | CtApTSF_BapRequestPropFSG_VZA_SystemMessages_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Call             | CtApTSF_BapPropInit_VZA_FSG_OperationState_BAP_InitSendBufferUInt8 
+RTE Data Exchange                        | Rte_IWriteRef        | RApTSFMain_PpFRVZE_DeTraceData           
+BAP                                      | Rte_Call             | CtApTSF_BapRequestPropFSG_VZA_FSG_Control_Status_BAP_RequestUInt8 
+BAP                                      | Rte_Result           | CtApTSF_BapRequestPropFSG_VZA_SpeedWarnThreshold_Status_BAP_RequestByteSequence 
+RTE Data Exchange                        | Rte_IWrite           | RApTSFMain_PpFRVZE_DeBVTS                
+BAP                                      | Rte_Call             | CtApTSF_BapRequestPropFSG_VZA_SpeedWarnThreshold_Status_BAP_RequestByteSequence 
+Time Service, Timestamp                  | Rte_Call             | CtApTSF_PpPFServer_TS_GetZgtTimestamp    
+BAP                                      | Rte_Call             | CtApTSF_BapPropInit_VZA_RoadSign2_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_Call             | CtApTSF_PpRGApiLight_RGApi_GetNextSpeedLimit 
+BAP                                      | Rte_Result           | CtApTSF_BapRequestPropFSG_VZA_RoadSign_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Result           | CtApTSF_BapPropInit_VZA_FSG_Control_BAP_InitSendBufferUInt8 
+RTE Data Exchange                        | Rte_Call             | CtApTSF_PpRGApiLight_RGApi_GetChildSegment 
+BAP                                      | Rte_Call             | CtApTSF_BapRequestPropFSG_VZA_RoadSignFilter_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Call             | CtApTSF_BapPropInit_VZA_HeartBeat_BAP_InitSendBufferUInt8 
+UDS Diagnostic, Messwerte                | Rte_Write            | CtApTSF_PpDiagTSFWrite_DeMesswerte_TSF   
+BAP                                      | Rte_Call             | CtApTSF_BapPropInit_VZA_TrailerSpeedLimit_BAP_InitSendBufferByteSequence 
+UDS Diagnostic, Stellglied Call          | Rte_Receive          | CtApTSF_PpDiagTSFRead_DeDisplay_road_sign_in_dash_panel_insert_0x02E3 
+BAP                                      | Rte_Result           | CtApTSF_BapRequestPropFSG_VZA_TrailerSpeedLimit_Status_BAP_RequestByteSequence 
+RTE Data Exchange                        | Rte_Call             | CtApTSF_PpRGApiLight_RGApi_GetQuality    
+RTE Data Exchange                        | Rte_IRead            | RApTSFMain_PpFoDFunctionActivationState_DeFoDFunctionActivationState 
+BAP                                      | Rte_Call             | CtApTSF_BapPropInit_VZA_RoadSignFilter_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Result           | CtApTSF_BapRequestPropFSG_VZA_SpeedWarnAcoustics_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Result           | CtApTSF_BapPropInit_VZA_SystemMessages_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Call             | CtApTSF_BapRequestPropFSG_VZA_RoadSign2_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Result           | CtApTSF_BapPropInit_VZA_SpeedWarnAcoustics_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_IRead            | RApTSFMain_PpFRVZEin_DeFRVZEin           
+RTE Data Exchange                        | Rte_Call             | CtApTSF_PpRGApiLight_RGApi_GetAttribute  
+RTE Data Exchange                        | Rte_IWriteRef        | RApTSFMain_PpFRVZE_DeVZE                 
+RTE Data Exchange                        | Rte_Call             | CtApTSF_PpRGApiLight_RGApi_GetRootTreeStateAttributeValue 
+RTE Data Exchange                        | Rte_Call             | CtApTSF_PpRGApiLight_RGApi_GetTreeChangeCount 
+BAP                                      | Rte_Call             | CtApTSF_BapRequestError_VZA_TrailerSpeedLimit_BAP_RequestError 
+RTE Data Exchange                        | Rte_Call             | CtApTSF_PpRGApiLight_RGApi_GetNextAttribute 
+BAP                                      | Rte_Call             | CtApTSF_BapRequestPropFSG_VZA_SpeedWarnAcoustics_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Result           | CtApTSF_BapRequestPropFSG_VZA_RoadSign2_Status_BAP_RequestByteSequence 
+RTE Data Exchange                        | Rte_Call             | CtApTSF_PpRGApiLight_RGApi_GetSystemData 
+BAP                                      | Rte_Call             | CtApTSF_BapPropInit_VZA_FSG_Setup_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Result           | CtApTSF_BapGet_VZA_State                 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApTSF_PpDiagTSFRead_DeRoad_sign_recognition_fusion_mode_0x3B63 
+Persistency, Data read                   | Rte_Read             | CtApTSF_PpPdTSFRead_DeCtApTSFOutputPersistence_Normal 
+BAP                                      | Rte_Call             | CtApTSF_BapRequestPropFSG_VZA_TrailerSpeedLimit_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Call             | CtApTSF_BapRequestPropFSG_VZA_RoadSign_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Result           | CtApTSF_BapPropInit_VZA_RoadSignFilter_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Call             | CtApTSF_BapPropInit_VZA_SystemMessages_BAP_InitSendBufferByteSequence 
+Diagnostic, Coding                       | Rte_Read             | CtApTSF_PpDiagCoding_DeCoding            
+BAP                                      | Rte_Result           | CtApTSF_BapRequestPropFSG_VZA_RoadSignFilter_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Write            | CtApTSF_Bap_Freigabe_VZA_BapFreigabe     
+BAP                                      | Rte_Result           | CtApTSF_BapPropInit_VZA_FunctionList_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_IWriteRef        | RApTSFMain_PpFRVZE_DePduGrp_VZE_02       
+RTE Data Exchange                        | Rte_Call             | CtApTSF_PpRGApiLight_RGApi_GetNextSibling 
+Persistency, DataSet                     | Rte_IRead            | RApTSFMain_PpDsTSFDataSet_DeCtApTSFParameter 
+BAP                                      | Rte_Result           | CtApTSF_BapPropInit_VZA_TrailerSpeedLimit_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_IRead            | RApTSFMain_PpRSRMV_DeMVRoadSignRecognition 
+BAP                                      | Rte_Result           | CtApTSF_BapPropInit_VZA_RoadSign_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Result           | CtApTSF_BapPropInit_VZA_SpeedWarnThreshold_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Result           | CtApTSF_BapRequestPropFSG_VZA_FSG_Control_Status_BAP_RequestUInt8 
+SWC Version Info                         | Rte_Call             | CtApTSF_PpPFServer_MW_SetSwcInfo         
+UDS Diagnostic, Stellglied Return        | Rte_Send             | CtApTSF_PpDiagTSFWrite_DeDisplay_road_sign_in_dash_panel_insert_0x02E3 
+RTE Data Exchange                        | Rte_IWriteRef        | RApTSFMain_PpFRVZE_DePduGrp_VZE_01       
+Persistency, Data write                  | Rte_Write            | CtApTSF_PpPdTSFWrite_DeCtApTSFPersonalization_Normal 
+BAP                                      | Rte_Call             | CtApTSF_BapRequestError_VZA_SpeedWarnThreshold_BAP_RequestError 
+RTE Data Exchange                        | Rte_IRead            | RApTSFMain_PpRGExtPSD_DeRGExtPSD         
+BAP                                      | Rte_Result           | CtApTSF_BapPropInit_VZA_BAP_Config_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Result           | CtApTSF_BapPropInit_VZA_HeartBeat_BAP_InitSendBufferUInt8 
+RTE Data Exchange                        | Rte_IWrite           | RApTSFMain_PpFRVZE_DeTraceData           
+BAP                                      | Rte_Read             | CtApTSF_Bap_Allowed_DeBapAllowed         
+Persistency, Data read                   | Rte_Read             | CtApTSF_PpPdTSFRead_DeCtApTSFPersonalization_Normal 
+BAP                                      | Rte_Call             | CtApTSF_BapPropInit_VZA_FunctionList_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Call             | CtApTSF_BapGet_VZA_State                 
+BAP                                      | Rte_Result           | CtApTSF_BapPropInit_VZA_FSG_Setup_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_Call             | CtApTSF_PpRGApiLight_RGApi_GetPositionData 
+RTE Data Exchange                        | Rte_IWriteRef        | RApTSFMain_PpFoDReadyToRun_VZE_DeFoDReadyToRun_VZE 
+BAP                                      | Rte_Result           | CtApTSF_BapRequestPropFSG_VZA_FSG_Setup_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Call             | CtApTSF_BapPropInit_VZA_SpeedWarnThreshold_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Call             | CtApTSF_BapPropInit_VZA_FSG_Control_BAP_InitSendBufferUInt8 
+RTE Data Exchange                        | Rte_IWriteRef        | RApTSFMain_PpFRVZE_DeBVTS                
+BAP                                      | Rte_Call             | CtApTSF_BapPropInit_VZA_SpeedWarnAcoustics_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Result           | CtApTSF_BapPropInit_VZA_RoadSign2_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_IWriteRef        | RApTSFMain_PpFRVZE_DePduGrp_VZE_05       
+RTE Data Exchange                        | Rte_Call             | CtApTSF_PpRGApiLight_RGApi_GetRootSegment 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 89

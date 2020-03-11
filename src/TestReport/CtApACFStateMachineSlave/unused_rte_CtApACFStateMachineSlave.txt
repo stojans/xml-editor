@@ -1,0 +1,69 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+Persistency, Data read                   | Rte_IsUpdated        | CtApACFStateMachineSlave_PpPdACFStateMachineSlaveRead_DeAcfSmSlavePersistent_Normal 
+RTE Data Exchange                        | Rte_IRead            | RACFStateMachineSlaveCyclic_PpACFOBS2ACFSMS_DeACFObsSMResult 
+RTE Data Exchange                        | Rte_IStatus          | RACFStateMachineSlaveCyclic_PpEyeQCom2ACF_DeEyeQCom2ACF 
+RTE Data Exchange                        | Rte_IStatus          | RACFStateMachineSlaveCyclic_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+RTE Data Exchange                        | Rte_IWriteRef        | RACFStateMachineSlaveCyclic_PpEcuComRequestsACFSMS_DeRequestsECURun 
+Diagnostic, DTC clear                    | Rte_Receive          | CtApACFStateMachineSlave_PpDiagGlobalRead_DeFSPCleared 
+RTE Data Exchange                        | Rte_IStatus          | RACFStateMachineSlaveCyclic_PpACF2ACFSMS_DeFCT 
+Persistency, Data read                   | Rte_Read             | CtApACFStateMachineSlave_PpPdACFStateMachineSlaveRead_DeAcfSmSlavePersistent_Normal 
+RTE Data Exchange                        | Rte_IRead            | RACFStateMachineSlaveCyclic_PpIPAState_DeIPAState 
+RTE Data Exchange                        | Rte_IRead            | RACFStateMachineSlaveCyclic_PpPFProvidedData_DeTotalSysRestartCnt 
+LCS                                      | Rte_IStatus          | RACFStateMachineSlaveCyclic_PpPFProvidedData_DeLCSSRHState 
+LCS                                      | Rte_IStatus          | RACFStateMachineSlaveCyclic_PpPFProvidedData_DeLCSAPHState 
+LCS                                      | Rte_IRead            | RACFStateMachineSlaveCyclic_PpPFProvidedData_DeLCSAPHState 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApACFStateMachineSlave_PpDiagACFStateMachineSlaveRead_DePlatform_zFAS_Routing_0x0501 
+Network, Partial Network                 | Rte_IWriteRef        | RACFStateMachineSlaveCyclic_PpEcuComRequestsACFSMS_DePartialNetwork 
+Persistency, DataSet                     | Rte_IRead            | RACFStateMachineSlaveCyclic_PpDsACFStateMachineSlaveDataSet_DeAcfSmSlaveParameter 
+IF-Set Version                           | Rte_IStatus          | RACFStateMachineSlaveCyclic_PpPFProvidedData_DeIFSETVersion 
+Persistency, DataSet                     | Rte_IStatus          | RACFStateMachineSlaveCyclic_PpDsACFStateMachineSlaveDataSet_DeAcfSmSlaveParameter 
+Diagnostic, Coding                       | Rte_IsUpdated        | CtApACFStateMachineSlave_PpDiagCoding_DeCoding 
+RTE Data Exchange                        | Rte_IStatus          | RACFStateMachineSlaveCyclic_PpPFProvidedData_DeTotalSysRestartCnt 
+Diagnostic, Get DTC Event                | Rte_Call             | CtApACFStateMachineSlave_PpEventHandling_GetEventStatus 
+LCS                                      | Rte_IRead            | RACFStateMachineSlaveCyclic_PpPFProvidedData_DeLCSSSHState 
+Time Service, Convert AGT                | Rte_Call             | CtApACFStateMachineSlave_PpPFServer_TS_ConvertAgt2Zgt 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApACFStateMachineSlave_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+LCS                                      | Rte_IStatus          | RACFStateMachineSlaveCyclic_PpPFProvidedData_DeLCSMVHState 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApACFStateMachineSlave_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApACFStateMachineSlave_PpDiagACFStateMachineSlaveRead_DePlatform_zFAS_Routing_0x0501 
+RTE Data Exchange                        | Rte_IRead            | RACFStateMachineSlaveCyclic_PpEyeQCom2ACF_DeEyeQCom2ACF 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApACFStateMachineSlave_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+Diagnostic, Global                       | Rte_Read             | CtApACFStateMachineSlave_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+LCS                                      | Rte_IRead            | RACFStateMachineSlaveCyclic_PpPFProvidedData_DeLCSMVHState 
+LCS                                      | Rte_IStatus          | RACFStateMachineSlaveCyclic_PpPFProvidedData_DeLCSSSHState 
+RTE Data Exchange                        | Rte_IRead            | RACFStateMachineSlaveCyclic_PpPFHwMeasurements_DeTHS 
+EDR                                      | Rte_IStatus          | RACFStateMachineSlaveCyclic_PpEDRinhibitPiDriving_DeEDRinhibitPiDriving 
+Time Service, AGT                        | Rte_Call             | CtApACFStateMachineSlave_PpPFServer_TS_GetAgtTimestamp 
+RTE Data Exchange                        | Rte_IStatus          | RACFStateMachineSlaveCyclic_PpPFHwMeasurements_DeTHS 
+Diagnostic, Coding                       | Rte_Read             | CtApACFStateMachineSlave_PpDiagCoding_DeCoding 
+RTE Data Exchange                        | Rte_IRead            | RACFStateMachineSlaveCyclic_PpACF2ACFSMS_DeFZE 
+RTE Data Exchange                        | Rte_IStatus          | RACFStateMachineSlaveCyclic_PpPFHwMeasurements_DeVBAT_MAIN 
+Diagnostic, Global                       | Rte_Read             | CtApACFStateMachineSlave_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+RTE Data Exchange                        | Rte_IRead            | RACFStateMachineSlaveCyclic_PpPFHwMeasurements_DeVBAT_MAIN 
+RTE Data Exchange                        | Rte_IStatus          | RACFStateMachineSlaveCyclic_PpIPAState_DeIPAState 
+LCS                                      | Rte_IStatus          | RACFStateMachineSlaveCyclic_PpPFProvidedData_DeLCSSystemState 
+HW Variant Interface                     | Rte_IRead            | RACFStateMachineSlaveCyclic_PpPFProvidedData_DeVARHWVariant 
+Time Service, Convert ZGT                | Rte_Call             | CtApACFStateMachineSlave_PpPFServer_TS_ConvertZgt2Agt 
+RTE Data Exchange                        | Rte_IWriteRef        | RACFStateMachineSlaveCyclic_PpEcuComRequestsACFSMS_DeRequestsAFSCanRun 
+LCS                                      | Rte_IRead            | RACFStateMachineSlaveCyclic_PpPFProvidedData_DeLCSSRHState 
+Time Service, Remaining Time Budget      | Rte_Call             | CtApACFStateMachineSlave_PpPFServer_TS_GetRemainingTimeBudget 
+Diagnostic, Global                       | Rte_Read             | CtApACFStateMachineSlave_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+Diagnostic, Set DTC Event                | Rte_Call             | CtApACFStateMachineSlave_PpEventHandling_SetEventStatus 
+RTE Data Exchange                        | Rte_IRead            | RACFStateMachineSlaveCyclic_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+RTE Data Exchange                        | Rte_IWrite           | RACFStateMachineSlaveCyclic_PpEcuComRequestsACFSMS_DeRequestsAFSCanRun 
+LCS                                      | Rte_IRead            | RACFStateMachineSlaveCyclic_PpPFProvidedData_DeLCSSystemState 
+RTE Data Exchange                        | Rte_IRead            | RACFStateMachineSlaveCyclic_PpACF2ACFSMS_DeFCT 
+RTE Data Exchange                        | Rte_IRead            | RACFStateMachineSlaveCyclic_PpFRACFStateMachineIn_DeFRACFStateMachineIn 
+RTE Data Exchange                        | Rte_IStatus          | RACFStateMachineSlaveCyclic_PpACFOBS2ACFSMS_DeACFObsSMResult 
+RTE Data Exchange                        | Rte_IWrite           | RACFStateMachineSlaveCyclic_PpEcuComRequestsACFSMS_DeRequestsECURun 
+RTE Data Exchange                        | Rte_Read             | CtApACFStateMachineSlave_PpDiagCoding_DePermitCodingPersistence 
+RTE Data Exchange                        | Rte_IStatus          | RACFStateMachineSlaveCyclic_PpACF2ACFSMS_DeFZE 
+RTE Data Exchange                        | Rte_IStatus          | RACFStateMachineSlaveCyclic_PpFRACFStateMachineIn_DeFRACFStateMachineIn 
+EDR                                      | Rte_IRead            | RACFStateMachineSlaveCyclic_PpEDRinhibitPiDriving_DeEDRinhibitPiDriving 
+HW Variant Interface                     | Rte_IStatus          | RACFStateMachineSlaveCyclic_PpPFProvidedData_DeVARHWVariant 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApACFStateMachineSlave_PpDiagCoding_DePermitCodingPersistence 
+Network, Partial Network                 | Rte_IWrite           | RACFStateMachineSlaveCyclic_PpEcuComRequestsACFSMS_DePartialNetwork 
+IF-Set Version                           | Rte_IRead            | RACFStateMachineSlaveCyclic_PpPFProvidedData_DeIFSETVersion 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 65

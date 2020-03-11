@@ -1,0 +1,102 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+Persistency, Data read                   | Rte_IsUpdated        | CtCdEyeQCom_PpPdEyeQComRead_DePers_CTAC_ResultMsg_Critical 
+RTE Data Exchange                        | Rte_IStatus          | REyeQCom20ms_PpACFMAStatus_DeACAHFCameraDetectionLogics 
+Persistency, Data write                  | Rte_Write            | CtCdEyeQCom_PpPdEyeQComWrite_DePers_Internal_Coding_Normal 
+IF-Set Version                           | Rte_IRead            | REyeQCom80ms_PpPFProvidedData_DeIFSETVersion 
+Persistency, Data write                  | Rte_Write            | CtCdEyeQCom_PpPdEyeQComWrite_DePers_CTAC_InitMsg_Normal 
+LCS                                      | Rte_IRead            | REyeQCom80ms_PpPFProvidedData_DeLCSSRHState 
+Persistency, Data read                   | Rte_IsUpdated        | CtCdEyeQCom_PpPdEyeQComRead_DePers_Diagnostics_Normal 
+LCS                                      | Rte_IStatus          | REyeQCom80ms_PpPFProvidedData_DeLCSSystemState 
+RTE Data Exchange                        | Rte_IStatus          | REyeQCom40ms_PpRGExtPSD_DeRGExtPSD       
+RTE Data Exchange                        | Rte_IStatus          | REyeQCom20ms_PpFRACFStateMachineOut_DePduGrp_STP_03 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdEyeQCom_PpDiagEyeQComRead_DeFront_camera_target_distance_static_calibration_0x0BB0 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdEyeQCom_PpDiagEyeQComRead_DeFront_camera_calibration_end_of_line_setting_0x0BB1 
+Persistency, Data read                   | Rte_IsUpdated        | CtCdEyeQCom_PpPdEyeQComRead_DePers_ApplicationInternal_Critical 
+Persistency, DataSet                     | Rte_IStatus          | REyeQCom80ms_PpDsEyeQComDataSet_DePers_Param_AHS 
+RTE Data Exchange                        | Rte_IStatus          | REyeQCom80ms_PpPFProvidedData_DeTotalSysRestartCnt 
+RTE Data Exchange                        | Rte_Receive          | CtCdEyeQCom_PpACFMAStatus_DeMAACFStatus  
+IF-Set Version                           | Rte_IStatus          | REyeQCom80ms_PpPFProvidedData_DeIFSETVersion 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtCdEyeQCom_PpDiagEyeQComRead_DeFV_HIL_mode_eyeq_startup_index_0x0505 
+Diagnostic, Global                       | Rte_IsUpdated        | CtCdEyeQCom_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdEyeQCom_PpDiagEyeQComRead_DeFront_camera_rotation_compensation_0x0E4D 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdEyeQCom_PpDiagEyeQComRead_DeFV_HIL_mode_eyeq_startup_index_0x0505 
+RTE Data Exchange                        | Rte_IStatus          | REyeQCom20ms_PpFRACFStateMachineOut_DeTraceData 
+Persistency, Data read                   | Rte_IsUpdated        | CtCdEyeQCom_PpPdEyeQComRead_DePers_Internal_Coding_Normal 
+HW Variant Interface                     | Rte_IRead            | REyeQCom80ms_PpPFProvidedData_DeVARHWVariant 
+Time Service, Convert ZGT                | Rte_Call             | CtCdEyeQCom_PpPFServer_TS_ConvertZgt2Agt 
+RTE Data Exchange                        | Rte_IStatus          | REyeQCom20ms_PpPfTpEyeQCom_DeEyeQComTestPoint 
+Persistency, Data read                   | Rte_Read             | CtCdEyeQCom_PpPdEyeQComRead_DePers_Internal_Coding_Normal 
+RTE Data Exchange                        | Rte_IRead            | REyeQCom20ms_PpIPAState_DeIPAState       
+RTE Data Exchange                        | Rte_IStatus          | REyeQCom80ms_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+Time Service, AGT                        | Rte_Call             | CtCdEyeQCom_PpPFServer_TS_GetAgtTimestamp 
+RTE Data Exchange                        | Rte_IStatus          | REyeQCom80ms_PpPFHwMeasurements_DeVBAT_MAIN 
+RTE Data Exchange                        | Rte_IStatus          | REyeQCom20ms_PpLightInfo_DeMXBCalibrationCommandLight 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdEyeQCom_PpDiagEyeQComRead_DeFront_camera_target_position_static_calibration_0x0BAC 
+Persistency, DataSet                     | Rte_IStatus          | REyeQCom80ms_PpDsEyeQComDataSet_DePers_Param_Rectification_TV 
+Persistency, Data read                   | Rte_Read             | CtCdEyeQCom_PpPdEyeQComRead_DePers_Reserved_Normal 
+LCS                                      | Rte_IRead            | REyeQCom80ms_PpPFProvidedData_DeLCSSystemState 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtCdEyeQCom_PpDiagEyeQComRead_DeProductionmode_deactivate_0x04FC 
+RTE Data Exchange                        | Rte_IRead            | REyeQCom20ms_PpPfTpEyeQCom_DeEyeQComTestPoint 
+Persistency, Data write                  | Rte_Write            | CtCdEyeQCom_PpPdEyeQComWrite_DePers_CameraInternal_Normal 
+Persistency, Data read                   | Rte_IsUpdated        | CtCdEyeQCom_PpPdEyeQComRead_DePers_CamCalServiceReturn_Critical 
+Persistency, DataSet                     | Rte_IStatus          | REyeQCom80ms_PpDsEyeQComDataSet_DePers_Param_LDA 
+Time Service, Convert AGT                | Rte_Call             | CtCdEyeQCom_PpPFServer_TS_ConvertAgt2Zgt 
+Persistency, DataSet                     | Rte_IStatus          | REyeQCom80ms_PpDsEyeQComDataSet_DePers_Param_TSR 
+Persistency, Data read                   | Rte_IsUpdated        | CtCdEyeQCom_PpPdEyeQComRead_DePers_CTAC_InitMsg_Normal 
+LCS                                      | Rte_IStatus          | REyeQCom80ms_PpPFProvidedData_DeLCSSSHState 
+Persistency, Data read                   | Rte_IsUpdated        | CtCdEyeQCom_PpPdEyeQComRead_DePers_Diagnostics_Critical 
+RTE Data Exchange                        | Rte_IRead            | REyeQCom80ms_PpPFProvidedData_DeTotalSysRestartCnt 
+Diagnostic, Global                       | Rte_Read             | CtCdEyeQCom_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdEyeQCom_PpDiagCoding_DePermitCodingPersistence 
+RTE Data Exchange                        | Rte_IRead            | REyeQCom20ms_PpFRACFStateMachineOut_DePduGrp_STP_03 
+RTE Data Exchange                        | Rte_IStatus          | REyeQCom20ms_PpIPAState_DeIPAState       
+RTE Data Exchange                        | Rte_IRead            | REyeQCom80ms_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+Persistency, Data write                  | Rte_Write            | CtCdEyeQCom_PpPdEyeQComWrite_DePers_Reserved_Normal 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdEyeQCom_PpDiagEyeQComRead_DeFront_camera_vehicle_position_static_calibration_0x0BAE 
+LCS                                      | Rte_IRead            | REyeQCom80ms_PpPFProvidedData_DeLCSSSHState 
+LCS                                      | Rte_IStatus          | REyeQCom80ms_PpPFProvidedData_DeLCSMVHState 
+RTE Data Exchange                        | Rte_IStatus          | REyeQCom80ms_PpPFHwMeasurements_DeTHS    
+RTE Data Exchange                        | Rte_IWriteRef        | REyeQCom40ms_PpFREyeQComOut_DeTraceData  
+RTE Data Exchange                        | Rte_IRead            | REyeQCom20ms_PpFRACFStateMachineOut_DePduGrp_FAS_VK_01 
+Persistency, Data read                   | Rte_IsUpdated        | CtCdEyeQCom_PpPdEyeQComRead_DePers_iOCAL_ResultMsg_Critical 
+Persistency, Data read                   | Rte_IsUpdated        | CtCdEyeQCom_PpPdEyeQComRead_DePers_iOCAL_InitMsg_Critical 
+Persistency, Data read                   | Rte_IsUpdated        | CtCdEyeQCom_PpPdEyeQComRead_DePers_Reserved_Normal 
+RTE Data Exchange                        | Rte_IStatus          | REyeQCom40ms_PpHeadlampOnlineCalWla_DeHeadlampOnlineCalWla 
+Persistency, DataSet                     | Rte_IStatus          | REyeQCom80ms_PpDsEyeQComDataSet_DePers_Param_Rectification 
+RTE Data Exchange                        | Rte_IWrite           | REyeQCom40ms_PpFREyeQComOut_DeTraceData  
+UDS Diagnostic, Stellglied Return        | Rte_Send             | CtCdEyeQCom_PpDiagEyeQComWrite_DeFV_Safe_State_Simulation_0x108A 
+Persistency, Data read                   | Rte_IsUpdated        | CtCdEyeQCom_PpPdEyeQComRead_DePers_CameraInternal_Normal 
+Persistency, DataSet                     | Rte_IStatus          | REyeQCom80ms_PpDsEyeQComDataSet_DePers_Param_Failsafe 
+RTE Data Exchange                        | Rte_IStatus          | REyeQCom20ms_PpFRACFStateMachineOut_DeFRACFStateMachineOut 
+RTE Data Exchange                        | Rte_Receive          | CtCdEyeQCom_PpLightInfo_DeLightInfo      
+HW Variant Interface                     | Rte_IStatus          | REyeQCom80ms_PpPFProvidedData_DeVARHWVariant 
+LCS                                      | Rte_IStatus          | REyeQCom80ms_PpPFProvidedData_DeLCSAPHState 
+LCS                                      | Rte_IStatus          | REyeQCom80ms_PpPFProvidedData_DeLCSSRHState 
+UDS Diagnostic, Stellglied Call          | Rte_Receive          | CtCdEyeQCom_PpDiagEyeQComRead_DeFV_Safe_State_Simulation_0x108A 
+Persistency, DataSet                     | Rte_IStatus          | REyeQCom80ms_PpDsEyeQComDataSet_DePers_Param_WLA 
+RTE Data Exchange                        | Rte_IRead            | REyeQCom20ms_PpFRACFStateMachineOut_DeTraceData 
+RTE Data Exchange                        | Rte_IStatus          | REyeQCom20ms_PpFRACFStateMachineIn_DeFRACFStateMachineIn 
+Diagnostic, Global                       | Rte_IsUpdated        | CtCdEyeQCom_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdEyeQCom_PpDiagEyeQComRead_DeProductionmode_deactivate_0x04FC 
+RTE Data Exchange                        | Rte_IStatus          | REyeQCom20ms_PpFRACFStateMachineOut_DePduGrp_FAS_VK_01 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdEyeQCom_PpDiagEyeQComRead_DeFront_camera_maximum_way_initial_dynamic_calibration_0x0BB4 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdEyeQCom_PpDiagEyeQComRead_DeFront_camera_crab_angle_static_calibration_0x0BAD 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdEyeQCom_PpDiagEyeQComRead_DeProductionmode_0x04FE 
+RTE Data Exchange                        | Rte_IRead            | REyeQCom20ms_PpACFMAStatus_DeACAHFCameraDetectionLogics 
+Persistency, Data read                   | Rte_Read             | CtCdEyeQCom_PpPdEyeQComRead_DePers_CameraInternal_Normal 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdEyeQCom_PpDiagEyeQComRead_DeFront_camera_lateral_target_distance_initial_dynamic_calibration_0x0BB3 
+RTE Data Exchange                        | Rte_IStatus          | REyeQCom20ms_PpHeadlampOnlineCalWla_DeMXBCalibrationCommandPAHS 
+Persistency, Data read                   | Rte_IsUpdated        | CtCdEyeQCom_PpPdEyeQComRead_DePers_ApplicationInternal_Normal 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdEyeQCom_PpDiagEyeQComRead_DeFront_camera_body_height_static_calibration_0x0BAF 
+Persistency, Data read                   | Rte_Read             | CtCdEyeQCom_PpPdEyeQComRead_DePers_CTAC_InitMsg_Normal 
+Persistency, Data read                   | Rte_IsUpdated        | CtCdEyeQCom_PpPdEyeQComRead_DePers_InitMsg_Normal 
+Persistency, DataSet                     | Rte_IRead            | REyeQCom80ms_PpDsEyeQComDataSet_DePers_Param_Rectification_TV 
+Persistency, DataSet                     | Rte_IStatus          | REyeQCom80ms_PpDsEyeQComDataSet_DePers_Param_RPE 
+Persistency, Data read                   | Rte_IsUpdated        | CtCdEyeQCom_PpPdEyeQComRead_DePers_CalServiceWorkaround_Normal 
+RTE Data Exchange                        | Rte_Read             | CtCdEyeQCom_PpDiagCoding_DePermitCodingPersistence 
+RTE Data Exchange                        | Rte_IStatus          | REyeQCom20ms_PpFREyeQin_DeFREyeQin       
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdEyeQCom_PpDiagEyeQComRead_DeFront_camera_target_hight_automatic_calibration_0x0BB2 
+LCS                                      | Rte_IRead            | REyeQCom80ms_PpPFProvidedData_DeLCSMVHState 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 98

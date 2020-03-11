@@ -1,0 +1,135 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+Network, PDU group interface             | Rte_IWriteRef        | REMLmain_PpFREMLoutput_DePduGrp_EML_03   
+Persistency, Data read                   | Rte_IsUpdated        | CtApEML_PpPdEMLRead_DeEML_V_ReadWrite_Normal 
+Persistency, Data read                   | Rte_IsUpdated        | CtApEML_PpPdEMLRead_DeEML_G_ReadWrite_Normal 
+Persistency, DataSet                     | Rte_IRead            | REMLmain_PpDsEMLDataSet_DeEML_Reserved   
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_ESP21 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_SARA07 
+Persistency, DataSet                     | Rte_IStatus          | REMLmain_PpDsEMLDataSet_DeEML_Global     
+Persistency, DataSet                     | Rte_IStatus          | REMLmain_PpDsEMLDataSet_DeEML_I          
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApEML_PpDiagEMLRead_DeEgoMaster_WCFE_WheelCircumference_0x0567 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_Getriebe13 
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_SCU01 
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_SARA10 
+Persistency, Data write                  | Rte_Write            | CtApEML_PpPdEMLWrite_DeEML_V_ReadWrite_Normal 
+RTE Data Exchange                        | Rte_Send             | CtApEML_PpEML_DeEML                      
+RTE Data Exchange                        | Rte_IsUpdated        | CtApEML_PpDiagEMLRead_DeEgoMaster_WCFE_WheelCircumference_0x0567 
+Persistency, Data read                   | Rte_Read             | CtApEML_PpPdEMLRead_DeEML_I_ReadWrite_Normal 
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_NavData03 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_EM1HYB16 
+RTE Data Exchange                        | Rte_IWriteRef        | REMLmain_PpFREMLoutput_DeTraceData       
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_Motor14 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_Getriebe12 
+Persistency, Data write                  | Rte_Write            | CtApEML_PpPdEMLWrite_DeEML_Reserved_ReadWrite_Normal 
+Diagnostic, DTC clear                    | Rte_Receive          | CtApEML_PpDiagGlobalRead_DeFSPCleared    
+Persistency, DataSet                     | Rte_IRead            | REMLmain_PpDsEMLDataSet_DeEML_P          
+Network, PDU group interface             | Rte_IWriteRef        | REMLmain_PpFREMLoutput_DePduGrp_EML_04   
+RTE Data Exchange                        | Rte_IWriteRef        | REMLmain_PpFREMLoutput_DeFREMLoutput     
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_LHEPS04 
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_SARA08 
+Persistency, Data read                   | Rte_Read             | CtApEML_PpPdEMLRead_DeEML_G_ReadWrite_Normal 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_SARA08 
+Network, PDU group interface             | Rte_IWrite           | REMLmain_PpFREMLoutput_DePduGrp_EML_02   
+Network, PDU group interface             | Rte_IWrite           | REMLmain_PpFREMLoutput_DePduGrp_EML_01   
+Network, PDU group interface             | Rte_IWriteRef        | REMLmain_PpFREMLoutput_DePduGrp_EML_05   
+Network, PDU group interface             | Rte_IWrite           | REMLmain_PpFREMLoutput_DePduGrp_EML_03   
+UDS Diagnostic, Routine Call             | Rte_Receive          | CtApEML_PpDiagEMLRead_DeEgoMaster_reset_adaption_values_0x05E7 
+Diagnostic, Set DTC Event                | Rte_Call             | CtApEML_PpEventHandling_SetEventStatus   
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_EM1HYB12 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_LWRAFS01 
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_ESP22 
+Persistency, DataSet                     | Rte_IRead            | REMLmain_PpDsEMLDataSet_DeEML_G          
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_Getriebe17 
+Persistency, DataSet                     | Rte_IStatus          | REMLmain_PpDsEMLDataSet_DeEML_Reserved   
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_Diagnose01 
+Persistency, DataSet                     | Rte_IRead            | REMLmain_PpDsEMLDataSet_DeEML_B          
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_ACC17 
+Network, PDU group interface             | Rte_IWrite           | REMLmain_PpFREMLoutput_DePduGrp_EML_04   
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_EM2HYB12 
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_Getriebe17 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApEML_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_ESP32 
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_Getriebe12 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_ACC17 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_Getriebe15 
+Diagnostic, Coding                       | Rte_IsUpdated        | CtApEML_PpDiagCoding_DeCoding            
+Persistency, DataSet                     | Rte_IRead            | REMLmain_PpDsEMLDataSet_DeEML_S          
+UDS Diagnostic, Messwerte                | Rte_Write            | CtApEML_PpDiagEMLWrite_DeMesswerte_EML   
+Persistency, DataSet                     | Rte_IStatus          | REMLmain_PpDsEMLDataSet_DeEML_G          
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_Motor14 
+Diagnostic, Get DTC Event                | Rte_Call             | CtApEML_PpEventHandling_GetEventStatus   
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_SARA07 
+Network, PDU group interface             | Rte_IWriteRef        | REMLmain_PpFREMLoutput_DePduGrp_EML_02   
+Network, PDU group interface             | Rte_IWrite           | REMLmain_PpFREMLoutput_DePduGrp_EML_05   
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_ESP20 
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_MotorCode01 
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_ESP03 
+Persistency, DataSet                     | Rte_IStatus          | REMLmain_PpDsEMLDataSet_DeEML_S          
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_Motor12 
+Persistency, Data read                   | Rte_IsUpdated        | CtApEML_PpPdEMLRead_DeEML_Reserved_ReadWrite_Normal 
+Diagnostic, Coding                       | Rte_Read             | CtApEML_PpDiagCoding_DeCoding            
+Persistency, Data read                   | Rte_Read             | CtApEML_PpPdEMLRead_DeEML_Reserved_ReadWrite_Normal 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_NavData03 
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_CSPH01 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_Diagnose01 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_Motor12 
+Persistency, DataSet                     | Rte_IRead            | REMLmain_PpDsEMLDataSet_DeEML_I          
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_EM1HYB16 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_Motor11 
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_Fahrwerk01 
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_HAL01 
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_Motor16 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_SARA12 
+Persistency, Data read                   | Rte_Read             | CtApEML_PpPdEMLRead_DeEML_V_ReadWrite_Normal 
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_NavData02 
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_Motor11 
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_LHEPS03 
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_Getriebe11 
+Persistency, DataSet                     | Rte_IRead            | REMLmain_PpDsEMLDataSet_DeEML_Global     
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_LHEPS03 
+SWC Version Info                         | Rte_Call             | CtApEML_PpPFServer_MW_SetSwcInfo         
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_MotorCode01 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_SCU01 
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_LWRAFS01 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_Getriebe11 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_Motor16 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_NavData01 
+Persistency, DataSet                     | Rte_IRead            | REMLmain_PpDsEMLDataSet_DeEML_V          
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_ESP32 
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_NavData01 
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_EM2HYB12 
+UDS Diagnostic, Routine Return           | Rte_Send             | CtApEML_PpDiagEMLWrite_DeEgoMaster_reset_adaption_values_0x05E7 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_SARA10 
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_ESP20 
+Persistency, DataSet                     | Rte_IStatus          | REMLmain_PpDsEMLDataSet_DeEML_V          
+Persistency, DataSet                     | Rte_IStatus          | REMLmain_PpDsEMLDataSet_DeEML_B          
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_NavPos01 
+Persistency, Data write                  | Rte_Write            | CtApEML_PpPdEMLWrite_DeEML_G_ReadWrite_Normal 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_NavData02 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_LWI01 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_HAL01 
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_Getriebe15 
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_LWI01 
+Persistency, DataSet                     | Rte_IStatus          | REMLmain_PpDsEMLDataSet_DeEML_P          
+Network, PDU group interface             | Rte_IWriteRef        | REMLmain_PpFREMLoutput_DePduGrp_EML_01   
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_BCM02 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_Fahrwerk01 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_CSPH01 
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_ESP10 
+Diagnostic, Global                       | Rte_Read             | CtApEML_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+Time Service, Timestamp                  | Rte_Call             | CtApEML_PpPFServer_TS_GetZgtTimestamp    
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_NavPos01 
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_EM1HYB12 
+Persistency, Data write                  | Rte_Write            | CtApEML_PpPdEMLWrite_DeEML_I_ReadWrite_Normal 
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_SARA12 
+Persistency, Data read                   | Rte_IsUpdated        | CtApEML_PpPdEMLRead_DeEML_I_ReadWrite_Normal 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_ESP22 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_ESP03 
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_LHEPS04 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_BCM02 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_ESP10 
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_Getriebe13 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_ESP21 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 131

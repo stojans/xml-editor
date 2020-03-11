@@ -1,0 +1,17 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+RTE Data Exchange                        | Rte_IWrite           | RInnoDriveStrategy_PpPemPlanning_DePemPlanning 
+Diagnostic, Set DTC Event                | Rte_Call             | CtApInnoDriveStrategy_PpEventHandling_SetEventStatus 
+Diagnostic, Coding                       | Rte_Read             | CtApInnoDriveStrategy_PpDiagCoding_DeCoding 
+Time Service, Timestamp                  | Rte_Call             | CtApInnoDriveStrategy_PpPFServer_TS_GetZgtTimestamp 
+SWC Version Info                         | Rte_Call             | CtApInnoDriveStrategy_PpPFServer_MW_SetSwcInfo 
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveStrategy_PpDsInnoDriveDataSet_DeInnoDriveCtrlVehicleModel 
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveStrategy_PpPemControl_DePemControl 
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveStrategy_PpDsInnoDriveDataSet_DeInnoDriveStrategyParameterSet 
+Diagnostic, Global                       | Rte_Read             | CtApInnoDriveStrategy_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+RTE Data Exchange                        | Rte_IWrite           | RInnoDriveStrategy_PpInnoDriveStrategyTraceData_DeTraceData 
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveStrategy_PpPemControl_DePemControl 
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveStrategy_PpDsInnoDriveDataSet_DeInnoDriveCtrlVehicleModel 
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveStrategy_PpDsInnoDriveDataSet_DeInnoDriveStrategyParameterSet 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 13

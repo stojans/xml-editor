@@ -1,0 +1,59 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVIP_PpDiagTVIPRead_DeProductionmode_0x04FE 
+Persistency, DataSet                     | Rte_IRead            | RTVIP_PpDsTVIPDataSet_DeParametersSTPHekPostprocessing 
+HW Variant Interface                     | Rte_IStatus          | RTVIP_PpPFProvidedData_DeVARHWVariant    
+Diagnostic, Global                       | Rte_IsUpdated        | CtApTVIP_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+BAP                                      | Rte_Receive          | CtApTVIP_PpTVCntrlTVMaster_DeTVBapArrayRequest 
+Time Service, Convert ZGT                | Rte_Call             | CtApTVIP_PpPFServer_TS_ConvertZgt2Agt    
+RTE Data Exchange                        | Rte_IStatus          | RTVIP_PpFRACFStateMachineOut_DePduGrp_FAS_VK_01 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApTVIP_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+Diagnostic, DTC clear                    | Rte_Receive          | CtApTVIP_PpDiagGlobalRead_DeFSPCleared   
+Time Service, AGT                        | Rte_Call             | CtApTVIP_PpPFServer_TS_GetAgtTimestamp   
+RTE Data Exchange                        | Rte_IRead            | RTVIP_PpPFHwMeasurements_DeVBAT_MAIN     
+Time Service, Remaining Time Budget      | Rte_Call             | CtApTVIP_PpPFServer_TS_GetRemainingTimeBudget 
+RTE Data Exchange                        | Rte_IStatus          | RTVIP_PpPFHwMeasurements_DeTHS           
+IF-Set Version                           | Rte_IStatus          | RTVIP_PpPFProvidedData_DeIFSETVersion    
+RTE Data Exchange                        | Rte_IStatus          | RTVIP_PpFRACFStateMachineOut_DeTraceData 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApTVIP_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVIP_PpTVMasterBlindnessReport_DeTVMasterBlindnessReport 
+Diagnostic, Coding                       | Rte_IsUpdated        | CtApTVIP_PpDiagCoding_DeCoding           
+LCS                                      | Rte_IStatus          | RTVIP_PpPFProvidedData_DeLCSAPHState     
+RTE Data Exchange                        | Rte_Read             | CtApTVIP_PpDiagCoding_DePermitCodingPersistence 
+RTE Data Exchange                        | Rte_IRead            | RTVIP_PpFRACFStateMachineOut_DeTraceData 
+RTE Data Exchange                        | Rte_IStatus          | RTVIP_PpFRACFStateMachineOut_DePduGrp_STP_03 
+RTE Data Exchange                        | Rte_IStatus          | RTVIP_PpPFHwMeasurements_DeVBAT_MAIN     
+Persistency, DataSet                     | Rte_IStatus          | RTVIP_PpDsTVIPDataSet_DeParametersSTPHekPostprocessing 
+RTE Data Exchange                        | Rte_IRead            | RTVIP_PpPFHwMeasurements_DeTHS           
+LCS                                      | Rte_IRead            | RTVIP_PpPFProvidedData_DeLCSSystemState  
+LCS                                      | Rte_IStatus          | RTVIP_PpPFProvidedData_DeLCSMVHState     
+LCS                                      | Rte_IStatus          | RTVIP_PpPFProvidedData_DeLCSSSHState     
+RTE Data Exchange                        | Rte_IRead            | RTVIP_PpPFProvidedData_DeTotalSysRestartCnt 
+Persistency, Data read                   | Rte_IsUpdated        | CtApTVIP_PpPdTVIPRead_DeParametersCameraFront_Normal 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVIP_PpDiagCoding_DePermitCodingPersistence 
+RTE Data Exchange                        | Rte_IRead            | RTVIP_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+LCS                                      | Rte_IRead            | RTVIP_PpPFProvidedData_DeLCSMVHState     
+Persistency, DataSet                     | Rte_IRead            | RTVIP_PpDsTVIPDataSet_DeParametersHekPostprocessing 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApTVIP_PpDiagTVIPRead_DeProductionmode_0x04FE 
+Persistency, Data read                   | Rte_IsUpdated        | CtApTVIP_PpPdTVIPRead_DeParametersCameraLeft_Normal 
+RTE Data Exchange                        | Rte_IRead            | RTVIP_PpFRACFStateMachineOut_DePduGrp_STP_03 
+Diagnostic, Global                       | Rte_Read             | CtApTVIP_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+RTE Data Exchange                        | Rte_Send             | CtApTVIP_PpTVIPEML_DeTVIPEML             
+RTE Data Exchange                        | Rte_IRead            | RTVIP_PpFRACFStateMachineOut_DePduGrp_FAS_VK_01 
+BAP                                      | Rte_Receive          | CtApTVIP_PpTVCntrlTVMaster_DeTVBapRequest 
+LCS                                      | Rte_IStatus          | RTVIP_PpPFProvidedData_DeLCSSystemState  
+Persistency, Data read                   | Rte_IsUpdated        | CtApTVIP_PpPdTVIPRead_DeParametersCameraRear_Normal 
+Time Service, Convert AGT                | Rte_Call             | CtApTVIP_PpPFServer_TS_ConvertAgt2Zgt    
+Diagnostic, Global                       | Rte_Read             | CtApTVIP_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+Persistency, DataSet                     | Rte_IStatus          | RTVIP_PpDsTVIPDataSet_DeParametersHekPostprocessing 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVIP_PpDiagTVIPRead_DeTVIP_Debug_0x050C 
+LCS                                      | Rte_IRead            | RTVIP_PpPFProvidedData_DeLCSAPHState     
+RTE Data Exchange                        | Rte_IStatus          | RTVIP_PpPFProvidedData_DeTotalSysRestartCnt 
+Diagnostic, Global                       | Rte_Read             | CtApTVIP_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+Persistency, Data read                   | Rte_IsUpdated        | CtApTVIP_PpPdTVIPRead_DeParametersCameraRight_Normal 
+LCS                                      | Rte_IRead            | RTVIP_PpPFProvidedData_DeLCSSSHState     
+HW Variant Interface                     | Rte_IRead            | RTVIP_PpPFProvidedData_DeVARHWVariant    
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVIP_PpTVMasterCameraCalibration_DeTVMasterCameraCalibration 
+RTE Data Exchange                        | Rte_IStatus          | RTVIP_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 55

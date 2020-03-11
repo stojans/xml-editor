@@ -1,0 +1,22 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+Diagnostic, Coding                       | Rte_IsUpdated        | CtApTrailerManeuverAssistIP_PpDiagCoding_DeCoding 
+RTE Data Exchange                        | Rte_Send             | CtApTrailerManeuverAssistIP_PpFRTVTADout_DeFRTVTADout 
+Persistency, Data write                  | Rte_Write            | CtApTrailerManeuverAssistIP_PpPdTrailerManeuverAssistIPWrite_DeARACAMPersistanceCameraCalibration_Normal 
+RTE Data Exchange                        | Rte_IStatus          | RTrailerManeuverAssistIPMain_PpTVMasterCameraCalibration_DeTVMasterCameraCalibration 
+SWC Version Info                         | Rte_Call             | CtApTrailerManeuverAssistIP_PpPFServer_MW_SetSwcInfo 
+Persistency, DataSet                     | Rte_IRead            | RTrailerManeuverAssistIPMain_PpDsTrailerManeuverAssistIPDataSet_DeARACAMCameraCalibration 
+Persistency, DataSet                     | Rte_IRead            | RTrailerManeuverAssistIPMain_PpDsTrailerManeuverAssistIPDataSet_DeARACAMParameter 
+UDS Diagnostic, Messwerte                | Rte_Write            | CtApTrailerManeuverAssistIP_PpDiagTrailerManeuverAssistIPWrite_DeMesswerte_TrailerManeuverAssistIP 
+Persistency, DataSet                     | Rte_IStatus          | RTrailerManeuverAssistIPMain_PpDsTrailerManeuverAssistIPDataSet_DeARACAMParameter 
+Diagnostic, Set DTC Event                | Rte_Call             | CtApTrailerManeuverAssistIP_PpEventHandling_SetEventStatus 
+RTE Data Exchange                        | Rte_Receive          | CtApTrailerManeuverAssistIP_PpFRTVTADin_DeFRTVTADin 
+Diagnostic, Coding                       | Rte_Read             | CtApTrailerManeuverAssistIP_PpDiagCoding_DeCoding 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApTrailerManeuverAssistIP_PpDiagTrailerManeuverAssistIPRead_DeTMA_Software_calibration_0x0517 
+RTE Data Exchange                        | Rte_IWrite           | RTrailerManeuverAssistIPMain_PpFRTVTADout_DePduGrp_ARA2_Sensor_02 
+RTE Data Exchange                        | Rte_IRead            | RTrailerManeuverAssistIPMain_PpTVMasterCameraCalibration_DeTVMasterCameraCalibration 
+IF-Set Version                           | Rte_IRead            | RTrailerManeuverAssistIPMain_PpPFProvidedData_DeIFSETVersion 
+Persistency, DataSet                     | Rte_IStatus          | RTrailerManeuverAssistIPMain_PpDsTrailerManeuverAssistIPDataSet_DeARACAMCameraCalibration 
+Persistency, Data read                   | Rte_Read             | CtApTrailerManeuverAssistIP_PpPdTrailerManeuverAssistIPRead_DeARACAMPersistanceCameraCalibration_Normal 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 18

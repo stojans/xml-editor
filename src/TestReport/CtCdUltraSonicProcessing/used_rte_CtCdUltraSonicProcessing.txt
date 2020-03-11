@@ -1,0 +1,47 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+RTE Data Exchange                        | Rte_IWrite           | RUltraSonicProcessing40ms_PpFRUSout_DePduGrp_APS2_Master 
+RTE Data Exchange                        | Rte_IRead            | RUltraSonicProcessing40ms_PpDsParkControlDataSet_DeOdomCfg 
+SWC Version Info                         | Rte_Call             | CtCdUltraSonicProcessing_PpPFServer_MW_SetSwcInfo 
+RTE Data Exchange                        | Rte_IRead            | RUltraSonicProcessing40ms_PpPFHwMeasurements_DeVBAT_MAIN 
+RTE Data Exchange                        | Rte_IRead            | RUltraSonicUpdate10ms_PpUSdebugIn_DeUSdebug 
+Persistency, Data write                  | Rte_Write            | CtCdUltraSonicProcessing_PpPdUltraSonicProcessingWrite_DeDynamicData_Usp_RW_Normal 
+RTE Data Exchange                        | Rte_IStatus          | RUltraSonicProcessing40ms_PpDsParkControlDataSet_DeCustomerCfg_R 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdUltraSonicProcessing_PpPdParkControlRead_DeDriverPreferences_RW_Critical 
+Persistency, Data read                   | Rte_Read             | CtCdUltraSonicProcessing_PpPdUltraSonicProcessingRead_DeDynamicData_Usp_RW_Normal 
+RTE Data Exchange                        | Rte_IStatus          | RUltraSonicProcessing40ms_PpDsParkControlDataSet_DeDapmCfg 
+Diagnostic, Coding                       | Rte_IsUpdated        | CtCdUltraSonicProcessing_PpDiagCoding_DeCoding 
+RTE Data Exchange                        | Rte_IStatus          | RUltraSonicUpdate10ms_PpUSdebugIn_DeUSdebug 
+RTE Data Exchange                        | Rte_IWrite           | RUltraSonicUpdate10ms_PpUSdebugOut_DeUSdebug 
+RTE Data Exchange                        | Rte_Send             | CtCdUltraSonicProcessing_PpUltraSonicProcessing2PerceptionAvailability_DeStatusUSSensors 
+Time Service, Timestamp                  | Rte_Call             | CtCdUltraSonicProcessing_PpPFServer_TS_GetZgtTimestamp 
+Diagnostic, Coding                       | Rte_Read             | CtCdUltraSonicProcessing_PpDiagCoding_DeCoding 
+RTE Data Exchange                        | Rte_IRead            | RUltraSonicProcessing40ms_PpDsParkControlDataSet_DeDapmCfg 
+UDS Diagnostic, Messwerte                | Rte_Write            | CtCdUltraSonicProcessing_PpDiagUltraSonicProcessingWrite_DeMesswerte_UltraSonicProcessing 
+Time Service, Remaining Time Budget      | Rte_Call             | CtCdUltraSonicProcessing_PpPFServer_TS_GetRemainingTimeBudget 
+Diagnostic, Global                       | Rte_Read             | CtCdUltraSonicProcessing_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+Persistency, DataSet                     | Rte_IRead            | RUltraSonicProcessing40ms_PpDsUltraSonicProcessingDataSet_DeUlsmFenceCfg 
+Diagnostic, Set DTC Event                | Rte_Call             | CtCdUltraSonicProcessing_PpEventHandling_SetEventStatus 
+Diagnostic, Global                       | Rte_Read             | CtCdUltraSonicProcessing_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+RTE Data Exchange                        | Rte_IStatus          | RUltraSonicProcessing40ms_PpPFHwMeasurements_DeVBAT_MAIN 
+RTE Data Exchange                        | Rte_IStatus          | RUltraSonicProcessing40ms_PpHSSwitchCtrl2UltraSonic_DeHSSwitchCtrl2UltraSonic 
+RTE Data Exchange                        | Rte_Send             | CtCdUltraSonicProcessing_PpFencesUltraSonic_DeUSFreespaceFences 
+Persistency, DataSet                     | Rte_IStatus          | RUltraSonicProcessing40ms_PpDsUltraSonicProcessingDataSet_DeUlsmFenceCfg 
+RTE Data Exchange                        | Rte_IWrite           | RUltraSonicProcessing40ms_PpFRUSout_DeTraceData 
+RTE Data Exchange                        | Rte_IWrite           | RUltraSonicProcessing40ms_PpFRUSout_DeUS2 
+RTE Data Exchange                        | Rte_Send             | CtCdUltraSonicProcessing_PpOBFObjUltraSonic_DeOBFObjUltraSonic 
+RTE Data Exchange                        | Rte_IWrite           | RUltraSonicProcessing40ms_PpFRUSout_DePduGrp_APS2_01 
+RTE Data Exchange                        | Rte_IWrite           | RUltraSonicProcessing40ms_PpFRUSout_DePduGrp_APS2_03 
+RTE Data Exchange                        | Rte_IRead            | RUltraSonicProcessing40ms_PpFRUSpreProcessingIn_DeFRUSpreProcessingIn 
+Diagnostic, DTC clear                    | Rte_Receive          | CtCdUltraSonicProcessing_PpDiagGlobalRead_DeFSPCleared 
+RTE Data Exchange                        | Rte_IRead            | RUltraSonicProcessing40ms_PpHSSwitchCtrl2UltraSonic_DeHSSwitchCtrl2UltraSonic 
+RTE Data Exchange                        | Rte_Send             | CtCdUltraSonicProcessing_PpFencesUltraSonic_DeUSObstacleFences 
+RTE Data Exchange                        | Rte_Read             | CtCdUltraSonicProcessing_PpPdParkControlRead_DeDriverPreferences_RW_Critical 
+Diagnostic, Get DTC Event                | Rte_Call             | CtCdUltraSonicProcessing_PpEventHandling_GetEventStatus 
+RTE Data Exchange                        | Rte_IWrite           | RUltraSonicProcessing40ms_PpUltraSonic2HSSwitchCtrl_DeUltraSonic2HSSwitchCtrl 
+RTE Data Exchange                        | Rte_IRead            | RUltraSonicProcessing40ms_PpDsParkControlDataSet_DeCustomerCfg_R 
+RTE Data Exchange                        | Rte_IStatus          | RUltraSonicProcessing40ms_PpDsParkControlDataSet_DeOdomCfg 
+RTE Data Exchange                        | Rte_Receive          | CtCdUltraSonicProcessing_PpEML_DeEML     
+RTE Data Exchange                        | Rte_IWrite           | RUltraSonicProcessing40ms_PpFRUSout_DePduGrp_APS2_02 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 43

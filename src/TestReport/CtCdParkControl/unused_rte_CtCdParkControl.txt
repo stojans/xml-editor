@@ -1,0 +1,237 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpACFMAStatus_DeACAHFCameraDetectionLogics 
+BAP                                      | Rte_Result           | CtCdParkControl_BapPropInit_PDC_Sound_Right_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpFRACFout_DePduGrp_LDW_02 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DeAcoustic_Warning_Folding_Top_0x091F 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpFRACFout_DePduGrp_ZFAS_WZO 
+BAP                                      | Rte_Result           | CtCdParkControl_BapPropInit_PDC_CrashWarning_BAP_InitSendBufferByteSequence 
+Time Service, AGT                        | Rte_Call             | CtCdParkControl_PpPFServer_TS_GetAgtTimestamp 
+BAP                                      | Rte_Call             | CtCdParkControl_BapRequestError_PDC_OPSVisualisation_Position_BAP_RequestError 
+HW Variant Interface                     | Rte_IRead            | RParkControlLogic20ms_PpPFProvidedData_DeVARHWVariant 
+BAP                                      | Rte_Result           | CtCdParkControl_BapRequestError_PDC_ParkboxList_AWC_BAP_RequestError 
+BAP                                      | Rte_Result           | CtCdParkControl_BapRequestError_PDC_WallDetection_BAP_RequestError 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DeIPA_piloted_finish_of_manually_unfinished_park_attempt_0x056C 
+BAP                                      | Rte_Call             | CtCdParkControl_BapRequestError_PDC_CrashWarning_BAP_RequestError 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DeDeactivating_of_start_stop_function_0x0928 
+BAP                                      | Rte_Call             | CtCdParkControl_BapRequestError_PDC_DefaultParkingmode_BAP_RequestError 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtCdParkControl_PpDiagParkControlRead_DeIPA_minimum_speed_limitation_0x0568 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpFRACFout_DePduGrp_STP_02 
+RTE Data Exchange                        | Rte_IWrite           | RParkControlLogic20ms_PpParkMAStatus_DeLaufzeitModusPACSTP 
+BAP                                      | Rte_Call             | CtCdParkControl_BapRequestError_PDC_APA_ManeuverDetails_BAP_RequestError 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagCoding_DePermitCodingPersistence 
+RTE Data Exchange                        | Rte_IRead            | RParkControlLogic20ms_PpHSS_PSSUP_STATUS_DeCH0_LIN_REAR_ShortToVbat_detected 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpPerceptionAvailabilityPark_DePerceptionAvailabilityPark 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DeFS_curb_lifter_profile_0x0516 
+RTE Data Exchange                        | Rte_Read             | CtCdParkControl_PpDiagCoding_DePermitCodingPersistence 
+Network, FlexRay Run                     | Rte_IWriteRef        | RParkControlLogic20ms_PpEcuComRequestsPark_DeRequestsFlexRayRun 
+RTE Data Exchange                        | Rte_Send             | CtCdParkControl_PpParkControl2DSC_DeParkControl2DSC 
+RTE Data Exchange                        | Rte_IRead            | RParkControlLogic20ms_PpFRACFout_DePduGrp_STP_02 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DeDebounce_Time_Reverse_Gear_Detection_0x2500 
+RTE Data Exchange                        | Rte_IRead            | RParkControlLogic20ms_PpFRACFout_DePduGrp_USS_01 
+RTE Data Exchange                        | Rte_IWrite           | RParkControlLogic20ms_PpEcuComRequestsPark_DeRequestsECURun 
+RTE Data Exchange                        | Rte_IRead            | RParkControlLogic20ms_PpHSS_PSSUP_STATUS_DeCH0_LIN_REAR_deactivated 
+RTE Data Exchange                        | Rte_Read             | CtCdParkControl_PpPdParkProcessingRead_DeDynamicData_Ppr_RW_Normal 
+BAP                                      | Rte_Call             | CtCdParkControl_BapRequestPropFSG_PDC_APA_ManeuverDetails_Status_BAP_RequestByteSequence 
+RTE Data Exchange                        | Rte_IRead            | RParkControlLogic20ms_PpFRACFout_DeTraceData 
+BAP                                      | Rte_Result           | CtCdParkControl_BapRequestPropFSG_PDC_Sound_Right_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Result           | CtCdParkControl_BapRequestFSG_PDC_PLA_MapList_Status_BAP_RequestByteSequence 
+Diagnostic, Global                       | Rte_IsUpdated        | CtCdParkControl_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+BAP                                      | Rte_Result           | CtCdParkControl_BapPropInit_PDC_OPSVisualisation_Position_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpFRACFout_DeTraceData 
+BAP                                      | Rte_Call             | CtCdParkControl_BapPropInit_PDC_Sound_Right_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpHSS_PSSUP_STATUS_DeCH0_LIN_REAR_ShortToVbat_detected 
+BAP                                      | Rte_Call             | CtCdParkControl_BapRequestPropFSG_PDC_CrashWarning_Status_BAP_RequestByteSequence 
+LCS                                      | Rte_IRead            | RParkControlLogic20ms_PpPFProvidedData_DeLCSAPHState 
+BAP                                      | Rte_Call             | CtCdParkControl_BapPropInit_PDC_FlankGuard_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DePP_GP_Deactivating_through_zFAS_Thermal_Helath_Status_0x0562 
+RTE Data Exchange                        | Rte_IRead            | RParkControlLogic20ms_PpTVCntrlTVMaster_DeTVLogoStatus 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpHSS_PSSUP_STATUS_DeCH0_LIN_REAR_deactivated 
+RTE Data Exchange                        | Rte_Read             | CtCdParkControl_PpPdParkProcessingRead_DeMapData_RW_Normal 
+BAP                                      | Rte_Result           | CtCdParkControl_BapPropInit_PDC_ParkboxList_AWC_BAP_InitSendBufferByteSequence 
+Persistency, DataSet                     | Rte_IStatus          | RParkControlLogic20ms_PpDsParkControlDataSet_DeFilmCfg 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DeProductionmode_0x04FE 
+BAP                                      | Rte_Call             | CtCdParkControl_BapRequestPropFSG_PDC_FlankGuard_Status_BAP_RequestByteSequence 
+LCS                                      | Rte_IStatus          | RParkControlLogic20ms_PpPFProvidedData_DeLCSMVHState 
+BAP                                      | Rte_Call             | CtCdParkControl_BapRequestPropFSG_PDC_Sound_Left_Status_BAP_RequestByteSequence 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpFRACFout_DePduGrp_HCA_01 
+BAP                                      | Rte_Call             | CtCdParkControl_BapRequestPropFSG_PDC_ParkboxList_AWC_Status_BAP_RequestByteSequence 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DeMA_Threshold_collission_analysis_0x0515 
+Diagnostic, Global                       | Rte_Read             | CtCdParkControl_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+BAP                                      | Rte_Call             | CtCdParkControl_BapRequestPropFSG_PDC_WallDetection_Status_BAP_RequestByteSequence 
+Diagnostic, Global                       | Rte_IsUpdated        | CtCdParkControl_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+RTE Data Exchange                        | Rte_IRead            | RParkControlLogic20ms_PpFRACFout_DePduGrp_PACC_CAC 
+BAP                                      | Rte_Result           | CtCdParkControl_BapPropInit_PDC_PLA_Messages_BAP_InitSendBufferUInt8 
+BAP                                      | Rte_Result           | CtCdParkControl_BapRequestError_PDC_FlankGuard_BAP_RequestError 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DeVolume_Level_Folding_Top_Offset_0x252E 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtCdParkControl_PpDiagParkControlRead_DeVisual_Indicator_0x2531 
+BAP                                      | Rte_Receive          | CtCdParkControl_PpTVCntrlTVMaster_DeTVBapArrayRequest 
+BAP                                      | Rte_Call             | CtCdParkControl_BapRequestError_PDC_PLA_MapList_BAP_RequestError 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DePP_GP_limit_zFAS_Thermal_Helath_Status_function_abort_0x0564 
+RTE Data Exchange                        | Rte_IRead            | RParkControlLogic20ms_PpHSS_PSSUP_STATUS_DeCH1_LIN_FRNT_ShortToVbat_detected 
+LCS                                      | Rte_IStatus          | RParkControlLogic20ms_PpPFProvidedData_DeLCSAPHState 
+BAP                                      | Rte_Call             | CtCdParkControl_BapPropInit_PDC_ParkboxVisualisation_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DeDeactivation_Stop_Inhibit_From_Parking_Aid_0x3B70 
+BAP                                      | Rte_Receive          | CtCdParkControl_PpTVCntrlTVMaster_DeTVBapRequest 
+LCS                                      | Rte_IStatus          | RParkControlLogic20ms_PpPFProvidedData_DeLCSSRHState 
+LCS                                      | Rte_IRead            | RParkControlLogic20ms_PpPFProvidedData_DeLCSMVHState 
+BAP                                      | Rte_Call             | CtCdParkControl_BapRequestError_PDC_FlankGuard_BAP_RequestError 
+RTE Data Exchange                        | Rte_IRead            | RParkControlLogic20ms_PpFRACFout_DePduGrp_EA_02 
+BAP                                      | Rte_Result           | CtCdParkControl_BapPropInit_PDC_DefaultParkingmode_BAP_InitSendBufferUInt8 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtCdParkControl_PpDiagParkControlRead_DeGP_garage_pilot_0x0513 
+Persistency, DataSet                     | Rte_IRead            | RParkControlLogic20ms_PpDsParkControlDataSet_DeFilmCfg 
+BAP                                      | Rte_Result           | CtCdParkControl_BapRequestError_PDC_Sound_Left_BAP_RequestError 
+RTE Data Exchange                        | Rte_IWrite           | RParkControlLogic20ms_PpParkMAStatus_DeLaufzeitAnforderungPACPPR 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpHSS_PSSUP_STATUS_DeCH2_SPEAKER_REAR_current_mV 
+RTE Data Exchange                        | Rte_IRead            | RParkControlLogic20ms_PpParkProcessing2Control_DeLaufzeitModusPPRPAC 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DeCustomer_focused_offroad_drive_0x09CC 
+RTE Data Exchange                        | Rte_IRead            | RParkControlLogic20ms_PpHSS_PSSUP_STATUS_DeCH1_LIN_FRNT_deactivated 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpPFProvidedData_DeTotalSysRestartCnt 
+BAP                                      | Rte_Call             | CtCdParkControl_BapRequestError_PDC_ParkboxList_AWC_BAP_RequestError 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpHSS_PSSUP_STATUS_DeCH1_LIN_FRNT_current_mV 
+BAP                                      | Rte_Result           | CtCdParkControl_BapRequestPropFSG_PDC_ParkboxVisualisation_Status_BAP_RequestByteSequence 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DeVolume_Level_Folding_Top_Increment_0x252F 
+BAP                                      | Rte_Result           | CtCdParkControl_BapRequestError_PDC_DefaultParkingmode_BAP_RequestError 
+BAP                                      | Rte_Call             | CtCdParkControl_BapRequestError_PDC_PLA_Messages_BAP_RequestError 
+BAP                                      | Rte_Call             | CtCdParkControl_BapRequestPropFSG_PDC_OPSVisualisation_Position_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Call             | CtCdParkControl_BapRequestFSG_PDC_PLA_MapList_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Call             | CtCdParkControl_BapPropInit_PDC_APA_ManeuverDetails_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_IRead            | RParkControlLogic20ms_PpHSS_PSSUP_STATUS_DeCH2_SPEAKER_REAR_current_mV 
+BAP                                      | Rte_Result           | CtCdParkControl_BapRequestPropFSG_PDC_OPSVisualisation_Position_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Result           | CtCdParkControl_BapPropInit_PDC_Sound_Left_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpParkProcessing2Control_DeLaufzeitModusPPRPAC 
+BAP                                      | Rte_Result           | CtCdParkControl_BapPropInit_PDC_ParkboxVisualisation_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Result           | CtCdParkControl_BapPropInit_PDC_FlankGuard_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_IRead            | RParkControlLogic20ms_PpACFMAStatus_DeACAHFCameraDetectionLogics 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpKASPark_DeKASPark 
+Persistency, DataSet                     | Rte_IStatus          | RParkControlLogic20ms_PpDsParkControlDataSet_DeMopmCfg 
+BAP                                      | Rte_Result           | CtCdParkControl_BapRequestError_PDC_OPSVisualisation_Position_BAP_RequestError 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpHSS_PSSUP_STATUS_DeCH1_LIN_FRNT_deactivated 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpFRACFout_DePduGrp_USS_01 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpParkMonitor2Control_DeParkMonitor2Control 
+BAP                                      | Rte_Call             | CtCdParkControl_BapRequestPropFSG_PDC_ParkboxVisualisation_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Call             | CtCdParkControl_BapPropInit_PDC_WallDetection_BAP_InitSendBufferByteSequence 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtCdParkControl_PpDiagParkControlRead_DePark_assist_parking_speed_0x0BC2 
+BAP                                      | Rte_Result           | CtCdParkControl_BapPropInit_PDC_APA_ManeuverDetails_BAP_InitSendBufferByteSequence 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtCdParkControl_PpDiagParkControlRead_DePark_assist_distance_from_kerb_0x0BC0 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpFRACFout_DeFRACFout 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DePP_GP_limit_zFAS_Thermal_Helath_Status_function_activation_0x0563 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtCdParkControl_PpDiagParkControlRead_DeIPA_Intelligent_park_assist_0x050F 
+BAP                                      | Rte_Result           | CtCdParkControl_BapRequestPropFSG_PDC_ParkboxList_AWC_Status_BAP_RequestByteSequence 
+RTE Data Exchange                        | Rte_IRead            | RParkControlLogic20ms_PpHSS_PSSUP_STATUS_DeCH0_LIN_REAR_current_mV 
+RTE Data Exchange                        | Rte_Read             | CtCdParkControl_PpPdParkProcessingRead_DeTrajData_RW_Normal 
+BAP                                      | Rte_Call             | CtCdParkControl_BapPropInit_PDC_CrashWarning_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_IRead            | RParkControlLogic20ms_PpHSS_PSSUP_STATUS_DeCH2_SPEAKER_REAR_deactivated 
+Persistency, Data read                   | Rte_IsUpdated        | CtCdParkControl_PpPdParkControlRead_DeIpaCfg_RW_Normal 
+BAP                                      | Rte_Call             | CtCdParkControl_BapRequestPropFSG_PDC_DefaultParkingmode_Status_BAP_RequestUInt8 
+RTE Data Exchange                        | Rte_IWrite           | RParkControlLogic20ms_PpEcuComRequestsPark_DeRequestsAFSCanRun 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DePark_assist_parking_slot_visualisation_0x0BC1 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DeSet_Development_Mode_Stationary_Functions_0x055A 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtCdParkControl_PpDiagParkControlRead_DePark_assist_excess_width_vehicle_attachements_0x0BBF 
+RTE Data Exchange                        | Rte_IRead            | RParkControlLogic20ms_PpHSS_PSSUP_STATUS_DeCH1_LIN_FRNT_current_mV 
+IF-Set Version                           | Rte_IStatus          | RParkControlLogic20ms_PpPFProvidedData_DeIFSETVersion 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DePDC_Rear_Lid_Assistance_Adaption_0x0510 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpFRACFout_DePduGrp_HCA_02 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DePP_parking_variants_piloted_0x0512 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DePark_assist_excess_width_vehicle_attachements_0x0BBF 
+LCS                                      | Rte_IRead            | RParkControlLogic20ms_PpPFProvidedData_DeLCSSystemState 
+RTE Data Exchange                        | Rte_IRead            | RParkControlLogic20ms_PpFRACFout_DePduGrp_HCA_02 
+RTE Data Exchange                        | Rte_IWriteRef        | RParkControlLogic20ms_PpParkMAStatus_DeLaufzeitModusPACSTP 
+BAP                                      | Rte_Result           | CtCdParkControl_BapRequestPropFSG_PDC_Sound_Left_Status_BAP_RequestByteSequence 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DeAudio_Volume_Control_Request_0x2530 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtCdParkControl_PpDiagParkControlRead_DeFS_curb_lifter_profile_0x0516 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpPdParkProcessingRead_DeDynamicData_Ppr_RW_Normal 
+BAP                                      | Rte_Call             | CtCdParkControl_BapRequestError_PDC_Sound_Left_BAP_RequestError 
+BAP                                      | Rte_Result           | CtCdParkControl_BapRequestError_PDC_Sound_Right_BAP_RequestError 
+RTE Data Exchange                        | Rte_IRead            | RParkControlLogic20ms_PpFRACFout_DePduGrp_EA_01 
+BAP                                      | Rte_Result           | CtCdParkControl_BapRequestError_PDC_PLA_Messages_BAP_RequestError 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DeManeuver_assist_0x0AF2 
+BAP                                      | Rte_Result           | CtCdParkControl_BapRequestError_PDC_APA_ManeuverDetails_BAP_RequestError 
+BAP                                      | Rte_Result           | CtCdParkControl_BapRequestPropFSG_PDC_CrashWarning_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Call             | CtCdParkControl_BapPropInit_PDC_OPSVisualisation_Position_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DePDC_Maximum_Speed_Limitation_0x25E9 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpParkProcessing2Control_DeParkProcessing2Control 
+LCS                                      | Rte_IRead            | RParkControlLogic20ms_PpPFProvidedData_DeLCSSRHState 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpACFOBS2ACFSMS_DeACFObsSMResult 
+RTE Data Exchange                        | Rte_IRead            | RParkControlLogic20ms_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+BAP                                      | Rte_Call             | CtCdParkControl_BapPropInit_PDC_ParkboxList_AWC_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Result           | CtCdParkControl_BapRequestError_PDC_ParkboxVisualisation_BAP_RequestError 
+IF-Set Version                           | Rte_IRead            | RParkControlLogic20ms_PpPFProvidedData_DeIFSETVersion 
+RTE Data Exchange                        | Rte_IRead            | RParkControlLogic20ms_PpACFOBS2ACFSMS_DeACFObsSMResult 
+BAP                                      | Rte_Result           | CtCdParkControl_BapRequestPropFSG_PDC_WallDetection_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Result           | CtCdParkControl_BapPropInit_PDC_WallDetection_BAP_InitSendBufferByteSequence 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtCdParkControl_PpDiagParkControlRead_DePP_parking_variants_piloted_0x0512 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpHSS_PSSUP_STATUS_DeCH2_SPEAKER_REAR_deactivated 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpPdParkProcessingRead_DeMapData_RW_Normal 
+Time Service, Convert ZGT                | Rte_Call             | CtCdParkControl_PpPFServer_TS_ConvertZgt2Agt 
+BAP                                      | Rte_Result           | CtCdParkControl_BapRequestError_PDC_PLA_MapList_BAP_RequestError 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DeIPA_set_development_mode_minimum_speed_limitation_0x0569 
+BAP                                      | Rte_Call             | CtCdParkControl_BapPropInit_PDC_PLA_Messages_BAP_InitSendBufferUInt8 
+RTE Data Exchange                        | Rte_IRead            | RParkControlLogic20ms_PpHSS_PSSUP_STATUS_DeCH3_SPEAKER_FRONT_current_mV 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DePark_assist_parking_speed_menu_0x0BC3 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DeGP_garage_pilot_0x0513 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DeMA_Steering_0x0514 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DeSet_Development_Mode_Top_Speed_Limitation_0x055B 
+BAP                                      | Rte_Call             | CtCdParkControl_BapRequestPropFSG_PDC_Sound_Right_Status_BAP_RequestByteSequence 
+Persistency, Data read                   | Rte_IsUpdated        | CtCdParkControl_PpPdParkControlRead_DeCustomerCfg_RW_Normal 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DePark_assist_parking_speed_0x0BC2 
+BAP                                      | Rte_Call             | CtCdParkControl_BapGet_PDC_State         
+BAP                                      | Rte_Result           | CtCdParkControl_BapRequestPropFSG_PDC_DefaultParkingmode_Status_BAP_RequestUInt8 
+LCS                                      | Rte_IStatus          | RParkControlLogic20ms_PpPFProvidedData_DeLCSSystemState 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpPdParkProcessingRead_DeTrajData_RW_Normal 
+Network, FlexRay Run                     | Rte_IWrite           | RParkControlLogic20ms_PpEcuComRequestsPark_DeRequestsFlexRayRun 
+RTE Data Exchange                        | Rte_IWriteRef        | RParkControlLogic20ms_PpEcuComRequestsPark_DeRequestsAFSCanRun 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpTVCntrlTVMaster_DeTVLogoStatus 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpHSS_PSSUP_STATUS_DeCH0_LIN_REAR_current_mV 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpFRACFout_DePduGrp_PACC_CAC 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DeIPA_Intelligent_park_assist_0x050F 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DeIPA_threshold_maneuver_assist_0x056D 
+RTE Data Exchange                        | Rte_IRead            | RParkControlLogic20ms_PpFRACFout_DePduGrp_ZFAS_WZO 
+RTE Data Exchange                        | Rte_IWriteRef        | RParkControlLogic20ms_PpEcuComRequestsPark_DeRequestsECURun 
+BAP                                      | Rte_Result           | CtCdParkControl_BapRequestPropFSG_PDC_APA_ManeuverDetails_Status_BAP_RequestByteSequence 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpHSS_PSSUP_STATUS_DeCH1_LIN_FRNT_ShortToVbat_detected 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DePark_assist_excess_length_vehicle_attachements_0x0BBE 
+BAP                                      | Rte_IsUpdated        | CtCdParkControl_Bap_Allowed_DeBapAllowed 
+BAP                                      | Rte_Result           | CtCdParkControl_BapRequestFSG_PDC_PLA_MapList_Changed_BAP_RequestByteSequence 
+BAP                                      | Rte_Call             | CtCdParkControl_BapRequestPropFSG_PDC_PLA_Messages_Status_BAP_RequestUInt8 
+BAP                                      | Rte_Result           | CtCdParkControl_BapGet_PDC_State         
+BAP                                      | Rte_Call             | CtCdParkControl_BapPropInit_PDC_DefaultParkingmode_BAP_InitSendBufferUInt8 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DeDeactivation_Stop_Inhibit_From_Parking_Assist_0x3B71 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DeIPA_Steering_recommendation_for_minimum_distance_0x050D 
+HW Variant Interface                     | Rte_IStatus          | RParkControlLogic20ms_PpPFProvidedData_DeVARHWVariant 
+LCS                                      | Rte_IStatus          | RParkControlLogic20ms_PpPFProvidedData_DeLCSSSHState 
+Persistency, DataSet                     | Rte_IRead            | RParkControlLogic20ms_PpDsParkControlDataSet_DeMopmCfg 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DeIPA_minimum_speed_limitation_0x0568 
+RTE Data Exchange                        | Rte_IRead            | RParkControlLogic20ms_PpFRACFout_DePduGrp_HCA_01 
+RTE Data Exchange                        | Rte_IRead            | RParkControlLogic20ms_PpFRACFout_DePduGrp_ZFAS_VZO 
+Diagnostic, Global                       | Rte_IsUpdated        | CtCdParkControl_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DeAcoustic_Indicator_For_Activation_0x252C 
+BAP                                      | Rte_Call             | CtCdParkControl_BapRequestError_PDC_WallDetection_BAP_RequestError 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpHSS_PSSUP_STATUS_DeCH3_SPEAKER_FRONT_deactivated 
+RTE Data Exchange                        | Rte_IRead            | RParkControlLogic20ms_PpPFProvidedData_DeTotalSysRestartCnt 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpFRACFout_DePduGrp_ZFAS_VZO 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpFRParkControlin_DeFRParkControlin 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtCdParkControl_PpDiagParkControlRead_DePark_assist_excess_length_vehicle_attachements_0x0BBE 
+Time Service, Convert AGT                | Rte_Call             | CtCdParkControl_PpPFServer_TS_ConvertAgt2Zgt 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtCdParkControl_PpDiagParkControlRead_DeIPA_set_development_mode_minimum_speed_limitation_0x0569 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpHSS_PSSUP_STATUS_DeCH3_SPEAKER_FRONT_current_mV 
+BAP                                      | Rte_Call             | CtCdParkControl_BapRequestFSG_PDC_PLA_MapList_Changed_BAP_RequestByteSequence 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtCdParkControl_PpDiagParkControlRead_DeMA_Threshold_collission_analysis_0x0515 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DeIPA_Curb_crossing_0x050E 
+BAP                                      | Rte_Result           | CtCdParkControl_BapRequestPropFSG_PDC_FlankGuard_Status_BAP_RequestByteSequence 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DePark_assist_distance_from_kerb_0x0BC0 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DeVisual_Indicator_0x2531 
+BAP                                      | Rte_Call             | CtCdParkControl_BapRequestError_PDC_ParkboxVisualisation_BAP_RequestError 
+RTE Data Exchange                        | Rte_IWriteRef        | RParkControlLogic20ms_PpParkMAStatus_DeLaufzeitAnforderungPACPPR 
+BAP                                      | Rte_Call             | CtCdParkControl_BapRequestError_PDC_Sound_Right_BAP_RequestError 
+BAP                                      | Rte_Result           | CtCdParkControl_BapRequestError_PDC_CrashWarning_BAP_RequestError 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpFRACFout_DePduGrp_EA_02 
+RTE Data Exchange                        | Rte_IRead            | RParkControlLogic20ms_PpHSS_PSSUP_STATUS_DeCH3_SPEAKER_FRONT_deactivated 
+BAP                                      | Rte_Call             | CtCdParkControl_BapPropInit_PDC_Sound_Left_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Result           | CtCdParkControl_BapRequestPropFSG_PDC_PLA_Messages_Status_BAP_RequestUInt8 
+RTE Data Exchange                        | Rte_IRead            | RParkControlLogic20ms_PpFRACFout_DePduGrp_LDW_02 
+RTE Data Exchange                        | Rte_IStatus          | RParkControlLogic20ms_PpFRACFout_DePduGrp_EA_01 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdParkControl_PpDiagParkControlRead_DeIPA_adjust_calculation_breaking_distance_0x056B 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 233

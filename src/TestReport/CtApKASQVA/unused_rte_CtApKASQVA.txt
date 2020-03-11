@@ -1,0 +1,75 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+RTE Data Exchange                        | Rte_IStatus          | RQVAmain_PpFRParkControlout_DeFRParkControlout 
+RTE Data Exchange                        | Rte_IRead            | RQVAmain_PpFRParkControlout_DePduGrp_IPA_01 
+BAP                                      | Rte_Call             | CtApKASQVA_BapRequestError_FTA_FTA_SensorData_BAP_RequestError 
+Diagnostic, DTC clear                    | Rte_Receive          | CtApKASQVA_PpDiagGlobalRead_DeFSPCleared 
+BAP                                      | Rte_Result           | CtApKASQVA_BapRequestPropFSG_FTA_FSG_Control_Status_BAP_RequestByteSequence 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApKASQVA_PpDiagCoding_DePermitCodingPersistence 
+BAP                                      | Rte_Call             | CtApKASQVA_BapRequestPropFSG_FTA_FSG_Setup_Status_BAP_RequestByteSequence 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApKASQVA_PpDiagKASQVARead_DeProductionmode_deactivate_0x04FC 
+RTE Data Exchange                        | Rte_IRead            | RQVAmain_PpFRParkControlout_DeTraceData  
+Persistency, Data read                   | Rte_IsUpdated        | CtApKASQVA_PpPdKASQVARead_DeCtApKasqvaKasPersonal_Normal 
+RTE Data Exchange                        | Rte_IRead            | RQVAmain_PpFRParkControlout_DeFRParkControlout 
+LCS                                      | Rte_IStatus          | RQVAmain_PpPFProvidedData_DeLCSAPHState  
+RTE Data Exchange                        | Rte_IRead            | RQVAmain_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+RTE Data Exchange                        | Rte_IStatus          | RQVAmain_PpFRParkControlout_DePduGrp_PLA2_02 
+BAP                                      | Rte_Call             | CtApKASQVA_BapRequestError_FTA_FSG_OperationState_BAP_RequestError 
+Time Service, Convert ZGT                | Rte_Call             | CtApKASQVA_PpPFServer_TS_ConvertZgt2Agt  
+RTE Data Exchange                        | Rte_IRead            | RQVAmain_PpFRParkControlout_DePduGrp_ZFAS_01 
+LCS                                      | Rte_IStatus          | RQVAmain_PpPFProvidedData_DeLCSMVHState  
+RTE Data Exchange                        | Rte_IRead            | RQVAmain_PpFRParkControlout_DePduGrp_PLA2_01 
+Time Service, AGT                        | Rte_Call             | CtApKASQVA_PpPFServer_TS_GetAgtTimestamp 
+LCS                                      | Rte_IRead            | RQVAmain_PpPFProvidedData_DeLCSMVHState  
+Diagnostic, Global                       | Rte_IsUpdated        | CtApKASQVA_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+RTE Data Exchange                        | Rte_IRead            | RQVAmain_PpFRParkControlout_DePduGrp_PLA2_02 
+BAP                                      | Rte_Result           | CtApKASQVA_BapRequestPropFSG_FTA_FSG_Setup_Status_BAP_RequestByteSequence 
+RTE Data Exchange                        | Rte_IRead            | RQVAmain_PpPFProvidedData_DeTotalSysRestartCnt 
+RTE Data Exchange                        | Rte_IStatus          | RQVAmain_PpFRParkControlout_DePduGrp_PLA2_01 
+RTE Data Exchange                        | Rte_IRead            | RQVAmain_PpFRParkControlout_DePduGrp_Parkhilfe2_01 
+RTE Data Exchange                        | Rte_IStatus          | RQVAmain_PpFRParkControlout_DePduGrp_PLA2_Status_02 
+RTE Data Exchange                        | Rte_IRead            | RQVAmain_PpFRParkControlout_DePduGrp_PLA2_Status_02 
+LCS                                      | Rte_IRead            | RQVAmain_PpPFProvidedData_DeLCSAPHState  
+RTE Data Exchange                        | Rte_IStatus          | RQVAmain_PpPFHwMeasurements_DeTHS        
+Diagnostic, Global                       | Rte_Read             | CtApKASQVA_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+RTE Data Exchange                        | Rte_IStatus          | RQVAmain_PpFRParkControlout_DePduGrp_Parkhilfe2_04 
+LCS                                      | Rte_IStatus          | RQVAmain_PpPFProvidedData_DeLCSSRHState  
+RTE Data Exchange                        | Rte_IRead            | RQVAmain_PpPFHwMeasurements_DeVBAT_MAIN  
+BAP                                      | Rte_Call             | CtApKASQVA_BapGet_FTA_State              
+LCS                                      | Rte_IRead            | RQVAmain_PpPFProvidedData_DeLCSSRHState  
+RTE Data Exchange                        | Rte_IStatus          | RQVAmain_PpFRParkControlout_DePduGrp_IPA_01 
+RTE Data Exchange                        | Rte_IStatus          | RQVAmain_PpPFHwMeasurements_DeVBAT_MAIN  
+RTE Data Exchange                        | Rte_IStatus          | RQVAmain_PpPFProvidedData_DeTotalSysRestartCnt 
+LCS                                      | Rte_IStatus          | RQVAmain_PpPFProvidedData_DeLCSSSHState  
+BAP                                      | Rte_Call             | CtApKASQVA_BapRequestPropFSG_FTA_FSG_Control_Status_BAP_RequestByteSequence 
+IF-Set Version                           | Rte_IStatus          | RQVAmain_PpPFProvidedData_DeIFSETVersion 
+RTE Data Exchange                        | Rte_Read             | CtApKASQVA_PpDiagCoding_DePermitCodingPersistence 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApKASQVA_PpDiagKASQVARead_DeProductionmode_deactivate_0x04FC 
+Time Service, Convert AGT                | Rte_Call             | CtApKASQVA_PpPFServer_TS_ConvertAgt2Zgt  
+BAP                                      | Rte_Call             | CtApKASQVA_BapRequestError_FTA_FSG_Setup_BAP_RequestError 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApKASQVA_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+LCS                                      | Rte_IRead            | RQVAmain_PpPFProvidedData_DeLCSSystemState 
+BAP                                      | Rte_Result           | CtApKASQVA_BapRequestError_FTA_FSG_Setup_BAP_RequestError 
+IF-Set Version                           | Rte_IRead            | RQVAmain_PpPFProvidedData_DeIFSETVersion 
+RTE Data Exchange                        | Rte_IStatus          | RQVAmain_PpFRParkControlout_DeTraceData  
+Diagnostic, Coding                       | Rte_IsUpdated        | CtApKASQVA_PpDiagCoding_DeCoding         
+HW Variant Interface                     | Rte_IRead            | RQVAmain_PpPFProvidedData_DeVARHWVariant 
+BAP                                      | Rte_Result           | CtApKASQVA_BapGet_FTA_State              
+HW Variant Interface                     | Rte_IStatus          | RQVAmain_PpPFProvidedData_DeVARHWVariant 
+RTE Data Exchange                        | Rte_IStatus          | RQVAmain_PpFRParkControlout_DePduGrp_IPA_02 
+RTE Data Exchange                        | Rte_IRead            | RQVAmain_PpPFHwMeasurements_DeTHS        
+Diagnostic, Global                       | Rte_Read             | CtApKASQVA_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+RTE Data Exchange                        | Rte_IStatus          | RQVAmain_PpFRParkControlout_DePduGrp_Parkhilfe2_01 
+BAP                                      | Rte_IsUpdated        | CtApKASQVA_Bap_Allowed_DeBapAllowed      
+RTE Data Exchange                        | Rte_IRead            | RQVAmain_PpFRParkControlout_DePduGrp_IPA_02 
+RTE Data Exchange                        | Rte_IRead            | RQVAmain_PpFRParkControlout_DePduGrp_Parkhilfe2_04 
+BAP                                      | Rte_Result           | CtApKASQVA_BapRequestError_FTA_FSG_Control_BAP_RequestError 
+BAP                                      | Rte_Result           | CtApKASQVA_BapRequestError_FTA_FTA_SensorData_BAP_RequestError 
+LCS                                      | Rte_IRead            | RQVAmain_PpPFProvidedData_DeLCSSSHState  
+BAP                                      | Rte_Result           | CtApKASQVA_BapRequestError_FTA_FSG_OperationState_BAP_RequestError 
+LCS                                      | Rte_IStatus          | RQVAmain_PpPFProvidedData_DeLCSSystemState 
+RTE Data Exchange                        | Rte_IStatus          | RQVAmain_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+RTE Data Exchange                        | Rte_IStatus          | RQVAmain_PpFRParkControlout_DePduGrp_ZFAS_01 
+BAP                                      | Rte_Call             | CtApKASQVA_BapRequestError_FTA_FSG_Control_BAP_RequestError 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 71

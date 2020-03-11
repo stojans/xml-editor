@@ -1,0 +1,31 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+RTE Data Exchange                        | Rte_IStatus          | RHsSwitchCtrl20ms_PpHSS_PSSUP_STATUS_DeCH0_LIN_REAR_ShortToVbat_detected 
+RTE Data Exchange                        | Rte_IStatus          | RHsSwitchCtrl20ms_PpHSS_PSSUP_STATUS_DeCH1_LIN_FRNT_deactivated 
+RTE Data Exchange                        | Rte_IRead            | RHsSwitchCtrl20ms_PpHSS_PSSUP_STATUS_DeCH0_LIN_REAR_ShortToVbat_detected 
+RTE Data Exchange                        | Rte_IStatus          | RHsSwitchCtrl20ms_PpHSS_PSSUP_STATUS_DeCH2_SPEAKER_REAR_current_mV 
+RTE Data Exchange                        | Rte_IStatus          | RHsSwitchCtrl20ms_PpParkCtrl2HSSwitchCtrl_DeParkCtrl2HSSwitchCtrl 
+RTE Data Exchange                        | Rte_IRead            | RHsSwitchCtrl20ms_PpUltraSonic2HSSwitchCtrl_DeUltraSonic2HSSwitchCtrl 
+RTE Data Exchange                        | Rte_IRead            | RHsSwitchCtrl20ms_PpHSS_PSSUP_STATUS_DeCH1_LIN_FRNT_current_mV 
+RTE Data Exchange                        | Rte_IRead            | RHsSwitchCtrl20ms_PpParkCtrl2HSSwitchCtrl_DeParkCtrl2HSSwitchCtrl 
+RTE Data Exchange                        | Rte_IRead            | RHsSwitchCtrl20ms_PpHSS_PSSUP_STATUS_DeCH3_SPEAKER_FRONT_current_mV 
+RTE Data Exchange                        | Rte_IStatus          | RHsSwitchCtrl20ms_PpHSS_PSSUP_STATUS_DeCH2_SPEAKER_REAR_deactivated 
+RTE Data Exchange                        | Rte_IRead            | RHsSwitchCtrl20ms_PpHSS_PSSUP_STATUS_DeCH3_SPEAKER_FRONT_deactivated 
+RTE Data Exchange                        | Rte_IStatus          | RHsSwitchCtrl20ms_PpHSS_PSSUP_STATUS_DeCH1_LIN_FRNT_current_mV 
+RTE Data Exchange                        | Rte_IRead            | RHsSwitchCtrl20ms_PpHSS_PSSUP_STATUS_DeCH0_LIN_REAR_deactivated 
+RTE Data Exchange                        | Rte_IStatus          | RHsSwitchCtrl20ms_PpHSS_PSSUP_STATUS_DeCH0_LIN_REAR_current_mV 
+RTE Data Exchange                        | Rte_IWrite           | RHsSwitchCtrl20ms_PpHSSwitchCtrl2UltraSonic_DeHSSwitchCtrl2UltraSonic 
+SWC Version Info                         | Rte_Call             | CtCdHighSSwitchControl_PpPFServer_MW_SetSwcInfo 
+RTE Data Exchange                        | Rte_IStatus          | RHsSwitchCtrl20ms_PpHSS_PSSUP_STATUS_DeCH3_SPEAKER_FRONT_deactivated 
+RTE Data Exchange                        | Rte_IRead            | RHsSwitchCtrl20ms_PpHSS_PSSUP_STATUS_DeCH2_SPEAKER_REAR_current_mV 
+RTE Data Exchange                        | Rte_IStatus          | RHsSwitchCtrl20ms_PpUltraSonic2HSSwitchCtrl_DeUltraSonic2HSSwitchCtrl 
+RTE Data Exchange                        | Rte_IStatus          | RHsSwitchCtrl20ms_PpHSS_PSSUP_STATUS_DeCH3_SPEAKER_FRONT_current_mV 
+RTE Data Exchange                        | Rte_IStatus          | RHsSwitchCtrl20ms_PpHSS_PSSUP_STATUS_DeCH0_LIN_REAR_deactivated 
+RTE Data Exchange                        | Rte_IWrite           | RHsSwitchCtrl20ms_PpHSSwitchCtrl2ParkCtrl_DeHSSwitchCtrl2ParkCtrl 
+RTE Data Exchange                        | Rte_IRead            | RHsSwitchCtrl20ms_PpHSS_PSSUP_STATUS_DeCH0_LIN_REAR_current_mV 
+RTE Data Exchange                        | Rte_IRead            | RHsSwitchCtrl20ms_PpHSS_PSSUP_STATUS_DeCH1_LIN_FRNT_ShortToVbat_detected 
+RTE Data Exchange                        | Rte_IRead            | RHsSwitchCtrl20ms_PpHSS_PSSUP_STATUS_DeCH1_LIN_FRNT_deactivated 
+RTE Data Exchange                        | Rte_IStatus          | RHsSwitchCtrl20ms_PpHSS_PSSUP_STATUS_DeCH1_LIN_FRNT_ShortToVbat_detected 
+RTE Data Exchange                        | Rte_IRead            | RHsSwitchCtrl20ms_PpHSS_PSSUP_STATUS_DeCH2_SPEAKER_REAR_deactivated 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 27

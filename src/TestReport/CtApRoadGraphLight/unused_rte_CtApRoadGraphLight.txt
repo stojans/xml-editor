@@ -1,0 +1,104 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpDsRoadGraphDataSet_DeRoadgraphRGLData 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApRoadGraphLight_PpDiagRoadGraphLightRead_DeReset_0x0570 
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpObjOBFMV_DeOBFObjMVPED      
+LCS                                      | Rte_IStatus          | RRGLCyclic_PpPFProvidedData_DeLCSSRHState 
+RTE Data Exchange                        | Rte_IRead            | RRGLCyclic_PpFRVZE_DePduGrp_VZE_03       
+RTE Data Exchange                        | Rte_IWrite           | RRGLCyclic_PpRGLVZE_DeBVTS               
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpPSD15_DePSD06m1             
+Diagnostic, DTC clear                    | Rte_Receive          | CtApRoadGraphLight_PpDiagGlobalRead_DeFSPCleared 
+LCS                                      | Rte_IStatus          | RRGLCyclic_PpPFProvidedData_DeLCSMVHState 
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpPSD15_DePSDLR01m3           
+RTE Data Exchange                        | Rte_IRead            | RRGLCyclic_PpFRVZE_DePduGrp_BVTS_xx      
+RTE Data Exchange                        | Rte_IWrite           | RRGLCyclic_PpRGLVZE_DePduGrp_VZE_02      
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpFRVZE_DeVZE                 
+RTE Data Exchange                        | Rte_IRead            | RRGLCyclic_PpDsRoadGraphDataSet_DeRoadgraphRGLDIAGData 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApRoadGraphLight_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+RTE Data Exchange                        | Rte_IRead            | RRGLCyclic_PpObjOBFMV_DeOBFObjMVMOD      
+Time Service, AGT                        | Rte_Call             | CtApRoadGraphLight_PpPFServer_TS_GetAgtTimestamp 
+RTE Data Exchange                        | Rte_IWrite           | RRGLCyclic_PpRGLVZE_DePduGrp_VZE_03      
+RTE Data Exchange                        | Rte_IRead            | RRGLCyclic_PpObjOBFMV_DeOBFObjMVPED      
+RTE Data Exchange                        | Rte_IRead            | RRGLCyclic_PpPFProvidedData_DeTotalSysRestartCnt 
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpFRVZE_DePduGrp_VZE_05       
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpPSD15_DePSDLR01m0           
+RTE Data Exchange                        | Rte_IsUpdated        | CtApRoadGraphLight_PpDiagRoadGraphLightRead_DeRoad_Graph_Light_Inputs_0x0557 
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpLanesMV_DeLanes             
+RTE Data Exchange                        | Rte_IRead            | RRGLCyclic_PpFRVZE_DePduGrp_VZE_05       
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpPSD15_DeMIBSDF201           
+Diagnostic, Global                       | Rte_Read             | CtApRoadGraphLight_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+LCS                                      | Rte_IStatus          | RRGLCyclic_PpPFProvidedData_DeLCSSSHState 
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpPSD15_DeFRRGin              
+Diagnostic, Global                       | Rte_IsUpdated        | CtApRoadGraphLight_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpPFHwMeasurements_DeVBAT_MAIN 
+RTE Data Exchange                        | Rte_IWrite           | RRGLCyclic_PpRGLVZE_DePduGrp_VZE_01      
+RTE Data Exchange                        | Rte_IRead            | RRGLCyclic_PpPFHwMeasurements_DeVBAT_MAIN 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApRoadGraphLight_PpDiagRoadGraphLightRead_DeRoad_Graph_Light_Dev_0x0558 
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpDsRoadGraphDataSet_DeRoadgraphRGData 
+RTE Data Exchange                        | Rte_IWrite           | RRGLCyclic_PpRGLVZE_DePduGrp_BVTS_xx     
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpFRVZE_DePduGrp_VZE_01       
+RTE Data Exchange                        | Rte_IRead            | RRGLCyclic_PpPSD15_DePSDLR01m2           
+RTE Data Exchange                        | Rte_IsUpdated        | CtApRoadGraphLight_PpDiagCoding_DePermitCodingPersistence 
+LCS                                      | Rte_IRead            | RRGLCyclic_PpPFProvidedData_DeLCSSystemState 
+RTE Data Exchange                        | Rte_IWriteRef        | RRGLCyclic_PpRGLVZE_DeTraceData          
+Diagnostic, Get DTC Event                | Rte_Call             | CtApRoadGraphLight_PpEventHandling_GetEventStatus 
+RTE Data Exchange                        | Rte_IRead            | RRGLCyclic_PpPFHwMeasurements_DeTHS      
+RTE Data Exchange                        | Rte_IRead            | RRGLCyclic_PpPSD15_DePSDLR01m1           
+RTE Data Exchange                        | Rte_IRead            | RRGLCyclic_PpDsRoadGraphDataSet_DeRoadgraphRGLData 
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpPSD15_DePSDLR01m1           
+Diagnostic, Global                       | Rte_Read             | CtApRoadGraphLight_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+RTE Data Exchange                        | Rte_IRead            | RRGLCyclic_PpPSD15_DePSDLR01m3           
+RTE Data Exchange                        | Rte_IRead            | RRGLCyclic_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApRoadGraphLight_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpPSD15_DePSD06m3             
+RTE Data Exchange                        | Rte_IWriteRef        | RRGLCyclic_PpRGLVZE_DePduGrp_VZE_05      
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpFRVZE_DePduGrp_VZE_03       
+RTE Data Exchange                        | Rte_IRead            | RRGLCyclic_PpFRVZE_DePduGrp_VZE_02       
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpPSD15_DePSD06m2             
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpPSD15_DePSDLR01m2           
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpPFHwMeasurements_DeTHS      
+RTE Data Exchange                        | Rte_IsUpdated        | CtApRoadGraphLight_PpDiagRoadGraphLightRead_DeReset_0x0570 
+HW Variant Interface                     | Rte_IStatus          | RRGLCyclic_PpPFProvidedData_DeVARHWVariant 
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpPSD15_DePSD06m0             
+Diagnostic, Global                       | Rte_Read             | CtApRoadGraphLight_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpRSRMV_DeMVRoadSignRecognition 
+RTE Data Exchange                        | Rte_Read             | CtApRoadGraphLight_PpDiagCoding_DePermitCodingPersistence 
+LCS                                      | Rte_IStatus          | RRGLCyclic_PpPFProvidedData_DeLCSSystemState 
+Time Service, Convert AGT                | Rte_Call             | CtApRoadGraphLight_PpPFServer_TS_ConvertAgt2Zgt 
+RTE Data Exchange                        | Rte_IWrite           | RRGLCyclic_PpRGLVZE_DeTraceData          
+LCS                                      | Rte_IRead            | RRGLCyclic_PpPFProvidedData_DeLCSSSHState 
+IF-Set Version                           | Rte_IRead            | RRGLCyclic_PpPFProvidedData_DeIFSETVersion 
+RTE Data Exchange                        | Rte_IRead            | RRGLCyclic_PpDsRoadGraphDataSet_DeRoadgraphRGData 
+RTE Data Exchange                        | Rte_IWriteRef        | RRGLCyclic_PpRGLVZE_DePduGrp_VZE_02      
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpDsRoadGraphDataSet_DeRoadgraphRGLDIAGData 
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpFRVZE_DeBVTS                
+RTE Data Exchange                        | Rte_IRead            | RRGLCyclic_PpFRVZE_DeBVTS                
+RTE Data Exchange                        | Rte_IRead            | RRGLCyclic_PpFRVZE_DeTraceData           
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpObjOBFMV_DeOBFObjMVMOD      
+RTE Data Exchange                        | Rte_IWriteRef        | RRGLCyclic_PpRGLVZE_DePduGrp_VZE_03      
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpPFProvidedData_DeTotalSysRestartCnt 
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpPSD15_DePSD06m4             
+LCS                                      | Rte_IStatus          | RRGLCyclic_PpPFProvidedData_DeLCSAPHState 
+RTE Data Exchange                        | Rte_IWriteRef        | RRGLCyclic_PpRGLVZE_DePduGrp_BVTS_xx     
+Diagnostic, Coding                       | Rte_IsUpdated        | CtApRoadGraphLight_PpDiagCoding_DeCoding 
+LCS                                      | Rte_IRead            | RRGLCyclic_PpPFProvidedData_DeLCSAPHState 
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpFRVZE_DeTraceData           
+RTE Data Exchange                        | Rte_IWriteRef        | RRGLCyclic_PpRGLVZE_DePduGrp_VZE_01      
+RTE Data Exchange                        | Rte_IRead            | RRGLCyclic_PpPSD15_DePSDLR01m0           
+Time Service, Convert ZGT                | Rte_Call             | CtApRoadGraphLight_PpPFServer_TS_ConvertZgt2Agt 
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+RTE Data Exchange                        | Rte_IRead            | RRGLCyclic_PpFRVZE_DePduGrp_VZE_01       
+RTE Data Exchange                        | Rte_IWriteRef        | RRGLCyclic_PpRGLVZE_DeBVTS               
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpPSD15_DePSD04               
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpFRVZE_DePduGrp_BVTS_xx      
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpPSD15_DePSD05               
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpOBFLightOutObjects_DeObjectListOBFLightOut 
+RTE Data Exchange                        | Rte_IWrite           | RRGLCyclic_PpRGLVZE_DePduGrp_VZE_05      
+LCS                                      | Rte_IRead            | RRGLCyclic_PpPFProvidedData_DeLCSSRHState 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApRoadGraphLight_PpDiagRoadGraphLightRead_DeRoad_Graph_Light_Plugins_0x0556 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApRoadGraphLight_PpDiagRoadGraphLightRead_DeRoad_Graph_Light_Diagnostics_0x0559 
+IF-Set Version                           | Rte_IStatus          | RRGLCyclic_PpPFProvidedData_DeIFSETVersion 
+LCS                                      | Rte_IRead            | RRGLCyclic_PpPFProvidedData_DeLCSMVHState 
+RTE Data Exchange                        | Rte_IStatus          | RRGLCyclic_PpFRVZE_DePduGrp_VZE_02       
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 100

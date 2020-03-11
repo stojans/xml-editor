@@ -1,0 +1,60 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+Diagnostic, Get DTC Event                | Rte_Call             | CtApParkMonitor_PpEventHandling_GetEventStatus 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApParkMonitor_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+RTE Data Exchange                        | Rte_Read             | CtApParkMonitor_PpPdParkControlRead_DeIpaCfg_RW_Normal 
+LCS                                      | Rte_IRead            | RParkMonitor20ms_PpPFProvidedData_DeLCSSystemState 
+HW Variant Interface                     | Rte_IStatus          | RParkMonitor20ms_PpPFProvidedData_DeVARHWVariant 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApParkMonitor_PpPdParkControlRead_DeIpaCfg_RW_Normal 
+RTE Data Exchange                        | Rte_Read             | CtApParkMonitor_PpPdParkControlRead_DeDriverPreferences_RW_Critical 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApParkMonitor_PpDiagParkMonitorRead_DeProductionmode_0x04FE 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApParkMonitor_PpDiagParkMonitorRead_DeIPA_new_functions_0x056A 
+IF-Set Version                           | Rte_IRead            | RParkMonitor20ms_PpPFProvidedData_DeIFSETVersion 
+Diagnostic, Global                       | Rte_Read             | CtApParkMonitor_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+Time Service, Convert AGT                | Rte_Call             | CtApParkMonitor_PpPFServer_TS_ConvertAgt2Zgt 
+RTE Data Exchange                        | Rte_IStatus          | RParkMonitor20ms_PpPFProvidedData_DeTotalSysRestartCnt 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApParkMonitor_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApParkMonitor_PpPdParkControlRead_DeDriverPreferences_RW_Critical 
+Persistency, DataSet                     | Rte_IStatus          | RParkMonitor20ms_PpDsParkMonitorDataSet_DePamCfg 
+Diagnostic, DTC clear                    | Rte_Receive          | CtApParkMonitor_PpDiagGlobalRead_DeFSPCleared 
+Diagnostic, Set DTC Event                | Rte_Call             | CtApParkMonitor_PpEventHandling_SetEventStatus 
+LCS                                      | Rte_IRead            | RParkMonitor20ms_PpPFProvidedData_DeLCSMVHState 
+LCS                                      | Rte_IRead            | RParkMonitor20ms_PpPFProvidedData_DeLCSSRHState 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApParkMonitor_PpDiagParkMonitorRead_DeProductionmode_0x04FE 
+Diagnostic, Coding                       | Rte_Read             | CtApParkMonitor_PpDiagCoding_DeCoding    
+LCS                                      | Rte_IStatus          | RParkMonitor20ms_PpPFProvidedData_DeLCSAPHState 
+RTE Data Exchange                        | Rte_IRead            | RParkMonitor20ms_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+LCS                                      | Rte_IStatus          | RParkMonitor20ms_PpPFProvidedData_DeLCSMVHState 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApParkMonitor_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApParkMonitor_PpDiagParkMonitorRead_DeIPA_new_functions_0x056A 
+RTE Data Exchange                        | Rte_IStatus          | RParkMonitor20ms_PpPFHwMeasurements_DeTHS 
+RTE Data Exchange                        | Rte_Receive          | CtApParkMonitor_PpEML_DeEML              
+RTE Data Exchange                        | Rte_Read             | CtApParkMonitor_PpPdParkControlRead_DeDynamicData_Pac_RW_Normal 
+HW Variant Interface                     | Rte_IRead            | RParkMonitor20ms_PpPFProvidedData_DeVARHWVariant 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApParkMonitor_PpDiagCoding_DePermitCodingPersistence 
+Diagnostic, Coding                       | Rte_IsUpdated        | CtApParkMonitor_PpDiagCoding_DeCoding    
+RTE Data Exchange                        | Rte_IStatus          | RParkMonitor20ms_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApParkMonitor_PpPdParkControlRead_DeDynamicData_Pac_RW_Normal 
+RTE Data Exchange                        | Rte_IRead            | RParkMonitor20ms_PpPFHwMeasurements_DeTHS 
+Persistency, DataSet                     | Rte_IRead            | RParkMonitor20ms_PpDsParkMonitorDataSet_DePamCfg 
+RTE Data Exchange                        | Rte_IWriteRef        | RParkMonitor20ms_PpFRParkMonitorout_DeTraceData 
+LCS                                      | Rte_IStatus          | RParkMonitor20ms_PpPFProvidedData_DeLCSSystemState 
+RTE Data Exchange                        | Rte_IStatus          | RParkMonitor20ms_PpPFHwMeasurements_DeVBAT_MAIN 
+RTE Data Exchange                        | Rte_Read             | CtApParkMonitor_PpDiagCoding_DePermitCodingPersistence 
+LCS                                      | Rte_IRead            | RParkMonitor20ms_PpPFProvidedData_DeLCSAPHState 
+Time Service, Convert ZGT                | Rte_Call             | CtApParkMonitor_PpPFServer_TS_ConvertZgt2Agt 
+RTE Data Exchange                        | Rte_IRead            | RParkMonitor20ms_PpPFHwMeasurements_DeVBAT_MAIN 
+LCS                                      | Rte_IStatus          | RParkMonitor20ms_PpPFProvidedData_DeLCSSSHState 
+LCS                                      | Rte_IStatus          | RParkMonitor20ms_PpPFProvidedData_DeLCSSRHState 
+IF-Set Version                           | Rte_IStatus          | RParkMonitor20ms_PpPFProvidedData_DeIFSETVersion 
+LCS                                      | Rte_IRead            | RParkMonitor20ms_PpPFProvidedData_DeLCSSSHState 
+Diagnostic, Global                       | Rte_Read             | CtApParkMonitor_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+Time Service, AGT                        | Rte_Call             | CtApParkMonitor_PpPFServer_TS_GetAgtTimestamp 
+RTE Data Exchange                        | Rte_IRead            | RParkMonitor20ms_PpPFProvidedData_DeTotalSysRestartCnt 
+RTE Data Exchange                        | Rte_IWrite           | RParkMonitor20ms_PpFRParkMonitorout_DeTraceData 
+Diagnostic, Global                       | Rte_Read             | CtApParkMonitor_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApParkMonitor_PpPdParkControlRead_DeCustomerCfg_RW_Normal 
+Time Service, Remaining Time Budget      | Rte_Call             | CtApParkMonitor_PpPFServer_TS_GetRemainingTimeBudget 
+RTE Data Exchange                        | Rte_Read             | CtApParkMonitor_PpPdParkControlRead_DeCustomerCfg_RW_Normal 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 56

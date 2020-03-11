@@ -1,0 +1,50 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+BAP                                      | Rte_Write            | CtApPAHS_Bap_Freigabe_AHC_BapFreigabe    
+UDS Diagnostic, Routine Return           | Rte_Send             | CtApPAHS_PpDiagPAHSWrite_DeAutomatic_calibration_headlamp_initialisation_0x05EE 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApPAHS_PpDiagPAHSRead_DeAutomatic_calibration_headlamp_settings_0x0BD0 
+Persistency, Data read                   | Rte_Read             | CtApPAHS_PpPdPAHSRead_DePahsDataStore_Normal 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApPAHS_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+RTE Data Exchange                        | Rte_IRead            | RPAHSmain_PpWlaHeadlampOnlineCalMV_DeCalibrationStaticMV 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApPAHS_PpDiagPAHSRead_DeAutomatic_calibration_headlamp_correction_angles_0x0BD1 
+RTE Data Exchange                        | Rte_IWrite           | RPAHSmain_PpPahsAFSLightOut_DePduGrp_PAHS_02 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApPAHS_PpDiagPAHSRead_DeAutomatic_calibration_headlamp_correction_standard_deviations_0x0BD2 
+Diagnostic, Get DTC Event                | Rte_Call             | CtApPAHS_PpEventHandling_GetEventStatus  
+SWC Version Info                         | Rte_Call             | CtApPAHS_PpPFServer_MW_SetSwcInfo        
+UDS Diagnostic, Routine Call             | Rte_Receive          | CtApPAHS_PpDiagPAHSRead_DeAutomatic_calibration_headlamp_0x05C2 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApPAHS_PpDiagPAHSRead_DeAutomatic_calibration_headlamp_correction_standard_deviations_0x0BD2 
+RTE Data Exchange                        | Rte_IWrite           | RPAHSmain_PpPahsAFSLightOut_DePahsAFSLightOut 
+RTE Data Exchange                        | Rte_IRead            | RPAHSmain_PpFRPahsIn_DeFRPahsIn          
+Persistency, DataSet                     | Rte_IRead            | RPAHSmain_PpDsPAHSDataSet_DePahsConfig   
+RTE Data Exchange                        | Rte_IWrite           | RPAHSmain_PpPAHSresults_DePAHSHeadlightTargetPos 
+UDS Diagnostic, Stellglied Return        | Rte_Send             | CtApPAHS_PpDiagPAHSWrite_DeAutomatic_calibration_headlamp_test_mode_0x81E0 
+Time Service, Timestamp                  | Rte_Call             | CtApPAHS_PpPFServer_TS_GetZgtTimestamp   
+RTE Data Exchange                        | Rte_IWrite           | RPAHSmain_PpHeadlampOnlineCalWla_DeHeadlampOnlineCalWla 
+UDS Diagnostic, Routine Return           | Rte_Send             | CtApPAHS_PpDiagPAHSWrite_DeAutomatic_calibration_headlamp_0x05C2 
+Time Service, Remaining Time Budget      | Rte_Call             | CtApPAHS_PpPFServer_TS_GetRemainingTimeBudget 
+RTE Data Exchange                        | Rte_IRead            | RPAHSmain_PpWlaHeadlampOnlineCalMV_DeMXBCalibrationStatusMV 
+Persistency, DataSet                     | Rte_IRead            | RPAHSmain_PpDsPAHSDataSet_DePahsConfigMxb 
+Persistency, Data read                   | Rte_Read             | CtApPAHS_PpPdPAHSRead_DePahsH0V0Store_Normal 
+Diagnostic, Coding                       | Rte_Read             | CtApPAHS_PpDiagCoding_DeCoding           
+RTE Data Exchange                        | Rte_IWrite           | RPAHSmain_PpPahsAFSLightOut_DePduGrp_PAHS_01 
+Diagnostic, Set DTC Event                | Rte_Call             | CtApPAHS_PpEventHandling_SetEventStatus  
+RTE Data Exchange                        | Rte_IRead            | RPAHSmain_PpLightResults_DePAHSHeadlightActualPos 
+UDS Diagnostic, Routine Call             | Rte_Receive          | CtApPAHS_PpDiagPAHSRead_DeAutomatic_calibration_headlamp_delete_result_0x05EF 
+RTE Data Exchange                        | Rte_IRead            | RPAHSmain_PpWlaHeadlampOnlineCalMV_DeDetectionCountMV 
+RTE Data Exchange                        | Rte_IWrite           | RPAHSmain_PpPAHSTraceData_DeTraceData    
+RTE Data Exchange                        | Rte_IWrite           | RPAHSmain_PpPAHSresults_DePAHSresults    
+Diagnostic, Global                       | Rte_Read             | CtApPAHS_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+RTE Data Exchange                        | Rte_IRead            | RPAHSmain_PpWlaHeadlampOnlineCalMV_DeWlaHeadlampOnlineCal 
+RTE Data Exchange                        | Rte_IRead            | RPAHSmain_PpPahsAFSLightIn_DePahsAFSLightIn 
+RTE Data Exchange                        | Rte_IRead            | RPAHSmain_PpZDML_DeZDMLAHS               
+Diagnostic, Coding                       | Rte_IsUpdated        | CtApPAHS_PpDiagCoding_DeCoding           
+Persistency, Data write                  | Rte_Write            | CtApPAHS_PpPdPAHSWrite_DePahsDataStore_Normal 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApPAHS_PpDiagPAHSRead_DeAutomatic_calibration_headlamp_correction_angles_0x0BD1 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApPAHS_PpDiagPAHSRead_DeAutomatic_calibration_headlamp_settings_0x0BD0 
+RTE Data Exchange                        | Rte_IWrite           | RPAHSmain_PpHeadlampOnlineCalWla_DeMXBCalibrationCommandPAHS 
+UDS Diagnostic, Routine Call             | Rte_Receive          | CtApPAHS_PpDiagPAHSRead_DeAutomatic_calibration_headlamp_initialisation_0x05EE 
+Persistency, Data write                  | Rte_Write            | CtApPAHS_PpPdPAHSWrite_DePahsH0V0Store_Normal 
+UDS Diagnostic, Routine Return           | Rte_Send             | CtApPAHS_PpDiagPAHSWrite_DeAutomatic_calibration_headlamp_delete_result_0x05EF 
+UDS Diagnostic, Messwerte                | Rte_Write            | CtApPAHS_PpDiagPAHSWrite_DeMesswerte_PAHS 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 46

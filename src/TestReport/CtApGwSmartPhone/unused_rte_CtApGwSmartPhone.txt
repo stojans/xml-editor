@@ -1,0 +1,45 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+Diagnostic, Global                       | Rte_Read             | CtApGwSmartPhone_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+Time Service, AGT                        | Rte_Call             | CtApGwSmartPhone_PpPFServer_TS_GetAgtTimestamp 
+HW Variant Interface                     | Rte_IRead            | RGWSmartPhone10ms_PpPFProvidedData_DeVARHWVariant 
+LCS                                      | Rte_IRead            | RGWSmartPhone10ms_PpPFProvidedData_DeLCSMVHState 
+LCS                                      | Rte_IStatus          | RGWSmartPhone10ms_PpPFProvidedData_DeLCSAPHState 
+Persistency, Data read                   | Rte_IsUpdated        | CtApGwSmartPhone_PpPdGwSmartPhoneRead_DeGwSmartPhonePersistentData_Normal 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApGwSmartPhone_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+LCS                                      | Rte_IStatus          | RGWSmartPhone10ms_PpPFProvidedData_DeLCSMVHState 
+LCS                                      | Rte_IRead            | RGWSmartPhone10ms_PpPFProvidedData_DeLCSSRHState 
+Time Service, Convert AGT                | Rte_Call             | CtApGwSmartPhone_PpPFServer_TS_ConvertAgt2Zgt 
+LCS                                      | Rte_IRead            | RGWSmartPhone10ms_PpPFProvidedData_DeLCSSSHState 
+Persistency, Data write                  | Rte_Write            | CtApGwSmartPhone_PpPdGwSmartPhoneWrite_DeGwSmartPhonePersistentData_Normal 
+Diagnostic, Global                       | Rte_Read             | CtApGwSmartPhone_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+Diagnostic, DTC clear                    | Rte_Receive          | CtApGwSmartPhone_PpDiagGlobalRead_DeFSPCleared 
+Persistency, DataSet                     | Rte_IStatus          | RGWSmartPhone10ms_PpDsGwSmartPhoneDataSet_DeTouchscreenShunt 
+LCS                                      | Rte_IStatus          | RGWSmartPhone10ms_PpPFProvidedData_DeLCSSSHState 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApGwSmartPhone_PpDiagGwSmartPhoneRead_DeIPA_new_functions_0x056A 
+LCS                                      | Rte_IRead            | RGWSmartPhone10ms_PpPFProvidedData_DeLCSSystemState 
+RTE Data Exchange                        | Rte_IStatus          | RGWSmartPhone10ms_PpPFProvidedData_DeTotalSysRestartCnt 
+RTE Data Exchange                        | Rte_Read             | CtApGwSmartPhone_PpDiagCoding_DePermitCodingPersistence 
+IF-Set Version                           | Rte_IStatus          | RGWSmartPhone10ms_PpPFProvidedData_DeIFSETVersion 
+LCS                                      | Rte_IStatus          | RGWSmartPhone10ms_PpPFProvidedData_DeLCSSRHState 
+Time Service, Remaining Time Budget      | Rte_Call             | CtApGwSmartPhone_PpPFServer_TS_GetRemainingTimeBudget 
+Diagnostic, Global                       | Rte_Read             | CtApGwSmartPhone_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+HW Variant Interface                     | Rte_IStatus          | RGWSmartPhone10ms_PpPFProvidedData_DeVARHWVariant 
+RTE Data Exchange                        | Rte_IStatus          | RGWSmartPhone10ms_PpPFHwMeasurements_DeTHS 
+RTE Data Exchange                        | Rte_IRead            | RGWSmartPhone10ms_PpPFProvidedData_DeTotalSysRestartCnt 
+RTE Data Exchange                        | Rte_IStatus          | RGWSmartPhone10ms_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+RTE Data Exchange                        | Rte_IRead            | RGWSmartPhone10ms_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApGwSmartPhone_PpDiagCoding_DePermitCodingPersistence 
+RTE Data Exchange                        | Rte_IRead            | RGWSmartPhone10ms_PpPFHwMeasurements_DeTHS 
+Diagnostic, Coding                       | Rte_IsUpdated        | CtApGwSmartPhone_PpDiagCoding_DeCoding   
+Persistency, DataSet                     | Rte_IRead            | RGWSmartPhone10ms_PpDsGwSmartPhoneDataSet_DeTouchscreenShunt 
+IF-Set Version                           | Rte_IRead            | RGWSmartPhone10ms_PpPFProvidedData_DeIFSETVersion 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApGwSmartPhone_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+LCS                                      | Rte_IRead            | RGWSmartPhone10ms_PpPFProvidedData_DeLCSAPHState 
+LCS                                      | Rte_IStatus          | RGWSmartPhone10ms_PpPFProvidedData_DeLCSSystemState 
+Persistency, Data read                   | Rte_Read             | CtApGwSmartPhone_PpPdGwSmartPhoneRead_DeGwSmartPhonePersistentData_Normal 
+Time Service, Convert ZGT                | Rte_Call             | CtApGwSmartPhone_PpPFServer_TS_ConvertZgt2Agt 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApGwSmartPhone_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApGwSmartPhone_PpDiagGwSmartPhoneRead_DeIPA_new_functions_0x056A 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 41

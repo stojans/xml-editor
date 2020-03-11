@@ -1,0 +1,20 @@
+#MAP: E:\zFAS-Jenkins\workspace\zFAS_AIT_Master_AAT\SW\0300_ApplicationLayer\branches\CL3_REL_320_3XX\0350_SWC-SET\CtApFRPreProcessing\05_data\CtApFRPreProcessing.vxe.map
+#symbol: .init           0x80000094        0xc
+#symbol: .iplt           0x800000a0        0x0
+#symbol: .text           0x800000a0    0x1f214
+#symbol: .fini           0x8001f2b4        0x0
+#symbol: .rodata         0x8001f2b4     0x6df8
+#symbol: .tdata          0x80027000        0x4
+#symbol: .ctors          0x80027004       0x28
+#symbol: .got            0x8002702c       0x10
+#symbol: .data           0x8002703c     0x226c
+#symbol: .edata          0x800292a8        0x0
+#symbol: .bss            0x800292a8     0x1f28
+#symbol: .comment        0x00000000       0x2f
+#symbol: .stack          0x00080000        0x0
+LIBS;libCtApFRPreProcessing_BDLd.a;libCtApFRPreProcessing_Implementationd.a;libCtApFRPreProcessing_ServerRunnablesd.a;lib_CpApFRPreProcessing_debug.a;libc_cert_zFAS.a;libc_internal_cert_zFAS.a;libgcc_cert_zFAS.a;libstdc++_cert_zFAS.a;
+#CODE;STACK;ROM;RAM
+FORMAT;ROM_CODE;STACK;ROM;RAM;RAM_CODE;FastRAM;FastRAM_CODE
+HEX;1f214;00080000;0x28278;0x2a1a0;1f214;0;0
+DEC;127508;524288;164472;172448;127508;0;0
+KB;124;512;160;168;124;0;0

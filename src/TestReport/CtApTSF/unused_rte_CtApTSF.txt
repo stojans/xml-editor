@@ -1,0 +1,113 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+Diagnostic, Global                       | Rte_IsUpdated        | CtApTSF_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+RTE Data Exchange                        | Rte_Call             | CtApTSF_PpRGApiLight_RGApi_GetLoadSegments 
+Time Service, Convert AGT                | Rte_Call             | CtApTSF_PpPFServer_TS_ConvertAgt2Zgt     
+Persistency, Data read                   | Rte_IsUpdated        | CtApTSF_PpPdTSFRead_DeCtApTSFPersonalization_Normal 
+BAP                                      | Rte_Call             | CtApTSF_BapRequestError_VZA_RoadSign_BAP_RequestError 
+RTE Data Exchange                        | Rte_IStatus          | RApTSFMain_PpRSRMV_DeMVRoadSignRecognition 
+BAP                                      | Rte_Result           | CtApTSF_BapRequestError_VZA_RoadSignFilter_BAP_RequestError 
+RTE Data Exchange                        | Rte_IRead            | RApTSFMain_PpPFHwMeasurements_DeVBAT_MAIN 
+Diagnostic, Get DTC Event                | Rte_Call             | CtApTSF_PpEventHandling_GetEventStatus   
+Diagnostic, Global                       | Rte_IsUpdated        | CtApTSF_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+Diagnostic, Global                       | Rte_Read             | CtApTSF_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+BAP                                      | Rte_Call             | CtApTSF_BapRequestError_VZA_FSG_OperationState_BAP_RequestError 
+RTE Data Exchange                        | Rte_Call             | CtApTSF_PpRGApiLight_RGApi_GetLoadSpeedLimitPool 
+Diagnostic, Coding                       | Rte_IsUpdated        | CtApTSF_PpDiagCoding_DeCoding            
+BAP                                      | Rte_Call             | CtApTSF_BapRequestPropFSG_VZA_Trailermode_Status_BAP_RequestUInt8 
+RTE Data Exchange                        | Rte_IStatus          | RApTSFMain_PpFRRGout_DeFRRGout           
+Persistency, Data read                   | Rte_IsUpdated        | CtApTSF_PpPdTSFRead_DeCtApTSFOutputPersistence_Normal 
+BAP                                      | Rte_Result           | CtApTSF_BapRequestError_VZA_SpeedWarnAcoustics_BAP_RequestError 
+BAP                                      | Rte_Call             | CtApTSF_BapRequestError_VZA_SpeedWarnAcoustics_BAP_RequestError 
+RTE Data Exchange                        | Rte_Call             | CtApTSF_PpRGApiLight_RGApi_GetSpeedLimitData 
+RTE Data Exchange                        | Rte_IStatus          | RApTSFMain_PpPFHwMeasurements_DeTHS      
+RTE Data Exchange                        | Rte_IWrite           | RApTSFMain_PpFRVZE_DePduGrp_BVTS_xx      
+RTE Data Exchange                        | Rte_IStatus          | RApTSFMain_PpPFProvidedData_DeTotalSysRestartCnt 
+RTE Data Exchange                        | Rte_IRead            | RApTSFMain_PpFRRGout_DeFRRGout           
+BAP                                      | Rte_Result           | CtApTSF_BapRequestError_VZA_SystemMessages_BAP_RequestError 
+BAP                                      | Rte_Call             | CtApTSF_BapRequestError_VZA_RoadSign2_BAP_RequestError 
+RTE Data Exchange                        | Rte_IStatus          | RApTSFMain_PpFRVZEin_DePSD06m2           
+BAP                                      | Rte_Result           | CtApTSF_BapRequestPropFSG_VZA_Trailermode_Status_BAP_RequestUInt8 
+BAP                                      | Rte_Call             | CtApTSF_BapRequestError_VZA_FSG_Setup_BAP_RequestError 
+RTE Data Exchange                        | Rte_Call             | CtApTSF_PpRGApiLight_RGApi_GetRootTreeStateSpeedLimitIndex 
+Persistency, Data read                   | Rte_IsUpdated        | CtApTSF_PpPdTSFRead_DeCtAPTSFDefaults_Normal 
+Persistency, DataSet                     | Rte_IStatus          | RApTSFMain_PpDsTSFDataSet_DeCtApTSFParameter 
+LCS                                      | Rte_IStatus          | RApTSFMain_PpPFProvidedData_DeLCSSSHState 
+BAP                                      | Rte_Result           | CtApTSF_BapRequestError_VZA_FSG_Control_BAP_RequestError 
+BAP                                      | Rte_Result           | CtApTSF_BapRequestError_VZA_RoadSign2_BAP_RequestError 
+IF-Set Version                           | Rte_IRead            | RApTSFMain_PpPFProvidedData_DeIFSETVersion 
+BAP                                      | Rte_Result           | CtApTSF_BapRequestError_VZA_FSG_OperationState_BAP_RequestError 
+Diagnostic, Global                       | Rte_Read             | CtApTSF_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+LCS                                      | Rte_IRead            | RApTSFMain_PpPFProvidedData_DeLCSSSHState 
+Time Service, Remaining Time Budget      | Rte_Call             | CtApTSF_PpPFServer_TS_GetRemainingTimeBudget 
+BAP                                      | Rte_Result           | CtApTSF_BapRequestError_VZA_Trailermode_BAP_RequestError 
+RTE Data Exchange                        | Rte_IStatus          | RApTSFMain_PpFRVZEin_DePSD06m1           
+RTE Data Exchange                        | Rte_IRead            | RApTSFMain_PpFRRGout_DePduGrp_SDF2_Pos_01 
+RTE Data Exchange                        | Rte_IStatus          | RApTSFMain_PpFRVZEin_DePSD04             
+RTE Data Exchange                        | Rte_IStatus          | RApTSFMain_PpFRVZEin_DePSD06m0           
+RTE Data Exchange                        | Rte_IRead            | RApTSFMain_PpFRVZEin_DePSD05             
+RTE Data Exchange                        | Rte_Call             | CtApTSF_PpRGApiLight_RGApi_GetModuleVersion 
+LCS                                      | Rte_IRead            | RApTSFMain_PpPFProvidedData_DeLCSMVHState 
+RTE Data Exchange                        | Rte_IRead            | RApTSFMain_PpFRVZEin_DePSD06m1           
+RTE Data Exchange                        | Rte_IRead            | RApTSFMain_PpPFProvidedData_DeTotalSysRestartCnt 
+RTE Data Exchange                        | Rte_Call             | CtApTSF_PpRGApiLight_RGApi_GetCurrentTimestamp 
+RTE Data Exchange                        | Rte_IRead            | RApTSFMain_PpFRVZEin_DePSD06m0           
+BAP                                      | Rte_Result           | CtApTSF_BapRequestPropFSG_VZA_FSG_OperationState_Status_BAP_RequestUInt8 
+RTE Data Exchange                        | Rte_IStatus          | RApTSFMain_PpFRVZEin_DePSD05             
+RTE Data Exchange                        | Rte_IStatus          | RApTSFMain_PpLanesMV_DeLanes             
+LCS                                      | Rte_IStatus          | RApTSFMain_PpPFProvidedData_DeLCSSRHState 
+Diagnostic, DTC clear                    | Rte_Receive          | CtApTSF_PpDiagGlobalRead_DeFSPCleared    
+RTE Data Exchange                        | Rte_IStatus          | RApTSFMain_PpFRVZEin_DeFRVZEin           
+BAP                                      | Rte_Call             | CtApTSF_BapPropInit_VZA_Trailermode_BAP_InitSendBufferUInt8 
+RTE Data Exchange                        | Rte_Call             | CtApTSF_PpRGApiLight_RGApi_GetGpsData    
+Diagnostic, Set DTC Event                | Rte_Call             | CtApTSF_PpEventHandling_SetEventStatus   
+RTE Data Exchange                        | Rte_Call             | CtApTSF_PpRGApiLight_RGApi_GetAttributeData 
+RTE Data Exchange                        | Rte_IStatus          | RApTSFMain_PpPFHwMeasurements_DeVBAT_MAIN 
+BAP                                      | Rte_Call             | CtApTSF_BapRequestPropFSG_VZA_FSG_OperationState_Status_BAP_RequestUInt8 
+RTE Data Exchange                        | Rte_Call             | CtApTSF_PpRGApiLight_RGApi_GetLoadAttributePool 
+RTE Data Exchange                        | Rte_Call             | CtApTSF_PpRGApiLight_RGApi_GetTreeConfiguration 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTSF_PpDiagCoding_DePermitCodingPersistence 
+Diagnostic, Global                       | Rte_Read             | CtApTSF_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+LCS                                      | Rte_IStatus          | RApTSFMain_PpPFProvidedData_DeLCSAPHState 
+RTE Data Exchange                        | Rte_Read             | CtApTSF_PpDiagCoding_DePermitCodingPersistence 
+RTE Data Exchange                        | Rte_Call             | CtApTSF_PpRGApiLight_RGApi_GetSegmentData 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTSF_PpDiagTSFRead_DeRoad_sign_recognition_fusion_mode_0x3B63 
+Time Service, Convert ZGT                | Rte_Call             | CtApTSF_PpPFServer_TS_ConvertZgt2Agt     
+BAP                                      | Rte_Call             | CtApTSF_BapRequestError_VZA_RoadSignFilter_BAP_RequestError 
+BAP                                      | Rte_Call             | CtApTSF_BapRequestError_VZA_Trailermode_BAP_RequestError 
+HW Variant Interface                     | Rte_IStatus          | RApTSFMain_PpPFProvidedData_DeVARHWVariant 
+LCS                                      | Rte_IRead            | RApTSFMain_PpPFProvidedData_DeLCSSystemState 
+Persistency, Data write                  | Rte_Write            | CtApTSF_PpPdTSFWrite_DeCtAPTSFDefaults_Normal 
+BAP                                      | Rte_Result           | CtApTSF_BapRequestError_VZA_TrailerSpeedLimit_BAP_RequestError 
+LCS                                      | Rte_IStatus          | RApTSFMain_PpPFProvidedData_DeLCSSystemState 
+RTE Data Exchange                        | Rte_IRead            | RApTSFMain_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+HW Variant Interface                     | Rte_IRead            | RApTSFMain_PpPFProvidedData_DeVARHWVariant 
+IF-Set Version                           | Rte_IStatus          | RApTSFMain_PpPFProvidedData_DeIFSETVersion 
+RTE Data Exchange                        | Rte_IStatus          | RApTSFMain_PpRGExtPSD_DeRGExtPSD         
+RTE Data Exchange                        | Rte_IStatus          | RApTSFMain_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+RTE Data Exchange                        | Rte_IStatus          | RApTSFMain_PpFoDFunctionActivationState_DeFoDFunctionActivationState 
+LCS                                      | Rte_IStatus          | RApTSFMain_PpPFProvidedData_DeLCSMVHState 
+BAP                                      | Rte_Result           | CtApTSF_BapRequestError_VZA_SpeedWarnThreshold_BAP_RequestError 
+RTE Data Exchange                        | Rte_IRead            | RApTSFMain_PpFRRGout_DeTraceData         
+RTE Data Exchange                        | Rte_IWriteRef        | RApTSFMain_PpFRVZE_DePduGrp_BVTS_xx      
+Diagnostic, Global                       | Rte_IsUpdated        | CtApTSF_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+RTE Data Exchange                        | Rte_IStatus          | RApTSFMain_PpFRRGout_DePduGrp_SDF2_Pos_01 
+RTE Data Exchange                        | Rte_IRead            | RApTSFMain_PpPFHwMeasurements_DeTHS      
+LCS                                      | Rte_IRead            | RApTSFMain_PpPFProvidedData_DeLCSSRHState 
+RTE Data Exchange                        | Rte_IStatus          | RApTSFMain_PpFRRGout_DeTraceData         
+RTE Data Exchange                        | Rte_IRead            | RApTSFMain_PpFRVZEin_DePSD04             
+RTE Data Exchange                        | Rte_Call             | CtApTSF_PpRGApiLight_RGApi_GetChildrenCount 
+RTE Data Exchange                        | Rte_Call             | CtApTSF_PpRGApiLight_RGApi_GetNearestAttributes 
+BAP                                      | Rte_Result           | CtApTSF_BapPropInit_VZA_Trailermode_BAP_InitSendBufferUInt8 
+RTE Data Exchange                        | Rte_Call             | CtApTSF_PpRGApiLight_RGApi_Query         
+BAP                                      | Rte_Call             | CtApTSF_BapRequestError_VZA_FSG_Control_BAP_RequestError 
+Persistency, Data read                   | Rte_Read             | CtApTSF_PpPdTSFRead_DeCtAPTSFDefaults_Normal 
+RTE Data Exchange                        | Rte_IRead            | RApTSFMain_PpFRVZEin_DePSD06m2           
+BAP                                      | Rte_IsUpdated        | CtApTSF_Bap_Allowed_DeBapAllowed         
+BAP                                      | Rte_Call             | CtApTSF_BapRequestError_VZA_SystemMessages_BAP_RequestError 
+LCS                                      | Rte_IRead            | RApTSFMain_PpPFProvidedData_DeLCSAPHState 
+Time Service, AGT                        | Rte_Call             | CtApTSF_PpPFServer_TS_GetAgtTimestamp    
+BAP                                      | Rte_Result           | CtApTSF_BapRequestError_VZA_RoadSign_BAP_RequestError 
+BAP                                      | Rte_Result           | CtApTSF_BapRequestError_VZA_FSG_Setup_BAP_RequestError 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 109

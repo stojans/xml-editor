@@ -1,0 +1,429 @@
+<ns0:A-AcceptTestReport xmlns:ns0="http://tttech.com/TestReports" xmlns:ns2="http://tttech.com/SuplierReleaseNotes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://tttech.com/TestReports TestReportScheme.0.9.1.xsd http://tttech.com/SuplierReleaseNotes ReleaseNotesScheme.0.9.1.xsd">
+    <ns0:Release>SYS-E350-I3.1.1-P51.5</ns0:Release>
+    <ns0:Platform>PIE-X351-I3.1.1-P51.5</ns0:Platform>
+    <ns0:SWC desc="Identification of SWC Release. This information will be used to check version consistency with embedded libraries (version output on target).">
+        <ns2:SWC_Name>CtCdEDRPiDriving</ns2:SWC_Name>
+        <ns2:SWC_Version desc="Release Version format must be NNN. BuildTimestamp format must be YYYYMMDDHHMMSS">
+            <ns2:ReleaseKind>0</ns2:ReleaseKind>
+            <ns2:ReleaseVersion>350</ns2:ReleaseVersion>
+            <ns2:IF-SET_Variant>3</ns2:IF-SET_Variant>
+            <ns2:IF-SET_Major>1</ns2:IF-SET_Major>
+            <ns2:IF-SET_Minor>1</ns2:IF-SET_Minor>
+            <ns2:Platform_Major>50</ns2:Platform_Major>
+            <ns2:Platform_Minor>0</ns2:Platform_Minor>
+            <ns2:Platform_BuildTimestamp>20190313230239</ns2:Platform_BuildTimestamp>
+            <ns2:SWC_Major>12</ns2:SWC_Major>
+            <ns2:SWC_Minor>4</ns2:SWC_Minor>
+            <ns2:SWC_BuildTimestamp>20190515113650</ns2:SWC_BuildTimestamp>
+        </ns2:SWC_Version>
+        <ns2:SWC_ASIL_Level>QM</ns2:SWC_ASIL_Level>
+        <ns2:SWC_Host>SSH</ns2:SWC_Host>
+        <ns2:Description />
+    </ns0:SWC>
+    <ns0:Comment />
+    <ns0:DocumentInfo desc="Description of the document (document version, document author, document status)">
+        <ns2:DocumentId>-</ns2:DocumentId>
+        <ns2:DocumentVersion>3.50.0</ns2:DocumentVersion>
+        <ns2:DocumentStatus>Released</ns2:DocumentStatus>
+        <ns2:DocumentDescription>Automatic creation of the document</ns2:DocumentDescription>
+        <ns2:DocumentAuthor desc="Please add author contact information. He/She releases the delivery and is the first contact person for questions and responsible for the delivery.">
+            <ns2:Name>Cedomir Jovanovic</ns2:Name>
+            <ns2:Company>RT-RK Institute for Computer Based Systems</ns2:Company>
+            <ns2:Address>Narodnog Fronta 23 D-E, Novi Sad, Serbia</ns2:Address>
+            <ns2:e-mail>cedomir.jovanovic@rt-rk.com</ns2:e-mail>
+            <ns2:Tel>+381 21 480 1241</ns2:Tel>
+        </ns2:DocumentAuthor>
+        <ns2:DocumentCreationDate>2019-09-10</ns2:DocumentCreationDate>
+    </ns0:DocumentInfo>
+    <ns0:RevisionHistory desc="Note the document revision history (changes in the document)">
+        <ns2:Revision desc="Briefly describe the history and changes made to the document, starting from first review.">
+            <ns2:Document_Version>3.50.0</ns2:Document_Version>
+            <ns2:Date>2019-09-10</ns2:Date>
+            <ns2:ResponsiblePerson>Cedomir Jovanovic</ns2:ResponsiblePerson>
+            <ns2:Description>Automatic creation of the document</ns2:Description>
+        </ns2:Revision>
+    </ns0:RevisionHistory>
+    <ns0:Test desc="Description of all test cases" integrationRecommendationResult="failed_integrate" result="failed">
+        <ns0:TestCase ID="1" desc="Description of one Application Test Report Test Case" priority="PRIO_B">
+            <ns2:Name>SWC limits check</ns2:Name>
+            <ns2:Description>Reads and checks all limits from Architectursteckbriefe. It creates temporary file swc_limits.csv used by other processes</ns2:Description>
+            <ns2:Comment />
+            <ns2:BugReference />
+            <ns2:Explanation />
+            <ns2:Begin>
+                <ns2:Date>2019-09-10</ns2:Date>
+                <ns2:Time>17:15</ns2:Time>
+            </ns2:Begin>
+            <ns2:End>
+                <ns2:Date>2019-09-10</ns2:Date>
+                <ns2:Time>17:19</ns2:Time>
+            </ns2:End>
+            <ns0:TestCaseSummary result="passed">
+                <ns2:Ratio_A>0</ns2:Ratio_A>
+                <ns2:Ratio_B>1</ns2:Ratio_B>
+            </ns0:TestCaseSummary>
+            <ns0:TestCaseNumber />
+        </ns0:TestCase>
+        <ns0:TestCaseTable name="RTE symbols statistics" ref="21">
+            <ns0:TableHeader>
+                <ns0:TableCell align="left" width="">Category                                 </ns0:TableCell>
+            <ns0:TableCell align="right" width="60pt">   %      </ns0:TableCell><ns0:TableCell align="center" width="">        nr of used IF  /    number of available IF   
+</ns0:TableCell></ns0:TableHeader>
+            <ns0:TableRow>
+                <ns0:TableCell>UDS Diagnostic; Anpassung                </ns0:TableCell>
+            <ns0:TableCell>  50.00%  </ns0:TableCell><ns0:TableCell>    1  used  /    2  available 
+</ns0:TableCell></ns0:TableRow>
+        <ns0:TableRow><ns0:TableCell>UDS Diagnostic; Messwerte                </ns0:TableCell><ns0:TableCell>   0.00%  </ns0:TableCell><ns0:TableCell>    0  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>UDS Diagnostic; Stellglied Call          </ns0:TableCell><ns0:TableCell>         n/a  </ns0:TableCell><ns0:TableCell>    0  used  /    0  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>UDS Diagnostic; Stellglied Return        </ns0:TableCell><ns0:TableCell>         n/a  </ns0:TableCell><ns0:TableCell>    0  used  /    0  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>UDS Diagnostic; Routine Call             </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    4  used  /    4  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>UDS Diagnostic; Routine Return           </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    4  used  /    4  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Diagnostic; Coding                       </ns0:TableCell><ns0:TableCell>  50.00%  </ns0:TableCell><ns0:TableCell>    1  used  /    2  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Diagnostic; Set DTC Event                </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    1  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Diagnostic; Get DTC Event                </ns0:TableCell><ns0:TableCell>   0.00%  </ns0:TableCell><ns0:TableCell>    0  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Diagnostic; DTC clear                    </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    1  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Diagnostic; Global                       </ns0:TableCell><ns0:TableCell>   0.00%  </ns0:TableCell><ns0:TableCell>    0  used  /    6  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Persistency; Big Data                    </ns0:TableCell><ns0:TableCell>         n/a  </ns0:TableCell><ns0:TableCell>    0  used  /    0  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Persistency; DataSet                     </ns0:TableCell><ns0:TableCell>  50.00%  </ns0:TableCell><ns0:TableCell>    1  used  /    2  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Persistency; APH status                  </ns0:TableCell><ns0:TableCell>         n/a  </ns0:TableCell><ns0:TableCell>    0  used  /    0  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Persistency; SSH status                  </ns0:TableCell><ns0:TableCell>         n/a  </ns0:TableCell><ns0:TableCell>    0  used  /    0  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Persistency; SRH status                  </ns0:TableCell><ns0:TableCell>         n/a  </ns0:TableCell><ns0:TableCell>    0  used  /    0  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Persistency; Data read                   </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    2  used  /    2  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Persistency; Data write                  </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    1  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Network; Partial Network                 </ns0:TableCell><ns0:TableCell>   0.00%  </ns0:TableCell><ns0:TableCell>    0  used  /    2  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Network; ECU Run                         </ns0:TableCell><ns0:TableCell>         n/a  </ns0:TableCell><ns0:TableCell>    0  used  /    0  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Network; FlexRay Run                     </ns0:TableCell><ns0:TableCell>   0.00%  </ns0:TableCell><ns0:TableCell>    0  used  /    2  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Network; Wake Up                         </ns0:TableCell><ns0:TableCell>         n/a  </ns0:TableCell><ns0:TableCell>    0  used  /    0  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Network; PDU group interface             </ns0:TableCell><ns0:TableCell>         n/a  </ns0:TableCell><ns0:TableCell>    0  used  /    0  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Time Service; Timestamp                  </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    1  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Time Service; Remaining Time Budget      </ns0:TableCell><ns0:TableCell>   0.00%  </ns0:TableCell><ns0:TableCell>    0  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Time Service; AGT                        </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    1  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Time Service; Convert ZGT                </ns0:TableCell><ns0:TableCell>   0.00%  </ns0:TableCell><ns0:TableCell>    0  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>Time Service; Convert AGT                </ns0:TableCell><ns0:TableCell>   0.00%  </ns0:TableCell><ns0:TableCell>    0  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>SWC Version Info                         </ns0:TableCell><ns0:TableCell> 100.00%  </ns0:TableCell><ns0:TableCell>    1  used  /    1  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>LCS                                      </ns0:TableCell><ns0:TableCell>   0.00%  </ns0:TableCell><ns0:TableCell>    0  used  /   10  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>HW Variant Interface                     </ns0:TableCell><ns0:TableCell>  50.00%  </ns0:TableCell><ns0:TableCell>    1  used  /    2  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>IF-Set Version                           </ns0:TableCell><ns0:TableCell>  50.00%  </ns0:TableCell><ns0:TableCell>    1  used  /    2  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>BAP                                      </ns0:TableCell><ns0:TableCell>         n/a  </ns0:TableCell><ns0:TableCell>    0  used  /    0  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>EDR                                      </ns0:TableCell><ns0:TableCell>  28.00%  </ns0:TableCell><ns0:TableCell>   77  used  /  269  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>RTE Data Exchange                        </ns0:TableCell><ns0:TableCell>         n/a  </ns0:TableCell><ns0:TableCell>    0  used  /    0  available 
+</ns0:TableCell></ns0:TableRow><ns0:TableRow><ns0:TableCell>TOTAL                                    </ns0:TableCell><ns0:TableCell>  30.00%  </ns0:TableCell><ns0:TableCell>   98  used  /  320  available 
+</ns0:TableCell></ns0:TableRow></ns0:TestCaseTable>
+    <ns0:TestCase ID="2" desc="Description of one Application Test Report Test Case" priority="PRIO_A"><ns2:Name>Folder content check</ns2:Name><ns2:Description>Checks if delivered SWC contains all mandatory subfolders</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="3" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Release notes check</ns2:Name><ns2:Description>Check Release Notes document against the delivered SWC content</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation>There are undocumented files/folders in Data folder:[20181228104950.SSH.CtCdEDRPiDriving_build.log, 20190515104734.SSH.CtCdEDRPiDriving_build.log, edrpctool-12.0.0-RELEASE.jar, edrpctool-12.1.0-RELEASE.jar]!
+</ns2:Explanation><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="failed"><ns2:Ratio_A>1</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="4" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Supplier's AITR check</ns2:Name><ns2:Description>Verifies and checks the supplier's AITR document against the delivered SWC content.</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation>There are undocumented files/folders in Data folder:[20181228104950.SSH.CtCdEDRPiDriving_build.log, 20190515104734.SSH.CtCdEDRPiDriving_build.log, edrpctool-12.0.0-RELEASE.jar, edrpctool-12.1.0-RELEASE.jar]!
+</ns2:Explanation><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="failed"><ns2:Ratio_A>1</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="5" desc="Description of one Application Test Report Test Case" priority="PRIO_A"><ns2:Name>Check 02_libs content (Libraries delivered)</ns2:Name><ns2:Description>Checks the existance of the libraries in 02_libs folder. At least one library should exist in this folder. Existance should be checked by expected file extension</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="6" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Check for mandatory MAP file</ns2:Name><ns2:Description>Checks if mandatory MAP file exists in 05_data subfolder. There must be exactly one MAP file</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="7" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Check for mandatory MISRA file</ns2:Name><ns2:Description>Checks if mandatory MISRA file exists in 05_data subfolder. There must be exactly one MISRA file</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="8" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Check for mandatory BUILD LOG files</ns2:Name><ns2:Description>Checks if one or more build log files are delivered in 05_data subfolder</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="9" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Check for mandatory test cases in the delivery</ns2:Name><ns2:Description>Checks if all mandatory test cases are delivered in 04_test subfolder</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="10" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Test Case naming convention check</ns2:Name><ns2:Description>Checks if all delivered Test cases (mandatory and additional) follows the naming convention</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="11" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Mandatory Test Case folder content check</ns2:Name><ns2:Description>Checks if every mandatory test case folder contains all mandatory files.</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="12" desc="Description of one Application Test Report Test Case" priority="PRIO_C"><ns2:Name>Additional Test Case folder content check</ns2:Name><ns2:Description>Checks if additional test case folder (if any) contains all mandatory files.</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="13" desc="Description of one Application Test Report Test Case" priority="PRIO_C"><ns2:Name>Heap allowed but not used</ns2:Name><ns2:Description>Checks if SWC is allowed to use Heap but heap is never been used.</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="14" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Heap used but not allowed</ns2:Name><ns2:Description>Checks if SWC using the heap but it is not allowed to use.</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="15" desc="Description of one Application Test Report Test Case" priority="PRIO_C"><ns2:Name>Host check</ns2:Name><ns2:Description>Check if SWC's host stated in Release Notes document is correct (the same as the one stated in Architecture Model)</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="16" desc="Description of one Application Test Report Test Case" priority="PRIO_C"><ns2:Name>ASIL level check</ns2:Name><ns2:Description>Check if SWC's ASIL level stated in Release Notes documents is correct (the same as the one stated in Architecture Model)</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="17" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Supplier's AITR limits check</ns2:Name><ns2:Description>Checks the limits stated in supplier's AITR document against the limits in Architektursteckbriefe</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="18" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Mandatory test case result check</ns2:Name><ns2:Description>Checks the result of the mandatory test cases stated in supplier's AITR document</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="19" desc="Description of one Application Test Report Test Case" priority="PRIO_C"><ns2:Name>Additional test case result check</ns2:Name><ns2:Description>Checks the result of the additional test cases stated in supplier's AITR document (if any)</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:15</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="20" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Interface check</ns2:Name><ns2:Description>Checks symbols used by delivered libraries against the allowed symbol set - white list (RTE symbols from Contract header and specific list of symbols from the Architecture Model)</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation>#NONE
+</ns2:Explanation><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="21" desc="Description of one Application Test Report Test Case" priority="PRIO_C"><ns2:Name>RTE inteface usage check</ns2:Name><ns2:Description>Checks if all RTE inteface are used</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation>70.00% of RTE interfaces not used,  30.00% used.
+Unused RTE Interfaces: Rte_IStatus_REDRPiDrivingMain_PpPSD15_DePSD06m4,
+Rte_IStatus_REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_Objekt_xx,
+Rte_IStatus_REDRPiDrivingMain_PpFRACFStateMachineOut_DeTraceData,
+Rte_IStatus_REDRPiDrivingMain_PpPSD15_DePSD04,
+Rte_IStatus_REDRPiDrivingMain_PpFRACFout_DePduGrp_HCA_02,
+Rte_IStatus_REDRPiDrivingMain_PpFRParkControlout_DeFRParkControlout,
+Rte_IStatus_REDRPiDrivingMain_PpPerceptionAvailabilityACFObs_DePerceptionAvailabilityACFObs,
+Rte_IStatus_REDRPiDrivingMain_PpFRACFout_DePduGrp_STP_02,
+Rte_IStatus_REDRPiDrivingMain_PpVersionInformationAPH_DeSWCVersionInformation,
+Rte_IStatus_REDRPiDrivingMain_PpFRACFout_DePduGrp_PACC_CAC,
+Rte_IStatus_REDRPiDrivingMain_PpCalibFailMV_DeCalibrationMV,
+Rte_IStatus_REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_Linien_Ego_Doppel,
+Rte_IStatus_REDRPiDrivingMain_PpPSD15_DePSDLR01m2,
+Rte_IRead_REDRPiDrivingMain_PpPSD15_DePSDLR01m0,
+Rte_IStatus_REDRPiDrivingMain_PpDsParkControlDataSet_DeColmCfg,
+Rte_IStatus_REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_Linien_Nebenspuren,
+Rte_IsUpdated_CtCdEDRPiDriving_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500,
+Rte_IStatus_REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_Linien_Ego_Rechts,
+Rte_IRead_REDRPiDrivingMain_PpPFProvidedData_DeLCSMVHState,
+Rte_IRead_REDRPiDrivingMain_PpPSD15_DePSD06m2,
+Rte_IStatus_REDRPiDrivingMain_PpFRParkControlout_DePduGrp_IPA_02,
+Rte_IStatus_REDRPiDrivingMain_PpPFHwMeasurements_DeTHS,
+Rte_IStatus_REDRPiDrivingMain_PpFRACFStateMachineOut_DePduGrp_STP_03,
+Rte_Receive_CtCdEDRPiDriving_PpDiagBISTQMSSHWrite_DezFAS_Plattform_SSH_eMMC_Register_Readout_0x1019,
+Rte_IStatus_REDRPiDrivingMain_PpFRParkControlout_DePduGrp_Parkhilfe2_04,
+Rte_IRead_REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_SensorHeader,
+Rte_IRead_REDRPiDrivingMain_PpPSD15_DePSD06m1,
+Rte_IRead_REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV_SensorHeader,
+Rte_IStatus_REDRPiDrivingMain_PpParkMAStatus_DeLaufzeitModusPACSTP,
+Rte_IStatus_REDRPiDrivingMain_PpDsParkControlDataSet_DeCustomerCfg_R,
+Rte_IStatus_REDRPiDrivingMain_PpPSD15_DeMIBSDF201,
+Rte_IStatus_REDRPiDrivingMain_PpFRParkControlout_DePduGrp_PLA2_01,
+Rte_IWriteRef_REDRPiDrivingMain_PpEcuComRequestsEDR_DePartialNetwork,
+Rte_IWrite_REDRPiDrivingMain_PpEcuComRequestsEDR_DeRequestsAFSCanRun,
+Rte_IStatus_REDRPiDrivingMain_PpDsParkControlDataSet_DeIpaCfg_R,
+Rte_IStatus_REDRPiDrivingMain_PpPSD15_DePSDLR01m0,
+Rte_IRead_REDRPiDrivingMain_PpPFProvidedData_DeLCSSRHState,
+Rte_IStatus_REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV_SensorHeader,
+Rte_IRead_REDRPiDrivingMain_PpFRACFout_DePduGrp_EA_01,
+Rte_IRead_REDRPiDrivingMain_PpPFProvidedData_DeLCSSSHState,
+Rte_IStatus_REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_Linien_Ego_Links,
+Rte_Receive_CtCdEDRPiDriving_PpFencesFR_DeLSObstacleFences,
+Rte_IStatus_REDRPiDrivingMain_PpPSD15_DePSD06m0,
+Rte_IStatus_REDRPiDrivingMain_PpParkMAStatus_DeLaufzeitAnforderungPACPPR,
+Rte_IsUpdated_CtCdEDRPiDriving_PpDiagCoding_DePermitCodingPersistence,
+Rte_IStatus_REDRPiDrivingMain_PpACFMAStatus_DeACAHFCameraDetectionLogics,
+Rte_IStatus_REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_SensorHeader,
+Rte_IRead_REDRPiDrivingMain_PpFRUSout_DePduGrp_APS2_02,
+Rte_IRead_REDRPiDrivingMain_PpCalibFailMV_DeCalibrationMV,
+Rte_IStatus_REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV_Objekt_01,
+Rte_IRead_REDRPiDrivingMain_PpPSD15_DePSD06m4,
+Rte_IStatus_REDRPiDrivingMain_PpFRACFout_DePduGrp_LDW_02,
+Rte_IRead_REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_Linien_Ego_Links,
+Rte_IsUpdated_CtCdEDRPiDriving_PpDiagEDRPiDrivingRead_DeDeactivate_testmode_event_data_recorder_0x0BE5,
+Rte_IRead_REDRPiDrivingMain_PpDsParkControlDataSet_DeVdimCfg,
+Rte_IRead_REDRPiDrivingMain_PpFRParkControlout_DePduGrp_PLA2_Status_02,
+Rte_IRead_REDRPiDrivingMain_PpDsParkControlDataSet_DeDapmCfg,
+Rte_IRead_REDRPiDrivingMain_PpFRACFout_DePduGrp_STP_02,
+Rte_IRead_REDRPiDrivingMain_PpPSD15_DePSDLR01m3,
+Rte_IRead_REDRPiDrivingMain_PpDsParkControlDataSet_DeMopmCfg,
+Rte_IStatus_REDRPiDrivingMain_PpPFProvidedData_DeLCSSSHState,
+Rte_IStatus_REDRPiDrivingMain_PpPSD15_DePSD05,
+Rte_Receive_CtCdEDRPiDriving_PpFencesFR_DeLSFreespaceFences,
+Rte_IRead_REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_Linien_Ego_Doppel,
+Rte_IStatus_REDRPiDrivingMain_PpDsParkControlDataSet_DeVctmCfg,
+Rte_IStatus_REDRPiDrivingMain_PpFRParkControlout_DeTraceData,
+Rte_IStatus_REDRPiDrivingMain_PpFRACFout_DeTraceData,
+Rte_IRead_REDRPiDrivingMain_PpPFHwMeasurements_DeTHS,
+Rte_IRead_REDRPiDrivingMain_PpFREyeQComOut_DeLanesMV,
+Rte_IStatus_REDRPiDrivingMain_PpParkControl2Processing_DeParkControl2Processing,
+Rte_IWrite_REDRPiDrivingMain_PpEcuComRequestsEDR_DeRequestsECURun,
+Rte_IRead_REDRPiDrivingMain_PpFRACFStateMachineOut_DeTraceData,
+Rte_Call_CtCdEDRPiDriving_PpPFServer_TS_ConvertZgt2Agt,
+Rte_IStatus_REDRPiDrivingMain_PpPSD15_DePSDLR01m3,
+Rte_Read_CtCdEDRPiDriving_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB,
+Rte_IStatus_REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_ObjektHeader,
+Rte_IStatus_REDRPiDrivingMain_PpParkProcessing2Control_DeLaufzeitModusPPRPAC,
+Rte_IRead_REDRPiDrivingMain_PpPFHwMeasurements_DeVBAT_MAIN,
+Rte_IStatus_REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_MFK_P_Text_01,
+Rte_IWrite_REDRPiDrivingMain_PpEcuComRequestsEDR_DeRequestsFlexRayRun,
+Rte_IRead_REDRPiDrivingMain_PpPSD15_DePSD06m3,
+Rte_IStatus_REDRPiDrivingMain_PpCalibFailMV_DeMXBCalibrationStatusMV,
+Rte_IStatus_REDRPiDrivingMain_PpPSD15_DePSD06m1,
+Rte_Receive_CtCdEDRPiDriving_PpDiagBISTSRHWrite_De_BLT_Platform_zFAS_SRH_eMMC_Register_0x1008,
+Rte_IWriteRef_REDRPiDrivingMain_PpEcuComRequestsEDR_DeRequestsFlexRayRun,
+Rte_IRead_REDRPiDrivingMain_PpParkProcessing2Control_DeLaufzeitModusPPRPAC,
+Rte_IStatus_REDRPiDrivingMain_PpFRParkControlout_DePduGrp_PLA2_Status_02,
+Rte_IRead_REDRPiDrivingMain_PpPSD15_DeMIBSDF201,
+Rte_IStatus_REDRPiDrivingMain_PpDsParkControlDataSet_DeStateConfig,
+Rte_IRead_REDRPiDrivingMain_PpFRACFStateMachineOut_DePduGrp_STP_03,
+Rte_IStatus_REDRPiDrivingMain_PpFRUSout_DeTraceData,
+Rte_IRead_REDRPiDrivingMain_PpACF2ACFSMS_DeFCT,
+Rte_IRead_REDRPiDrivingMain_PpFREyeQComOut_DeObjectsMV,
+Rte_IRead_REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_Linien_Header,
+Rte_IsUpdated_CtCdEDRPiDriving_PpDiagCoding_DeCoding,
+Rte_IsUpdated_CtCdEDRPiDriving_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA,
+Rte_IStatus_REDRPiDrivingMain_PpPSD15_DePSDLR01m1,
+Rte_IRead_REDRPiDrivingMain_PpFRParkControlout_DeTraceData,
+Rte_IStatus_REDRPiDrivingMain_PpPSD15_DePSD06m2,
+Rte_Call_CtCdEDRPiDriving_PpPFServer_TS_GetRemainingTimeBudget,
+Rte_IStatus_REDRPiDrivingMain_PpPFProvidedData_DeVARHWVariant,
+Rte_IRead_REDRPiDrivingMain_PpFRParkMonitorout_DeTraceData,
+Rte_IRead_REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_Linien_Ego_Rechts,
+Rte_IStatus_REDRPiDrivingMain_PpFRUSout_DePduGrp_APS2_03,
+Rte_IWrite_REDRPiDrivingMain_PpEDRPiDrivingTraceData_DeTraceData,
+Rte_IStatus_REDRPiDrivingMain_PpFRACFStateMachineOut_DePduGrp_FAS_VK_01,
+Rte_IStatus_REDRPiDrivingMain_PpVersionInformationAPH_DeReleaseLabel,
+Rte_IRead_REDRPiDrivingMain_PpFRParkControlout_DePduGrp_PLA2_01,
+Rte_IStatus_REDRPiDrivingMain_PpFRUSout_DePduGrp_APS2_Master,
+Rte_IRead_REDRPiDrivingMain_PpPSD15_DePSD05,
+Rte_IStatus_REDRPiDrivingMain_PpFRACFout_DePduGrp_HCA_01,
+Rte_IRead_REDRPiDrivingMain_PpFRACFout_DePduGrp_ZFAS_WZO,
+Rte_IStatus_REDRPiDrivingMain_PpDsParkControlDataSet_DeFilmCfg,
+Rte_IStatus_REDRPiDrivingMain_PpFRACFout_DePduGrp_ZFAS_WZO,
+Rte_IRead_REDRPiDrivingMain_PpFRACFout_DePduGrp_ZFAS_VZO,
+Rte_IRead_REDRPiDrivingMain_PpFRParkControlout_DePduGrp_Parkhilfe2_04,
+Rte_IWrite_REDRPiDrivingMain_PpEcuComRequestsEDR_DePartialNetwork,
+Rte_IRead_REDRPiDrivingMain_PpPSD15_DeFRRGin,
+Rte_IStatus_REDRPiDrivingMain_PpFREyeQComOut_DeTraceData,
+Rte_IRead_REDRPiDrivingMain_PpPSD15_DePSDLR01m1,
+Rte_IRead_REDRPiDrivingMain_PpPFProvidedData_DeCurConsecutiveSysRestartCnt,
+Rte_IRead_REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_MFK_P_Text_01,
+Rte_IStatus_REDRPiDrivingMain_PpFRUSout_DePduGrp_APS2_01,
+Rte_IRead_REDRPiDrivingMain_PpParkMAStatus_DeLaufzeitAnforderungPACPPR,
+Rte_IRead_REDRPiDrivingMain_PpParkControl2Processing_DeParkControl2Processing,
+Rte_IRead_REDRPiDrivingMain_PpFRACFout_DePduGrp_USS_01,
+Rte_IStatus_REDRPiDrivingMain_PpFRACFout_DePduGrp_EA_02,
+Rte_Read_CtCdEDRPiDriving_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA,
+Rte_IRead_REDRPiDrivingMain_PpDsParkControlDataSet_DeOdomCfg,
+Rte_IRead_REDRPiDrivingMain_PpFRACFout_DePduGrp_HCA_01,
+Rte_IsUpdated_CtCdEDRPiDriving_PpDiagEDRPiDrivingRead_DeTestmode_event_data_recorder_0x0BE4,
+Rte_IStatus_REDRPiDrivingMain_PpFREyeQComOut_DeMFKPText01,
+Rte_IStatus_REDRPiDrivingMain_PpDsEDRPiDrivingDataSet_DeEdrPiDrivingParamBlock,
+Rte_IRead_REDRPiDrivingMain_PpACF2ACFOBS_DeACF_LFV_NL,
+Rte_IsUpdated_CtCdEDRPiDriving_PpDiagBISTAPHWrite_DeMesswerte_BISTAPH,
+Rte_IStatus_REDRPiDrivingMain_PpFRParkMonitorout_DeTraceData,
+Rte_IStatus_REDRPiDrivingMain_PpPFProvidedData_DeLCSAPHState,
+Rte_IWriteRef_REDRPiDrivingMain_PpEcuComRequestsEDR_DeRequestsAFSCanRun,
+Rte_IWriteRef_REDRPiDrivingMain_PpEDRPiDrivingTraceData_DeTraceData,
+Rte_IRead_REDRPiDrivingMain_PpFREyeQComOut_DeBV1default,
+Rte_IRead_REDRPiDrivingMain_PpFREyeQComOut_DeTraceData,
+Rte_IsUpdated_CtCdEDRPiDriving_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB,
+Rte_IRead_REDRPiDrivingMain_PpACFMAStatus_DeACAHFCameraDetectionLogics,
+Rte_IRead_REDRPiDrivingMain_PpCalibFailMV_DeFailsafeMV,
+Rte_IRead_REDRPiDrivingMain_PpFRACFStateMachineOut_DePduGrp_FAS_VK_01,
+Rte_IStatus_REDRPiDrivingMain_PpPFProvidedData_DeLCSMVHState,
+Rte_Receive_CtCdEDRPiDriving_PpDiagBISTQMSSHWrite_De_BLT_Platform_zFAS_SSH_eMMC_Register_0x1068,
+Rte_Receive_CtCdEDRPiDriving_PpACFMAStatus_DeMAACFStatus,
+Rte_Receive_CtCdEDRPiDriving_PpFencesFR_DeMRRObstacleFencesFR,
+Rte_IStatus_REDRPiDrivingMain_PpDsParkControlDataSet_DeOdomCfg,
+Rte_IStatus_REDRPiDrivingMain_PpPFHwMeasurements_DeVBAT_MAIN,
+Rte_IRead_REDRPiDrivingMain_PpPSD15_DePSD04,
+Rte_IRead_REDRPiDrivingMain_PpFRACFout_DePduGrp_LDW_02,
+Rte_IRead_REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_ObjektHeader,
+Rte_IStatus_REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_Linien_Header,
+Rte_IStatus_REDRPiDrivingMain_PpDsParkControlDataSet_DeVdimCfg,
+Rte_IRead_REDRPiDrivingMain_PpRGExtPSD_DeRGExtPSD,
+Rte_Receive_CtCdEDRPiDriving_PpFencesFR_DeLRRObstacleFences,
+Rte_IRead_REDRPiDrivingMain_PpDsParkControlDataSet_DeFilmCfg,
+Rte_IRead_REDRPiDrivingMain_PpFRParkControlout_DePduGrp_IPA_02,
+Rte_IRead_REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV_Objekt_01,
+Rte_IRead_REDRPiDrivingMain_PpFRUSout_DeTraceData,
+Rte_IStatus_REDRPiDrivingMain_PpPFProvidedData_DeIFSETVersion,
+Rte_IStatus_REDRPiDrivingMain_PpFRParkControlout_DePduGrp_IPA_01,
+Rte_Read_CtCdEDRPiDriving_PpDiagEDRPiDrivingRead_DeDeactivate_testmode_event_data_recorder_0x0BE5,
+Rte_IRead_REDRPiDrivingMain_PpFRACFout_DeTraceData,
+Rte_IStatus_REDRPiDrivingMain_PpFRUSout_DePduGrp_APS2_02,
+Rte_IRead_REDRPiDrivingMain_PpDsParkControlDataSet_DeCustomerCfg_R,
+Rte_IStatus_REDRPiDrivingMain_PpACF2ACFOBS_DeACF_LFV_NL,
+Rte_IRead_REDRPiDrivingMain_PpPFProvidedData_DeLCSAPHState,
+Rte_IStatus_REDRPiDrivingMain_PpFRACFout_DePduGrp_ZFAS_VZO,
+Rte_IStatus_REDRPiDrivingMain_PpACF2ACFSMS_DeFCT,
+Rte_IStatus_REDRPiDrivingMain_PpFREyeQComOut_DeLanesMV,
+Rte_IStatus_REDRPiDrivingMain_PpFRACFout_DePduGrp_USS_01,
+Rte_IStatus_REDRPiDrivingMain_PpDsParkControlDataSet_DeDapmCfg,
+Rte_IRead_REDRPiDrivingMain_PpFRACFout_DePduGrp_EA_02,
+Rte_IRead_REDRPiDrivingMain_PpFRACFout_DePduGrp_HCA_02,
+Rte_IStatus_REDRPiDrivingMain_PpDsParkControlDataSet_DeMopmCfg,
+Rte_IStatus_REDRPiDrivingMain_PpRGExtPSD_DeRGExtPSD,
+Rte_IRead_REDRPiDrivingMain_PpPFProvidedData_DeTotalSysRestartCnt,
+Rte_IRead_REDRPiDrivingMain_PpFRUSout_DePduGrp_APS2_Master,
+Rte_IRead_REDRPiDrivingMain_PpPSD15_DePSDLR01m2,
+Rte_Call_CtCdEDRPiDriving_PpPFServer_TS_ConvertAgt2Zgt,
+Rte_IRead_REDRPiDrivingMain_PpFRParkControlout_DeFRParkControlout,
+Rte_IRead_REDRPiDrivingMain_PpFRParkControlout_DePduGrp_Parkhilfe2_01,
+Rte_IRead_REDRPiDrivingMain_PpPFProvidedData_DeLCSSystemState,
+Rte_IRead_REDRPiDrivingMain_PpFRACFout_DePduGrp_PACC_CAC,
+Rte_Call_CtCdEDRPiDriving_PpEventHandling_GetEventStatus,
+Rte_IStatus_REDRPiDrivingMain_PpPFProvidedData_DeTotalSysRestartCnt,
+Rte_IStatus_REDRPiDrivingMain_PpFREyeQComOut_DeBV1default,
+Rte_IRead_REDRPiDrivingMain_PpDsParkControlDataSet_DeIpaCfg_R,
+Rte_IRead_REDRPiDrivingMain_PpDsParkControlDataSet_DeStateConfig,
+Rte_IRead_REDRPiDrivingMain_PpDsParkControlDataSet_DeVctmCfg,
+Rte_IStatus_REDRPiDrivingMain_PpPFProvidedData_DeLCSSystemState,
+Rte_IRead_REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_Linien_Nebenspuren,
+Rte_IStatus_REDRPiDrivingMain_PpCalibFailMV_DeFailsafeMV,
+Rte_IRead_REDRPiDrivingMain_PpFRParkControlout_DePduGrp_PLA2_02,
+Rte_IRead_REDRPiDrivingMain_PpPerceptionAvailabilityACFObs_DePerceptionAvailabilityACFObs,
+Rte_Write_CtCdEDRPiDriving_PpDiagEDRPiDrivingWrite_DeMesswerte_EDRPiDriving,
+Rte_IStatus_REDRPiDrivingMain_PpPSD15_DePSD06m3,
+Rte_IStatus_REDRPiDrivingMain_PpPFProvidedData_DeCurConsecutiveSysRestartCnt,
+Rte_IStatus_REDRPiDrivingMain_PpPFProvidedData_DeLCSSRHState,
+Rte_IRead_REDRPiDrivingMain_PpPSD15_DePSD06m0,
+Rte_IRead_REDRPiDrivingMain_PpFREyeQComOut_DeMFKPText01,
+Rte_IRead_REDRPiDrivingMain_PpFRParkControlout_DePduGrp_ZFAS_01,
+Rte_IStatus_REDRPiDrivingMain_PpFRParkControlout_DePduGrp_PLA2_02,
+Rte_IStatus_REDRPiDrivingMain_PpFRParkControlout_DePduGrp_Parkhilfe2_01,
+Rte_IRead_REDRPiDrivingMain_PpCalibFailMV_DeMXBCalibrationStatusMV,
+Rte_IRead_REDRPiDrivingMain_PpFRParkControlout_DePduGrp_IPA_01,
+Rte_IStatus_REDRPiDrivingMain_PpPSD15_DeFRRGin,
+Rte_Read_CtCdEDRPiDriving_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500,
+Rte_IRead_REDRPiDrivingMain_PpParkMAStatus_DeLaufzeitModusPACSTP,
+Rte_IStatus_REDRPiDrivingMain_PpFRACFout_DePduGrp_EA_01,
+Rte_IStatus_REDRPiDrivingMain_PpFRParkControlout_DePduGrp_ZFAS_01,
+Rte_Receive_CtCdEDRPiDriving_PpFencesFR_DeMRRObstacleFencesFL,
+Rte_Read_CtCdEDRPiDriving_PpDiagCoding_DePermitCodingPersistence,
+Rte_IStatus_REDRPiDrivingMain_PpFREyeQComOut_DeObjectsMV,
+Rte_IRead_REDRPiDrivingMain_PpFRUSout_DePduGrp_APS2_03,
+Rte_IWriteRef_REDRPiDrivingMain_PpEcuComRequestsEDR_DeRequestsECURun,
+Rte_IRead_REDRPiDrivingMain_PpFRUSout_DePduGrp_APS2_01,
+Rte_IRead_REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_Objekt_xx,
+Rte_IRead_REDRPiDrivingMain_PpDsParkControlDataSet_DeColmCfg</ns2:Explanation><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="failed"><ns2:Ratio_A>222</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="22" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Resource consumption check</ns2:Name><ns2:Description>Checks the resource consumption from the delivered MAP file against the limits in Architektursteckbriefe</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="23" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>XML content check</ns2:Name><ns2:Description>Checks if Release Notes document and supplier's AITR document (xml format)are valid XML file by the xml standards and by the XML Schema.</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="24" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>AIT version check</ns2:Name><ns2:Description>Checks if AIT version stated in delivered supplier's AITR exists in the list of allowed AIT versions by Preintegration environment (Architecture).</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="25" desc="Description of one Application Test Report Test Case" priority="PRIO_A"><ns2:Name>Release version check</ns2:Name><ns2:Description>Checks if the Release label stated in delivered Release Notes exists in the lists of Acceptable Releases by Preintegration environment(Architecture).</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="26" desc="Description of one Application Test Report Test Case" priority="PRIO_A"><ns2:Name>Check allowed compiler flags </ns2:Name><ns2:Description>Reads BUILD LOG files and checks compiler and linker flags found there against the allowed ones stated in the Preintegration environment (Architecture).</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="27" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Compiler version check</ns2:Name><ns2:Description>Checks if Compiler version stated in delivered Release Notes is accepted by the Preintegration environment (Architecture).</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="28" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>MISRA level check</ns2:Name><ns2:Description>Reads MISRA measurements from supplier's AITR file and checks if level is correct. If MISRA measurements not delivered within AITR file test fails.</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="29" desc="Description of one Application Test Report Test Case" priority="PRIO_A"><ns2:Name>Is SWC buildable</ns2:Name><ns2:Description>Checks the result of Integrator's build process.</ns2:Description><ns2:Comment>Build successful.
+</ns2:Comment><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="30" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Memory Mapping check</ns2:Name><ns2:Description>Checks if all symbols used in component are in correct memory section.</ns2:Description><ns2:Comment>This test is executed for APH components only.
+</ns2:Comment><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="not_executed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>0</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="31" desc="Description of one Application Test Report Test Case" priority="PRIO_C"><ns2:Name>Extended Version check</ns2:Name><ns2:Description>Compares SW-C version with the release label from the build process. Both data is given by supplier in Release Notes.</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="32" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Availability of dataset files check</ns2:Name><ns2:Description>The SWC delivery is checked. If it contains the .hex files in the RN (compares RN against the delivery)</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="33" desc="Description of one Application Test Report Test Case" priority="PRIO_A"><ns2:Name>Dataset version check</ns2:Name><ns2:Description>Checks the version found in every hex file against the version stated in RN</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="34" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Dataset filesize check</ns2:Name><ns2:Description>Checks the size found in every hex file against the size projected by the Architecture Model.</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation /><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="passed"><ns2:Ratio_A>0</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase><ns0:TestCase ID="35" desc="Description of one Application Test Report Test Case" priority="PRIO_B"><ns2:Name>Check mandatory compiler/linker flags </ns2:Name><ns2:Description>Reads BUILD LOG files and checks compiler and linker flags found there against the mandatory ones stated in the Preintegration environment (Architecture).</ns2:Description><ns2:Comment /><ns2:BugReference /><ns2:Explanation>List of not used mandatory compiler flags: -pedantic-errors, -c
+
+List of not used mandatory linker flags: -pedantic-errors
+</ns2:Explanation><ns2:Begin><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:17:00</ns2:Time></ns2:Begin><ns2:End><ns2:Date>2019-09-10</ns2:Date><ns2:Time>17:19</ns2:Time></ns2:End><ns0:TestCaseSummary result="failed"><ns2:Ratio_A>2</ns2:Ratio_A><ns2:Ratio_B>1</ns2:Ratio_B></ns0:TestCaseSummary><ns0:TestCaseNumber /></ns0:TestCase></ns0:Test>
+    <ns0:SupliersTestArtefacts>
+        <ns0:TestArtefact>
+            <ns2:Filename>libCtCdEDRPiDriving_BDL.a</ns2:Filename>
+            <ns2:Version />
+            <ns2:Comment />
+        </ns0:TestArtefact>
+    <ns0:TestArtefact><ns2:Filename>libCtCdEDRPiDriving_Implementation.a</ns2:Filename><ns2:Version /><ns2:Comment /></ns0:TestArtefact><ns0:TestArtefact><ns2:Filename>libCtCdEDRPiDriving_ServerRunnables.a</ns2:Filename><ns2:Version /><ns2:Comment /></ns0:TestArtefact><ns0:TestArtefact><ns2:Filename /><ns2:Version /><ns2:Comment /></ns0:TestArtefact></ns0:SupliersTestArtefacts>
+    <ns0:IntegratorsTestArtefacts>
+        <ns0:TestArtefact>
+            <ns2:Filename>AATR_TTTech_CtCdEDRPiDriving.xml</ns2:Filename>
+            <ns2:Version>2.0.2</ns2:Version>
+            <ns2:Comment>automatic creation</ns2:Comment>
+        </ns0:TestArtefact>
+    <ns0:TestArtefact><ns2:Filename>unused_rte_CtCdEDRPiDriving.txt</ns2:Filename><ns2:Version /><ns2:Comment>File containing  list of unused RTE interfaces with its categories</ns2:Comment></ns0:TestArtefact><ns0:TestArtefact><ns2:Filename>used_categories_stats_CtCdEDRPiDriving.txt</ns2:Filename><ns2:Version /><ns2:Comment>File containing  statistic table of used RTE symbols in swc libraries</ns2:Comment></ns0:TestArtefact><ns0:TestArtefact><ns2:Filename>used_rte_CtCdEDRPiDriving.txt</ns2:Filename><ns2:Version /><ns2:Comment>File containing  list of used RTE interfaces with its categories</ns2:Comment></ns0:TestArtefact><ns0:TestArtefact><ns2:Filename>AAT_release_notes20190910171546.log</ns2:Filename><ns2:Version /><ns2:Comment>File containing  all information about checks in AAT process</ns2:Comment></ns0:TestArtefact><ns0:TestArtefact><ns2:Filename>unagreed_symbols_CtCdEDRPiDriving.txt</ns2:Filename><ns2:Version /><ns2:Comment>File containing all unagreed symbols in swc libraries</ns2:Comment></ns0:TestArtefact><ns0:TestArtefact><ns2:Filename>used_symbols_CtCdEDRPiDriving.txt</ns2:Filename><ns2:Version /><ns2:Comment>File containing all used symbols in swc libraries</ns2:Comment></ns0:TestArtefact><ns0:TestArtefact><ns2:Filename>white_CtCdEDRPiDriving.dat</ns2:Filename><ns2:Version /><ns2:Comment>Whitelist file containting all allowed symbols specific to the SWC.</ns2:Comment></ns0:TestArtefact></ns0:IntegratorsTestArtefacts>
+    <ns0:TestManagement>
+        <ns0:PTC_IntegrityBaselineLabel>-</ns0:PTC_IntegrityBaselineLabel>
+        <ns0:PTC_IntegrityTestSession_ID>3302346</ns0:PTC_IntegrityTestSession_ID>
+        <ns0:PTC_IntegrationTestElement>785335</ns0:PTC_IntegrationTestElement>
+    </ns0:TestManagement>
+    <ns0:TestEnvironmentDefinition desc="Please describe the test enviroment." used_AIT-FW_ProvidedByIntegrator="yes">
+        <ns2:TestFrameworkInfo desc="Information about version of test framework">
+            <ns2:TestFrameworkVersion>C8_REL_REV176895</ns2:TestFrameworkVersion>
+        </ns2:TestFrameworkInfo>
+        <ns2:TestFrameworkDeviation>
+            <ns2:ChangeDescription>No changes</ns2:ChangeDescription>
+            <ns2:Effects>No effects</ns2:Effects>
+        </ns2:TestFrameworkDeviation>
+        <ns2:AdditionalSoftwareUsed>
+            <ns2:AdditionalTool desc="Information about SW Tool">
+                <ns2:SoftwareName />
+                <ns2:Version />
+                <ns2:Description />
+            </ns2:AdditionalTool>
+        </ns2:AdditionalSoftwareUsed>
+        <ns0:TestPC-SWimage />
+    </ns0:TestEnvironmentDefinition>
+    <ns0:MisraMeasurement allReportedViolationJustified="no" desc="If YES is set for All Violation Justified, MISRA test will pass even if number of MISRA violations are bigger than 0. Please check zFAS_UserManuals user documentation for clarification.">
+        <ns2:MandatoryLevel>0</ns2:MandatoryLevel>
+        <ns2:RequiredLevel>0</ns2:RequiredLevel>
+        <ns2:AdvisoryLevel>0</ns2:AdvisoryLevel>
+    </ns0:MisraMeasurement>
+    <ns0:SuppliersAdditionalInfo desc="Please add any other information, e.g. company relevant data. Additional Data is not automatically parsed or evaluated during integration">
+        <ns2:Additional_Data>The EDR data files are stored on SSH NAND flash in the root filesystem of partition /mmc0:1 and can be read out via FTP (see document "SDE-SSH") and the "DAF readout" feature to SDCard/USB Stick on the MIB
+</ns2:Additional_Data>
+    </ns0:SuppliersAdditionalInfo>
+    <ns0:KnownLimitation>
+        <ns2:CompanyIssueIdentifier />
+        <ns2:Description />
+    </ns0:KnownLimitation>
+    <ns0:Acronyms desc="Description of acronyms data">
+        <ns2:Acronym>
+            <ns2:name />
+            <ns2:Description />
+        </ns2:Acronym>
+    </ns0:Acronyms>
+    <ns0:References desc="Add references, e.g. to other documents.">
+        <ns2:Reference>
+            <ns2:name />
+            <ns2:Description />
+        </ns2:Reference>
+    </ns0:References>
+<ns0:SuppliersAdditionalInfo desc="Please add any other information, e.g. company relevant data. Additional Data is not automatically parsed or evaluated during integration"><ns2:Additional_Data>There EDR PC Tool is located in the "05_data" directory. Please note the readme file "edrpctool-readme.txt".
+</ns2:Additional_Data></ns0:SuppliersAdditionalInfo><ns0:SuppliersAdditionalInfo desc="Please add any other information, e.g. company relevant data. Additional Data is not automatically parsed or evaluated during integration"><ns2:Additional_Data>The following persistent files - each with its specific filename - are handled by the EDR Piloted Driving SWC:
+</ns2:Additional_Data></ns0:SuppliersAdditionalInfo><ns0:SuppliersAdditionalInfo desc="Please add any other information, e.g. company relevant data. Additional Data is not automatically parsed or evaluated during integration"><ns2:Additional_Data>1. &lt;TriggerID&gt;_EDR_{PP|TJP|SVC}_&lt;TriggerName&gt;[_WP].dat - Signal data files - deleted/written in case of a trigger
+</ns2:Additional_Data></ns0:SuppliersAdditionalInfo><ns0:SuppliersAdditionalInfo desc="Please add any other information, e.g. company relevant data. Additional Data is not automatically parsed or evaluated during integration"><ns2:Additional_Data>2. edr_pidriving.log - Log file (text file) - read at startup; written when last activity state if last activity state of a function is set; written at end of clamp15 cycle
+</ns2:Additional_Data></ns0:SuppliersAdditionalInfo><ns0:SuppliersAdditionalInfo desc="Please add any other information, e.g. company relevant data. Additional Data is not automatically parsed or evaluated during integration"><ns2:Additional_Data>4. edr_pidriving.dsc and edr_pidriving.dsc.bck - Ringbuffer descriptor file: This file saves metadata about the ringbuffer state (slot usage, write protection etc.) - .dsc read at startup; both files written in case of any trigger
+</ns2:Additional_Data></ns0:SuppliersAdditionalInfo><ns0:SuppliersAdditionalInfo desc="Please add any other information, e.g. company relevant data. Additional Data is not automatically parsed or evaluated during integration"><ns2:Additional_Data>5. edr_pidriving.cnt and edr_pidriving.cnt.bck - Counter file (text file) - stores the DE counter, KL15 counter and other counters; stores the log of activation/deactivation of parking pilot and traffic jam pilot - .cnt read at startup; both files written at end of clamp15 cycle
+</ns2:Additional_Data></ns0:SuppliersAdditionalInfo><ns0:SuppliersAdditionalInfo desc="Please add any other information, e.g. company relevant data. Additional Data is not automatically parsed or evaluated during integration"><ns2:Additional_Data>6. &lt;TriggerID&gt;_EDR_{PP|TJP|SVC}_&lt;TriggerName&gt;[_WP].incomplete - Temporary file signalling that NVRAM storage of the corresponding .dat file is not yet complete - written and deleted in case of a trigger
+</ns2:Additional_Data></ns0:SuppliersAdditionalInfo><ns0:SuppliersAdditionalInfo desc="Please add any other information, e.g. company relevant data. Additional Data is not automatically parsed or evaluated during integration"><ns2:Additional_Data>7. edr_pidriving_act_pp.txt, edr_pidriving_act_pp.txt.bck, edr_pidriving_act_pp.crc, edr_pidriving_act_tjp.txt, edr_pidriving_act_tjp.txt.bck, edr_pidriving_act_tjp.crc, edr_pidriving_act_kd.txt, edr_pidriving_act_kd.txt.bck, edr_pidriving_act_kd.crc- Store the log of activation/deactivation of functions - .txt files read at startup; all files written at end of clamp15 cycle
+</ns2:Additional_Data></ns0:SuppliersAdditionalInfo><ns0:SuppliersAdditionalInfo desc="Please add any other information, e.g. company relevant data. Additional Data is not automatically parsed or evaluated during integration"><ns2:Additional_Data>File size of .dat files for 40 seconds recording duration: PP: 907.606 bytes | TJP: 3.560.855 bytes | Service mode: 30.803.530 bytes
+</ns2:Additional_Data></ns0:SuppliersAdditionalInfo><ns0:SuppliersAdditionalInfo desc="Please add any other information, e.g. company relevant data. Additional Data is not automatically parsed or evaluated during integration"><ns2:Additional_Data>The following DTCs are implemented but set to FAILED only if EDR is activatated: 1. Functional NVM access error, 0x040001; 2. EDR data memory full, 0x040003; 3. DAF Test mode active, 0x040004; 4. Unplausible dataset CtCdEDRPiDriving, 0x040005; 5. EDR storage Life expectancy reached, 0x040006
+</ns2:Additional_Data></ns0:SuppliersAdditionalInfo><ns0:SuppliersAdditionalInfo desc="Please add any other information, e.g. company relevant data. Additional Data is not automatically parsed or evaluated during integration"><ns2:Additional_Data>The following RoutineControls are implemented: 1. EDR Loeschen von Dateien, 0x05F8; 2. EDR Dateien Schreibschutz aendern, 0x1013; 3. EDR Messwerte aktualisieren, 0x1017; 4. EDR PiloFa Trigger, 0x1018
+</ns2:Additional_Data></ns0:SuppliersAdditionalInfo><ns0:SuppliersAdditionalInfo desc="Please add any other information, e.g. company relevant data. Additional Data is not automatically parsed or evaluated during integration"><ns2:Additional_Data>The following Anpasskanaele are implemented: 1. EDR Testmodus aktiv, 0x0BE4; 2. EDR Testmodus deaktivieren, 0x0BE5
+</ns2:Additional_Data></ns0:SuppliersAdditionalInfo><ns0:SuppliersAdditionalInfo desc="Please add any other information, e.g. company relevant data. Additional Data is not automatically parsed or evaluated during integration"><ns2:Additional_Data>The following Messwerte (measurement values) are implemented: 0x170A and 0x173C
+</ns2:Additional_Data></ns0:SuppliersAdditionalInfo><ns0:SuppliersAdditionalInfo desc="Please add any other information, e.g. company relevant data. Additional Data is not automatically parsed or evaluated during integration"><ns2:Additional_Data>Release V12.4.0:  * Fixed KPMs:     - 7775926 [EDR] Converted Mib PMD Readout data stored in wrong dir     - 7775889 [EDR] Converted Mib APH recorder data stored in SSH dir     - 7812958 [EDR] Log entries missing in general logfile  Release V12.3.0:  * Fixed KPMs: 	- 7662802 [EDR] K-matrix init/error interpretation      Release V12.2.0:  * Fixed KPMs:     - 7662798 [DAF] Fall-back for longitude gps location degree 	- 7662799 [DAF] No mixture gps location values 	- 7662802 [EDR] K-matrix init/error interpretation 	- 7662801 [EDR] Double fallback Gps location 		 Release V12.1.0:  * Fixed KPMs:     - 7537080 [EDR] ND_UTC internally evaluated as signedInt32   * CRs:     - [ZFAS-1926] TJP-failure storage within DAF  * Updated PC Tool version to V12.1.0      Release V12.0.0:  * Updated SIL libraries to new IF-SET V3.1.1.  * SWC updated with new IF-SET V3.1.1.  * Added  fallback to MM coordinates.  * Data set version updated to 12.0.  Change log V11.4.0 vs. V11.3.0:     Added  general log msg for KL-30 reset (EDR KL-30 reset detected in KL-15 cycle: )     * Fixed KPMs:          - no KMPs were found            Change log V11.3.0 vs. V11.2.0: * Fixed KPMs: 7406922 Fixed [EDR] Async data  handling nvm and counter 7500518 Fixed [EDR] May not send PP-CamTrigger in degraded state          Change  log V11.2.0 vs. V11.1.0: * Fixed KPMs: 7484275 Fixed [EDR] Power supply trigger wrong ignored message 7406922  Fixed [EDR] Async data handling nvm and counter  Change log V11.1.0 vs. V11.0.0: - Reworked log messages  for DTCs and InhiBit - DeIpa_State signal source updated from PpParkControl2EDR to PpParkMAStatus  *Fixed  KPMs 7445100 Fixed [EDR] Inhibit-bit true not logged in general log 7316765 Fixed [EDR] IF-Set naming  not fulfilled by EDR-PC-Tool  Change log V11.0.0 vs. V10.0.0 *Fixed KPMs 7432792 Fixed [EDR] General  trigger should not fire continuously         7316765 Fixed [EDR] IF-Set naming not fulfilled by EDR-PC-Tool 7432773  Fixed [EDR] Dat file storage not mapped correctly 7432807 Fixed [EDR] Wrong crc in some Parken signal  files          Change log V10.0.0 vs. V9.1.0:    * adapted to new ifset (no impact on EDR) - no new signals  to record or remove from recording    * Dataset change: - Introduced parameter for blind spot handling       * Fixed KPMs: 7406579 Fixed   [EDR] automatic gen. logfile deletion init/error 7366658 Fixed   [EDR] SupplyFault  Trigger de-bounce no information 7406922 Fixed                    [EDR] Async data handling nvm and counter  (as agreed in telco with Audi if last active state was PP or TJP read from persistancy cnt is incremented  by 1) 7406254 Fixed   [EDR] Automatic dat file deletion not working  7328246             Not EDR              [STP][EDR]: Interface to STP Porterror InhibitBit   Change log V9.1.0 vs. V9.0.0:       * Dataset change: -  Introduced parameter for CR1530 separated DE and NDE delays defined in dataset  * Fixed KPMs: 7380700  Fixed   [EDR] Deact. logging delay additional file storage 7406579 Partly  [EDR] automatic gen. logfile  deletion init/error (01.01.2017 sanity check is still open) 7406922 Partly  [EDR] Async data handling  nvm and counter (Missing persistent counter file storage on KL30-off. Not defined in requirements) 7406254  Partly  [EDR] Automatic dat file deletion not working  (01.01.2017 sanity check is still open)   Change  log V8.6.0 vs. V8.5.0:          * Fixed KPMs: - 7370535 [EDR] Wrong PDU state   mapped to EDR State -  7366741 [EDR] missing PDU status signals in Parken profile - 7366619 [EDR] degradation   mode trigger  storage - 7366658 [EDR] SupplyFault Trigger de-bounce no information - 7366709 [EDR] Lower   priority  fctn activation not stored - 7364458 [EDR] automatic deletion logfile entries - 7364512 [EDR]   WriteProtection  Toggling trigger cascade - 7341710 [EDR] multiple escalation level entries occur  *  CRs: -  127001 [EDR][SSH][CR1530]  Add trigger delay for DE and NDE events  * Issues: - 127530 [EDR][SSH][CR1278]   Fix GPS precision to  six digits after decimal point  * Dataset change: - Introduced parameter for CR1530           Change log V8.5.0  vs. V8.4.0:          * Fixed KPMs: - 7243868 [EDR] ODIS readout 0x173C important   info cut-off - 7315474  [EDR] Parken_aktives_System condition dependency - 7320468 [EDR] MWB 0x173C containes   wrong funct act  entries - 7341710 [EDR] multiple escalation level entries occur  * CRs: - 126422 [EDR][SSH][CR1278]   Change  of "Escalation level logging" feature - log esc. level for any STP_Status value change  * Issues: -   126431  [EDR][SSH] Fix wrong PP signal recording source - 126614 [EDR][SSH] Startup data - do not print   zero  values  Change log V8.4.0 vs. V8.3.0:          * Fixed KPMs: - 7243868 [EDR] ODIS readout 0x173C   important  info cut-off - 7315474 [EDR] Parken_aktives_System condition dependency - 7320468 [EDR] MWB   0x173C  containes wrong funct act entries - 7323857 [EDR] GPS entries unclear,reset entries manipulated -   7341776  [EDR] Intensive logging caused by DE counter = 1  * CRs: - 122133 [EDR][SSH][CR1278] Deployment   Event  has to store the full recording buffer duration (up to 60s) - 122140 [EDR][SSH][CR1278] Information   that  can be used to track down the driver must not be stored in general log file  * Issues: - 124712   [EDR][SSH]  Fix MISRA violations - 125017 [EDR][SSH] Provide measurements for SYS-0280+ / finish optimisation -   123394  [EDR][SSH] Rework 3 cycles high - 3 cycles low implementation when relaying trigger to TVM on   SRH -  125346 [EDR][SSH] dat file / act-deact deletion: Wait indefinitely until GPS time becomes available -    125353 [EDR][SSH] KD ringbuffer violation with incomplete files  Change log V8.3.0 vs. V8.2.0:  * Fixed    KPMs: - 6921163 [EDR]: Edr_pidriving.log file data not plausible - 7223643 [EDRPiloFa] no trigger after    inacitve function - 7285567 [EDR] fctn. deactivations have wrong timestamps - 7296528 [EDR] SWC version    differs in MWB 173C - 7296631 [EDR] HW variant information missing general Log - 7296708 [EDR] Diag   TJP  activation stored in fctn logfile  * CRs: - 122143 [EDR][SSH][CR1278] Act/Deact log entries have   to be  deleted 6 months after creation - 122169 [EDR][SSH][CR1278] .dat files have to be deleted 3 years   after  creation - 122171 [EDR][SSH][CR1278] If one (or more) escalation levels of function STP are reached   an  act/deac log entry shall be written  * Issues: - 124259 [EDR][SSH] Parameters p_n_PP_activated_EDR,   p_n_TJP_activated_EDR,  p_n_testmode_activated_EDR not used in code - 124477 [EDR][SSH] Interpret 3Hz   signal shift correctly  in PDF and ATDF exports - 123707 [EDR][SSH] Optimize EDR runtime to meet 400us  budget (peaks) - 124832   [EDR][SSH] Message "NVRAM not available for 5s - DTC 40001 set to failed" is  printed to UART (and log   file?) every 5s          Change log V8.2.0 vs. V8.1.0:  * Fixed KPMs: - 7189155  [EDR] Wrong timestamps  in gen./activation logfiles (added KL 15 counter) - 7296502 [EDR] Activation  condition Parken_aktives_System  *   CRs: - 122170 [EDR][SSH][CR1278] All act/deact log entries have to  contain 'real GPS location' - 115468   [EDR][SSH][CR1278] New requirements for signal status byte INVALID  and INAVAILABLE - 122137 [EDR][SSH][CR1278]   Triggers in delay structure are not allowed to be deleted -  122136 [EDR][SSH][CR1278] STP after-activity-off-recording   has priority over a potential activation  of PP function  * Issues: - 114577 [EDR][SSH] Optimization:   Read only data from RTE that is needed for  the specific function - 122293 [EDR][SSH] p_t_consecutive_triggers   only applies for PP (not for STP) -  122175 [EDR][SSH] Set EDR DTCs only if EDR is active - 123297 [EDR][SSH]   EDR shall not access NVM at  all if NVM is not available   Change log V8.1.0 vs. V8.0.0:  * Fixed KPMs: -   7273186 [EDR] critical  persistency state never left - 7273184 [EDR] wrong assignments in function activation   log  * Issues: -  123029 [EDR][SSH] EDR shall not access NVM in PER_BUSY when NVM is unavailable  -122575   [EDR][SSH] When  readdir is used filename size must be checked  -122578 [EDR][SSH] Fix copy/paste error   "T_EDR_NvmWriteTask"  logging  -122667 [EDR][SSH] If 0x173C returns data even without mmc access put  active/deactive  info  into MWB data  -123030 [EDR][SSH] Separate SWC version from File format version   -122574 [EDR][SSH]  When  logging out EDR coding bit also log out EDR_Rte_Data.Diag_Coding_EDR_TPL_Image_Data   -122576 [EDR][SSH]   Log entering and leaving the init runnable on UART and edrpidriving.log  -122577  [EDR][SSH] All UART   logging directly in the init runnable shall be done with ERROR level  -122665 [EDR][SSH]  Log out active/deactive   log lines with ERROR level  Change log V8.0.0 vs. V7.6.3b:  * Fixed KPMs: -  7212357 [EDR] DAF data handling   incorrect (NVM slots full) - 7221717 [EDR] FIFO logic of dat file storage  has deficit - 7220940 [EDR]   misleading port naming DeManeuver - 7223643 [EDRPiloFa] no trigger after  inacitve function - 7225974   [EDR] monotonic trigger id overflow - 7235685 [EDR] Toggling WP leads to  wrong dtc validation - 7238921   [EDR] DE counter indedependent of activation - 7242774 [EDR] ODIS 'erase  all dat files' not implemented -   7243868 [EDR] ODIS readout 0x173C important info cut-off  * CRs: -  [EDR][SSH][CR1121] PP active/inactive   handling shall be changed (DeParkenAktiv alone not sufficient)  *  Issues: - [EDR][SSH] Add logging to   UART and log file that answer to EthCom is sent  -[EDR][SSH] Inhibit  bit is only allowed to go LOW if   NVRAM is available  -[EDR-S] Set DTCs only if EDR is active - [EDR-S]  Move setting inhibit bit to the   beginning of the main runnable - [EDR-S] Adapt to new IFSET as soon  as X270 is available - [EDR][SSH]   When readdir is used filename size must be checked - [EDR][SSH] Change  EDR_NVM_DTC_DELAY to 5s  Change   log V7.6.3b vs. V7.6.3:   * Fixed KPMs: - 7147531 [EDR] Storage slot  limitation SSH can be bypassed -   7208781 [EDR] general logfile startup section deviation - 7212317  [EDR] DataSet with version 0.0 tested   plausible - 7212357 [EDR] DAF data handling incorrect (NVM slots  full) * Fixed production issue: - [EDR]   DTC 40003 has to be set to PASSED or FAILED correctly           Change log V7.6.3 vs. V7.6.2:   * Removed   3 outdated TJP signals from recording: - deEA_Sollbeschleunigung:  Also reported via KPM 7193701: outdated:   removed from recording. - deSTP_Primaeranz: outdated: removed  from recording. - deEPB_Status_02: outdated:   removed from recording. * Removed 3 FR PDU status bytes  for PP profile: - deStatus_LRR1SensorHeader02 -   deStatus_LS1SensorHeader - deStatus_SWA01 * Fixed recording  of the following FR PDU status bytes for   TJP:     - ACC07, BRSBU02, ESP15, ESP28, ESP33, Getriebe11, HAL01,  LHEPS01, LHEPS02, LHEPS03, LHEPS04,  LRR1WZO,  Motor35, STP01, TCIKG01, TCIKG02, TCIPS  Change log V7.6.2  vs. V7.6.1e:   * Fixed KPM "[EDR]  wrong sampling  freq. for some TJP signals" (7201330)  Change log  V7.6.1e vs. V7.6.1d:   * Changed back  INIT/IDLE signal  from 0x02 to 0xFF * Fixed KPM "[EDR] signals  in *.dat-File w/ status "UNUSED_2" (7184958)  Change  log  V7.6.1d vs. V7.6.1c:   * Fixed MIB readout  communication to EthCom -&gt; changing back INIT/IDLE  signal  from 0xFF to 0x02  Change log V7.6.1c  vs. V7.6.1b:   * "-1U" removed from memset statement of  saving  logfile  Change log V7.6.1b vs. V7.6.1a:    * Fixed signal 11 in shutdown during NM stress tests  Change   log V7.6.1a vs. V7.6.1:   * KPM 7189155 *  KPM 7187207  Change log V7.6.1 vs. V7.6:   * Signals Dt_RECORD_ParkGatewayHMImaneuver::DeCurrentManeuver::DeType,    ::DeStep, ::DeDirection and ::DeSide are recorded now correctly from struct Dt_RECORD_ParkGatewayHMImaneuver::DeCurrentManeuver,    not from Dt_RECORD_ParkGatewayHMImaneuver. In the internal recording structure EDR names the signals    "DeManeuverType", "DeManeuverStep", "DeManeuverDirection", "DeManeuverSide". * 7Hz signals are recorded    now with oversampling rate of 8.33Hz instead of  6.25Hz * Status bit "NULL_PTR" is now only written   if  EDR receives value NULL from RTE call * Solved: [issue117431] EDR background task runtime resets   with  Error ID 95 / FATAL/RTP  Change log V7.6 vs. V7.5:   * Fixed watchdog violation when executing   routine  control refresh MWB * Fixed MWB readout * EDR shall store information about DAF readout in  its  logfile  (changed idle signal to 0xFF from 0x02) * Prevent deleting meta-files on EDR version change *   Reconstruct  NVRAM Descriptor from files on mmc0:1 in case it is broken or corrupted * KPM: [EDR] Read   MWB via ODIS  fails because of SSH files * KPM: [EDR] 2 consec triggers do not lead to 2 dat Files *   Fixing MISRA/HIS  violations
+</ns2:Additional_Data></ns0:SuppliersAdditionalInfo><ns0:SuppliersAdditionalInfo desc="Please add any other information, e.g. company relevant data. Additional Data is not automatically parsed or evaluated during integration"><ns2:Additional_Data>Future release plan:     * ZFAS-1926 - [CR] [ZFAS-1926] TJP-failure storage within DAF implementation planned for next CL3 relase. -
+</ns2:Additional_Data></ns0:SuppliersAdditionalInfo><ns0:SuppliersAdditionalInfo desc="Please add any other information, e.g. company relevant data. Additional Data is not automatically parsed or evaluated during integration"><ns2:Additional_Data>PC Tool 11.2.3 supports 11.1.0, 11.2.0, 11.0.0, 10.0.0, 9.0.0, 8.1.0, 8.0.0, 7.6.3, 7.6.2, 7.6.1, 7.6.0, 7.5.0, 7.4.0, 7.3.0, 7.2.0, 7.1.0, 7.0.0, 6.3.0, 6.2.0, 4.0.2, 4.1.0, 5.0.1, 5.2.0, 6.0.0, 6.2.0, 6.3.0 file version format. List of supported file versions can be found within supportedFileFormatVersions.txt file which is generated after application is started in the same folder as the JAR file.
+</ns2:Additional_Data></ns0:SuppliersAdditionalInfo><ns0:SuppliersAdditionalInfo desc="Please add any other information, e.g. company relevant data. Additional Data is not automatically parsed or evaluated during integration"><ns2:Additional_Data>Storing times of .dat files with 40s recording time [ms]: PP: 519 | STP: 1919 | Service mode: 21360 --- Attention: Storing times can vary due to background load on the system.
+</ns2:Additional_Data></ns0:SuppliersAdditionalInfo><ns0:SuppliersAdditionalInfo desc="Please add any other information, e.g. company relevant data. Additional Data is not automatically parsed or evaluated during integration"><ns2:Additional_Data>PC Tool command line usage: "java -cp &lt;edrPcTool.jar&gt; -Xmx1024m com.tttech.edrpctool.EdrPiLoFaPcTool &lt;inputfile.dat/cnt&gt; &lt;mode&gt; [testVectors.bin]" | 1 - generate txt file | 2 - generate pdf file | 3 - generate adtf file; if this option is used, an additional argument shall be provided i.e. 0 - "per basic type" 1 - "per struct" | 4- compare with bin test vectors; if this option is used, additional argument shall be provided i.e. absolute path to the bin file
+</ns2:Additional_Data></ns0:SuppliersAdditionalInfo><ns0:SuppliersAdditionalInfo desc="Please add any other information, e.g. company relevant data. Additional Data is not automatically parsed or evaluated during integration"><ns2:Additional_Data>EDR is active if (DAF_Coding_Bit == 1 AND p_t_rec_duration_EDR &gt; 0 AND p_n_OEM_activated_EDR == TRUE), else inactive; if EDR is active behaviour is the same as inactive except: 1) DTCs are set to FAILED if condition is fulfilled 2) Recording to RAM is started if activity is on 3) Storage to NVRAM is started if a trigger occurs in a valid condition
+</ns2:Additional_Data></ns0:SuppliersAdditionalInfo><ns0:SuppliersAdditionalInfo desc="Please add any other information, e.g. company relevant data. Additional Data is not automatically parsed or evaluated during integration"><ns2:Additional_Data>Open EDR KPMs:     * KPM-7537080 - [EDR] ND_UTC internally evaluated as signedInt32
+</ns2:Additional_Data></ns0:SuppliersAdditionalInfo><ns0:SuppliersAdditionalInfo desc="Please add any other information, e.g. company relevant data. Additional Data is not automatically parsed or evaluated during integration"><ns2:Additional_Data>Number of compiler warnings: 1
+</ns2:Additional_Data></ns0:SuppliersAdditionalInfo><ns0:SuppliersAdditionalInfo desc="Please add any other information, e.g. company relevant data. Additional Data is not automatically parsed or evaluated during integration"><ns2:Additional_Data>Execution time of init runnable measured using ZGT timestamps: 65 4104285 40-1:38:48|EDR: DeInhibit changed to: FALSE. =&gt; 4104ms (var. D)
+</ns2:Additional_Data></ns0:SuppliersAdditionalInfo><ns0:SuppliersAdditionalInfo desc="Please add any other information, e.g. company relevant data. Additional Data is not automatically parsed or evaluated during integration"><ns2:Additional_Data>TTTech SVN Revision EDR is built of: 274744
+</ns2:Additional_Data></ns0:SuppliersAdditionalInfo><ns0:SuppliersAdditionalInfo desc="Please add any other information, e.g. company relevant data. Additional Data is not automatically parsed or evaluated during integration"><ns2:Additional_Data>Compatible dataset versions: * Version 12.0 and above
+</ns2:Additional_Data></ns0:SuppliersAdditionalInfo><ns0:SuppliersAdditionalInfo desc="Please add any other information, e.g. company relevant data. Additional Data is not automatically parsed or evaluated during integration"><ns2:Additional_Data>File format version written by this SWC: 12.1.0
+</ns2:Additional_Data></ns0:SuppliersAdditionalInfo></ns0:A-AcceptTestReport>

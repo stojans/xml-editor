@@ -1,0 +1,146 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpDsTVMasterDataSet_DeCalibOlmcConfigParams 
+LCS                                      | Rte_IStatus          | RTVImageCntrl_PpPFProvidedData_DeLCSSRHState 
+LCS                                      | Rte_IRead            | RTVImageCntrl_PpPFProvidedData_DeLCSSSHState 
+Persistency, Data read                   | Rte_Read             | CtCdTVIC_PpPdTVICRead_DeCameraDeviceInfoBack_Normal 
+Persistency, Data read                   | Rte_Read             | CtCdTVIC_PpPdTVICRead_DeIntrinsicsFront_Normal 
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpDsTVMasterDataSet_DeExtrinsicsCadFront 
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpDsTVMasterDataSet_DeExtrinsicsCadBack 
+Persistency, Data write                  | Rte_Write            | CtCdTVIC_PpPdTVICWrite_DeCameraDeviceInfoFront_Normal 
+Diagnostic, Coding                       | Rte_Read             | CtCdTVIC_PpDiagCoding_DeCoding           
+Persistency, Data read                   | Rte_IsUpdated        | CtCdTVIC_PpPdTVICRead_DeApplicationParamsTVICRW_Normal 
+Persistency, Data write                  | Rte_Write            | CtCdTVIC_PpPdTVICWrite_DeFreezeFrameTvIC_Critical 
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpDsTVMasterDataSet_DeViewParamsDefault 
+LCS                                      | Rte_IStatus          | RTVImageCntrl_PpPFProvidedData_DeLCSAPHState 
+Persistency, Data read                   | Rte_Read             | CtCdTVIC_PpPdTVICRead_DeFreezeFrameTvIC_Critical 
+RTE Data Exchange                        | Rte_IWrite           | RTVImageCntrl_PpTVCameraRequest_DeTVCameraRequest 
+Time Service, Convert ZGT                | Rte_Call             | CtCdTVIC_PpPFServer_TS_ConvertZgt2Agt    
+LCS                                      | Rte_IRead            | RTVImageCntrl_PpPFProvidedData_DeLCSAPHState 
+Diagnostic, Coding                       | Rte_IsUpdated        | CtCdTVIC_PpDiagCoding_DeCoding           
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpDsTVMasterDataSet_DeBlindnessParamsDefault 
+Persistency, Data write                  | Rte_Write            | CtCdTVIC_PpPdTVICWrite_DeCameraDeviceInfoBack_Normal 
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpCAM_VCC_Supervision_DeTVxISENSE 
+Persistency, Data write                  | Rte_Write            | CtCdTVIC_PpPdTVICWrite_DeApplicationParamsTVICRW_Normal 
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpDsTVMasterDataSet_DeBlindnessParamsRight 
+HW Variant Interface                     | Rte_IRead            | RTVImageCntrl_PpPFProvidedData_DeVARHWVariant 
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpDsTVMasterDataSet_DeSuspensionAtCad 
+Persistency, Data read                   | Rte_IsUpdated        | CtCdTVIC_PpPdTVICRead_DeIntrinsicsBack_Normal 
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpPFHwMeasurements_DeVBAT_MAIN 
+Persistency, DataSet                     | Rte_IRead            | RTVImageCntrl_PpDsTVICDataSet_DeIspParamsDefault 
+Diagnostic, Global                       | Rte_Read             | CtCdTVIC_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+Persistency, Data write                  | Rte_Write            | CtCdTVIC_PpPdTVICWrite_DeIntrinsicsRight_Normal 
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpTVCntrlTVMaster_DeTVCleaningStatus 
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpCAM_VCC_Supervision_DeSYS_9V 
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpDsTVMasterDataSet_DeExtrinsicsCadLeft 
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpDsTVMasterDataSet_DeApplicationParamsTVMASTERDS 
+Persistency, Data read                   | Rte_IsUpdated        | CtCdTVIC_PpPdTVICRead_DeIntrinsicsRight_Normal 
+Persistency, Data read                   | Rte_Read             | CtCdTVIC_PpPdTVICRead_DeCameraDeviceInfoFront_Normal 
+RTE Data Exchange                        | Rte_IWrite           | RTVImageCntrl_PpTVImageCntrlTVMaster_DeCameraPparFromCam 
+LCS                                      | Rte_IStatus          | RTVImageCntrl_PpPFProvidedData_DeLCSMVHState 
+Persistency, Data read                   | Rte_IsUpdated        | CtCdTVIC_PpPdTVICRead_DeIspParams_Normal 
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpDsTVMasterDataSet_DeVehicleMeasurements 
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+Persistency, Data read                   | Rte_Read             | CtCdTVIC_PpPdTVICRead_DeIntrinsicsBack_Normal 
+Persistency, Data read                   | Rte_Read             | CtCdTVIC_PpPdTVICRead_DeIntrinsicsRight_Normal 
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpDsTVMasterDataSet_DeFavoriteListDefault 
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpDsTVMasterDataSet_DeExtrinsicsCadRight 
+Time Service, Remaining Time Budget      | Rte_Call             | CtCdTVIC_PpPFServer_TS_GetRemainingTimeBudget 
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpCAM_VCC_Supervision_DeVDD_CAM_PowerGood 
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpDsTVMasterDataSet_DeBlindnessParamsBack 
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpPFProvidedData_DeTotalSysRestartCnt 
+Persistency, Data write                  | Rte_Write            | CtCdTVIC_PpPdTVICWrite_DeIntrinsicsBack_Normal 
+LCS                                      | Rte_IRead            | RTVImageCntrl_PpPFProvidedData_DeLCSMVHState 
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpDsTVMasterDataSet_DeVehicleMeasurements 
+Persistency, Data read                   | Rte_Read             | CtCdTVIC_PpPdTVICRead_DeApplicationParamsTVICRW_Normal 
+Persistency, Data read                   | Rte_IsUpdated        | CtCdTVIC_PpPdTVICRead_DeIntrinsicsLeft_Normal 
+Persistency, Data read                   | Rte_IsUpdated        | CtCdTVIC_PpPdTVICRead_DeCameraDeviceInfoRight_Normal 
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpCAM_VCC_Supervision_DeTVxVCC 
+Persistency, Data read                   | Rte_Read             | CtCdTVIC_PpPdTVICRead_DeFspeTvIC_Critical 
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpTVCntrlTVMaster_DeTVWingMirrorStatus 
+RTE Data Exchange                        | Rte_Receive          | CtCdTVIC_PpCAM_VCC_Supervision_DeVoltageDropDetectionStatus 
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpDsTVMasterDataSet_DeExtrinsicsCadRight 
+RTE Data Exchange                        | Rte_IWriteRef        | RTVImageCntrl_PpTVImageCntrlTVMaster_DeCameraPparFromCam 
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpTVCntrlTVMaster_DeTVCleaningStatus 
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpDsTVMasterDataSet_DeExtrinsicsCadFront 
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpDsTVMasterDataSet_DeBlindnessParamsRight 
+Persistency, Data read                   | Rte_Read             | CtCdTVIC_PpPdTVICRead_DeIntrinsicsLeft_Normal 
+Persistency, Data write                  | Rte_Write            | CtCdTVIC_PpPdTVICWrite_DeIntrinsicsLeft_Normal 
+Diagnostic, DTC clear                    | Rte_Receive          | CtCdTVIC_PpDiagGlobalRead_DeFSPCleared   
+Persistency, Data read                   | Rte_IsUpdated        | CtCdTVIC_PpPdTVICRead_DeCameraDeviceInfoBack_Normal 
+RTE Data Exchange                        | Rte_Receive          | CtCdTVIC_PpEML_DeEML                     
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpDsTVMasterDataSet_DeBlindnessParamsLeft 
+Time Service, AGT                        | Rte_Call             | CtCdTVIC_PpPFServer_TS_GetAgtTimestamp   
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpDsTVMasterDataSet_DeCalibPgmConfigParams 
+Persistency, Data write                  | Rte_Write            | CtCdTVIC_PpPdTVICWrite_DeIspParams_Normal 
+Time Service, Timestamp                  | Rte_Call             | CtCdTVIC_PpPFServer_TS_GetZgtTimestamp   
+LCS                                      | Rte_IRead            | RTVImageCntrl_PpPFProvidedData_DeLCSSRHState 
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpPFProvidedData_DeTotalSysRestartCnt 
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpDsTVMasterDataSet_DeApplicationParamsTVMASTERDS 
+RTE Data Exchange                        | Rte_Read             | CtCdTVIC_PpDiagCoding_DePermitCodingPersistence 
+Diagnostic, Global                       | Rte_Read             | CtCdTVIC_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpDsTVMasterDataSet_DeExtrinsicsCadLeft 
+Persistency, Data read                   | Rte_IsUpdated        | CtCdTVIC_PpPdTVICRead_DeFreezeFrameTvIC_Critical 
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpDsTVMasterDataSet_DeBlindnessParamsBack 
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpTVCntrlTVMaster_DeTVLogoStatus 
+Persistency, DataSet                     | Rte_IStatus          | RTVImageCntrl_PpDsTVICDataSet_DeApplicationParamsTVICDS 
+Diagnostic, Global                       | Rte_Read             | CtCdTVIC_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+BAP                                      | Rte_Receive          | CtCdTVIC_PpTVCntrlTVMaster_DeTVBapArrayRequest 
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpCAM_VCC_Supervision_DeVDD_CAM_PowerGood 
+Persistency, DataSet                     | Rte_IStatus          | RTVImageCntrl_PpDsTVICDataSet_DeIspParamsDefault 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdTVIC_PpDiagTVICRead_DeProductionmode_0x04FE 
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpCAM_VCC_Supervision_DeTVxISENSE 
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpDsTVMasterDataSet_DeCalibFlmcConfigParams 
+IF-Set Version                           | Rte_IStatus          | RTVImageCntrl_PpPFProvidedData_DeIFSETVersion 
+Persistency, Data read                   | Rte_IsUpdated        | CtCdTVIC_PpPdTVICRead_DeIntrinsicsFront_Normal 
+Persistency, Data read                   | Rte_Read             | CtCdTVIC_PpPdTVICRead_DeCameraDeviceInfoLeft_Normal 
+LCS                                      | Rte_IStatus          | RTVImageCntrl_PpPFProvidedData_DeLCSSystemState 
+RTE Data Exchange                        | Rte_IWriteRef        | RTVImageCntrl_PpTVCameraRequest_DeTVCameraRequest 
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpCAM_VCC_Supervision_DeSYS_9V 
+BAP                                      | Rte_Receive          | CtCdTVIC_PpTVCntrlTVMaster_DeTVBapRequest 
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpTVCntrlTVMaster_DeTVLogoStatus 
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpDsTVMasterDataSet_DeBlindnessParamsLeft 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdTVIC_PpDiagCoding_DePermitCodingPersistence 
+LCS                                      | Rte_IRead            | RTVImageCntrl_PpPFProvidedData_DeLCSSystemState 
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpDsTVMasterDataSet_DeCalibFlmcConfigParams 
+Persistency, DataSet                     | Rte_IRead            | RTVImageCntrl_PpDsTVICDataSet_DeApplicationParamsTVICDS 
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpDsTVMasterDataSet_DeHmiConfig 
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpDsTVMasterDataSet_DeCalibParamsDefault 
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpCAM_VCC_Supervision_DeTVxVCC 
+Persistency, Data write                  | Rte_Write            | CtCdTVIC_PpPdTVICWrite_DeIntrinsicsFront_Normal 
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpDsTVMasterDataSet_DeCalibParamsDefault 
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpDsTVMasterDataSet_DeSuspensionAtCad 
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpPFHwMeasurements_DeTHS   
+Time Service, Convert AGT                | Rte_Call             | CtCdTVIC_PpPFServer_TS_ConvertAgt2Zgt    
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpDsTVMasterDataSet_DeFavoriteListDefault 
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpDsTVMasterDataSet_DeViewParamsDefault 
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpDsTVMasterDataSet_DeExtrinsicsCadBack 
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpDsTVMasterDataSet_DeBlindnessParamsFront 
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpPFHwMeasurements_DeVBAT_MAIN 
+Persistency, Data write                  | Rte_Write            | CtCdTVIC_PpPdTVICWrite_DeCameraDeviceInfoRight_Normal 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtCdTVIC_PpDiagTVICRead_DeProductionmode_0x04FE 
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpPFHwMeasurements_DeTHS   
+IF-Set Version                           | Rte_IRead            | RTVImageCntrl_PpPFProvidedData_DeIFSETVersion 
+Persistency, Data read                   | Rte_IsUpdated        | CtCdTVIC_PpPdTVICRead_DeCameraDeviceInfoFront_Normal 
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpDsTVMasterDataSet_DeBlindnessParamsDefault 
+Persistency, Data write                  | Rte_Write            | CtCdTVIC_PpPdTVICWrite_DeCameraDeviceInfoLeft_Normal 
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpDsTVMasterDataSet_DeBlindnessParamsFront 
+RTE Data Exchange                        | Rte_IStatus          | RTVImageCntrl_PpDsTVMasterDataSet_DeHmiConfig 
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpDsTVMasterDataSet_DeCalibPgmConfigParams 
+Persistency, Data write                  | Rte_Write            | CtCdTVIC_PpPdTVICWrite_DeFspeTvIC_Critical 
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpDsTVMasterDataSet_DeCalibOlmcConfigParams 
+Persistency, Data read                   | Rte_Read             | CtCdTVIC_PpPdTVICRead_DeCameraDeviceInfoRight_Normal 
+Diagnostic, Global                       | Rte_IsUpdated        | CtCdTVIC_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+UDS Diagnostic, Routine Return           | Rte_Send             | CtCdTVIC_PpDiagTVICWrite_DeTV_Trigger_PRBS_BER_measurement_0x1006 
+Persistency, Data read                   | Rte_Read             | CtCdTVIC_PpPdTVICRead_DeIspParams_Normal 
+Persistency, Data read                   | Rte_IsUpdated        | CtCdTVIC_PpPdTVICRead_DeFspeTvIC_Critical 
+RTE Data Exchange                        | Rte_IRead            | RTVImageCntrl_PpTVCntrlTVMaster_DeTVWingMirrorStatus 
+Diagnostic, Global                       | Rte_IsUpdated        | CtCdTVIC_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+HW Variant Interface                     | Rte_IStatus          | RTVImageCntrl_PpPFProvidedData_DeVARHWVariant 
+Persistency, Data read                   | Rte_IsUpdated        | CtCdTVIC_PpPdTVICRead_DeCameraDeviceInfoLeft_Normal 
+UDS Diagnostic, Routine Call             | Rte_Receive          | CtCdTVIC_PpDiagTVICRead_DeTV_Trigger_PRBS_BER_measurement_0x1006 
+Diagnostic, Global                       | Rte_IsUpdated        | CtCdTVIC_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+LCS                                      | Rte_IStatus          | RTVImageCntrl_PpPFProvidedData_DeLCSSSHState 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 142

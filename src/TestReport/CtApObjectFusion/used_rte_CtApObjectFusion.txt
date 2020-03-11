@@ -1,0 +1,40 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+RTE Data Exchange                        | Rte_Receive          | CtApObjectFusion_PpOBFObjFR_DeOBFObjMRRrr 
+RTE Data Exchange                        | Rte_Receive          | CtApObjectFusion_PpOBFObjUltraSonic_DeOBFObjUltraSonic 
+RTE Data Exchange                        | Rte_Receive          | CtApObjectFusion_PpEML_DeEML             
+Diagnostic, Get DTC Event                | Rte_Call             | CtApObjectFusion_PpEventHandling_GetEventStatus 
+RTE Data Exchange                        | Rte_Receive          | CtApObjectFusion_PpOBFObjFR_DeOBFObjMRRrl 
+RTE Data Exchange                        | Rte_Receive          | CtApObjectFusion_PpOBFObjTVIP_DeTVBVObjCam1 
+Diagnostic, DTC clear                    | Rte_Receive          | CtApObjectFusion_PpDiagGlobalRead_DeFSPCleared 
+RTE Data Exchange                        | Rte_IWriteRef        | ROBFmain_PpOBFOutObjectsACFObs_DeOBFOutObjectsACFObs 
+RTE Data Exchange                        | Rte_IStatus          | ROBFmain_PpObjOBFMV_DeOBFObjMVPED        
+Time Service, Remaining Time Budget      | Rte_Call             | CtApObjectFusion_PpPFServer_TS_GetRemainingTimeBudget 
+RTE Data Exchange                        | Rte_IStatus          | ROBFmain_PpCalibFailMV_DeCalibrationMV   
+RTE Data Exchange                        | Rte_Receive          | CtApObjectFusion_PpOBFObjFR_DeOBFObjMRRfr 
+RTE Data Exchange                        | Rte_Receive          | CtApObjectFusion_PpOBFObjFR_DeOBFObjMRRfl 
+RTE Data Exchange                        | Rte_IWriteRef        | ROBFmain_PpObjectListPreCrash_DeObjectListPreCrash 
+UDS Diagnostic, Messwerte                | Rte_Write            | CtApObjectFusion_PpDiagObjectFusionWrite_DeMesswerte_ObjectFusion 
+Diagnostic, Set DTC Event                | Rte_Call             | CtApObjectFusion_PpEventHandling_SetEventStatus 
+Diagnostic, Coding                       | Rte_IsUpdated        | CtApObjectFusion_PpDiagCoding_DeCoding   
+RTE Data Exchange                        | Rte_IRead            | ROBFmain_PpTVMasterCameraCalibration_DeTVMasterCameraCalibration 
+Persistency, DataSet                     | Rte_IRead            | ROBFmain_PpDsObjectFusionDataSet_DeOFParameters 
+RTE Data Exchange                        | Rte_Receive          | CtApObjectFusion_PpOBFObjFR_DeOBFObjLS   
+RTE Data Exchange                        | Rte_Receive          | CtApObjectFusion_PpOBFObjTVIP_DeTVBVObjCam2 
+RTE Data Exchange                        | Rte_IWriteRef        | ROBFmain_PpObjectListKASQVA_DeObjArrayKASQVA 
+RTE Data Exchange                        | Rte_Receive          | CtApObjectFusion_PpOBFObjFR_DeOBFObjLRR  
+RTE Data Exchange                        | Rte_IStatus          | ROBFmain_PpTVMasterCameraCalibration_DeTVMasterCameraCalibration 
+RTE Data Exchange                        | Rte_IWriteRef        | ROBFmain_PpOBFLightInObjects_DeObjectListOBFLightIn 
+RTE Data Exchange                        | Rte_IRead            | ROBFmain_PpObjOBFMV_DeOBFObjMVMOD        
+SWC Version Info                         | Rte_Call             | CtApObjectFusion_PpPFServer_MW_SetSwcInfo 
+RTE Data Exchange                        | Rte_Receive          | CtApObjectFusion_PpWlaOBFMV_DeWlaObjects 
+RTE Data Exchange                        | Rte_IWriteRef        | ROBFmain_PpObjectFusionTraceData_DeTraceData 
+Diagnostic, Coding                       | Rte_Read             | CtApObjectFusion_PpDiagCoding_DeCoding   
+RTE Data Exchange                        | Rte_IRead            | ROBFmain_PpCalibFailMV_DeCalibrationMV   
+Persistency, DataSet                     | Rte_IStatus          | ROBFmain_PpDsObjectFusionDataSet_DeOFParameters 
+RTE Data Exchange                        | Rte_IStatus          | ROBFmain_PpObjOBFMV_DeOBFObjMVMOD        
+RTE Data Exchange                        | Rte_Send             | CtApObjectFusion_PpObjectListMF_DeOBFOutObjectsMF 
+RTE Data Exchange                        | Rte_IWriteRef        | ROBFmain_PpObjectListParking_DeObjArrayParking 
+RTE Data Exchange                        | Rte_IRead            | ROBFmain_PpObjOBFMV_DeOBFObjMVPED        
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 36

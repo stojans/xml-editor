@@ -1,0 +1,8 @@
+#******************************************************************************
+# Filename: CtApObjectFusion
+# Date: 2019-09-10 17:17
+# SWC tested: CtApObjectFusion\branches\CL3_REL_320_3XX 
+# SWC Version:  SWC-D350-I3.1.1-P51.4_20190729090944-S30.2_20190826160107
+#******************************************************************************
+strncpy libObjectFusionzFasAdapters.a:Sensors.cpp.obj:
+#Undefined .cpp symbol count:	633

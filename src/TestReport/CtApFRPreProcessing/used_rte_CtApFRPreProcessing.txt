@@ -1,0 +1,20 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+Time Service, Timestamp                  | Rte_Call             | CtApFRPreProcessing_PpPFServer_TS_GetZgtTimestamp 
+RTE Data Exchange                        | Rte_Send             | CtApFRPreProcessing_PpOBFObjFR_DeOBFObjMRRrr 
+RTE Data Exchange                        | Rte_Send             | CtApFRPreProcessing_PpFencesFR_DeMRRObstacleFencesFR 
+RTE Data Exchange                        | Rte_Send             | CtApFRPreProcessing_PpFencesFR_DeLRRObstacleFences 
+RTE Data Exchange                        | Rte_Send             | CtApFRPreProcessing_PpFencesFR_DeLSFreespaceFences 
+RTE Data Exchange                        | Rte_Send             | CtApFRPreProcessing_PpOBFObjFR_DeOBFObjLRR 
+RTE Data Exchange                        | Rte_Send             | CtApFRPreProcessing_PpOBFObjFR_DeOBFObjLS 
+RTE Data Exchange                        | Rte_Send             | CtApFRPreProcessing_PpOBFObjFR_DeOBFObjMRRfl 
+RTE Data Exchange                        | Rte_IRead            | RFRPreProcessing_PpSensorsFR_DeSensorsFR 
+SWC Version Info                         | Rte_Call             | CtApFRPreProcessing_PpPFServer_MW_SetSwcInfo 
+RTE Data Exchange                        | Rte_IStatus          | RFRPreProcessing_PpSensorsFR_DeSensorsFR 
+RTE Data Exchange                        | Rte_Send             | CtApFRPreProcessing_PpFencesFR_DeLSObstacleFences 
+RTE Data Exchange                        | Rte_Send             | CtApFRPreProcessing_PpFRPreProcessing2PerceptionAvailability_DeStatusFRSensors 
+RTE Data Exchange                        | Rte_Send             | CtApFRPreProcessing_PpFencesFR_DeMRRObstacleFencesFL 
+RTE Data Exchange                        | Rte_Send             | CtApFRPreProcessing_PpOBFObjFR_DeOBFObjMRRrl 
+RTE Data Exchange                        | Rte_Send             | CtApFRPreProcessing_PpOBFObjFR_DeOBFObjMRRfr 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 16

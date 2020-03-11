@@ -1,0 +1,8 @@
+#******************************************************************************
+# Filename: CtApTrailerManeuverAssistIP
+# Date: 2019-09-10 17:17
+# SWC tested: CtApTrailerManeuverAssistIP\branches\CL3_REL_320_3XX 
+# SWC Version:  SWC-X320-I3.1.1-P41.5_20180808134400-S15.0_?????
+#******************************************************************************
+#NONE
+#Undefined .cpp symbol count:	23

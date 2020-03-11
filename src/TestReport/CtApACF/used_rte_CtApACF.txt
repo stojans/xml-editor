@@ -1,0 +1,208 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApACF_PpDiagACFRead_DeEmergency_assist_activation_override_0x0566 
+BAP                                      | Rte_Call             | CtApACF_BapPropInit_LDW_HCA_LaneDepartureWarning_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Result           | CtApACF_BapRequestPropFSG_LDW_HCA_Systemmode_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Call             | CtApACF_BapRequestError_LDW_HCA_SportDriveRecognition_BAP_RequestError 
+Network, PDU group interface             | Rte_IWrite           | RACFCyclic_PpFRACFout_DePduGrp_USS_01    
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpPerceptionAvailabilityACFObs_DePerceptionAvailabilityACFObs 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApACF_PpDiagACFRead_DeLane_departure_warning_on_state_0x0BCE 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpFASProfileMasterACF_DeFASProfileMasterACF 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpOBFLightOutObjectsACF_DeObjectListOBFLightOutACF 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpFRACFin_DeFRACFin           
+RTE Data Exchange                        | Rte_IsUpdated        | CtApACF_PpDiagACFRead_DeEmergency_assist_status_after_switching_on_terminal_15_0x0BCA 
+Network, PDU group interface             | Rte_IWrite           | RACFCyclic_PpFRACFout_DePduGrp_LDW_02    
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpRGLVZE_DeVZE                
+Network, PDU group interface             | Rte_IWrite           | RACFCyclic_PpFRACFout_DePduGrp_HCA_02    
+BAP                                      | Rte_Result           | CtApACF_BapRequestError_LDW_HCA_WarningIntensity_BAP_RequestError 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpPFHwMeasurements_DeVBAT_MAIN 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApACF_PpDiagACFRead_DeActive_lane_departure_warning_point_of_intervention_0x0BE8 
+BAP                                      | Rte_Call             | CtApACF_BapPropInit_MKE_FunctionList_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpACFOBS2ACF_DeACFObsACF      
+BAP                                      | Rte_Result           | CtApACF_BapGet_LDW_HCA_State             
+Network, PDU group interface             | Rte_IWrite           | RACFCyclic_PpFRACFout_DePduGrp_STP_02    
+RTE Data Exchange                        | Rte_IsUpdated        | CtApACF_PpDiagACFRead_DeLane_departure_warning_system_mode_0x0BDC 
+EDR                                      | Rte_Send             | CtApACF_PpACFEDRPiDriving_DeACFEDRPiDriving 
+UDS Diagnostic, Routine Return           | Rte_Send             | CtApACF_PpDiagACFWrite_DeACA_ResetAcaQBetriebszeitzaehler_0x1011 
+BAP                                      | Rte_Call             | CtApACF_BapPropInit_LDW_HCA_EmergencyAssist_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Call             | CtApACF_BapRequestError_MKE_DrivingTime_BAP_RequestError 
+BAP                                      | Rte_Call             | CtApACF_BapGet_LDW_HCA_State             
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApACF_PpDiagACFRead_DePersonalisation_for_lane_departure_warning_0x3BB2 
+BAP                                      | Rte_Result           | CtApACF_BapRequestPropFSG_MKE_RestAreaRecommendation_Status_BAP_RequestByteSequence 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApACF_PpDiagACFRead_DeActive_lane_departure_warning_deactivation_speed_0x5558 
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpFRACFin_DeFRACFin           
+BAP                                      | Rte_Call             | CtApACF_BapRequestError_LDW_HCA_WarningTime_BAP_RequestError 
+Persistency, Data write                  | Rte_Write            | CtApACF_PpPdACFWrite_DeACFRW_Normal      
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpParkMAStatus_DeParkMAStatus 
+RTE Data Exchange                        | Rte_IWrite           | RACFCyclic_PpACF2ASM_DeACFAsmAca         
+BAP                                      | Rte_Result           | CtApACF_BapRequestPropFSG_MKE_FSG_OperationState_Status_BAP_RequestUInt8 
+BAP                                      | Rte_Call             | CtApACF_BapRequestPropFSG_LDW_HCA_LaneDepartureWarning_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Result           | CtApACF_BapPropInit_LDW_HCA_LaneDepartureWarning_BAP_InitSendBufferByteSequence 
+UDS Diagnostic, Routine Call             | Rte_Receive          | CtApACF_PpDiagACFRead_DeALDW_ResetAldwBetriebszeitzaehler_0x1010 
+BAP                                      | Rte_Call             | CtApACF_BapPropInit_MKE_FSG_Control_BAP_InitSendBufferUInt8 
+BAP                                      | Rte_Call             | CtApACF_BapPropInit_MKE_Message_BAP_InitSendBufferUInt8 
+BAP                                      | Rte_Call             | CtApACF_BapPropInit_MKE_BAP_Config_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Result           | CtApACF_BapPropInit_LDW_HCA_HeartBeat_BAP_InitSendBufferUInt8 
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpFoDFunctionActivationState_DeFoDFunctionActivationState 
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpFASProfileMasterACF_DeFASProfileMasterACF 
+BAP                                      | Rte_Result           | CtApACF_BapRequestPropFSG_LDW_HCA_WarningIntensity_Status_BAP_RequestByteSequence 
+UDS Diagnostic, Routine Return           | Rte_Send             | CtApACF_PpDiagACFWrite_DeALDW_ResetAldwBetriebszeitzaehler_0x1010 
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpRGExtPSD_DeRGExtPSD         
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpACFSM_DeACFSM               
+BAP                                      | Rte_Result           | CtApACF_BapRequestError_LDW_HCA_EmergencyAssist_BAP_RequestError 
+BAP                                      | Rte_Write            | CtApACF_Bap_Freigabe_MKE_BapFreigabe     
+RTE Data Exchange                        | Rte_IWrite           | RACFCyclic_PpFoDReadyToRun_ACF_DeFoDReadyToRun_aLDW 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApACF_PpDiagACFRead_DeLane_departure_warning_steering_wheel_vibration_strength_0x0BDD 
+BAP                                      | Rte_Call             | CtApACF_BapRequestPropFSG_LDW_HCA_WarningTime_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Result           | CtApACF_BapRequestError_MKE_DrivingTime_BAP_RequestError 
+Diagnostic, Global                       | Rte_Read             | CtApACF_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+Time Service, Timestamp                  | Rte_Call             | CtApACF_PpPFServer_TS_GetZgtTimestamp    
+BAP                                      | Rte_Call             | CtApACF_BapPropInit_LDW_HCA_Systemmode_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Call             | CtApACF_BapRequestPropFSG_MKE_Message_Status_BAP_RequestUInt8 
+BAP                                      | Rte_Result           | CtApACF_BapPropInit_LDW_HCA_WarningSound_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Call             | CtApACF_BapPropInit_LDW_HCA_WarningIntensity_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Call             | CtApACF_BapRequestError_MKE_Message_BAP_RequestError 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApACF_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+Persistency, Data read                   | Rte_Read             | CtApACF_PpPdACFRead_DeACFRW_Normal       
+BAP                                      | Rte_Call             | CtApACF_BapRequestPropFSG_LDW_HCA_EmergencyAssist_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Result           | CtApACF_BapRequestError_LDW_HCA_SportDriveRecognition_BAP_RequestError 
+BAP                                      | Rte_Call             | CtApACF_BapRequestPropFSG_LDW_HCA_SportDriveRecognition_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Result           | CtApACF_BapRequestError_LDW_HCA_WarningTime_BAP_RequestError 
+SWC Version Info                         | Rte_Call             | CtApACF_PpPFServer_MW_SetSwcInfo         
+BAP                                      | Rte_Call             | CtApACF_BapRequestError_LDW_HCA_WarningIntensity_BAP_RequestError 
+BAP                                      | Rte_Read             | CtApACF_Bap_Allowed_DeBapAllowed         
+BAP                                      | Rte_Call             | CtApACF_BapRequestPropFSG_LDW_HCA_FSG_Control_Status_BAP_RequestUInt8 
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpPFHwMeasurements_DeVBAT_MAIN 
+BAP                                      | Rte_Result           | CtApACF_BapPropInit_MKE_DrivingTime_BAP_InitSendBufferByteSequence 
+Network, PDU group interface             | Rte_IWrite           | RACFCyclic_PpFRACFout_DePduGrp_EA_02     
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpRGLVZE_DeVZE                
+BAP                                      | Rte_Result           | CtApACF_BapGet_MKE_State                 
+Persistency, DataSet                     | Rte_IRead            | RACFCyclic_PpDsACFDataSet_DeACFRO        
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApACF_PpDiagACFRead_DeActive_lane_departure_warning_activation_speed_0x5557 
+BAP                                      | Rte_Call             | CtApACF_BapRequestPropFSG_LDW_HCA_WarningIntensity_Status_BAP_RequestByteSequence 
+Diagnostic, Coding                       | Rte_IsUpdated        | CtApACF_PpDiagCoding_DeCoding            
+Network, PDU group interface             | Rte_IWrite           | RACFCyclic_PpFRACFout_DePduGrp_ZFAS_VZO  
+BAP                                      | Rte_Result           | CtApACF_BapRequestError_LDW_HCA_FSG_Control_BAP_RequestError 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApACF_PpDiagACFRead_DeEmergency_assist_activation_override_0x0566 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApACF_PpDiagACFRead_DeActive_lane_departure_warning_point_of_intervention_0x0BE8 
+UDS Diagnostic, Messwerte                | Rte_Write            | CtApACF_PpDiagACFWrite_DeMesswerte_ACF   
+BAP                                      | Rte_Result           | CtApACF_BapPropInit_MKE_BAP_Config_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpRGExtPSD_DeRGExtPSD         
+BAP                                      | Rte_Result           | CtApACF_BapRequestError_LDW_HCA_FSG_OperationState_BAP_RequestError 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApACF_PpDiagACFRead_DeActive_lane_departure_warning_sportiness_detection_0x47B2 
+RTE Data Exchange                        | Rte_IWrite           | RACFCyclic_PpACFMAStatus_DeACAHFCameraDetectionLogics 
+BAP                                      | Rte_Result           | CtApACF_BapRequestError_MKE_FSG_OperationState_BAP_RequestError 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpACFOBS2ACF_DeACFObsACF      
+BAP                                      | Rte_Result           | CtApACF_BapRequestError_LDW_HCA_LaneDepartureWarning_BAP_RequestError 
+BAP                                      | Rte_Result           | CtApACF_BapPropInit_LDW_HCA_Systemmode_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Call             | CtApACF_BapPropInit_MKE_FSG_OperationState_BAP_InitSendBufferUInt8 
+BAP                                      | Rte_Result           | CtApACF_BapRequestError_MKE_FSG_Control_BAP_RequestError 
+BAP                                      | Rte_Result           | CtApACF_BapRequestError_MKE_RestAreaRecommendation_BAP_RequestError 
+RTE Data Exchange                        | Rte_IWrite           | RACFCyclic_PpACFStatusProfileMaster_DeACFStatusProfileMaster 
+BAP                                      | Rte_Result           | CtApACF_BapPropInit_LDW_HCA_FSG_Control_BAP_InitSendBufferUInt8 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApACF_PpDiagACFRead_DeActive_lane_departure_warning_activation_speed_0x5557 
+Network, PDU group interface             | Rte_IWrite           | RACFCyclic_PpFRACFout_DePduGrp_PACC_CAC  
+BAP                                      | Rte_Call             | CtApACF_BapPropInit_LDW_HCA_HeartBeat_BAP_InitSendBufferUInt8 
+BAP                                      | Rte_Call             | CtApACF_BapRequestError_MKE_FSG_Control_BAP_RequestError 
+BAP                                      | Rte_Call             | CtApACF_BapPropInit_LDW_HCA_WarningSound_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Result           | CtApACF_BapPropInit_LDW_HCA_EmergencyAssist_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Result           | CtApACF_BapPropInit_MKE_HeartBeat_BAP_InitSendBufferUInt8 
+RTE Data Exchange                        | Rte_IWrite           | RACFCyclic_PpACF2ACFOBS_DeACF_LFV_NL     
+BAP                                      | Rte_Call             | CtApACF_BapPropInit_MKE_HeartBeat_BAP_InitSendBufferUInt8 
+BAP                                      | Rte_Call             | CtApACF_BapRequestPropFSG_MKE_FSG_Control_Status_BAP_RequestUInt8 
+BAP                                      | Rte_Result           | CtApACF_BapPropInit_MKE_FunctionList_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Result           | CtApACF_BapRequestPropFSG_LDW_HCA_EmergencyAssist_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Result           | CtApACF_BapPropInit_LDW_HCA_FSG_OperationState_BAP_InitSendBufferUInt8 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpEyeQCom2ACF_DeEyeQCom2ACF   
+BAP                                      | Rte_Result           | CtApACF_BapRequestPropFSG_LDW_HCA_LaneDepartureWarning_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Call             | CtApACF_BapRequestPropFSG_LDW_HCA_Systemmode_Status_BAP_RequestByteSequence 
+Diagnostic, Get DTC Event                | Rte_Call             | CtApACF_PpEventHandling_GetEventStatus   
+BAP                                      | Rte_Result           | CtApACF_BapRequestPropFSG_MKE_FSG_Control_Status_BAP_RequestUInt8 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpFoDFunctionActivationState_DeFoDFunctionActivationState 
+Persistency, DataSet                     | Rte_IStatus          | RACFCyclic_PpDsACFDataSet_DeACFRO        
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApACF_PpDiagACFRead_DeActive_lane_departure_warning_deactivation_speed_0x5558 
+BAP                                      | Rte_Result           | CtApACF_BapPropInit_LDW_HCA_BAP_Config_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Result           | CtApACF_BapPropInit_LDW_HCA_SportDriveRecognition_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Result           | CtApACF_BapRequestPropFSG_LDW_HCA_WarningSound_Status_BAP_RequestByteSequence 
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpParkMAStatus_DeIPAState     
+UDS Diagnostic, Routine Call             | Rte_Receive          | CtApACF_PpDiagACFRead_DeACA_ResetAcaQBetriebszeitzaehler_0x1011 
+BAP                                      | Rte_Call             | CtApACF_BapRequestError_LDW_HCA_FSG_OperationState_BAP_RequestError 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpPerceptionAvailabilityACFObs_DePerceptionAvailabilityACFObs 
+Network, PDU group interface             | Rte_IWrite           | RACFCyclic_PpFRACFout_DePduGrp_EA_01     
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpParkMAStatus_DeParkMAStatus 
+BAP                                      | Rte_Call             | CtApACF_BapPropInit_LDW_HCA_WarningTime_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpACFSM_DeACFSM               
+BAP                                      | Rte_Result           | CtApACF_BapRequestPropFSG_LDW_HCA_FSG_Control_Status_BAP_RequestUInt8 
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpOBFLightOutObjectsACF_DeObjectListOBFLightOutACF 
+BAP                                      | Rte_Call             | CtApACF_BapRequestError_MKE_FSG_OperationState_BAP_RequestError 
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpParkKAS_DeParkKAS           
+RTE Data Exchange                        | Rte_IWrite           | RACFCyclic_PpACF2ACFSMS_DeFZE            
+BAP                                      | Rte_Result           | CtApACF_BapRequestPropFSG_MKE_Message_Status_BAP_RequestUInt8 
+BAP                                      | Rte_Result           | CtApACF_BapRequestPropFSG_MKE_DrivingTime_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Call             | CtApACF_BapRequestError_LDW_HCA_EmergencyAssist_BAP_RequestError 
+BAP                                      | Rte_Result           | CtApACF_BapPropInit_MKE_FSG_OperationState_BAP_InitSendBufferUInt8 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApACF_PpDiagACFRead_DeLane_departure_warning_system_mode_0x0BDC 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpParkMAStatus_DeIPAState     
+RTE Data Exchange                        | Rte_Receive          | CtApACF_PpEML_DeEML                      
+BAP                                      | Rte_Call             | CtApACF_BapPropInit_MKE_RestAreaRecommendation_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Result           | CtApACF_BapRequestPropFSG_LDW_HCA_WarningTime_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Call             | CtApACF_BapRequestError_LDW_HCA_Systemmode_BAP_RequestError 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApACF_PpDiagACFRead_DeActive_lane_departure_warning_sportiness_detection_0x47B2 
+BAP                                      | Rte_Call             | CtApACF_BapRequestError_LDW_HCA_FSG_Control_BAP_RequestError 
+BAP                                      | Rte_Result           | CtApACF_BapPropInit_LDW_HCA_WarningIntensity_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Call             | CtApACF_BapRequestPropFSG_MKE_DrivingTime_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Call             | CtApACF_BapRequestPropFSG_MKE_RestAreaRecommendation_Status_BAP_RequestByteSequence 
+RTE Data Exchange                        | Rte_Send             | CtApACF_PpACFMAStatus_DeMAACFStatus      
+BAP                                      | Rte_Result           | CtApACF_BapPropInit_LDW_HCA_FunctionList_BAP_InitSendBufferByteSequence 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpRGLanes_DeLanes             
+BAP                                      | Rte_Call             | CtApACF_BapRequestError_LDW_HCA_WarningSound_BAP_RequestError 
+BAP                                      | Rte_Result           | CtApACF_BapRequestError_LDW_HCA_FSG_Setup_BAP_RequestError 
+BAP                                      | Rte_Call             | CtApACF_BapPropInit_MKE_DrivingTime_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Result           | CtApACF_BapRequestPropFSG_LDW_HCA_FSG_OperationState_Status_BAP_RequestUInt8 
+BAP                                      | Rte_Result           | CtApACF_BapRequestError_LDW_HCA_WarningSound_BAP_RequestError 
+BAP                                      | Rte_Call             | CtApACF_BapRequestPropFSG_LDW_HCA_FSG_Setup_Status_BAP_RequestUInt8 
+BAP                                      | Rte_Call             | CtApACF_BapPropInit_LDW_HCA_FSG_Control_BAP_InitSendBufferUInt8 
+BAP                                      | Rte_Result           | CtApACF_BapPropInit_LDW_HCA_FSG_Setup_BAP_InitSendBufferUInt8 
+BAP                                      | Rte_Call             | CtApACF_BapGet_MKE_State                 
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpParkKAS_DeParkKAS           
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpRGLanes_DeLanes             
+BAP                                      | Rte_Result           | CtApACF_BapRequestPropFSG_LDW_HCA_FSG_Setup_Status_BAP_RequestUInt8 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApACF_PpDiagACFRead_DePersonalisation_for_lane_departure_warning_0x3BB2 
+RTE Data Exchange                        | Rte_IWrite           | RACFCyclic_PpACF2ACFSMS_DeFCT            
+RTE Data Exchange                        | Rte_IWrite           | RACFCyclic_PpFRACFout_DeTraceData        
+BAP                                      | Rte_Call             | CtApACF_BapRequestPropFSG_LDW_HCA_WarningSound_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Call             | CtApACF_BapPropInit_LDW_HCA_SportDriveRecognition_BAP_InitSendBufferByteSequence 
+Persistency, Data read                   | Rte_IsUpdated        | CtApACF_PpPdACFRead_DeACFRW_Normal       
+Diagnostic, Set DTC Event                | Rte_Call             | CtApACF_PpEventHandling_SetEventStatus   
+BAP                                      | Rte_Call             | CtApACF_BapRequestPropFSG_MKE_FSG_OperationState_Status_BAP_RequestUInt8 
+RTE Data Exchange                        | Rte_IWrite           | RACFCyclic_PpFoDReadyToRun_ACF_DeFoDReadyToRun_EA 
+Network, PDU group interface             | Rte_IWrite           | RACFCyclic_PpFRACFout_DePduGrp_HCA_01    
+RTE Data Exchange                        | Rte_IWrite           | RACFCyclic_PpFRACFout_DeFRACFout         
+RTE Data Exchange                        | Rte_IRead            | RACFCyclic_PpFRUSout_DeUS2               
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpEyeQCom2ACF_DeEyeQCom2ACF   
+BAP                                      | Rte_Result           | CtApACF_BapRequestPropFSG_LDW_HCA_SportDriveRecognition_Status_BAP_RequestByteSequence 
+BAP                                      | Rte_Result           | CtApACF_BapPropInit_MKE_FSG_Control_BAP_InitSendBufferUInt8 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApACF_PpDiagACFRead_DeLane_departure_warning_steering_wheel_vibration_strength_0x0BDD 
+RTE Data Exchange                        | Rte_IWrite           | RACFCyclic_PpACF2ACFOBS_DeBP             
+BAP                                      | Rte_Result           | CtApACF_BapPropInit_MKE_RestAreaRecommendation_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Call             | CtApACF_BapPropInit_LDW_HCA_FunctionList_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Call             | CtApACF_BapRequestPropFSG_LDW_HCA_FSG_OperationState_Status_BAP_RequestUInt8 
+BAP                                      | Rte_Result           | CtApACF_BapPropInit_MKE_Message_BAP_InitSendBufferUInt8 
+BAP                                      | Rte_Call             | CtApACF_BapRequestError_LDW_HCA_FSG_Setup_BAP_RequestError 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApACF_PpDiagACFRead_DeLane_departure_warning_on_state_0x0BCE 
+BAP                                      | Rte_Call             | CtApACF_BapPropInit_LDW_HCA_BAP_Config_BAP_InitSendBufferByteSequence 
+BAP                                      | Rte_Call             | CtApACF_BapPropInit_LDW_HCA_FSG_Setup_BAP_InitSendBufferUInt8 
+BAP                                      | Rte_Write            | CtApACF_Bap_Freigabe_LDW_HCA_BapFreigabe 
+BAP                                      | Rte_Call             | CtApACF_BapPropInit_LDW_HCA_FSG_OperationState_BAP_InitSendBufferUInt8 
+Diagnostic, Coding                       | Rte_Read             | CtApACF_PpDiagCoding_DeCoding            
+BAP                                      | Rte_Call             | CtApACF_BapRequestError_LDW_HCA_LaneDepartureWarning_BAP_RequestError 
+BAP                                      | Rte_Call             | CtApACF_BapRequestError_MKE_RestAreaRecommendation_BAP_RequestError 
+RTE Data Exchange                        | Rte_Receive          | CtApACF_PpDM_DeDM                        
+RTE Data Exchange                        | Rte_IStatus          | RACFCyclic_PpFRUSout_DeUS2               
+BAP                                      | Rte_Result           | CtApACF_BapPropInit_LDW_HCA_WarningTime_BAP_InitSendBufferByteSequence 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApACF_PpDiagACFRead_DeEmergency_assist_status_after_switching_on_terminal_15_0x0BCA 
+Network, PDU group interface             | Rte_IWrite           | RACFCyclic_PpFRACFout_DePduGrp_ZFAS_WZO  
+BAP                                      | Rte_Result           | CtApACF_BapRequestError_LDW_HCA_Systemmode_BAP_RequestError 
+BAP                                      | Rte_Result           | CtApACF_BapRequestError_MKE_Message_BAP_RequestError 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 204

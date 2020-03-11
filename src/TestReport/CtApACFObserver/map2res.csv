@@ -1,0 +1,21 @@
+#MAP: E:\zFAS-Jenkins\workspace\zFAS_AIT_Master_AAT\SW\0300_ApplicationLayer\branches\CL3_REL_320_3XX\0350_SWC-SET\CtApACFObserver\05_data\CtApACFObserver.vxe.map
+#symbol: .init           0x80000094        0xc
+#symbol: .iplt           0x800000a0        0x0
+#symbol: .text           0x800000a0    0x1ab10
+#symbol: .fini           0x8001abb0        0x0
+#symbol: .rodata         0x8001abb0     0x7c7c
+#symbol: .tdata          0x80023000        0x4
+#symbol: .tbss           0x80023004        0x0
+#symbol: .ctors          0x80023004       0x28
+#symbol: .got            0x8002302c       0x10
+#symbol: .data           0x8002303c     0x2270
+#symbol: .edata          0x800252ac        0x0
+#symbol: .bss            0x800252b0     0x1c38
+#symbol: .comment        0x00000000       0x2f
+#symbol: .stack          0x00080000        0x0
+LIBS;libCtApACFObserver_BDL.a;libCtApACFObserver_Implementation.a;libCtApACFObserver_ServerRunnables.a;lib_CpApACFObserver.a;libc_cert_zFAS.a;libc_internal_cert_zFAS.a;libgcc_cert_zFAS.a;
+#CODE;STACK;ROM;RAM
+FORMAT;ROM_CODE;STACK;ROM;RAM;RAM_CODE;FastRAM;FastRAM_CODE
+HEX;1ab10;00080000;0x249fc;0x26634;1ab10;0;0
+DEC;109328;524288;150012;157236;109328;0;0
+KB;106;512;146;153;106;0;0

@@ -1,0 +1,46 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+RTE Data Exchange                        | Rte_IStatus          | RHsSwitchCtrl20ms_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+LCS                                      | Rte_IStatus          | RHsSwitchCtrl20ms_PpPFProvidedData_DeLCSSSHState 
+RTE Data Exchange                        | Rte_IRead            | RHsSwitchCtrl20ms_PpPFHwMeasurements_DeTHS 
+Time Service, Convert ZGT                | Rte_Call             | CtCdHighSSwitchControl_PpPFServer_TS_ConvertZgt2Agt 
+RTE Data Exchange                        | Rte_IStatus          | RHsSwitchCtrl20ms_PpPFHwMeasurements_DeTHS 
+LCS                                      | Rte_IStatus          | RHsSwitchCtrl20ms_PpPFProvidedData_DeLCSSRHState 
+LCS                                      | Rte_IStatus          | RHsSwitchCtrl20ms_PpPFProvidedData_DeLCSMVHState 
+LCS                                      | Rte_IRead            | RHsSwitchCtrl20ms_PpPFProvidedData_DeLCSSystemState 
+HW Variant Interface                     | Rte_IStatus          | RHsSwitchCtrl20ms_PpPFProvidedData_DeVARHWVariant 
+Time Service, AGT                        | Rte_Call             | CtCdHighSSwitchControl_PpPFServer_TS_GetAgtTimestamp 
+Diagnostic, Coding                       | Rte_Read             | CtCdHighSSwitchControl_PpDiagCoding_DeCoding 
+LCS                                      | Rte_IRead            | RHsSwitchCtrl20ms_PpPFProvidedData_DeLCSSSHState 
+RTE Data Exchange                        | Rte_IWriteRef        | RHsSwitchCtrl20ms_PpHighSSwitchControlTraceData_DeTraceData 
+Diagnostic, Global                       | Rte_IsUpdated        | CtCdHighSSwitchControl_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+Time Service, Convert AGT                | Rte_Call             | CtCdHighSSwitchControl_PpPFServer_TS_ConvertAgt2Zgt 
+RTE Data Exchange                        | Rte_IRead            | RHsSwitchCtrl20ms_PpPFHwMeasurements_DeVBAT_MAIN 
+RTE Data Exchange                        | Rte_IRead            | RHsSwitchCtrl20ms_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+IF-Set Version                           | Rte_IStatus          | RHsSwitchCtrl20ms_PpPFProvidedData_DeIFSETVersion 
+HW Variant Interface                     | Rte_IRead            | RHsSwitchCtrl20ms_PpPFProvidedData_DeVARHWVariant 
+IF-Set Version                           | Rte_IRead            | RHsSwitchCtrl20ms_PpPFProvidedData_DeIFSETVersion 
+Diagnostic, Global                       | Rte_Read             | CtCdHighSSwitchControl_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+LCS                                      | Rte_IStatus          | RHsSwitchCtrl20ms_PpPFProvidedData_DeLCSAPHState 
+RTE Data Exchange                        | Rte_IWrite           | RHsSwitchCtrl20ms_PpHighSSwitchControlTraceData_DeTraceData 
+Diagnostic, Get DTC Event                | Rte_Call             | CtCdHighSSwitchControl_PpEventHandling_GetEventStatus 
+LCS                                      | Rte_IRead            | RHsSwitchCtrl20ms_PpPFProvidedData_DeLCSAPHState 
+Diagnostic, Set DTC Event                | Rte_Call             | CtCdHighSSwitchControl_PpEventHandling_SetEventStatus 
+Time Service, Timestamp                  | Rte_Call             | CtCdHighSSwitchControl_PpPFServer_TS_GetZgtTimestamp 
+Diagnostic, Global                       | Rte_Read             | CtCdHighSSwitchControl_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+RTE Data Exchange                        | Rte_Read             | CtCdHighSSwitchControl_PpDiagCoding_DePermitCodingPersistence 
+RTE Data Exchange                        | Rte_IsUpdated        | CtCdHighSSwitchControl_PpDiagCoding_DePermitCodingPersistence 
+RTE Data Exchange                        | Rte_IStatus          | RHsSwitchCtrl20ms_PpPFHwMeasurements_DeVBAT_MAIN 
+Time Service, Remaining Time Budget      | Rte_Call             | CtCdHighSSwitchControl_PpPFServer_TS_GetRemainingTimeBudget 
+LCS                                      | Rte_IStatus          | RHsSwitchCtrl20ms_PpPFProvidedData_DeLCSSystemState 
+RTE Data Exchange                        | Rte_IRead            | RHsSwitchCtrl20ms_PpPFProvidedData_DeTotalSysRestartCnt 
+LCS                                      | Rte_IRead            | RHsSwitchCtrl20ms_PpPFProvidedData_DeLCSMVHState 
+Diagnostic, Coding                       | Rte_IsUpdated        | CtCdHighSSwitchControl_PpDiagCoding_DeCoding 
+Diagnostic, Global                       | Rte_IsUpdated        | CtCdHighSSwitchControl_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+Diagnostic, Global                       | Rte_IsUpdated        | CtCdHighSSwitchControl_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+Diagnostic, Global                       | Rte_Read             | CtCdHighSSwitchControl_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+LCS                                      | Rte_IRead            | RHsSwitchCtrl20ms_PpPFProvidedData_DeLCSSRHState 
+RTE Data Exchange                        | Rte_IStatus          | RHsSwitchCtrl20ms_PpPFProvidedData_DeTotalSysRestartCnt 
+Diagnostic, DTC clear                    | Rte_Receive          | CtCdHighSSwitchControl_PpDiagGlobalRead_DeFSPCleared 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 42

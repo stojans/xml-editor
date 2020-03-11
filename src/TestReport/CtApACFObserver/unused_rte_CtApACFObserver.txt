@@ -1,0 +1,79 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+LCS                                      | Rte_IStatus          | RACFObserverCyclic_PpPFProvidedData_DeLCSSystemState 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApACFObserver_PpDiagCoding_DePermitCodingPersistence 
+RTE Data Exchange                        | Rte_Receive          | CtApACFObserver_PpEML_DeEML              
+RTE Data Exchange                        | Rte_IRead            | RACFObserverCyclic_PpPerceptionAvailabilityACFObs_DePerceptionAvailabilityACFObs 
+LCS                                      | Rte_IStatus          | RACFObserverCyclic_PpPFProvidedData_DeLCSSSHState 
+RTE Data Exchange                        | Rte_IRead            | RACFObserverCyclic_PpACFSMS2ACFOBS_DeACFSMS2ACFOBS 
+IF-Set Version                           | Rte_IStatus          | RACFObserverCyclic_PpPFProvidedData_DeIFSETVersion 
+RTE Data Exchange                        | Rte_IStatus          | RACFObserverCyclic_PpFRACFObserverIn_DeFRACFObserverIn 
+Persistency, Data read                   | Rte_IsUpdated        | CtApACFObserver_PpPdACFObserverRead_DeAcfObserverPersistent_Normal 
+Diagnostic, Global                       | Rte_Read             | CtApACFObserver_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+LCS                                      | Rte_IRead            | RACFObserverCyclic_PpPFProvidedData_DeLCSAPHState 
+HW Variant Interface                     | Rte_IStatus          | RACFObserverCyclic_PpPFProvidedData_DeVARHWVariant 
+RTE Data Exchange                        | Rte_IRead            | RACFObserverCyclic_PpMBFACFFences_DeObstacleFences 
+RTE Data Exchange                        | Rte_IStatus          | RACFObserverCyclic_PpOBFOutObjectsACFObs_DeOBFOutObjectsACFObs 
+RTE Data Exchange                        | Rte_IStatus          | RACFObserverCyclic_PpDsACFDataSet_DeACFRO 
+Persistency, DataSet                     | Rte_IRead            | RACFObserverCyclic_PpDsACFObserverDataSet_DeAcfObserverParameter 
+RTE Data Exchange                        | Rte_IStatus          | RACFObserverCyclic_PpParkMAStatus_DeParkMAStatus 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApACFObserver_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+RTE Data Exchange                        | Rte_IRead            | RACFObserverCyclic_PpACF2ACFOBS_DeBP     
+Diagnostic, Set DTC Event                | Rte_Call             | CtApACFObserver_PpEventHandling_SetEventStatus 
+RTE Data Exchange                        | Rte_IStatus          | RACFObserverCyclic_PpACF2ACFOBS_DeACF_LFV_NL 
+RTE Data Exchange                        | Rte_IStatus          | RACFObserverCyclic_PpPFProvidedData_DeTotalSysRestartCnt 
+RTE Data Exchange                        | Rte_IRead            | RACFObserverCyclic_PpPFHwMeasurements_DeVBAT_MAIN 
+Persistency, Data write                  | Rte_Write            | CtApACFObserver_PpPdACFObserverWrite_DeAcfObserverPersistent_Normal 
+LCS                                      | Rte_IStatus          | RACFObserverCyclic_PpPFProvidedData_DeLCSMVHState 
+Diagnostic, Global                       | Rte_Read             | CtApACFObserver_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+LCS                                      | Rte_IRead            | RACFObserverCyclic_PpPFProvidedData_DeLCSMVHState 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApACFObserver_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+LCS                                      | Rte_IRead            | RACFObserverCyclic_PpPFProvidedData_DeLCSSystemState 
+RTE Data Exchange                        | Rte_IRead            | RACFObserverCyclic_PpParkMAStatus_DeLaufzeitAnforderungPACPPR 
+RTE Data Exchange                        | Rte_IRead            | RACFObserverCyclic_PpACF2ACFOBS_DeACF_LFV_NL 
+RTE Data Exchange                        | Rte_IStatus          | RACFObserverCyclic_PpACF2ACFOBS_DeBP     
+RTE Data Exchange                        | Rte_IStatus          | RACFObserverCyclic_PpParkMAStatus_DeLaufzeitAnforderungPACPPR 
+RTE Data Exchange                        | Rte_IRead            | RACFObserverCyclic_PpDsACFDataSet_DeACFRO 
+LCS                                      | Rte_IRead            | RACFObserverCyclic_PpPFProvidedData_DeLCSSRHState 
+RTE Data Exchange                        | Rte_IStatus          | RACFObserverCyclic_PpACFSMS2ACFOBS_DeACFSMS2ACFOBS 
+RTE Data Exchange                        | Rte_IRead            | RACFObserverCyclic_PpParkMAStatus_DeParkMAStatus 
+Time Service, Convert AGT                | Rte_Call             | CtApACFObserver_PpPFServer_TS_ConvertAgt2Zgt 
+HW Variant Interface                     | Rte_IRead            | RACFObserverCyclic_PpPFProvidedData_DeVARHWVariant 
+RTE Data Exchange                        | Rte_Read             | CtApACFObserver_PpDiagCoding_DePermitCodingPersistence 
+LCS                                      | Rte_IRead            | RACFObserverCyclic_PpPFProvidedData_DeLCSSSHState 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApACFObserver_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+RTE Data Exchange                        | Rte_IWrite           | RACFObserverCyclic_PpACFObserverTraceData_DeTraceData 
+Time Service, Convert ZGT                | Rte_Call             | CtApACFObserver_PpPFServer_TS_ConvertZgt2Agt 
+Diagnostic, DTC clear                    | Rte_Receive          | CtApACFObserver_PpDiagGlobalRead_DeFSPCleared 
+UDS Diagnostic, Messwerte                | Rte_IWriteRef        | RACFObserverCyclic_PpDiagACFObserverWrite_DeMesswerte_ACFObserver 
+RTE Data Exchange                        | Rte_IRead            | RACFObserverCyclic_PpPFHwMeasurements_DeTHS 
+RTE Data Exchange                        | Rte_IRead            | RACFObserverCyclic_PpPFProvidedData_DeTotalSysRestartCnt 
+Diagnostic, Global                       | Rte_Read             | CtApACFObserver_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+RTE Data Exchange                        | Rte_IStatus          | RACFObserverCyclic_PpPFHwMeasurements_DeVBAT_MAIN 
+Time Service, Remaining Time Budget      | Rte_Call             | CtApACFObserver_PpPFServer_TS_GetRemainingTimeBudget 
+RTE Data Exchange                        | Rte_IRead            | RACFObserverCyclic_PpRGExtPSD_DeRGExtPSD 
+RTE Data Exchange                        | Rte_IStatus          | RACFObserverCyclic_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+RTE Data Exchange                        | Rte_IStatus          | RACFObserverCyclic_PpPerceptionAvailabilityACFObs_DePerceptionAvailabilityACFObs 
+RTE Data Exchange                        | Rte_IStatus          | RACFObserverCyclic_PpParkMAStatus_DeIPAState 
+RTE Data Exchange                        | Rte_IStatus          | RACFObserverCyclic_PpParkMAStatus_DeLaufzeitModusPACSTP 
+RTE Data Exchange                        | Rte_IStatus          | RACFObserverCyclic_PpMBFACFFences_DeObstacleFences 
+RTE Data Exchange                        | Rte_IStatus          | RACFObserverCyclic_PpPFHwMeasurements_DeTHS 
+RTE Data Exchange                        | Rte_IRead            | RACFObserverCyclic_PpFRACFObserverIn_DeFRACFObserverIn 
+Diagnostic, Coding                       | Rte_IsUpdated        | CtApACFObserver_PpDiagCoding_DeCoding    
+RTE Data Exchange                        | Rte_IRead            | RACFObserverCyclic_PpParkMAStatus_DeLaufzeitModusPACSTP 
+IF-Set Version                           | Rte_IRead            | RACFObserverCyclic_PpPFProvidedData_DeIFSETVersion 
+RTE Data Exchange                        | Rte_IStatus          | RACFObserverCyclic_PpRGExtPSD_DeRGExtPSD 
+LCS                                      | Rte_IStatus          | RACFObserverCyclic_PpPFProvidedData_DeLCSSRHState 
+RTE Data Exchange                        | Rte_IWriteRef        | RACFObserverCyclic_PpACFObserverTraceData_DeTraceData 
+Diagnostic, Coding                       | Rte_Read             | CtApACFObserver_PpDiagCoding_DeCoding    
+Diagnostic, Get DTC Event                | Rte_Call             | CtApACFObserver_PpEventHandling_GetEventStatus 
+Time Service, AGT                        | Rte_Call             | CtApACFObserver_PpPFServer_TS_GetAgtTimestamp 
+UDS Diagnostic, Messwerte                | Rte_IWrite           | RACFObserverCyclic_PpDiagACFObserverWrite_DeMesswerte_ACFObserver 
+RTE Data Exchange                        | Rte_IRead            | RACFObserverCyclic_PpOBFOutObjectsACFObs_DeOBFOutObjectsACFObs 
+LCS                                      | Rte_IStatus          | RACFObserverCyclic_PpPFProvidedData_DeLCSAPHState 
+Persistency, DataSet                     | Rte_IStatus          | RACFObserverCyclic_PpDsACFObserverDataSet_DeAcfObserverParameter 
+RTE Data Exchange                        | Rte_IRead            | RACFObserverCyclic_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+Persistency, Data read                   | Rte_Read             | CtApACFObserver_PpPdACFObserverRead_DeAcfObserverPersistent_Normal 
+RTE Data Exchange                        | Rte_IRead            | RACFObserverCyclic_PpParkMAStatus_DeIPAState 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 75

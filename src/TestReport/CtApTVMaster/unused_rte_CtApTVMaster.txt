@@ -1,0 +1,143 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+RTE Data Exchange                        | Rte_IStatus          | RTVRmain_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+Persistency, Data read                   | Rte_IsUpdated        | CtApTVMaster_PpPdTVMasterRead_DeFspeTvMaster_Critical 
+RTE Data Exchange                        | Rte_IWrite           | RTVRmain_PpLcsTVmNvramStorageSRHStatus_DeWriteAllStatus 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpPdTVICRead_DeCameraDeviceInfoFront_Normal 
+Persistency, Data read                   | Rte_Read             | CtApTVMaster_PpPdTVMasterRead_DeViewParams_Normal 
+Time Service, Convert ZGT                | Rte_Call             | CtApTVMaster_PpPFServer_TS_ConvertZgt2Agt 
+Persistency, Data read                   | Rte_Read             | CtApTVMaster_PpPdTVMasterRead_DeSuspensionAtOnlineLeft_Normal 
+RTE Data Exchange                        | Rte_Read             | CtApTVMaster_PpFRParkControlout_DePduGrp_ZFAS_01 
+LCS                                      | Rte_IRead            | RTVRmain_PpPFProvidedData_DeLCSSSHState  
+RTE Data Exchange                        | Rte_Read             | CtApTVMaster_PpFRParkControlout_DePduGrp_IPA_01 
+LCS                                      | Rte_IRead            | RTVRmain_PpPFProvidedData_DeLCSSystemState 
+RTE Data Exchange                        | Rte_Read             | CtApTVMaster_PpPdTVICRead_DeApplicationParamsTVICRW_Normal 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpPdTVICRead_DeIntrinsicsRight_Normal 
+Persistency, Data read                   | Rte_IsUpdated        | CtApTVMaster_PpPdTVMasterRead_DeViewParams_Normal 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpFRParkControlout_DePduGrp_Parkhilfe2_01 
+Persistency, Data read                   | Rte_Read             | CtApTVMaster_PpPdTVMasterRead_DeCalibrationParams_Normal 
+RTE Data Exchange                        | Rte_Read             | CtApTVMaster_PpFRParkControlout_DeTraceData 
+Persistency, Data read                   | Rte_IsUpdated        | CtApTVMaster_PpPdTVMasterRead_DeCtaParams_Normal 
+Persistency, Data write                  | Rte_Write            | CtApTVMaster_PpPdTVMasterWrite_DeApplicationParamsTVMASTERRW_Normal 
+Persistency, Data write                  | Rte_Write            | CtApTVMaster_PpPdTVMasterWrite_DeViewParams_Normal 
+Persistency, Data write                  | Rte_Write            | CtApTVMaster_PpPdTVMasterWrite_DeSuspensionAtOnlineBack_Normal 
+IF-Set Version                           | Rte_IRead            | RTVRmain_PpPFProvidedData_DeIFSETVersion 
+RTE Data Exchange                        | Rte_IStatus          | RTVRmain_PpPFHwMeasurements_DeTHS        
+LCS                                      | Rte_IRead            | RTVRmain_PpPFProvidedData_DeLCSSRHState  
+Persistency, DataSet                     | Rte_IRead            | RTVRmain_PpDsTVMasterDataSet_DeHmiConfig 
+Persistency, Data read                   | Rte_Read             | CtApTVMaster_PpPdTVMasterRead_DeSuspensionAtOnlineBack_Normal 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApTVMaster_PpDiagTVMasterRead_DeTV_control_state_0x0565 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpPdTVICRead_DeFreezeFrameTvIC_Critical 
+RTE Data Exchange                        | Rte_Read             | CtApTVMaster_PpFRParkControlout_DePduGrp_PLA2_Status_02 
+RTE Data Exchange                        | Rte_Read             | CtApTVMaster_PpPdTVICRead_DeCameraDeviceInfoLeft_Normal 
+Persistency, Data read                   | Rte_IsUpdated        | CtApTVMaster_PpPdTVMasterRead_DeSuspensionAtOnlineLeft_Normal 
+Persistency, Data write                  | Rte_Write            | CtApTVMaster_PpPdTVMasterWrite_DeSuspensionAtOnlineRight_Normal 
+Persistency, Data read                   | Rte_IsUpdated        | CtApTVMaster_PpPdTVMasterRead_DeCalibrationParams_Normal 
+RTE Data Exchange                        | Rte_IRead            | RTVRmain_PpPFHwMeasurements_DeVBAT_MAIN  
+Persistency, Big Data                    | Rte_IStatus          | RTVRmain_PpBdTVMasterRead_DeDeBlindnessNvDataRight_Normal 
+RTE Data Exchange                        | Rte_Read             | CtApTVMaster_PpPdTVICRead_DeIntrinsicsRight_Normal 
+Persistency, Data write                  | Rte_Write            | CtApTVMaster_PpPdTVMasterWrite_DeFspeTvMaster_Critical 
+Persistency, Data read                   | Rte_Read             | CtApTVMaster_PpPdTVMasterRead_DeApplicationParamsTVMASTERRW_Normal 
+Persistency, Big Data                    | Rte_IRead            | RTVRmain_PpBdTVMasterRead_DeDeBlindnessNvDataRight_Normal 
+Persistency, Data write                  | Rte_Write            | CtApTVMaster_PpPdTVMasterWrite_DeBlindnessParams_Normal 
+Diagnostic, Global                       | Rte_Read             | CtApTVMaster_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpFRParkControlout_DePduGrp_PLA2_Status_02 
+Persistency, Big Data                    | Rte_IWriteRef        | RTVRmain_PpBdTVMasterWrite_DeDeBlindnessNvDataLeft_Normal 
+Persistency, Data read                   | Rte_IsUpdated        | CtApTVMaster_PpPdTVMasterRead_DeSuspensionAtOnlineRight_Normal 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpFRParkControlout_DePduGrp_PLA2_02 
+Time Service, Convert AGT                | Rte_Call             | CtApTVMaster_PpPFServer_TS_ConvertAgt2Zgt 
+LCS                                      | Rte_IStatus          | RTVRmain_PpPFProvidedData_DeLCSMVHState  
+RTE Data Exchange                        | Rte_Read             | CtApTVMaster_PpPdTVICRead_DeCameraDeviceInfoBack_Normal 
+RTE Data Exchange                        | Rte_Read             | CtApTVMaster_PpPdTVICRead_DeIntrinsicsFront_Normal 
+RTE Data Exchange                        | Rte_Read             | CtApTVMaster_PpPdTVICRead_DeIspParams_Normal 
+Persistency, Data read                   | Rte_IsUpdated        | CtApTVMaster_PpPdTVMasterRead_DeFavoriteList_Normal 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApTVMaster_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+Persistency, Data read                   | Rte_Read             | CtApTVMaster_PpPdTVMasterRead_DeSuspensionAtOnlineFront_Normal 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpPdTVICRead_DeIntrinsicsFront_Normal 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpFRParkControlout_DeFRParkControlout 
+Persistency, Big Data                    | Rte_IStatus          | RTVRmain_PpBdTVMasterRead_DeDeBlindnessNvDataLeft_Normal 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpPdTVICRead_DeApplicationParamsTVICRW_Normal 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpDiagCoding_DePermitCodingPersistence 
+Persistency, Data write                  | Rte_Write            | CtApTVMaster_PpPdTVMasterWrite_DeCalibrationParams_Normal 
+Persistency, Data read                   | Rte_Read             | CtApTVMaster_PpPdTVMasterRead_DeSuspensionAtEol_Normal 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpPdTVICRead_DeFspeTvIC_Critical 
+Persistency, Data read                   | Rte_IsUpdated        | CtApTVMaster_PpPdTVMasterRead_DeSuspensionAtOnlineBack_Normal 
+RTE Data Exchange                        | Rte_Receive          | CtApTVMaster_PpLcsTVmNvramStorageSRHTrigger_DeWriteAll 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpPdTVICRead_DeIspParams_Normal 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpDiagTVMasterRead_DeTV_calibration_measured_value_index_0x0508 
+Persistency, DataSet                     | Rte_IStatus          | RTVRmain_PpDsTVMasterDataSet_DeHmiConfig 
+RTE Data Exchange                        | Rte_Read             | CtApTVMaster_PpPdTVICRead_DeCameraDeviceInfoRight_Normal 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpPdTVICRead_DeCameraDeviceInfoBack_Normal 
+RTE Data Exchange                        | Rte_IRead            | RTVRmain_PpPFProvidedData_DeTotalSysRestartCnt 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpPdTVICRead_DeIntrinsicsLeft_Normal 
+Persistency, Data read                   | Rte_IsUpdated        | CtApTVMaster_PpPdTVMasterRead_DeFreezeFrameTvMaster_Critical 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpFRParkControlout_DePduGrp_IPA_01 
+Persistency, Data read                   | Rte_IsUpdated        | CtApTVMaster_PpPdTVMasterRead_DeExtrinsicsEolBack_Critical 
+RTE Data Exchange                        | Rte_Read             | CtApTVMaster_PpPdTVICRead_DeCameraDeviceInfoFront_Normal 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApTVMaster_PpDiagTVMasterRead_DeTV_calibration_measured_value_index_0x0508 
+Persistency, Big Data                    | Rte_IRead            | RTVRmain_PpBdTVMasterRead_DeDeBlindnessNvDataLeft_Normal 
+HW Variant Interface                     | Rte_IRead            | RTVRmain_PpPFProvidedData_DeVARHWVariant 
+Persistency, Data read                   | Rte_IsUpdated        | CtApTVMaster_PpPdTVMasterRead_DeSuspensionAtEol_Normal 
+Time Service, Remaining Time Budget      | Rte_Call             | CtApTVMaster_PpPFServer_TS_GetRemainingTimeBudget 
+RTE Data Exchange                        | Rte_Read             | CtApTVMaster_PpFRParkControlout_DePduGrp_Parkhilfe2_01 
+Persistency, Data read                   | Rte_Read             | CtApTVMaster_PpPdTVMasterRead_DeBlindnessParams_Normal 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApTVMaster_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+Persistency, Data read                   | Rte_IsUpdated        | CtApTVMaster_PpPdTVMasterRead_DeExtrinsicsOnlineBack_Normal 
+Persistency, Data read                   | Rte_IsUpdated        | CtApTVMaster_PpPdTVMasterRead_DeExtrinsicsEolFront_Critical 
+Persistency, Data read                   | Rte_Read             | CtApTVMaster_PpPdTVMasterRead_DeSuspensionAtOnlineRight_Normal 
+RTE Data Exchange                        | Rte_IStatus          | RTVRmain_PpPFProvidedData_DeTotalSysRestartCnt 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpPdTVICRead_DeCameraDeviceInfoRight_Normal 
+Persistency, Big Data                    | Rte_IWriteRef        | RTVRmain_PpBdTVMasterWrite_DeCalibrationNvData_Normal 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpDiagTVMasterRead_DeProductionmode_0x04FE 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpFRParkControlout_DeTraceData 
+Persistency, Big Data                    | Rte_IStatus          | RTVRmain_PpBdTVMasterRead_DeCalibrationNvData_Normal 
+IF-Set Version                           | Rte_IStatus          | RTVRmain_PpPFProvidedData_DeIFSETVersion 
+Persistency, Data read                   | Rte_Read             | CtApTVMaster_PpPdTVMasterRead_DeFspeTvMaster_Critical 
+Persistency, Data read                   | Rte_IsUpdated        | CtApTVMaster_PpPdTVMasterRead_DeExtrinsicsOnlineRight_Normal 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpPdTVICRead_DeCameraDeviceInfoLeft_Normal 
+Persistency, Data write                  | Rte_Write            | CtApTVMaster_PpPdTVMasterWrite_DeSuspensionAtOnlineFront_Normal 
+RTE Data Exchange                        | Rte_IWriteRef        | RTVRmain_PpLcsTVmNvramStorageSRHStatus_DeWriteAllStatus 
+Persistency, Data write                  | Rte_Write            | CtApTVMaster_PpPdTVMasterWrite_DeFreezeFrameTvMaster_Critical 
+RTE Data Exchange                        | Rte_Read             | CtApTVMaster_PpPdTVICRead_DeIntrinsicsLeft_Normal 
+RTE Data Exchange                        | Rte_IStatus          | RTVRmain_PpPFHwMeasurements_DeVBAT_MAIN  
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpFRParkControlout_DePduGrp_PLA2_01 
+LCS                                      | Rte_IStatus          | RTVRmain_PpPFProvidedData_DeLCSSSHState  
+Diagnostic, Coding                       | Rte_IsUpdated        | CtApTVMaster_PpDiagCoding_DeCoding       
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpDiagTVMasterRead_DeProductionmode_deactivate_0x04FC 
+LCS                                      | Rte_IStatus          | RTVRmain_PpPFProvidedData_DeLCSSRHState  
+Persistency, Data read                   | Rte_IsUpdated        | CtApTVMaster_PpPdTVMasterRead_DeBlindnessParams_Normal 
+LCS                                      | Rte_IStatus          | RTVRmain_PpPFProvidedData_DeLCSAPHState  
+Persistency, Data write                  | Rte_Write            | CtApTVMaster_PpPdTVMasterWrite_DeSuspensionAtOnlineLeft_Normal 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpFRParkControlout_DePduGrp_Parkhilfe2_04 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpPdTVICRead_DeIntrinsicsBack_Normal 
+RTE Data Exchange                        | Rte_Read             | CtApTVMaster_PpFRParkControlout_DePduGrp_PLA2_01 
+Persistency, Data read                   | Rte_IsUpdated        | CtApTVMaster_PpPdTVMasterRead_DeExtrinsicsOnlineFront_Normal 
+Persistency, Data read                   | Rte_IsUpdated        | CtApTVMaster_PpPdTVMasterRead_DeExtrinsicsOnlineLeft_Normal 
+Persistency, Data read                   | Rte_IsUpdated        | CtApTVMaster_PpPdTVMasterRead_DeExtrinsicsEolRight_Critical 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpFRParkControlout_DePduGrp_ZFAS_01 
+HW Variant Interface                     | Rte_IStatus          | RTVRmain_PpPFProvidedData_DeVARHWVariant 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpFRParkControlout_DePduGrp_IPA_02 
+RTE Data Exchange                        | Rte_Read             | CtApTVMaster_PpPdTVICRead_DeIntrinsicsBack_Normal 
+Persistency, Data read                   | Rte_Read             | CtApTVMaster_PpPdTVMasterRead_DeFreezeFrameTvMaster_Critical 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApTVMaster_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+LCS                                      | Rte_IStatus          | RTVRmain_PpPFProvidedData_DeLCSSystemState 
+RTE Data Exchange                        | Rte_IRead            | RTVRmain_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+Persistency, Big Data                    | Rte_IWriteRef        | RTVRmain_PpBdTVMasterWrite_DeDeBlindnessNvDataRight_Normal 
+RTE Data Exchange                        | Rte_Read             | CtApTVMaster_PpDiagCoding_DePermitCodingPersistence 
+RTE Data Exchange                        | Rte_Read             | CtApTVMaster_PpFRParkControlout_DePduGrp_IPA_02 
+Persistency, Data read                   | Rte_IsUpdated        | CtApTVMaster_PpPdTVMasterRead_DeApplicationParamsTVMASTERRW_Normal 
+RTE Data Exchange                        | Rte_Read             | CtApTVMaster_PpFRParkControlout_DePduGrp_PLA2_02 
+RTE Data Exchange                        | Rte_Read             | CtApTVMaster_PpPdTVICRead_DeFreezeFrameTvIC_Critical 
+RTE Data Exchange                        | Rte_Receive          | CtApTVMaster_PpLcsTVmNvramStorageSRHTrigger_DeCancelAll 
+LCS                                      | Rte_IRead            | RTVRmain_PpPFProvidedData_DeLCSAPHState  
+RTE Data Exchange                        | Rte_Read             | CtApTVMaster_PpFRParkControlout_DePduGrp_Parkhilfe2_04 
+Persistency, Data write                  | Rte_Write            | CtApTVMaster_PpPdTVMasterWrite_DeSuspensionAtEol_Normal 
+RTE Data Exchange                        | Rte_Read             | CtApTVMaster_PpPdTVICRead_DeFspeTvIC_Critical 
+Persistency, Data read                   | Rte_IsUpdated        | CtApTVMaster_PpPdTVMasterRead_DeSuspensionAtOnlineFront_Normal 
+LCS                                      | Rte_IRead            | RTVRmain_PpPFProvidedData_DeLCSMVHState  
+Persistency, Data read                   | Rte_IsUpdated        | CtApTVMaster_PpPdTVMasterRead_DeExtrinsicsEolLeft_Critical 
+RTE Data Exchange                        | Rte_IRead            | RTVRmain_PpPFHwMeasurements_DeTHS        
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTVMaster_PpDiagTVMasterRead_DeTV_control_state_0x0565 
+Persistency, Big Data                    | Rte_IRead            | RTVRmain_PpBdTVMasterRead_DeCalibrationNvData_Normal 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 139

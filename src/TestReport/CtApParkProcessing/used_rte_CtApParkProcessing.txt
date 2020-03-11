@@ -1,0 +1,56 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+RTE Data Exchange                        | Rte_IStatus          | RParkProcessing40ms_PpMBFParkFences_DeObstacleFences 
+Diagnostic, Coding                       | Rte_Read             | CtApParkProcessing_PpDiagCoding_DeCoding 
+RTE Data Exchange                        | Rte_IRead            | RParkProcessing40ms_PpDsParkControlDataSet_DeVdimCfg 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApParkProcessing_PpDiagParkProcessingRead_DePark_assist_excess_width_vehicle_attachements_0x0BBF 
+RTE Data Exchange                        | Rte_IRead            | RParkProcessing40ms_PpDsParkControlDataSet_DeDapmCfg 
+RTE Data Exchange                        | Rte_IRead            | RParkProcessing40ms_PpDsParkControlDataSet_DeIpaCfg_R 
+SWC Version Info                         | Rte_Call             | CtApParkProcessing_PpPFServer_MW_SetSwcInfo 
+RTE Data Exchange                        | Rte_IRead            | RParkProcessing40ms_PpDsParkControlDataSet_DeVctmCfg 
+RTE Data Exchange                        | Rte_IRead            | RParkProcessing40ms_PpDsParkControlDataSet_DeStateConfig 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApParkProcessing_PpDiagParkProcessingRead_DePark_assist_distance_from_kerb_0x0BC0 
+RTE Data Exchange                        | Rte_IRead            | RParkProcessing40ms_PpPerceptionAvailabilityPark_DePerceptionAvailabilityPark 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApParkProcessing_PpPdParkControlRead_DeDriverPreferences_RW_Critical 
+RTE Data Exchange                        | Rte_IStatus          | RParkProcessing40ms_PpDsParkControlDataSet_DeDapmCfg 
+Time Service, Timestamp                  | Rte_Call             | CtApParkProcessing_PpPFServer_TS_GetZgtTimestamp 
+Diagnostic, Global                       | Rte_Read             | CtApParkProcessing_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+RTE Data Exchange                        | Rte_IStatus          | RParkProcessing40ms_PpDsParkControlDataSet_DeMopmCfg 
+RTE Data Exchange                        | Rte_IRead            | RParkProcessing40ms_PpFRParkProcessingin_DeFRParkProcessingin 
+RTE Data Exchange                        | Rte_IStatus          | RParkProcessing40ms_PpDsParkControlDataSet_DeIpaCfg_R 
+RTE Data Exchange                        | Rte_IRead            | RParkProcessing40ms_PpMBFParkFences_DeObstacleFences 
+RTE Data Exchange                        | Rte_IRead            | RParkProcessing40ms_PpDsParkControlDataSet_DeFilmCfg 
+UDS Diagnostic, Messwerte                | Rte_Write            | CtApParkProcessing_PpDiagParkProcessingWrite_DeMesswerte_ParkProcessing 
+Diagnostic, DTC clear                    | Rte_Receive          | CtApParkProcessing_PpDiagGlobalRead_DeFSPCleared 
+Time Service, Remaining Time Budget      | Rte_Call             | CtApParkProcessing_PpPFServer_TS_GetRemainingTimeBudget 
+RTE Data Exchange                        | Rte_IStatus          | RParkProcessing40ms_PpDsParkControlDataSet_DeVdimCfg 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApParkProcessing_PpDiagParkProcessingRead_DePark_assist_excess_length_vehicle_attachements_0x0BBE 
+Persistency, Data read                   | Rte_Read             | CtApParkProcessing_PpPdParkProcessingRead_DeDynamicData_Ppr_RW_Normal 
+Diagnostic, Global                       | Rte_Read             | CtApParkProcessing_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+RTE Data Exchange                        | Rte_IWrite           | RParkProcessing40ms_PpParkProcessingTraceData_DeTraceData 
+RTE Data Exchange                        | Rte_IStatus          | RParkProcessing40ms_PpDsParkControlDataSet_DeFilmCfg 
+RTE Data Exchange                        | Rte_IStatus          | RParkProcessing40ms_PpDsParkControlDataSet_DeStateConfig 
+RTE Data Exchange                        | Rte_IStatus          | RParkProcessing40ms_PpDsParkControlDataSet_DeCustomerCfg_R 
+RTE Data Exchange                        | Rte_IStatus          | RParkProcessing40ms_PpDsParkControlDataSet_DeOdomCfg 
+RTE Data Exchange                        | Rte_IStatus          | RParkProcessing40ms_PpFRParkProcessingin_DeFRParkProcessingin 
+RTE Data Exchange                        | Rte_IWrite           | RParkProcessing40ms_PpParkProcessing2TVmaster_DeFATopView 
+RTE Data Exchange                        | Rte_IRead            | RParkProcessing40ms_PpObjectListParking_DeObjArrayParking 
+Persistency, Data read                   | Rte_IsUpdated        | CtApParkProcessing_PpPdParkProcessingRead_DeMapData_RW_Normal 
+RTE Data Exchange                        | Rte_IRead            | RParkProcessing40ms_PpDsParkControlDataSet_DeOdomCfg 
+RTE Data Exchange                        | Rte_IStatus          | RParkProcessing40ms_PpDsParkControlDataSet_DeColmCfg 
+RTE Data Exchange                        | Rte_IRead            | RParkProcessing40ms_PpDsParkControlDataSet_DeCustomerCfg_R 
+RTE Data Exchange                        | Rte_Read             | CtApParkProcessing_PpPdParkControlRead_DeDriverPreferences_RW_Critical 
+RTE Data Exchange                        | Rte_IRead            | RParkProcessing40ms_PpParkControl2Processing_DeParkControl2Processing 
+RTE Data Exchange                        | Rte_IRead            | RParkProcessing40ms_PpDsParkControlDataSet_DeMopmCfg 
+RTE Data Exchange                        | Rte_IStatus          | RParkProcessing40ms_PpDsParkControlDataSet_DeVctmCfg 
+Persistency, Data read                   | Rte_Read             | CtApParkProcessing_PpPdParkProcessingRead_DeMapData_RW_Normal 
+Diagnostic, Coding                       | Rte_IsUpdated        | CtApParkProcessing_PpDiagCoding_DeCoding 
+Persistency, Data write                  | Rte_Write            | CtApParkProcessing_PpPdParkProcessingWrite_DeDynamicData_Ppr_RW_Normal 
+Persistency, Data write                  | Rte_Write            | CtApParkProcessing_PpPdParkProcessingWrite_DeMapData_RW_Normal 
+RTE Data Exchange                        | Rte_Receive          | CtApParkProcessing_PpEML_DeEML           
+RTE Data Exchange                        | Rte_IRead            | RParkProcessing40ms_PpDsParkControlDataSet_DeColmCfg 
+Diagnostic, Get DTC Event                | Rte_Call             | CtApParkProcessing_PpEventHandling_GetEventStatus 
+RTE Data Exchange                        | Rte_IWrite           | RParkProcessing40ms_PpParkProcessing2Control_DeParkProcessing2Control 
+Diagnostic, Set DTC Event                | Rte_Call             | CtApParkProcessing_PpEventHandling_SetEventStatus 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 52

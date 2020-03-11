@@ -1,0 +1,21 @@
+#MAP: E:\zFAS-Jenkins\workspace\zFAS_AIT_Master_AAT\SW\0300_ApplicationLayer\branches\CL3_REL_320_3XX\0350_SWC-SET\CtApeABCpreRM\05_data\CtApeABCpreRM.vxe.map
+#symbol: .init           0x800000b4        0xc
+#symbol: .iplt           0x800000c0        0x0
+#symbol: .text           0x800000c0    0x3dd00
+#symbol: .fini           0x8003ddc0        0xc
+#symbol: .rodata         0x8003ddd0     0x7458
+#symbol: .tdata          0x80046000        0x4
+#symbol: .ctors          0x80046004       0x40
+#symbol: .dtors          0x80046044       0x10
+#symbol: .got            0x80046054        0x0
+#symbol: .data           0x80046058     0x24ec
+#symbol: .edata          0x80048544        0x0
+#symbol: .bss            0x80048548    0x52df0
+#symbol: .comment        0x00000000       0x2f
+#symbol: .stack          0x00080000        0x0
+LIBS;libCtApeABCpreRM_BDL.a;libCtApeABCpreRM_Implementation.a;libCtApeABCpreRM_ServerRunnables.a;lib_CpApeABCpreRM.a;libc.a;libc_internal.a;libdsi.a;libgcc.a;liblincore.a;libnet.a;libstdc++.a;
+#CODE;STACK;ROM;RAM
+FORMAT;ROM_CODE;STACK;ROM;RAM;RAM_CODE;FastRAM;FastRAM_CODE
+HEX;3dd00;00080000;0x47644;0x9a434;3dd00;0;0
+DEC;253184;524288;292420;631860;253184;0;0
+KB;247;512;285;617;247;0;0

@@ -1,0 +1,76 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+Time Service, Remaining Time Budget      | Rte_Call             | CtApInnoDriveControl_PpPFServer_TS_GetRemainingTimeBudget 
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveControl_PpFRRGout_DeTraceData  
+LCS                                      | Rte_IStatus          | RInnoDriveControl_PpPFProvidedData_DeLCSSRHState 
+RTE Data Exchange                        | Rte_Call             | CtApInnoDriveControl_PpRGApiLight_RGApi_GetCurrentTimestamp 
+Diagnostic, Global                       | Rte_Read             | CtApInnoDriveControl_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+RTE Data Exchange                        | Rte_Call             | CtApInnoDriveControl_PpRGApiLight_RGApi_GetAttribute 
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveControl_PpRGLVZE_DeTraceData   
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveControl_PpRGLVZE_DeTraceData   
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveControl_PpRGLVZE_DePduGrp_VZE_05 
+RTE Data Exchange                        | Rte_Call             | CtApInnoDriveControl_PpRGApiLight_RGApi_GetNextAttribute 
+LCS                                      | Rte_IRead            | RInnoDriveControl_PpPFProvidedData_DeLCSSystemState 
+RTE Data Exchange                        | Rte_Call             | CtApInnoDriveControl_PpRGApiLight_RGApi_GetSpeedLimit 
+IF-Set Version                           | Rte_IRead            | RInnoDriveControl_PpPFProvidedData_DeIFSETVersion 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApInnoDriveControl_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+LCS                                      | Rte_IRead            | RInnoDriveControl_PpPFProvidedData_DeLCSSRHState 
+LCS                                      | Rte_IRead            | RInnoDriveControl_PpPFProvidedData_DeLCSMVHState 
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveControl_PpRGLVZE_DePduGrp_VZE_01 
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveControl_PpPFHwMeasurements_DeTHS 
+RTE Data Exchange                        | Rte_Call             | CtApInnoDriveControl_PpRGApiLight_RGApi_GetLoadSegments 
+Diagnostic, Get DTC Event                | Rte_Call             | CtApInnoDriveControl_PpEventHandling_GetEventStatus 
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveControl_PpRGLVZE_DeBVTS        
+LCS                                      | Rte_IStatus          | RInnoDriveControl_PpPFProvidedData_DeLCSMVHState 
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveControl_PpPFProvidedData_DeTotalSysRestartCnt 
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveControl_PpRGLVZE_DePduGrp_VZE_03 
+RTE Data Exchange                        | Rte_Call             | CtApInnoDriveControl_PpRGApiLight_RGApi_GetNextSpeedLimit 
+Time Service, Convert ZGT                | Rte_Call             | CtApInnoDriveControl_PpPFServer_TS_ConvertZgt2Agt 
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveControl_PpRGLVZE_DePduGrp_VZE_01 
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveControl_PpFRRGout_DeTraceData  
+LCS                                      | Rte_IStatus          | RInnoDriveControl_PpPFProvidedData_DeLCSSSHState 
+LCS                                      | Rte_IRead            | RInnoDriveControl_PpPFProvidedData_DeLCSAPHState 
+Diagnostic, DTC clear                    | Rte_Receive          | CtApInnoDriveControl_PpDiagGlobalRead_DeFSPCleared 
+RTE Data Exchange                        | Rte_Call             | CtApInnoDriveControl_PpRGApiLight_RGApi_GetNearestAttributes 
+LCS                                      | Rte_IStatus          | RInnoDriveControl_PpPFProvidedData_DeLCSSystemState 
+LCS                                      | Rte_IRead            | RInnoDriveControl_PpPFProvidedData_DeLCSSSHState 
+RTE Data Exchange                        | Rte_Call             | CtApInnoDriveControl_PpRGApiLight_RGApi_GetLoadSpeedLimitPool 
+Time Service, AGT                        | Rte_Call             | CtApInnoDriveControl_PpPFServer_TS_GetAgtTimestamp 
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveControl_PpPFHwMeasurements_DeVBAT_MAIN 
+RTE Data Exchange                        | Rte_Read             | CtApInnoDriveControl_PpDiagCoding_DePermitCodingPersistence 
+IF-Set Version                           | Rte_IStatus          | RInnoDriveControl_PpPFProvidedData_DeIFSETVersion 
+RTE Data Exchange                        | Rte_Call             | CtApInnoDriveControl_PpRGApiLight_RGApi_GetLoadAttributePool 
+RTE Data Exchange                        | Rte_Call             | CtApInnoDriveControl_PpRGApiLight_RGApi_GetModuleVersion 
+Diagnostic, Coding                       | Rte_IsUpdated        | CtApInnoDriveControl_PpDiagCoding_DeCoding 
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveControl_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveControl_PpRGLVZE_DePduGrp_BVTS_xx 
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveControl_PpPFHwMeasurements_DeVBAT_MAIN 
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveControl_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApInnoDriveControl_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveControl_PpDsInnoDriveDataSet_DeInnoDriveStrategyParameterSet 
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveControl_PpRGExtPSD_DeRGExtPSD  
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveControl_PpRGLVZE_DePduGrp_VZE_02 
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveControl_PpRGLVZE_DePduGrp_VZE_05 
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveControl_PpPFProvidedData_DeTotalSysRestartCnt 
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveControl_PpRGLVZE_DePduGrp_BVTS_xx 
+RTE Data Exchange                        | Rte_Call             | CtApInnoDriveControl_PpRGApiLight_RGApi_GetNextSibling 
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveControl_PpFRRGout_DePduGrp_SDF2_Pos_01 
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveControl_PpRGLVZE_DePduGrp_VZE_03 
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveControl_PpDsInnoDriveDataSet_DeInnoDriveStrategyParameterSet 
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveControl_PpRGLVZE_DeBVTS        
+HW Variant Interface                     | Rte_IStatus          | RInnoDriveControl_PpPFProvidedData_DeVARHWVariant 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApInnoDriveControl_PpDiagCoding_DePermitCodingPersistence 
+Diagnostic, Global                       | Rte_Read             | CtApInnoDriveControl_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+LCS                                      | Rte_IStatus          | RInnoDriveControl_PpPFProvidedData_DeLCSAPHState 
+HW Variant Interface                     | Rte_IRead            | RInnoDriveControl_PpPFProvidedData_DeVARHWVariant 
+RTE Data Exchange                        | Rte_Call             | CtApInnoDriveControl_PpRGApiLight_RGApi_Query 
+RTE Data Exchange                        | Rte_Call             | CtApInnoDriveControl_PpRGApiLight_RGApi_GetChildSegment 
+Time Service, Convert AGT                | Rte_Call             | CtApInnoDriveControl_PpPFServer_TS_ConvertAgt2Zgt 
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveControl_PpRGLVZE_DePduGrp_VZE_02 
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveControl_PpPFHwMeasurements_DeTHS 
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveControl_PpFRRGout_DePduGrp_SDF2_Pos_01 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApInnoDriveControl_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveControl_PpRGExtPSD_DeRGExtPSD  
+RTE Data Exchange                        | Rte_Call             | CtApInnoDriveControl_PpRGApiLight_RGApi_GetChildrenCount 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 72

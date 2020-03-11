@@ -1,0 +1,42 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+LCS                                      | Rte_IRead            | RInnoDriveStrategy_PpPFProvidedData_DeLCSSSHState 
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveStrategy_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveStrategy_PpPFHwMeasurements_DeTHS 
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveStrategy_PpDsInnoDriveDataSet_DeInnoDriveCtrlParameterSetCtrl 
+HW Variant Interface                     | Rte_IStatus          | RInnoDriveStrategy_PpPFProvidedData_DeVARHWVariant 
+Diagnostic, Get DTC Event                | Rte_Call             | CtApInnoDriveStrategy_PpEventHandling_GetEventStatus 
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveStrategy_PpPFHwMeasurements_DeVBAT_MAIN 
+LCS                                      | Rte_IStatus          | RInnoDriveStrategy_PpPFProvidedData_DeLCSSystemState 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApInnoDriveStrategy_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+RTE Data Exchange                        | Rte_Read             | CtApInnoDriveStrategy_PpDiagCoding_DePermitCodingPersistence 
+Time Service, Remaining Time Budget      | Rte_Call             | CtApInnoDriveStrategy_PpPFServer_TS_GetRemainingTimeBudget 
+Diagnostic, Global                       | Rte_Read             | CtApInnoDriveStrategy_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+Diagnostic, DTC clear                    | Rte_Receive          | CtApInnoDriveStrategy_PpDiagGlobalRead_DeFSPCleared 
+LCS                                      | Rte_IRead            | RInnoDriveStrategy_PpPFProvidedData_DeLCSMVHState 
+Time Service, AGT                        | Rte_Call             | CtApInnoDriveStrategy_PpPFServer_TS_GetAgtTimestamp 
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveStrategy_PpDsInnoDriveDataSet_DeInnoDriveCtrlParameterSetCtrl 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApInnoDriveStrategy_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+IF-Set Version                           | Rte_IRead            | RInnoDriveStrategy_PpPFProvidedData_DeIFSETVersion 
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveStrategy_PpPFHwMeasurements_DeTHS 
+LCS                                      | Rte_IRead            | RInnoDriveStrategy_PpPFProvidedData_DeLCSAPHState 
+LCS                                      | Rte_IRead            | RInnoDriveStrategy_PpPFProvidedData_DeLCSSRHState 
+LCS                                      | Rte_IStatus          | RInnoDriveStrategy_PpPFProvidedData_DeLCSSSHState 
+LCS                                      | Rte_IStatus          | RInnoDriveStrategy_PpPFProvidedData_DeLCSSRHState 
+Diagnostic, Coding                       | Rte_IsUpdated        | CtApInnoDriveStrategy_PpDiagCoding_DeCoding 
+LCS                                      | Rte_IRead            | RInnoDriveStrategy_PpPFProvidedData_DeLCSSystemState 
+Diagnostic, Global                       | Rte_Read             | CtApInnoDriveStrategy_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveStrategy_PpPFProvidedData_DeTotalSysRestartCnt 
+LCS                                      | Rte_IStatus          | RInnoDriveStrategy_PpPFProvidedData_DeLCSAPHState 
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveStrategy_PpPFHwMeasurements_DeVBAT_MAIN 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApInnoDriveStrategy_PpDiagCoding_DePermitCodingPersistence 
+Time Service, Convert ZGT                | Rte_Call             | CtApInnoDriveStrategy_PpPFServer_TS_ConvertZgt2Agt 
+Time Service, Convert AGT                | Rte_Call             | CtApInnoDriveStrategy_PpPFServer_TS_ConvertAgt2Zgt 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApInnoDriveStrategy_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+RTE Data Exchange                        | Rte_IStatus          | RInnoDriveStrategy_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+HW Variant Interface                     | Rte_IRead            | RInnoDriveStrategy_PpPFProvidedData_DeVARHWVariant 
+RTE Data Exchange                        | Rte_IRead            | RInnoDriveStrategy_PpPFProvidedData_DeTotalSysRestartCnt 
+LCS                                      | Rte_IStatus          | RInnoDriveStrategy_PpPFProvidedData_DeLCSMVHState 
+IF-Set Version                           | Rte_IStatus          | RInnoDriveStrategy_PpPFProvidedData_DeIFSETVersion 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 38

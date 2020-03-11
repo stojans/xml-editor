@@ -1,0 +1,74 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+Persistency, DataSet                     | Rte_IRead            | RTVIP_PpDsTVIPDataSet_DeParametersRefRight 
+UDS Diagnostic, Messwerte                | Rte_Write            | CtApTVIP_PpDiagTVIPWrite_DeMesswerte_TVIP 
+Persistency, DataSet                     | Rte_IRead            | RTVIP_PpDsTVIPDataSet_DeParametersHekRight 
+Persistency, DataSet                     | Rte_IRead            | RTVIP_PpDsTVIPDataSet_DeParametersSTPRefRight 
+RTE Data Exchange                        | Rte_Send             | CtApTVIP_PpOBFObjTVIP_DeTVBVObjCam2      
+Persistency, DataSet                     | Rte_IRead            | RTVIP_PpDsTVIPDataSet_DeParametersRefLeft 
+Persistency, DataSet                     | Rte_IStatus          | RTVIP_PpDsTVIPDataSet_DeParametersSTPRefLeft 
+Persistency, DataSet                     | Rte_IRead            | RTVIP_PpDsTVIPDataSet_DeParametersSTPHekRight 
+RTE Data Exchange                        | Rte_Send             | CtApTVIP_PpFencesTVBV_DeTVBVFreespaceFences 
+Persistency, DataSet                     | Rte_IRead            | RTVIP_PpDsTVIPDataSet_DeParametersSTPRefFront 
+Persistency, DataSet                     | Rte_IStatus          | RTVIP_PpDsTVIPDataSet_DeParametersHekRear 
+Persistency, Data write                  | Rte_Write            | CtApTVIP_PpPdTVIPWrite_DeParametersCameraLeft_Normal 
+Persistency, DataSet                     | Rte_IStatus          | RTVIP_PpDsTVIPDataSet_DeParametersSTPRefFront 
+Persistency, DataSet                     | Rte_IStatus          | RTVIP_PpDsTVIPDataSet_DeParametersSTPRefRight 
+Persistency, Data read                   | Rte_Read             | CtApTVIP_PpPdTVIPRead_DeParametersCameraRight_Normal 
+RTE Data Exchange                        | Rte_IRead            | RTVIP_PpFRACFStateMachineOut_DeFRACFStateMachineOut 
+Persistency, DataSet                     | Rte_IStatus          | RTVIP_PpDsTVIPDataSet_DeParametersSTPHekFront 
+Persistency, DataSet                     | Rte_IRead            | RTVIP_PpDsTVIPDataSet_DeParametersSTPRefRear 
+RTE Data Exchange                        | Rte_Send             | CtApTVIP_PpOBFObjTVIP_DeTVBVObjCam1      
+RTE Data Exchange                        | Rte_Send             | CtApTVIP_PpTVIP2PerceptionAvailability_DeStatusTVIPSensors 
+RTE Data Exchange                        | Rte_IRead            | RTVIP_PpTVCntrlTVMaster_DeTVWingMirrorStatus 
+RTE Data Exchange                        | Rte_IStatus          | RTVIP_PpTVCntrlTVMaster_DeTVLogoStatus   
+Persistency, Data read                   | Rte_Read             | CtApTVIP_PpPdTVIPRead_DeParametersCameraLeft_Normal 
+Persistency, DataSet                     | Rte_IRead            | RTVIP_PpDsTVIPDataSet_DeParametersSTPHekRear 
+LCS                                      | Rte_IRead            | RTVIP_PpPFProvidedData_DeLCSSRHState     
+Persistency, DataSet                     | Rte_IRead            | RTVIP_PpDsTVIPDataSet_DeParametersStatusMachine 
+Persistency, DataSet                     | Rte_IRead            | RTVIP_PpDsTVIPDataSet_DeParametersSTPRefLeft 
+Persistency, DataSet                     | Rte_IRead            | RTVIP_PpDsTVIPDataSet_DeParametersSTPHekLeft 
+Persistency, DataSet                     | Rte_IStatus          | RTVIP_PpDsTVIPDataSet_DeParametersRefRear 
+IF-Set Version                           | Rte_IRead            | RTVIP_PpPFProvidedData_DeIFSETVersion    
+Persistency, Data write                  | Rte_Write            | CtApTVIP_PpPdTVIPWrite_DeParametersCameraFront_Normal 
+Persistency, DataSet                     | Rte_IStatus          | RTVIP_PpDsTVIPDataSet_DeParametersRefRight 
+Persistency, DataSet                     | Rte_IRead            | RTVIP_PpDsTVIPDataSet_DeParametersHekFront 
+RTE Data Exchange                        | Rte_IRead            | RTVIP_PpTVCntrlTVMaster_DeTVLogoStatus   
+Diagnostic, Get DTC Event                | Rte_Call             | CtApTVIP_PpEventHandling_GetEventStatus  
+RTE Data Exchange                        | Rte_IRead            | RTVIP_PpTVCntrlTVMaster_DeTVCleaningStatus 
+Persistency, DataSet                     | Rte_IRead            | RTVIP_PpDsTVIPDataSet_DeParametersHekRear 
+Persistency, Data read                   | Rte_Read             | CtApTVIP_PpPdTVIPRead_DeParametersCameraRear_Normal 
+Persistency, DataSet                     | Rte_IStatus          | RTVIP_PpDsTVIPDataSet_DeParametersRefFront 
+Persistency, DataSet                     | Rte_IRead            | RTVIP_PpDsTVIPDataSet_DeParametersRefRear 
+Diagnostic, Coding                       | Rte_Read             | CtApTVIP_PpDiagCoding_DeCoding           
+Persistency, DataSet                     | Rte_IStatus          | RTVIP_PpDsTVIPDataSet_DeParametersHekFront 
+Persistency, Data write                  | Rte_Write            | CtApTVIP_PpPdTVIPWrite_DeParametersCameraRight_Normal 
+Persistency, DataSet                     | Rte_IStatus          | RTVIP_PpDsTVIPDataSet_DeParametersRefLeft 
+Persistency, DataSet                     | Rte_IRead            | RTVIP_PpDsTVIPDataSet_DeParametersHekLeft 
+Persistency, DataSet                     | Rte_IRead            | RTVIP_PpDsTVIPDataSet_DeParametersSTPHekFront 
+SWC Version Info                         | Rte_Call             | CtApTVIP_PpPFServer_MW_SetSwcInfo        
+RTE Data Exchange                        | Rte_Read             | CtApTVIP_PpTVMasterCameraCalibration_DeTVMasterCameraCalibration 
+Persistency, DataSet                     | Rte_IRead            | RTVIP_PpDsTVIPDataSet_DeParametersRefFront 
+Persistency, Data read                   | Rte_Read             | CtApTVIP_PpPdTVIPRead_DeParametersCameraFront_Normal 
+Persistency, DataSet                     | Rte_IStatus          | RTVIP_PpDsTVIPDataSet_DeParametersHekRight 
+Diagnostic, Set DTC Event                | Rte_Call             | CtApTVIP_PpEventHandling_SetEventStatus  
+Persistency, DataSet                     | Rte_IStatus          | RTVIP_PpDsTVIPDataSet_DeParametersStatusMachine 
+RTE Data Exchange                        | Rte_IStatus          | RTVIP_PpTVCntrlTVMaster_DeTVWingMirrorStatus 
+Persistency, DataSet                     | Rte_IStatus          | RTVIP_PpDsTVIPDataSet_DeParametersSTPRefRear 
+Persistency, DataSet                     | Rte_IStatus          | RTVIP_PpDsTVIPDataSet_DeParametersSTPHekRear 
+RTE Data Exchange                        | Rte_IWrite           | RTVIP_PpTVIPTraceData_DeTraceData        
+Persistency, Data write                  | Rte_Write            | CtApTVIP_PpPdTVIPWrite_DeParametersCameraRear_Normal 
+RTE Data Exchange                        | Rte_Read             | CtApTVIP_PpTVMasterBlindnessReport_DeTVMasterBlindnessReport 
+RTE Data Exchange                        | Rte_IStatus          | RTVIP_PpTVCntrlTVMaster_DeTVCleaningStatus 
+Persistency, DataSet                     | Rte_IStatus          | RTVIP_PpDsTVIPDataSet_DeParametersSTPHekLeft 
+RTE Data Exchange                        | Rte_IStatus          | RTVIP_PpFRACFStateMachineOut_DeFRACFStateMachineOut 
+RTE Data Exchange                        | Rte_Receive          | CtApTVIP_PpEML_DeEML                     
+LCS                                      | Rte_IStatus          | RTVIP_PpPFProvidedData_DeLCSSRHState     
+Persistency, DataSet                     | Rte_IStatus          | RTVIP_PpDsTVIPDataSet_DeParametersSTPHekRight 
+Time Service, Timestamp                  | Rte_Call             | CtApTVIP_PpPFServer_TS_GetZgtTimestamp   
+Persistency, DataSet                     | Rte_IStatus          | RTVIP_PpDsTVIPDataSet_DeParametersHekLeft 
+RTE Data Exchange                        | Rte_Receive          | CtApTVIP_PpFRTVBVin_DeFRTVBVin           
+RTE Data Exchange                        | Rte_Send             | CtApTVIP_PpFencesTVBV_DeTVBVObstacleFences 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApTVIP_PpDiagTVIPRead_DeTVIP_Debug_0x050C 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 70

@@ -1,0 +1,26 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+RTE Data Exchange                        | Rte_Read             | CtApObjectFusionLight_PpCalibFailMV_DeCalibrationMV 
+RTE Data Exchange                        | Rte_Receive          | CtApObjectFusionLight_PpFRPreProcessing2PerceptionAvailability_DeStatusFRSensors 
+RTE Data Exchange                        | Rte_IWriteRef        | ROBFLightMain_PpPerceptionAvailabilityLight_DePerceptionAvailabilityLight 
+RTE Data Exchange                        | Rte_IRead            | ROBFLightMain_PpOBFLightInObjects_DeObjectListOBFLightIn 
+RTE Data Exchange                        | Rte_IStatus          | ROBFLightMain_PpOBFLightInObjects_DeObjectListOBFLightIn 
+RTE Data Exchange                        | Rte_IRead            | ROBFLightMain_PpDsRoadGraphDataSet_DeRoadgraphRGData 
+RTE Data Exchange                        | Rte_IWriteRef        | ROBFLightMain_PpPerceptionAvailabilityKASQVA_DePerceptionAvailabilityKASQVA 
+RTE Data Exchange                        | Rte_Receive          | CtApObjectFusionLight_PpWlaOBFMV_DeWlaObjects 
+RTE Data Exchange                        | Rte_IWriteRef        | ROBFLightMain_PpOBFLightOutObjects_DeObjectListOBFLightOut 
+RTE Data Exchange                        | Rte_IWriteRef        | ROBFLightMain_PpOBFLightOutObjectsACF_DeObjectListOBFLightOutACF 
+SWC Version Info                         | Rte_Call             | CtApObjectFusionLight_PpPFServer_MW_SetSwcInfo 
+HW Variant Interface                     | Rte_IRead            | ROBFLightMain_PpPFProvidedData_DeVARHWVariant 
+RTE Data Exchange                        | Rte_IRead            | ROBFLightMain_PpObjOBFMV_DeOBFObjMVMOD   
+RTE Data Exchange                        | Rte_Receive          | CtApObjectFusionLight_PpUltraSonicProcessing2PerceptionAvailability_DeStatusUSSensors 
+HW Variant Interface                     | Rte_IStatus          | ROBFLightMain_PpPFProvidedData_DeVARHWVariant 
+Time Service, Timestamp                  | Rte_Call             | CtApObjectFusionLight_PpPFServer_TS_GetZgtTimestamp 
+RTE Data Exchange                        | Rte_IWriteRef        | ROBFLightMain_PpPerceptionAvailabilityACFObs_DePerceptionAvailabilityACFObs 
+RTE Data Exchange                        | Rte_Receive          | CtApObjectFusionLight_PpEyeQCom2PerceptionAvailability_DeStatusMV 
+RTE Data Exchange                        | Rte_IWriteRef        | ROBFLightMain_PpPerceptionAvailabilityPreCrash_DePerceptionAvailabilityPreCrash 
+RTE Data Exchange                        | Rte_IWriteRef        | ROBFLightMain_PpPerceptionAvailabilityPark_DePerceptionAvailabilityPark 
+RTE Data Exchange                        | Rte_IStatus          | ROBFLightMain_PpDsRoadGraphDataSet_DeRoadgraphRGData 
+RTE Data Exchange                        | Rte_Receive          | CtApObjectFusionLight_PpTVIP2PerceptionAvailability_DeStatusTVIPSensors 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 22

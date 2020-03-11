@@ -1,0 +1,102 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpVersionInformationAPH_DeReleaseLabel 
+EDR                                      | Rte_Receive          | CtCdEDRPiDriving_PpLcsEdrNvramStorageSSHTrigger_DeWriteAll 
+EDR                                      | Rte_Receive          | CtCdEDRPiDriving_PpOBFObjTVIP_DeTVBVObjCam2 
+UDS Diagnostic, Routine Return           | Rte_Send             | CtCdEDRPiDriving_PpDiagEDRPiDrivingWrite_DeEDR_Pilo_Fa_Trigger_0x1018 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRUSout_DeUS2        
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRParkMonitorout_DeFRParkMonitorout 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpLanesMV_DeLanes      
+SWC Version Info                         | Rte_Call             | CtCdEDRPiDriving_PpPFServer_MW_SetSwcInfo 
+EDR                                      | Rte_Receive          | CtCdEDRPiDriving_PpParkControl2EDR_DeParkControl2EDR 
+UDS Diagnostic, Routine Call             | Rte_Receive          | CtCdEDRPiDriving_PpDiagEDRPiDrivingRead_DeEDR_Pilo_Fa_Trigger_0x1018 
+EDR                                      | Rte_Receive          | CtCdEDRPiDriving_PpFREDRPiDrivingIn_DeFREDRPiDrivingIn 
+EDR                                      | Rte_Receive          | CtCdEDRPiDriving_PpEML_DeEML             
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRParkMonitorout_DeFRParkMonitorout 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpMBFParkFences_DeObstacleFences 
+EDR                                      | Rte_Receive          | CtCdEDRPiDriving_PpRoadProfileEstimationMV_DeRoadProfileEstimation 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRACFStateMachineOut_DeFRACFStateMachineOut 
+UDS Diagnostic, Routine Return           | Rte_Send             | CtCdEDRPiDriving_PpDiagEDRPiDrivingWrite_DeErase_event_data_recorder_0x05F8 
+EDR                                      | Rte_IsUpdated        | CtCdEDRPiDriving_PpDiagBISTSRHWrite_DeMesswerte_BISTSRH 
+EDR                                      | Rte_Receive          | CtCdEDRPiDriving_PpFencesMV_DeFencesMV   
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRACFStateMachineOut_DeFRACFStateMachineOut 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpParkGwHMIsmartphone_DeParkGwHMImaneuver 
+EDR                                      | Rte_IWrite           | REDRPiDrivingMain_PpLcsEdrNvramStorageSSHStatus_DeWriteAllStatus 
+EDR                                      | Rte_Receive          | CtCdEDRPiDriving_PpDM_DeDM               
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRACFout_DeFRACFout  
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpParkMAStatus_DeIPAState 
+EDR                                      | Rte_Receive          | CtCdEDRPiDriving_PpFencesTVBV_DeTVBVObstacleFences 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpOBFOutObjectsACFObs_DeOBFOutObjectsACFObs 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFREyeQComOut_DeSensorHeaderMV 
+EDR                                      | Rte_Receive          | CtCdEDRPiDriving_PpFencesUltraSonic_DeUSObstacleFences 
+UDS Diagnostic, Routine Return           | Rte_Send             | CtCdEDRPiDriving_PpDiagEDRPiDrivingWrite_DeEDR_refresh_MWBs_0x1017 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpMBFParkFences_DeObstacleFences 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpVersionInformationAPH_DeSWCVersionInformation 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpLanesMV_DeLanes      
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpTVMasterCameraCalibration_DeTVMasterCameraCalibration 
+Diagnostic, Coding                       | Rte_Read             | CtCdEDRPiDriving_PpDiagCoding_DeCoding   
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpParkMAStatus_DeIPAState 
+UDS Diagnostic, Routine Call             | Rte_Receive          | CtCdEDRPiDriving_PpDiagEDRPiDrivingRead_DeEDR_refresh_MWBs_0x1017 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpObjOBFMV_DeOBFObjMVPED 
+IF-Set Version                           | Rte_IRead            | REDRPiDrivingMain_PpPFProvidedData_DeIFSETVersion 
+EDR                                      | Rte_Read             | CtCdEDRPiDriving_PpDiagBISTAPHWrite_DeMesswerte_BISTAPH 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpParkProcessing2Control_DeParkProcessing2Control 
+Time Service, Timestamp                  | Rte_Call             | CtCdEDRPiDriving_PpPFServer_TS_GetZgtTimestamp 
+EDR                                      | Rte_Receive          | CtCdEDRPiDriving_PpACFSMEDRPiDriving_DeACFSMEDRPiDriving 
+EDR                                      | Rte_Receive          | CtCdEDRPiDriving_PpWlaOBFMV_DeWlaObjects 
+EDR                                      | Rte_Receive          | CtCdEDRPiDriving_PpOBFObjUltraSonic_DeOBFObjUltraSonic 
+EDR                                      | Rte_Receive          | CtCdEDRPiDriving_PpFencesTVBV_DeTVBVFreespaceFences 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpParkMAStatus_DeParkMAStatus 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpMBFACFFences_DeObstacleFences 
+EDR                                      | Rte_Receive          | CtCdEDRPiDriving_PpDiagEDRPiDrivingRead_DeRequestedMesswert 
+Diagnostic, Set DTC Event                | Rte_Call             | CtCdEDRPiDriving_PpEventHandling_SetEventStatus 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpPerceptionAvailabilityPark_DePerceptionAvailabilityPark 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpObjOBFMV_DeOBFObjMVPED 
+EDR                                      | Rte_Receive          | CtCdEDRPiDriving_PpEthCom2EDR_DeEthCom2EDRCmd4Logfile 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpOBFOutObjectsACFObs_DeOBFOutObjectsACFObs 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpParkProcessing2Control_DeParkProcessing2Control 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpMBFParkFences_DeUnconfidentObstacleFences 
+EDR                                      | Rte_Send             | CtCdEDRPiDriving_PpDiagEDRPiDrivingWrite_De_BLT_EDR_PiloFa_data_dev_0x173C 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpACF2ACFOBS_DeBP      
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpGwSmaRequest_DeGwSmaRequest 
+EDR                                      | Rte_Receive          | CtCdEDRPiDriving_PpLcsEdrNvramStorageSSHTrigger_DeCancelAll 
+EDR                                      | Rte_IsUpdated        | CtCdEDRPiDriving_PpDiagBISTQMSSHWrite_DeMesswerte_BISTQMSSH 
+EDR                                      | Rte_IWrite           | REDRPiDrivingMain_PpEDRCamTriggerTV_DeEDRCamTrigger 
+HW Variant Interface                     | Rte_IRead            | REDRPiDrivingMain_PpPFProvidedData_DeVARHWVariant 
+EDR                                      | Rte_Receive          | CtCdEDRPiDriving_PpOBFObjTVIP_DeTVBVObjCam1 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpMBFParkFences_DeUnconfidentObstacleFences 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpMBFACFFences_DeObstacleFences 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRUSout_DeUS2        
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpPerceptionAvailabilityPark_DePerceptionAvailabilityPark 
+EDR                                      | Rte_Receive          | CtCdEDRPiDriving_PpACFEDRPiDriving_DeACFEDRPiDriving 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRACFout_DeFRACFout  
+Persistency, Data read                   | Rte_IsUpdated        | CtCdEDRPiDriving_PpPdEDRPiDrivingRead_DeLastState_Critical 
+Persistency, DataSet                     | Rte_IRead            | REDRPiDrivingMain_PpDsEDRPiDrivingDataSet_DeEdrPiDrivingParamBlock 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtCdEDRPiDriving_PpDiagEDRPiDrivingRead_DeTestmode_event_data_recorder_0x0BE4 
+EDR                                      | Rte_Send             | CtCdEDRPiDriving_PpEDR2EthCom_DeEDR2EthComLogfileStatus 
+EDR                                      | Rte_IWrite           | REDRPiDrivingMain_PpEDRinhibitPiDriving_DeEDRinhibitPiDriving 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpParkMAStatus_DeParkMAStatus 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFREyeQComOut_DeSensorHeaderMV 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpTVMasterCameraCalibration_DeTVMasterCameraCalibration 
+EDR                                      | Rte_Read             | CtCdEDRPiDriving_PpDiagBISTSRHWrite_DeMesswerte_BISTSRH 
+UDS Diagnostic, Routine Call             | Rte_Receive          | CtCdEDRPiDriving_PpDiagEDRPiDrivingRead_DeErase_event_data_recorder_0x05F8 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpObjOBFMV_DeOBFObjMVMOD 
+Persistency, Data write                  | Rte_Write            | CtCdEDRPiDriving_PpPdEDRPiDrivingWrite_DeLastState_Critical 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpObjectListParking_DeObjArrayParking 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpObjectListParking_DeObjArrayParking 
+Persistency, Data read                   | Rte_Read             | CtCdEDRPiDriving_PpPdEDRPiDrivingRead_DeLastState_Critical 
+EDR                                      | Rte_Receive          | CtCdEDRPiDriving_PpFencesUltraSonic_DeUSFreespaceFences 
+UDS Diagnostic, Routine Return           | Rte_Send             | CtCdEDRPiDriving_PpDiagEDRPiDrivingWrite_DeEDR_Toggling_file_write_protection_flag_0x1013 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpACF2ACFOBS_DeBP      
+EDR                                      | Rte_Read             | CtCdEDRPiDriving_PpDiagBISTQMSSHWrite_DeMesswerte_BISTQMSSH 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpParkGwHMIsmartphone_DeParkGwHMImaneuver 
+Time Service, AGT                        | Rte_Call             | CtCdEDRPiDriving_PpPFServer_TS_GetAgtTimestamp 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpACF2ACFSMS_DeFZE     
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpObjOBFMV_DeOBFObjMVMOD 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpGwSmaRequest_DeGwSmaRequest 
+Diagnostic, DTC clear                    | Rte_Receive          | CtCdEDRPiDriving_PpDiagGlobalRead_DeFSPCleared 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpACF2ACFSMS_DeFZE     
+UDS Diagnostic, Routine Call             | Rte_Receive          | CtCdEDRPiDriving_PpDiagEDRPiDrivingRead_DeEDR_Toggling_file_write_protection_flag_0x1013 
+EDR                                      | Rte_Send             | CtCdEDRPiDriving_PpDiagEDRPiDrivingWrite_De_Iter_EDR_PiloFa_data_0x170A 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 98

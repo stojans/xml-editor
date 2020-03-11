@@ -1,0 +1,23 @@
+#MAP: E:\zFAS-Jenkins\workspace\zFAS_AIT_Master_AAT\SW\0300_ApplicationLayer\branches\CL3_REL_320_3XX\0350_SWC-SET\CtApTVIP\05_data\CtApTVIP.map
+#symbol: .interp         0x00008154       0x19
+#symbol: .dynsym         0x00008904      0xd20
+#symbol: .dynstr         0x00009624      0xc5f
+#symbol: .init           0x0000ab48        0xc
+#symbol: .plt            0x0000ab54      0x920
+#symbol: .iplt           0x0000b474        0x0
+#symbol: .text           0x0000b478    0x95994
+#symbol: .fini           0x000a0e0c        0x8
+#symbol: .rodata         0x000a0e20    0x10938
+#symbol: .tbss           0x00139000        0x4
+#symbol: .jcr            0x0013904c        0x4
+#symbol: .dynamic        0x00139050      0x150
+#symbol: .got            0x001391a0      0x31c
+#symbol: .data           0x001394c0     0x1780
+#symbol: .bss            0x0013ac40  0x331c788
+#symbol: .comment        0x00000000       0x11
+LIBS;libCtApTVIP.a;lib_CpApTVIP.a;libc_nonshared.a;libgcc.a;liblogAdditives.a;libpthread_nonshared.a;
+#CODE;STACK;ROM;RAM
+FORMAT;ROM_CODE;STACK;ROM;RAM;RAM_CODE;FastRAM;FastRAM_CODE
+HEX;95994;0;0xa7a4c;0x33c41d4;95994;0;0
+DEC;612756;0;686668;54280660;612756;0;0
+KB;598;0;670;53008;598;0;0

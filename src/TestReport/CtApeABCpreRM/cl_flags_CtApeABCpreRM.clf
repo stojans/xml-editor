@@ -1,0 +1,127 @@
+Information from parsed log-file
+
+Compiler
+================
+Found:
+-mrtp
+-LE:/pratik.shah@efs-auto.de/EE_Z320_49266/0500_Build/FP/local/../modules/_bin-mods-vxworks-gcc/SSH_VSB/src_inc/usr/lib/common
+-D_NO_EX
+-D_VX_CPU=_VX_ARMARCH7
+-Wpedantic
+-IE:/pratik.shah@efs-auto.de/EE_Z320_49266/0500_Build/FP/local/../modules/_bin-mods-vxworks-gcc/SSH_VSB/src_inc/share/h
+-fno-exceptions
+-D_HAS_C9X
+-D_VX_TOOL_FAMILY=gnu
+-D_VX_TOOL=gnu
+-O2
+-fstrength-reduce
+-D_VSB_CONFIG_FILE="<E:/pratik.shah@efs-auto.de/EE_Z320_49266/0500_Build/FP/local/../modules/_bin-mods-vxworks-gcc/SSH_VSB/src_inc/usr/h/vsbConfig.h>"
+-Wall
+-fasm
+-IE:/pratik.shah@efs-auto.de/EE_Z320_49266/0500_Build/FP/local/../modules/_bin-mods-vxworks-gcc/SSH_VSB/src_inc/usr/h/public
+-MP
+-std=c++98
+-D_C99
+-g0
+-mfpu=neon
+-MD
+-fno-strict-aliasing
+-std=c99
+-Wno-long-long
+-fno-builtin
+-fextended-identifiers
+-t7
+-IE:/pratik.shah@efs-auto.de/EE_Z320_49266/0500_Build/FP/local/../modules/_bin-mods-vxworks-gcc/SSH_VSB/src_inc/usr/h
+-mfloat-abi=softfp
+-DARMEL
+
+Unknown:
+-D_VSB_CONFIG_FILE="<E:/pratik.shah@efs-auto.de/EE_Z320_49266/0500_Build/FP/local/../modules/_bin-mods-vxworks-gcc/SSH_VSB/src_inc/usr/h/vsbConfig.h>"
+-std=c++98
+-D_NO_EX
+-Wno-long-long
+
+Not used Mandatory:
+-D_VSB_CONFIG_FILE=\"vsbConfig.h\"
+-pedantic-errors
+-c
+
+Used Optional:
+-o <output_file>
+-L<library_name>
+-I<IncludeFolder>
+
+Ignored:
+
+
+
+
+Linker
+================
+Found:
+-Wl,-TC:/Tools/VxWorks/compilers/gnu-4.8.1.5/../../vxworks-7/build/tool/gnu_4_8_1/usr/ldscript.vxe.arm
+-mrtp
+-LE:/pratik.shah@efs-auto.de/EE_Z320_49266/0500_Build/FP/local/../modules/_bin-mods-vxworks-gcc/SSH_VSB/src_inc/usr/lib/common
+-fno-strict-aliasing
+-Wpedantic
+-fno-exceptions
+-Wl,-u,__tls__
+-O2
+-fstrength-reduce
+-Wall
+-fasm
+-LE:/pratik.shah@efs-auto.de/EE_Z320_49266/0500_Build/FP/local/build/vxworks-gcc/Release/src-mod/CtApeABCpreRM_Main/lib
+-Wl,--end-group
+-std=c99
+-Xlinker -Map=../bin/CtApeABCpreRM.vxe.map
+-g0
+-mfpu=neon
+-o ../bin/CtApeABCpreRM.vxe
+-fno-builtin
+-Wl,--start-group
+-fextended-identifiers
+-Wl,--defsym,__wrs_rtp_base=0x80000000
+-t7
+-llincore
+-mfloat-abi=softfp
+
+Unknown:
+-std=c++98
+-D_NO_EX
+-Wno-long-long
+
+Not used Mandatory:
+-LC:/data/vx7-Industrial/workspace/qmrtp/../vsb/usr/lib/common
+-pedantic-errors
+
+Used Optional:
+-o <output_file>
+-L<library_name>
+-I<IncludeFolder>
+
+Ignored:
+
+
+
+
+Arguments
+================
+Flag arguments:
+-o: ['../bin/CtApACFObserver.vxe', '../bin/CtApeABCpreRM.vxe']
+
+Function arguments
+"CMakeFiles/CtApACFObserver.vxe.dir/dummy.c.obj"
+"CMakeFiles/CtApeABCpreRM.vxe.dir/dummy.c.obj"
+D:/ARTLINKSPU_Build_Observer/0500_Build/FP/local/../modules/_bin-mods-vxworks-asil/SSH_VSB/src_inc/usr-zfas-asilb/lib/crt0_cert_zFAS.o
+D:/ARTLINKSPU_Build_Observer/0500_Build/FP/local/inst-bin-mods-vxworks-asil/lib/lib_CpApACFObserver.a
+D:/ARTLINKSPU_Build_Observer/0500_Build/FP/local/inst-src-mods-vxworks-asil/lib/libCtApACFObserver_BDL.a
+D:/ARTLINKSPU_Build_Observer/0500_Build/FP/local/inst-src-mods-vxworks-asil/lib/libCtApACFObserver_Implementation.a
+D:/ARTLINKSPU_Build_Observer/0500_Build/FP/local/inst-src-mods-vxworks-asil/lib/libCtApACFObserver_ServerRunnables.a
+E:/pratik.shah@efs-auto.de/EE_Z320_49266/0500_Build/FP/local/inst-bin-mods-vxworks-gcc/lib/lib_CpApeABCpreRM.a
+E:/pratik.shah@efs-auto.de/EE_Z320_49266/0500_Build/FP/local/inst-src-mods-vxworks-gcc/lib/libCtApeABCpreRM_BDL.a
+E:/pratik.shah@efs-auto.de/EE_Z320_49266/0500_Build/FP/local/inst-src-mods-vxworks-gcc/lib/libCtApeABCpreRM_Implementation.a
+E:/pratik.shah@efs-auto.de/EE_Z320_49266/0500_Build/FP/local/inst-src-mods-vxworks-gcc/lib/libCtApeABCpreRM_ServerRunnables.a
+
+
+SWC-Specific definitions
+None

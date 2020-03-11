@@ -1,0 +1,20 @@
+#MAP: E:\zFAS-Jenkins\workspace\zFAS_AIT_Master_AAT\SW\0300_ApplicationLayer\branches\CL3_REL_320_3XX\0350_SWC-SET\CtApObjectFusion\05_data\CtApObjectFusion.vxe.map
+#symbol: .init           0x80000094        0xc
+#symbol: .iplt           0x800000a0        0x0
+#symbol: .text           0x800000a0   0x1a3b10
+#symbol: .fini           0x801a3bb0        0x0
+#symbol: .rodata         0x801a3bb0    0x36685
+#symbol: .tdata          0x801db000        0x4
+#symbol: .ctors          0x801db004      0x2ac
+#symbol: .got            0x801db2b0       0x10
+#symbol: .data           0x801db2c0     0x2434
+#symbol: .edata          0x801dd6f4        0x0
+#symbol: .bss            0x801dd700   0x889430
+#symbol: .comment        0x00000000       0x2f
+#symbol: .stack          0x00080000        0x0
+LIBS;libAudiFusionBase.a;libCtApObjectFusion_BDL.a;libCtApObjectFusion_Implementation.a;libCtApObjectFusion_Runnables.a;libDiagnosisServer.a;libObjectFusion.a;libObjectFusionzFasAdapters.a;libVxWorksAL.a;lib_CpApObjectFusion.a;libc_cert_zFAS.a;libc_internal_cert_zFAS.a;libgcc_cert_zFAS.a;
+#CODE;STACK;ROM;RAM
+FORMAT;ROM_CODE;STACK;ROM;RAM;RAM_CODE;FastRAM;FastRAM_CODE
+HEX;1a3b10;00080000;0x1dc5c9;0xa659f9;1a3b10;0;0
+DEC;1719056;524288;1951177;10902009;1719056;0;0
+KB;1678;512;1905;10646;1678;0;0

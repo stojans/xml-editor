@@ -1,0 +1,63 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+RTE Data Exchange                        | Rte_IStatus          | RTrailerManeuverAssistIPMain_PpPFHwMeasurements_DeTHS 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApTrailerManeuverAssistIP_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+Time Service, Convert AGT                | Rte_Call             | CtApTrailerManeuverAssistIP_PpPFServer_TS_ConvertAgt2Zgt 
+RTE Data Exchange                        | Rte_IWrite           | RTrailerManeuverAssistIPMain_PpFRTVTADout_DeTraceData 
+Time Service, Timestamp                  | Rte_Call             | CtApTrailerManeuverAssistIP_PpPFServer_TS_GetZgtTimestamp 
+Time Service, Remaining Time Budget      | Rte_Call             | CtApTrailerManeuverAssistIP_PpPFServer_TS_GetRemainingTimeBudget 
+Diagnostic, DTC clear                    | Rte_Receive          | CtApTrailerManeuverAssistIP_PpDiagGlobalRead_DeFSPCleared 
+RTE Data Exchange                        | Rte_IStatus          | RTrailerManeuverAssistIPMain_PpPFHwMeasurements_DeVBAT_MAIN 
+HW Variant Interface                     | Rte_IStatus          | RTrailerManeuverAssistIPMain_PpPFProvidedData_DeVARHWVariant 
+IF-Set Version                           | Rte_IStatus          | RTrailerManeuverAssistIPMain_PpPFProvidedData_DeIFSETVersion 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTrailerManeuverAssistIP_PpDiagCoding_DePermitCodingPersistence 
+RTE Data Exchange                        | Rte_IStatus          | RTrailerManeuverAssistIPMain_PpTVCntrlTVMaster_DeTVWingMirrorStatus 
+Time Service, AGT                        | Rte_Call             | CtApTrailerManeuverAssistIP_PpPFServer_TS_GetAgtTimestamp 
+Persistency, Data read                   | Rte_IsUpdated        | CtApTrailerManeuverAssistIP_PpPdTrailerManeuverAssistIPRead_DeARACAMPersistanceLastStatus_Normal 
+RTE Data Exchange                        | Rte_IStatus          | RTrailerManeuverAssistIPMain_PpPFProvidedData_DeTotalSysRestartCnt 
+RTE Data Exchange                        | Rte_IRead            | RTrailerManeuverAssistIPMain_PpPFProvidedData_DeTotalSysRestartCnt 
+RTE Data Exchange                        | Rte_IRead            | RTrailerManeuverAssistIPMain_PpPFHwMeasurements_DeVBAT_MAIN 
+Diagnostic, Get DTC Event                | Rte_Call             | CtApTrailerManeuverAssistIP_PpEventHandling_GetEventStatus 
+Persistency, Data write                  | Rte_Write            | CtApTrailerManeuverAssistIP_PpPdTrailerManeuverAssistIPWrite_DeARACAMPersistanceReference_Normal 
+BAP                                      | Rte_Receive          | CtApTrailerManeuverAssistIP_PpTVCntrlTVMaster_DeTVBapArrayRequest 
+Time Service, Convert ZGT                | Rte_Call             | CtApTrailerManeuverAssistIP_PpPFServer_TS_ConvertZgt2Agt 
+Diagnostic, Global                       | Rte_Read             | CtApTrailerManeuverAssistIP_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+LCS                                      | Rte_IStatus          | RTrailerManeuverAssistIPMain_PpPFProvidedData_DeLCSSRHState 
+LCS                                      | Rte_IStatus          | RTrailerManeuverAssistIPMain_PpPFProvidedData_DeLCSSystemState 
+RTE Data Exchange                        | Rte_IStatus          | RTrailerManeuverAssistIPMain_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApTrailerManeuverAssistIP_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+LCS                                      | Rte_IRead            | RTrailerManeuverAssistIPMain_PpPFProvidedData_DeLCSSSHState 
+Persistency, Data read                   | Rte_Read             | CtApTrailerManeuverAssistIP_PpPdTrailerManeuverAssistIPRead_DeARACAMPersistanceLastStatus_Normal 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTrailerManeuverAssistIP_PpDiagTrailerManeuverAssistIPRead_DeTMA_Software_calibration_0x0517 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApTrailerManeuverAssistIP_PpDiagTrailerManeuverAssistIPRead_DeTMA_Camera_calibration_offset_0x0518 
+BAP                                      | Rte_Receive          | CtApTrailerManeuverAssistIP_PpTVCntrlTVMaster_DeTVBapRequest 
+RTE Data Exchange                        | Rte_IRead            | RTrailerManeuverAssistIPMain_PpPFHwMeasurements_DeTHS 
+RTE Data Exchange                        | Rte_IStatus          | RTrailerManeuverAssistIPMain_PpTVMasterBlindnessReport_DeTVMasterBlindnessReport 
+RTE Data Exchange                        | Rte_IStatus          | RTrailerManeuverAssistIPMain_PpTVCntrlTVMaster_DeTVCleaningStatus 
+RTE Data Exchange                        | Rte_Read             | CtApTrailerManeuverAssistIP_PpDiagCoding_DePermitCodingPersistence 
+LCS                                      | Rte_IRead            | RTrailerManeuverAssistIPMain_PpPFProvidedData_DeLCSSRHState 
+RTE Data Exchange                        | Rte_IRead            | RTrailerManeuverAssistIPMain_PpTVCntrlTVMaster_DeTVCleaningStatus 
+RTE Data Exchange                        | Rte_IWriteRef        | RTrailerManeuverAssistIPMain_PpFRTVTADout_DeTraceData 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApTrailerManeuverAssistIP_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+LCS                                      | Rte_IRead            | RTrailerManeuverAssistIPMain_PpPFProvidedData_DeLCSSystemState 
+Diagnostic, Global                       | Rte_Read             | CtApTrailerManeuverAssistIP_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+Diagnostic, Global                       | Rte_Read             | CtApTrailerManeuverAssistIP_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+LCS                                      | Rte_IRead            | RTrailerManeuverAssistIPMain_PpPFProvidedData_DeLCSMVHState 
+Persistency, Data read                   | Rte_IsUpdated        | CtApTrailerManeuverAssistIP_PpPdTrailerManeuverAssistIPRead_DeARACAMPersistanceCameraCalibration_Normal 
+RTE Data Exchange                        | Rte_IStatus          | RTrailerManeuverAssistIPMain_PpTVCntrlTVMaster_DeTVLogoStatus 
+RTE Data Exchange                        | Rte_IRead            | RTrailerManeuverAssistIPMain_PpTVMasterBlindnessReport_DeTVMasterBlindnessReport 
+Persistency, Data read                   | Rte_Read             | CtApTrailerManeuverAssistIP_PpPdTrailerManeuverAssistIPRead_DeARACAMPersistanceReference_Normal 
+LCS                                      | Rte_IStatus          | RTrailerManeuverAssistIPMain_PpPFProvidedData_DeLCSSSHState 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApTrailerManeuverAssistIP_PpDiagTrailerManeuverAssistIPRead_DeTMA_Camera_calibration_offset_0x0518 
+LCS                                      | Rte_IStatus          | RTrailerManeuverAssistIPMain_PpPFProvidedData_DeLCSAPHState 
+HW Variant Interface                     | Rte_IRead            | RTrailerManeuverAssistIPMain_PpPFProvidedData_DeVARHWVariant 
+RTE Data Exchange                        | Rte_IRead            | RTrailerManeuverAssistIPMain_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+RTE Data Exchange                        | Rte_IRead            | RTrailerManeuverAssistIPMain_PpTVCntrlTVMaster_DeTVWingMirrorStatus 
+RTE Data Exchange                        | Rte_Receive          | CtApTrailerManeuverAssistIP_PpEML_DeEML  
+Persistency, Data write                  | Rte_Write            | CtApTrailerManeuverAssistIP_PpPdTrailerManeuverAssistIPWrite_DeARACAMPersistanceLastStatus_Normal 
+LCS                                      | Rte_IRead            | RTrailerManeuverAssistIPMain_PpPFProvidedData_DeLCSAPHState 
+RTE Data Exchange                        | Rte_IRead            | RTrailerManeuverAssistIPMain_PpTVCntrlTVMaster_DeTVLogoStatus 
+LCS                                      | Rte_IStatus          | RTrailerManeuverAssistIPMain_PpPFProvidedData_DeLCSMVHState 
+Persistency, Data read                   | Rte_IsUpdated        | CtApTrailerManeuverAssistIP_PpPdTrailerManeuverAssistIPRead_DeARACAMPersistanceReference_Normal 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 59

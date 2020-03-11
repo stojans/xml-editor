@@ -1,0 +1,22 @@
+#MAP: E:\zFAS-Jenkins\workspace\zFAS_AIT_Master_AAT\SW\0300_ApplicationLayer\branches\CL3_REL_320_3XX\0350_SWC-SET\CtApInnoDriveStrategy\05_data\CtApInnoDriveStrategy.vxe.map
+#symbol: .init           0x800000b4        0xc
+#symbol: .iplt           0x800000c0        0x0
+#symbol: .text           0x800000c0    0x48cb0
+#symbol: .fini           0x80048d70        0xc
+#symbol: .rodata         0x80048d80     0x7ad8
+#symbol: .tdata          0x80051000        0x4
+#symbol: .tbss           0x80051004        0x0
+#symbol: .ctors          0x80051004       0x40
+#symbol: .dtors          0x80051044       0x10
+#symbol: .got            0x80051054        0x0
+#symbol: .data           0x80051058     0x24b4
+#symbol: .edata          0x8005350c        0x0
+#symbol: .bss            0x80053510    0x153a0
+#symbol: .comment        0x00000000       0x5f
+#symbol: .stack          0x00080000        0x0
+LIBS;libCtApInnoDriveStrategy_BDL.a;libCtApInnoDriveStrategy_Implementation.a;libCtApInnoDriveStrategy_ServerRunnables.a;lib_CpApInnoDriveStrategy.a;libc.a;libc_internal.a;libdsi.a;libgcc.a;liblincore.a;libnet.a;libstdc++.a;
+#CODE;STACK;ROM;RAM
+FORMAT;ROM_CODE;STACK;ROM;RAM;RAM_CODE;FastRAM;FastRAM_CODE
+HEX;48cb0;00080000;0x52c3c;0x67fdc;48cb0;0;0
+DEC;298160;524288;339004;425948;298160;0;0
+KB;291;512;331;415;291;0;0

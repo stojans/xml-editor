@@ -1,0 +1,17 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+RTE Data Exchange                        | Rte_IWriteRef        | RApeABCpreRMMain_PpeABCPreRMTraceData_DeTraceData 
+Persistency, DataSet                     | Rte_IRead            | RApeABCpreRMMain_PpDseABCpreRMDataSet_DeSHPS_RM_RO 
+Diagnostic, Coding                       | Rte_IsUpdated        | CtApeABCpreRM_PpDiagCoding_DeCoding      
+UDS Diagnostic, Messwerte                | Rte_IWriteRef        | RApeABCpreRMMain_PpDiageABCpreRMWrite_DeMesswerte_eABCpreRM 
+Diagnostic, Coding                       | Rte_Read             | CtApeABCpreRM_PpDiagCoding_DeCoding      
+SWC Version Info                         | Rte_Call             | CtApeABCpreRM_PpPFServer_MW_SetSwcInfo   
+RTE Data Exchange                        | Rte_IWriteRef        | RApeABCpreRMMain_PpeABCRoadMapTracks_DeRoadprofile 
+RTE Data Exchange                        | Rte_Receive          | CtApeABCpreRM_PpEML_DeEML                
+Persistency, DataSet                     | Rte_IStatus          | RApeABCpreRMMain_PpDseABCpreRMDataSet_DeSHPS_RM_RO 
+RTE Data Exchange                        | Rte_IRead            | RApeABCpreRMMain_PpCalibFailMV_DeCalibrationMV 
+Time Service, Timestamp                  | Rte_Call             | CtApeABCpreRM_PpPFServer_TS_GetZgtTimestamp 
+RTE Data Exchange                        | Rte_IStatus          | RApeABCpreRMMain_PpCalibFailMV_DeCalibrationMV 
+RTE Data Exchange                        | Rte_Receive          | CtApeABCpreRM_PpRoadProfileEstimationMV_DeRoadProfileEstimation 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 13

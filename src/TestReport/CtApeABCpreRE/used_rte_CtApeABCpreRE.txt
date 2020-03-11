@@ -1,0 +1,21 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+SWC Version Info                         | Rte_Call             | CtApeABCpreRE_PpPFServer_MW_SetSwcInfo   
+RTE Data Exchange                        | Rte_IRead            | RApeABCpreREMain_PpDseABCpreRMDataSet_DeSHPS_RM_RO 
+RTE Data Exchange                        | Rte_Receive          | CtApeABCpreRE_PpEML_DeEML                
+RTE Data Exchange                        | Rte_IRead            | RApeABCpreREMain_PpeABCRoadMapTracks_DeRoadprofile 
+UDS Diagnostic, Messwerte                | Rte_Write            | CtApeABCpreRE_PpDiageABCpreREWrite_DeMesswerte_eABCpreRE 
+RTE Data Exchange                        | Rte_IStatus          | RApeABCpreREMain_PpDseABCpreRMDataSet_DeSHPS_RE_RO 
+RTE Data Exchange                        | Rte_IStatus          | RApeABCpreREMain_PpFReABCin_DeFReABCin   
+RTE Data Exchange                        | Rte_IWriteRef        | RApeABCpreREMain_PpFReABCpreviewRoadout_DeFReABCpreviewRoadout 
+RTE Data Exchange                        | Rte_IWrite           | RApeABCpreREMain_PpFReABCpreviewRoadout_DePduGrp_AFR_Prev 
+RTE Data Exchange                        | Rte_IStatus          | RApeABCpreREMain_PpDseABCpreRMDataSet_DeSHPS_RM_RO 
+Diagnostic, Get DTC Event                | Rte_Call             | CtApeABCpreRE_PpEventHandling_GetEventStatus 
+Diagnostic, Coding                       | Rte_Read             | CtApeABCpreRE_PpDiagCoding_DeCoding      
+RTE Data Exchange                        | Rte_IRead            | RApeABCpreREMain_PpFReABCin_DeFReABCin   
+RTE Data Exchange                        | Rte_IStatus          | RApeABCpreREMain_PpeABCRoadMapTracks_DeRoadprofile 
+Diagnostic, Coding                       | Rte_IsUpdated        | CtApeABCpreRE_PpDiagCoding_DeCoding      
+RTE Data Exchange                        | Rte_IRead            | RApeABCpreREMain_PpDseABCpreRMDataSet_DeSHPS_RE_RO 
+Diagnostic, Set DTC Event                | Rte_Call             | CtApeABCpreRE_PpEventHandling_SetEventStatus 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 17

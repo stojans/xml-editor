@@ -1,0 +1,41 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+RTE Data Exchange                        | Rte_IsUpdated        | CtApEML_PpDiagCoding_DePermitCodingPersistence 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpFREMLinput_DeFREMLinput_ESP44 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpPFHwMeasurements_DeVBAT_MAIN  
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpPFProvidedData_DeTotalSysRestartCnt 
+Diagnostic, Global                       | Rte_Read             | CtApEML_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+Time Service, Convert AGT                | Rte_Call             | CtApEML_PpPFServer_TS_ConvertAgt2Zgt     
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+HW Variant Interface                     | Rte_IRead            | REMLmain_PpPFProvidedData_DeVARHWVariant 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpEgmoSumoMV_DeEgmoSumoMV       
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpFREMLinput_DeFREMLinput_ESP44 
+IF-Set Version                           | Rte_IRead            | REMLmain_PpPFProvidedData_DeIFSETVersion 
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpPFHwMeasurements_DeTHS        
+LCS                                      | Rte_IStatus          | REMLmain_PpPFProvidedData_DeLCSAPHState  
+LCS                                      | Rte_IStatus          | REMLmain_PpPFProvidedData_DeLCSSSHState  
+Diagnostic, Global                       | Rte_IsUpdated        | CtApEML_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+LCS                                      | Rte_IRead            | REMLmain_PpPFProvidedData_DeLCSSystemState 
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpPFHwMeasurements_DeTHS        
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpPFHwMeasurements_DeVBAT_MAIN  
+LCS                                      | Rte_IStatus          | REMLmain_PpPFProvidedData_DeLCSSRHState  
+IF-Set Version                           | Rte_IStatus          | REMLmain_PpPFProvidedData_DeIFSETVersion 
+Time Service, AGT                        | Rte_Call             | CtApEML_PpPFServer_TS_GetAgtTimestamp    
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpEgmoSumoMV_DeEgmoSumoMV       
+RTE Data Exchange                        | Rte_IStatus          | REMLmain_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+LCS                                      | Rte_IStatus          | REMLmain_PpPFProvidedData_DeLCSMVHState  
+HW Variant Interface                     | Rte_IStatus          | REMLmain_PpPFProvidedData_DeVARHWVariant 
+LCS                                      | Rte_IStatus          | REMLmain_PpPFProvidedData_DeLCSSystemState 
+RTE Data Exchange                        | Rte_Read             | CtApEML_PpDiagCoding_DePermitCodingPersistence 
+Time Service, Remaining Time Budget      | Rte_Call             | CtApEML_PpPFServer_TS_GetRemainingTimeBudget 
+LCS                                      | Rte_IRead            | REMLmain_PpPFProvidedData_DeLCSAPHState  
+LCS                                      | Rte_IRead            | REMLmain_PpPFProvidedData_DeLCSMVHState  
+Diagnostic, Global                       | Rte_Read             | CtApEML_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+LCS                                      | Rte_IRead            | REMLmain_PpPFProvidedData_DeLCSSSHState  
+RTE Data Exchange                        | Rte_IRead            | REMLmain_PpPFProvidedData_DeTotalSysRestartCnt 
+LCS                                      | Rte_IRead            | REMLmain_PpPFProvidedData_DeLCSSRHState  
+Time Service, Convert ZGT                | Rte_Call             | CtApEML_PpPFServer_TS_ConvertZgt2Agt     
+RTE Data Exchange                        | Rte_Receive          | CtApEML_PpTVIPEML_DeTVIPEML              
+Diagnostic, Global                       | Rte_IsUpdated        | CtApEML_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 37

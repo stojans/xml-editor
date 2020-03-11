@@ -1,0 +1,56 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+HW Variant Interface                     | Rte_IRead            | RApeABCpreRMMain_PpPFProvidedData_DeVARHWVariant 
+Diagnostic, Global                       | Rte_Read             | CtApeABCpreRM_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+RTE Data Exchange                        | Rte_IStatus          | RApeABCpreRMMain_PpCalibFailMV_DeFailsafeMV 
+LCS                                      | Rte_IRead            | RApeABCpreRMMain_PpPFProvidedData_DeLCSSRHState 
+LCS                                      | Rte_IStatus          | RApeABCpreRMMain_PpPFProvidedData_DeLCSSystemState 
+Time Service, AGT                        | Rte_Call             | CtApeABCpreRM_PpPFServer_TS_GetAgtTimestamp 
+LCS                                      | Rte_IStatus          | RApeABCpreRMMain_PpPFProvidedData_DeLCSSRHState 
+Time Service, Convert ZGT                | Rte_Call             | CtApeABCpreRM_PpPFServer_TS_ConvertZgt2Agt 
+RTE Data Exchange                        | Rte_Read             | CtApeABCpreRM_PpDiagCoding_DePermitCodingPersistence 
+RTE Data Exchange                        | Rte_IStatus          | RApeABCpreRMMain_PpFReABCin_DeFReABCin   
+IF-Set Version                           | Rte_IRead            | RApeABCpreRMMain_PpPFProvidedData_DeIFSETVersion 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApeABCpreRM_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+Persistency, Data read                   | Rte_Read             | CtApeABCpreRM_PpPdeABCpreRMRead_DeSHPS_RM_RW_Normal 
+Diagnostic, Set DTC Event                | Rte_Call             | CtApeABCpreRM_PpEventHandling_SetEventStatus 
+HW Variant Interface                     | Rte_IStatus          | RApeABCpreRMMain_PpPFProvidedData_DeVARHWVariant 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtApeABCpreRM_PpDiageABCpreRMRead_DeEA_preview_blindness_status_0x0525 
+Diagnostic, Global                       | Rte_Read             | CtApeABCpreRM_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApeABCpreRM_PpPdeABCpreRERead_DeSHPS_RE_RW_Normal 
+RTE Data Exchange                        | Rte_IRead            | RApeABCpreRMMain_PpPFProvidedData_DeTotalSysRestartCnt 
+Persistency, Data read                   | Rte_IsUpdated        | CtApeABCpreRM_PpPdeABCpreRMRead_DeSHPS_RM_RW_Normal 
+LCS                                      | Rte_IRead            | RApeABCpreRMMain_PpPFProvidedData_DeLCSSystemState 
+Diagnostic, Global                       | Rte_Read             | CtApeABCpreRM_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+IF-Set Version                           | Rte_IStatus          | RApeABCpreRMMain_PpPFProvidedData_DeIFSETVersion 
+RTE Data Exchange                        | Rte_IStatus          | RApeABCpreRMMain_PpCalibFailMV_DeMXBCalibrationStatusMV 
+LCS                                      | Rte_IStatus          | RApeABCpreRMMain_PpPFProvidedData_DeLCSAPHState 
+LCS                                      | Rte_IStatus          | RApeABCpreRMMain_PpPFProvidedData_DeLCSSSHState 
+LCS                                      | Rte_IRead            | RApeABCpreRMMain_PpPFProvidedData_DeLCSMVHState 
+Persistency, Data write                  | Rte_Write            | CtApeABCpreRM_PpPdeABCpreRMWrite_DeSHPS_RM_RW_Normal 
+Diagnostic, Get DTC Event                | Rte_Call             | CtApeABCpreRM_PpEventHandling_GetEventStatus 
+Diagnostic, DTC clear                    | Rte_Receive          | CtApeABCpreRM_PpDiagGlobalRead_DeFSPCleared 
+RTE Data Exchange                        | Rte_IRead            | RApeABCpreRMMain_PpFReABCin_DeFReABCin   
+RTE Data Exchange                        | Rte_IRead            | RApeABCpreRMMain_PpCalibFailMV_DeMXBCalibrationStatusMV 
+RTE Data Exchange                        | Rte_IStatus          | RApeABCpreRMMain_PpPFHwMeasurements_DeTHS 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApeABCpreRM_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+RTE Data Exchange                        | Rte_IStatus          | RApeABCpreRMMain_PpPFProvidedData_DeTotalSysRestartCnt 
+Time Service, Convert AGT                | Rte_Call             | CtApeABCpreRM_PpPFServer_TS_ConvertAgt2Zgt 
+LCS                                      | Rte_IRead            | RApeABCpreRMMain_PpPFProvidedData_DeLCSAPHState 
+RTE Data Exchange                        | Rte_IRead            | RApeABCpreRMMain_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+Diagnostic, Global                       | Rte_IsUpdated        | CtApeABCpreRM_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+Persistency, DataSet                     | Rte_IRead            | RApeABCpreRMMain_PpDseABCpreRMDataSet_DeSHPS_RE_RO 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApeABCpreRM_PpDiageABCpreRMRead_DeEA_preview_blindness_status_0x0525 
+LCS                                      | Rte_IRead            | RApeABCpreRMMain_PpPFProvidedData_DeLCSSSHState 
+RTE Data Exchange                        | Rte_Read             | CtApeABCpreRM_PpPdeABCpreRERead_DeSHPS_RE_RW_Normal 
+RTE Data Exchange                        | Rte_IRead            | RApeABCpreRMMain_PpPFHwMeasurements_DeVBAT_MAIN 
+RTE Data Exchange                        | Rte_IRead            | RApeABCpreRMMain_PpCalibFailMV_DeFailsafeMV 
+RTE Data Exchange                        | Rte_IStatus          | RApeABCpreRMMain_PpPFHwMeasurements_DeVBAT_MAIN 
+LCS                                      | Rte_IStatus          | RApeABCpreRMMain_PpPFProvidedData_DeLCSMVHState 
+RTE Data Exchange                        | Rte_IStatus          | RApeABCpreRMMain_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+RTE Data Exchange                        | Rte_IRead            | RApeABCpreRMMain_PpPFHwMeasurements_DeTHS 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApeABCpreRM_PpDiagCoding_DePermitCodingPersistence 
+Persistency, DataSet                     | Rte_IStatus          | RApeABCpreRMMain_PpDseABCpreRMDataSet_DeSHPS_RE_RO 
+Time Service, Remaining Time Budget      | Rte_Call             | CtApeABCpreRM_PpPFServer_TS_GetRemainingTimeBudget 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 52

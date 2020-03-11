@@ -1,0 +1,226 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpPSD15_DePSD06m4      
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_Objekt_xx 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRACFStateMachineOut_DeTraceData 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpPSD15_DePSD04        
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRACFout_DePduGrp_HCA_02 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRParkControlout_DeFRParkControlout 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpPerceptionAvailabilityACFObs_DePerceptionAvailabilityACFObs 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRACFout_DePduGrp_STP_02 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpVersionInformationAPH_DeSWCVersionInformation 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRACFout_DePduGrp_PACC_CAC 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpCalibFailMV_DeCalibrationMV 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_Linien_Ego_Doppel 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpPSD15_DePSDLR01m2    
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpPSD15_DePSDLR01m0    
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpDsParkControlDataSet_DeColmCfg 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_Linien_Nebenspuren 
+Diagnostic, Global                       | Rte_IsUpdated        | CtCdEDRPiDriving_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_Linien_Ego_Rechts 
+LCS                                      | Rte_IRead            | REDRPiDrivingMain_PpPFProvidedData_DeLCSMVHState 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpPSD15_DePSD06m2      
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRParkControlout_DePduGrp_IPA_02 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpPFHwMeasurements_DeTHS 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRACFStateMachineOut_DePduGrp_STP_03 
+EDR                                      | Rte_Receive          | CtCdEDRPiDriving_PpDiagBISTQMSSHWrite_DezFAS_Plattform_SSH_eMMC_Register_Readout_0x1019 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRParkControlout_DePduGrp_Parkhilfe2_04 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_SensorHeader 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpPSD15_DePSD06m1      
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV_SensorHeader 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpParkMAStatus_DeLaufzeitModusPACSTP 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpDsParkControlDataSet_DeCustomerCfg_R 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpPSD15_DeMIBSDF201    
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRParkControlout_DePduGrp_PLA2_01 
+Network, Partial Network                 | Rte_IWriteRef        | REDRPiDrivingMain_PpEcuComRequestsEDR_DePartialNetwork 
+EDR                                      | Rte_IWrite           | REDRPiDrivingMain_PpEcuComRequestsEDR_DeRequestsAFSCanRun 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpDsParkControlDataSet_DeIpaCfg_R 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpPSD15_DePSDLR01m0    
+LCS                                      | Rte_IRead            | REDRPiDrivingMain_PpPFProvidedData_DeLCSSRHState 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV_SensorHeader 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRACFout_DePduGrp_EA_01 
+LCS                                      | Rte_IRead            | REDRPiDrivingMain_PpPFProvidedData_DeLCSSSHState 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_Linien_Ego_Links 
+EDR                                      | Rte_Receive          | CtCdEDRPiDriving_PpFencesFR_DeLSObstacleFences 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpPSD15_DePSD06m0      
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpParkMAStatus_DeLaufzeitAnforderungPACPPR 
+EDR                                      | Rte_IsUpdated        | CtCdEDRPiDriving_PpDiagCoding_DePermitCodingPersistence 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpACFMAStatus_DeACAHFCameraDetectionLogics 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_SensorHeader 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRUSout_DePduGrp_APS2_02 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpCalibFailMV_DeCalibrationMV 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV_Objekt_01 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpPSD15_DePSD06m4      
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRACFout_DePduGrp_LDW_02 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_Linien_Ego_Links 
+EDR                                      | Rte_IsUpdated        | CtCdEDRPiDriving_PpDiagEDRPiDrivingRead_DeDeactivate_testmode_event_data_recorder_0x0BE5 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpDsParkControlDataSet_DeVdimCfg 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRParkControlout_DePduGrp_PLA2_Status_02 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpDsParkControlDataSet_DeDapmCfg 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRACFout_DePduGrp_STP_02 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpPSD15_DePSDLR01m3    
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpDsParkControlDataSet_DeMopmCfg 
+LCS                                      | Rte_IStatus          | REDRPiDrivingMain_PpPFProvidedData_DeLCSSSHState 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpPSD15_DePSD05        
+EDR                                      | Rte_Receive          | CtCdEDRPiDriving_PpFencesFR_DeLSFreespaceFences 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_Linien_Ego_Doppel 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpDsParkControlDataSet_DeVctmCfg 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRParkControlout_DeTraceData 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRACFout_DeTraceData 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpPFHwMeasurements_DeTHS 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFREyeQComOut_DeLanesMV 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpParkControl2Processing_DeParkControl2Processing 
+EDR                                      | Rte_IWrite           | REDRPiDrivingMain_PpEcuComRequestsEDR_DeRequestsECURun 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRACFStateMachineOut_DeTraceData 
+Time Service, Convert ZGT                | Rte_Call             | CtCdEDRPiDriving_PpPFServer_TS_ConvertZgt2Agt 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpPSD15_DePSDLR01m3    
+Diagnostic, Global                       | Rte_Read             | CtCdEDRPiDriving_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_ObjektHeader 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpParkProcessing2Control_DeLaufzeitModusPPRPAC 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpPFHwMeasurements_DeVBAT_MAIN 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_MFK_P_Text_01 
+Network, FlexRay Run                     | Rte_IWrite           | REDRPiDrivingMain_PpEcuComRequestsEDR_DeRequestsFlexRayRun 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpPSD15_DePSD06m3      
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpCalibFailMV_DeMXBCalibrationStatusMV 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpPSD15_DePSD06m1      
+EDR                                      | Rte_Receive          | CtCdEDRPiDriving_PpDiagBISTSRHWrite_De_BLT_Platform_zFAS_SRH_eMMC_Register_0x1008 
+Network, FlexRay Run                     | Rte_IWriteRef        | REDRPiDrivingMain_PpEcuComRequestsEDR_DeRequestsFlexRayRun 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpParkProcessing2Control_DeLaufzeitModusPPRPAC 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRParkControlout_DePduGrp_PLA2_Status_02 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpPSD15_DeMIBSDF201    
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpDsParkControlDataSet_DeStateConfig 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRACFStateMachineOut_DePduGrp_STP_03 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRUSout_DeTraceData  
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpACF2ACFSMS_DeFCT     
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFREyeQComOut_DeObjectsMV 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_Linien_Header 
+Diagnostic, Coding                       | Rte_IsUpdated        | CtCdEDRPiDriving_PpDiagCoding_DeCoding   
+Diagnostic, Global                       | Rte_IsUpdated        | CtCdEDRPiDriving_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpPSD15_DePSDLR01m1    
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRParkControlout_DeTraceData 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpPSD15_DePSD06m2      
+Time Service, Remaining Time Budget      | Rte_Call             | CtCdEDRPiDriving_PpPFServer_TS_GetRemainingTimeBudget 
+HW Variant Interface                     | Rte_IStatus          | REDRPiDrivingMain_PpPFProvidedData_DeVARHWVariant 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRParkMonitorout_DeTraceData 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_Linien_Ego_Rechts 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRUSout_DePduGrp_APS2_03 
+EDR                                      | Rte_IWrite           | REDRPiDrivingMain_PpEDRPiDrivingTraceData_DeTraceData 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRACFStateMachineOut_DePduGrp_FAS_VK_01 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpVersionInformationAPH_DeReleaseLabel 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRParkControlout_DePduGrp_PLA2_01 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRUSout_DePduGrp_APS2_Master 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpPSD15_DePSD05        
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRACFout_DePduGrp_HCA_01 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRACFout_DePduGrp_ZFAS_WZO 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpDsParkControlDataSet_DeFilmCfg 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRACFout_DePduGrp_ZFAS_WZO 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRACFout_DePduGrp_ZFAS_VZO 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRParkControlout_DePduGrp_Parkhilfe2_04 
+Network, Partial Network                 | Rte_IWrite           | REDRPiDrivingMain_PpEcuComRequestsEDR_DePartialNetwork 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpPSD15_DeFRRGin       
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFREyeQComOut_DeTraceData 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpPSD15_DePSDLR01m1    
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_MFK_P_Text_01 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRUSout_DePduGrp_APS2_01 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpParkMAStatus_DeLaufzeitAnforderungPACPPR 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpParkControl2Processing_DeParkControl2Processing 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRACFout_DePduGrp_USS_01 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRACFout_DePduGrp_EA_02 
+Diagnostic, Global                       | Rte_Read             | CtCdEDRPiDriving_PpDiagGlobalRead_DeDeactivate_hardware_in_the_loop_mode_0x0BEA 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpDsParkControlDataSet_DeOdomCfg 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRACFout_DePduGrp_HCA_01 
+EDR                                      | Rte_IsUpdated        | CtCdEDRPiDriving_PpDiagEDRPiDrivingRead_DeTestmode_event_data_recorder_0x0BE4 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFREyeQComOut_DeMFKPText01 
+Persistency, DataSet                     | Rte_IStatus          | REDRPiDrivingMain_PpDsEDRPiDrivingDataSet_DeEdrPiDrivingParamBlock 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpACF2ACFOBS_DeACF_LFV_NL 
+EDR                                      | Rte_IsUpdated        | CtCdEDRPiDriving_PpDiagBISTAPHWrite_DeMesswerte_BISTAPH 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRParkMonitorout_DeTraceData 
+LCS                                      | Rte_IStatus          | REDRPiDrivingMain_PpPFProvidedData_DeLCSAPHState 
+EDR                                      | Rte_IWriteRef        | REDRPiDrivingMain_PpEcuComRequestsEDR_DeRequestsAFSCanRun 
+EDR                                      | Rte_IWriteRef        | REDRPiDrivingMain_PpEDRPiDrivingTraceData_DeTraceData 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFREyeQComOut_DeBV1default 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFREyeQComOut_DeTraceData 
+Diagnostic, Global                       | Rte_IsUpdated        | CtCdEDRPiDriving_PpDiagGlobalRead_DeRoller_Test_Stand_Mode_0x04FB 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpACFMAStatus_DeACAHFCameraDetectionLogics 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpCalibFailMV_DeFailsafeMV 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRACFStateMachineOut_DePduGrp_FAS_VK_01 
+LCS                                      | Rte_IStatus          | REDRPiDrivingMain_PpPFProvidedData_DeLCSMVHState 
+EDR                                      | Rte_Receive          | CtCdEDRPiDriving_PpDiagBISTQMSSHWrite_De_BLT_Platform_zFAS_SSH_eMMC_Register_0x1068 
+EDR                                      | Rte_Receive          | CtCdEDRPiDriving_PpACFMAStatus_DeMAACFStatus 
+EDR                                      | Rte_Receive          | CtCdEDRPiDriving_PpFencesFR_DeMRRObstacleFencesFR 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpDsParkControlDataSet_DeOdomCfg 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpPFHwMeasurements_DeVBAT_MAIN 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpPSD15_DePSD04        
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRACFout_DePduGrp_LDW_02 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_ObjektHeader 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_Linien_Header 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpDsParkControlDataSet_DeVdimCfg 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpRGExtPSD_DeRGExtPSD  
+EDR                                      | Rte_Receive          | CtCdEDRPiDriving_PpFencesFR_DeLRRObstacleFences 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpDsParkControlDataSet_DeFilmCfg 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRParkControlout_DePduGrp_IPA_02 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV_Objekt_01 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRUSout_DeTraceData  
+IF-Set Version                           | Rte_IStatus          | REDRPiDrivingMain_PpPFProvidedData_DeIFSETVersion 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRParkControlout_DePduGrp_IPA_01 
+UDS Diagnostic, Anpassung                | Rte_Read             | CtCdEDRPiDriving_PpDiagEDRPiDrivingRead_DeDeactivate_testmode_event_data_recorder_0x0BE5 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRACFout_DeTraceData 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRUSout_DePduGrp_APS2_02 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpDsParkControlDataSet_DeCustomerCfg_R 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpACF2ACFOBS_DeACF_LFV_NL 
+LCS                                      | Rte_IRead            | REDRPiDrivingMain_PpPFProvidedData_DeLCSAPHState 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRACFout_DePduGrp_ZFAS_VZO 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpACF2ACFSMS_DeFCT     
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFREyeQComOut_DeLanesMV 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRACFout_DePduGrp_USS_01 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpDsParkControlDataSet_DeDapmCfg 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRACFout_DePduGrp_EA_02 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRACFout_DePduGrp_HCA_02 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpDsParkControlDataSet_DeMopmCfg 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpRGExtPSD_DeRGExtPSD  
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpPFProvidedData_DeTotalSysRestartCnt 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRUSout_DePduGrp_APS2_Master 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpPSD15_DePSDLR01m2    
+Time Service, Convert AGT                | Rte_Call             | CtCdEDRPiDriving_PpPFServer_TS_ConvertAgt2Zgt 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRParkControlout_DeFRParkControlout 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRParkControlout_DePduGrp_Parkhilfe2_01 
+LCS                                      | Rte_IRead            | REDRPiDrivingMain_PpPFProvidedData_DeLCSSystemState 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRACFout_DePduGrp_PACC_CAC 
+Diagnostic, Get DTC Event                | Rte_Call             | CtCdEDRPiDriving_PpEventHandling_GetEventStatus 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpPFProvidedData_DeTotalSysRestartCnt 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFREyeQComOut_DeBV1default 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpDsParkControlDataSet_DeIpaCfg_R 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpDsParkControlDataSet_DeStateConfig 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpDsParkControlDataSet_DeVctmCfg 
+LCS                                      | Rte_IStatus          | REDRPiDrivingMain_PpPFProvidedData_DeLCSSystemState 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_Linien_Nebenspuren 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpCalibFailMV_DeFailsafeMV 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRParkControlout_DePduGrp_PLA2_02 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpPerceptionAvailabilityACFObs_DePerceptionAvailabilityACFObs 
+UDS Diagnostic, Messwerte                | Rte_Write            | CtCdEDRPiDriving_PpDiagEDRPiDrivingWrite_DeMesswerte_EDRPiDriving 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpPSD15_DePSD06m3      
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpPFProvidedData_DeCurConsecutiveSysRestartCnt 
+LCS                                      | Rte_IStatus          | REDRPiDrivingMain_PpPFProvidedData_DeLCSSRHState 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpPSD15_DePSD06m0      
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFREyeQComOut_DeMFKPText01 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRParkControlout_DePduGrp_ZFAS_01 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRParkControlout_DePduGrp_PLA2_02 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRParkControlout_DePduGrp_Parkhilfe2_01 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpCalibFailMV_DeMXBCalibrationStatusMV 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRParkControlout_DePduGrp_IPA_01 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpPSD15_DeFRRGin       
+Diagnostic, Global                       | Rte_Read             | CtCdEDRPiDriving_PpDiagGlobalRead_DePlatform_zFAS_hil_mode_0x0500 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpParkMAStatus_DeLaufzeitModusPACSTP 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRACFout_DePduGrp_EA_01 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFRParkControlout_DePduGrp_ZFAS_01 
+EDR                                      | Rte_Receive          | CtCdEDRPiDriving_PpFencesFR_DeMRRObstacleFencesFL 
+EDR                                      | Rte_Read             | CtCdEDRPiDriving_PpDiagCoding_DePermitCodingPersistence 
+EDR                                      | Rte_IStatus          | REDRPiDrivingMain_PpFREyeQComOut_DeObjectsMV 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRUSout_DePduGrp_APS2_03 
+EDR                                      | Rte_IWriteRef        | REDRPiDrivingMain_PpEcuComRequestsEDR_DeRequestsECURun 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFRUSout_DePduGrp_APS2_01 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpFREyeQComOut_DePduGrp_BV2_Objekt_xx 
+EDR                                      | Rte_IRead            | REDRPiDrivingMain_PpDsParkControlDataSet_DeColmCfg 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 222

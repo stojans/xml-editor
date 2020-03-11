@@ -1,0 +1,32 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+RTE Data Exchange                        | Rte_IRead            | RAFS_Main_PpPFHwMeasurements_DeTHS       
+RTE Data Exchange                        | Rte_IStatus          | RAFS_Main_PpPFHwMeasurements_DeVBAT_MAIN 
+Time Service, AGT                        | Rte_Call             | CtApLight_PpPFServer_TS_GetAgtTimestamp  
+Time Service, Timestamp                  | Rte_Call             | CtApLight_PpPFServer_TS_GetZgtTimestamp  
+RTE Data Exchange                        | Rte_IWriteRef        | RAFS_Main_PpFRLightOut_DeTraceData       
+RTE Data Exchange                        | Rte_IStatus          | RAFS_Main_PpDsPAHSDataSet_DePahsConfigMxb 
+Persistency, DataSet                     | Rte_IStatus          | RAFS_Main_PpDsLightDataSet_DeCalibrationParamData 
+RTE Data Exchange                        | Rte_IRead            | RAFS_Main_PpDsPAHSDataSet_DePahsConfig   
+Time Service, Remaining Time Budget      | Rte_Call             | CtApLight_PpPFServer_TS_GetRemainingTimeBudget 
+RTE Data Exchange                        | Rte_IRead            | RAFS_Main_PpACF2ACFOBS_DeACF_LFV_NL      
+RTE Data Exchange                        | Rte_IRead            | RAFS_Main_PpPFHwMeasurements_DeVBAT_MAIN 
+LCS                                      | Rte_IStatus          | RAFS_Main_PpPFProvidedData_DeLCSMVHState 
+RTE Data Exchange                        | Rte_IsUpdated        | CtApLight_PpDiagCoding_DePermitCodingPersistence 
+Time Service, Convert ZGT                | Rte_Call             | CtApLight_PpPFServer_TS_ConvertZgt2Agt   
+RTE Data Exchange                        | Rte_IWrite           | RAFS_Main_PpFRLightOut_DeTraceData       
+LCS                                      | Rte_IRead            | RAFS_Main_PpPFProvidedData_DeLCSSSHState 
+RTE Data Exchange                        | Rte_IStatus          | RAFS_Main_PpDsPAHSDataSet_DePahsConfig   
+RTE Data Exchange                        | Rte_IRead            | RAFS_Main_PpDsPAHSDataSet_DePahsConfigLight 
+RTE Data Exchange                        | Rte_IStatus          | RAFS_Main_PpDsPAHSDataSet_DePahsConfigLight 
+LCS                                      | Rte_IStatus          | RAFS_Main_PpPFProvidedData_DeLCSSRHState 
+LCS                                      | Rte_IRead            | RAFS_Main_PpPFProvidedData_DeLCSMVHState 
+Time Service, Convert AGT                | Rte_Call             | CtApLight_PpPFServer_TS_ConvertAgt2Zgt   
+RTE Data Exchange                        | Rte_IStatus          | RAFS_Main_PpACF2ACFOBS_DeACF_LFV_NL      
+RTE Data Exchange                        | Rte_IRead            | RAFS_Main_PpDsPAHSDataSet_DePahsConfigMxb 
+LCS                                      | Rte_IStatus          | RAFS_Main_PpPFProvidedData_DeLCSSSHState 
+RTE Data Exchange                        | Rte_IStatus          | RAFS_Main_PpPFHwMeasurements_DeTHS       
+RTE Data Exchange                        | Rte_Read             | CtApLight_PpDiagCoding_DePermitCodingPersistence 
+LCS                                      | Rte_IRead            | RAFS_Main_PpPFProvidedData_DeLCSSRHState 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 28

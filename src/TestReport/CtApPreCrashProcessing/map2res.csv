@@ -1,0 +1,20 @@
+#MAP: E:\zFAS-Jenkins\workspace\zFAS_AIT_Master_AAT\SW\0300_ApplicationLayer\branches\CL3_REL_320_3XX\0350_SWC-SET\CtApPreCrashProcessing\05_data\CtApPreCrashProcessing.vxe.map
+#symbol: .init           0x80000094        0xc
+#symbol: .iplt           0x800000a0        0x0
+#symbol: .text           0x800000a0    0x26fec
+#symbol: .fini           0x8002708c        0x0
+#symbol: .rodata         0x80027090     0x8420
+#symbol: .tdata          0x80030000        0x4
+#symbol: .ctors          0x80030004       0x28
+#symbol: .got            0x8003002c       0x10
+#symbol: .data           0x8003003c     0x2a6c
+#symbol: .edata          0x80032aa8        0x0
+#symbol: .bss            0x80032aa8     0x34d0
+#symbol: .comment        0x00000000       0x2f
+#symbol: .stack          0x00080000        0x0
+LIBS;libCtApPreCrashProcessing_BDL.a;libCtApPreCrashProcessing_Implementation.a;libCtApPreCrashProcessing_ServerRunnables.a;lib_CpApPreCrashProcessing.a;libc_cert_zFAS.a;libc_internal_cert_zFAS.a;libgcc_cert_zFAS.a;
+#CODE;STACK;ROM;RAM
+FORMAT;ROM_CODE;STACK;ROM;RAM;RAM_CODE;FastRAM;FastRAM_CODE
+HEX;26fec;00080000;0x31e78;0x35348;26fec;0;0
+DEC;159724;524288;204408;217928;159724;0;0
+KB;155;512;199;212;155;0;0

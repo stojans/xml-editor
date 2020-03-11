@@ -1,0 +1,20 @@
+#MAP: E:\zFAS-Jenkins\workspace\zFAS_AIT_Master_AAT\SW\0300_ApplicationLayer\branches\CL3_REL_320_3XX\0350_SWC-SET\CtApMapFusion\05_data\CtApMapFusion.vxe.map
+#symbol: .init           0x80000094        0xc
+#symbol: .iplt           0x800000a0        0x0
+#symbol: .text           0x800000a0   0x2bb9dc
+#symbol: .fini           0x802bba7c        0x0
+#symbol: .rodata         0x802bba80    0x23378
+#symbol: .tdata          0x802df000        0x4
+#symbol: .ctors          0x802df004      0x124
+#symbol: .got            0x802df128       0x10
+#symbol: .data           0x802df138     0x22c0
+#symbol: .edata          0x802e13f8        0x0
+#symbol: .bss            0x802e1400  0x2a95c88
+#symbol: .comment        0x00000000       0x2f
+#symbol: .stack          0x00080000        0x0
+LIBS;libAudiFusionBase.a;libCtApMapFusion_AlgoAL.a;libCtApMapFusion_BDL.a;libCtApMapFusion_Implementation.a;libCtApMapFusion_Runnables.a;libCtApMapFusion_ServerRunnables.a;libDiagnosisServer.a;libFencesAdapter_zFASFences.a;libFencesApi.a;libMapFusionLib.a;libMapFusionLog.a;libVxWorksAL.a;libZFASObject2MLBevoObject.a;lib_CpApMapFusion.a;libc_cert_zFAS.a;libc_internal_cert_zFAS.a;libgcc_cert_zFAS.a;
+#CODE;STACK;ROM;RAM
+FORMAT;ROM_CODE;STACK;ROM;RAM;RAM_CODE;FastRAM;FastRAM_CODE
+HEX;2bb9dc;00080000;0x2e1014;0x2d76c9c;2bb9dc;0;0
+DEC;2865628;524288;3018772;47672476;2865628;0;0
+KB;2798;512;2948;46555;2798;0;0

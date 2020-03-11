@@ -1,0 +1,26 @@
+Category                                 | RTE type             | Interface                                
+------------------------------------     | -----------------    | ------------------------------------   
+Diagnostic, Set DTC Event                | Rte_Call             | CtApGwSmartPhone_PpEventHandling_SetEventStatus 
+Network, PDU group interface             | Rte_IWriteRef        | RGWSmartPhone10ms_PpFRGwSmartPhoneOut_DePduGrp_Parken_SM_01 
+Persistency, DataSet                     | Rte_IStatus          | RGWSmartPhone10ms_PpDsGwSmartPhoneDataSet_DeTouchscreenPark 
+RTE Data Exchange                        | Rte_IStatus          | RGWSmartPhone10ms_PpParkGwHMIsmartphone_DeParkGwHMImaneuver 
+Persistency, DataSet                     | Rte_IStatus          | RGWSmartPhone10ms_PpDsGwSmartPhoneDataSet_DeTimeout 
+RTE Data Exchange                        | Rte_IRead            | RGWSmartPhone10ms_PpParkGwHMIsmartphone_DeParkGwHMImaneuver 
+RTE Data Exchange                        | Rte_IStatus          | RGWSmartPhone10ms_PpFRGwSmartPhoneIn_DeFRGwSmartPhoneIn 
+Diagnostic, Get DTC Event                | Rte_Call             | CtApGwSmartPhone_PpEventHandling_GetEventStatus 
+Network, PDU group interface             | Rte_IWriteRef        | RGWSmartPhone10ms_PpFRGwSmartPhoneOut_DePduGrp_Parken_SM_03_xx 
+RTE Data Exchange                        | Rte_IWriteRef        | RGWSmartPhone10ms_PpFRGwSmartPhoneOut_DeTraceData 
+Network, PDU group interface             | Rte_IWriteRef        | RGWSmartPhone10ms_PpFRGwSmartPhoneOut_DePduGrp_Parken_SM_02 
+UDS Diagnostic, Messwerte                | Rte_Write            | CtApGwSmartPhone_PpDiagGwSmartPhoneWrite_DeMesswerte_GwSmartPhone 
+Diagnostic, Coding                       | Rte_Read             | CtApGwSmartPhone_PpDiagCoding_DeCoding   
+Persistency, DataSet                     | Rte_IRead            | RGWSmartPhone10ms_PpDsGwSmartPhoneDataSet_DeTimeout 
+RTE Data Exchange                        | Rte_IRead            | RGWSmartPhone10ms_PpFRGwSmartPhoneIn_DeFRGwSmartPhoneIn 
+RTE Data Exchange                        | Rte_IWriteRef        | RGWSmartPhone10ms_PpFRGwSmartPhoneOut_DeFRGwSmartPhoneOut 
+Persistency, DataSet                     | Rte_IRead            | RGWSmartPhone10ms_PpDsGwSmartPhoneDataSet_DeTouchscreenPark 
+RTE Data Exchange                        | Rte_IWriteRef        | RGWSmartPhone10ms_PpGwSmaRequest_DeGwSmaRequest 
+SWC Version Info                         | Rte_Call             | CtApGwSmartPhone_PpPFServer_MW_SetSwcInfo 
+RTE Data Exchange                        | Rte_IRead            | RGWSmartPhone10ms_PpPFHwMeasurements_DeVBAT_MAIN 
+RTE Data Exchange                        | Rte_IStatus          | RGWSmartPhone10ms_PpPFHwMeasurements_DeVBAT_MAIN 
+Time Service, Timestamp                  | Rte_Call             | CtApGwSmartPhone_PpPFServer_TS_GetZgtTimestamp 
+------------------------------------     | -----------------    | ------------------------------------   
+#Total Interfaces: 22

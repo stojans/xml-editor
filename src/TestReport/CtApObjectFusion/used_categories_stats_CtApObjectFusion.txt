@@ -1,0 +1,39 @@
+Category                                 |   % used     |        nr of used IF  /    number of available IF   
+------------------------------------     | ------------ | --------------------------------------------------  
+UDS Diagnostic, Anpassung                |   0.00% used |    0 interfaces used  /    1 interfaces available 
+UDS Diagnostic, Messwerte                | 100.00% used |    1 interfaces used  /    1 interfaces available 
+UDS Diagnostic, Stellglied Call          |         n/a  |    0 interfaces used  /    0 interfaces available 
+UDS Diagnostic, Stellglied Return        |         n/a  |    0 interfaces used  /    0 interfaces available 
+UDS Diagnostic, Routine Call             |         n/a  |    0 interfaces used  /    0 interfaces available 
+UDS Diagnostic, Routine Return           |         n/a  |    0 interfaces used  /    0 interfaces available 
+Diagnostic, Coding                       | 100.00% used |    2 interfaces used  /    2 interfaces available 
+Diagnostic, Set DTC Event                | 100.00% used |    1 interfaces used  /    1 interfaces available 
+Diagnostic, Get DTC Event                | 100.00% used |    1 interfaces used  /    1 interfaces available 
+Diagnostic, DTC clear                    | 100.00% used |    1 interfaces used  /    1 interfaces available 
+Diagnostic, Global                       |   0.00% used |    0 interfaces used  /    6 interfaces available 
+Persistency, Big Data                    |         n/a  |    0 interfaces used  /    0 interfaces available 
+Persistency, DataSet                     | 100.00% used |    2 interfaces used  /    2 interfaces available 
+Persistency, APH status                  |         n/a  |    0 interfaces used  /    0 interfaces available 
+Persistency, SSH status                  |         n/a  |    0 interfaces used  /    0 interfaces available 
+Persistency, SRH status                  |         n/a  |    0 interfaces used  /    0 interfaces available 
+Persistency, Data read                   |         n/a  |    0 interfaces used  /    0 interfaces available 
+Persistency, Data write                  |         n/a  |    0 interfaces used  /    0 interfaces available 
+Network, Partial Network                 |         n/a  |    0 interfaces used  /    0 interfaces available 
+Network, ECU Run                         |         n/a  |    0 interfaces used  /    0 interfaces available 
+Network, FlexRay Run                     |         n/a  |    0 interfaces used  /    0 interfaces available 
+Network, Wake Up                         |         n/a  |    0 interfaces used  /    0 interfaces available 
+Network, PDU group interface             |         n/a  |    0 interfaces used  /    0 interfaces available 
+Time Service, Timestamp                  |   0.00% used |    0 interfaces used  /    1 interfaces available 
+Time Service, Remaining Time Budget      | 100.00% used |    1 interfaces used  /    1 interfaces available 
+Time Service, AGT                        |   0.00% used |    0 interfaces used  /    1 interfaces available 
+Time Service, Convert ZGT                |   0.00% used |    0 interfaces used  /    1 interfaces available 
+Time Service, Convert AGT                |   0.00% used |    0 interfaces used  /    1 interfaces available 
+SWC Version Info                         | 100.00% used |    1 interfaces used  /    1 interfaces available 
+LCS                                      |   0.00% used |    0 interfaces used  /   10 interfaces available 
+HW Variant Interface                     |   0.00% used |    0 interfaces used  /    2 interfaces available 
+IF-Set Version                           |   0.00% used |    0 interfaces used  /    2 interfaces available 
+BAP                                      |         n/a  |    0 interfaces used  /    0 interfaces available 
+EDR                                      |         n/a  |    0 interfaces used  /    0 interfaces available 
+RTE Data Exchange                        |  59.00% used |   26 interfaces used  /   44 interfaces available 
+------------------------------------     | ------------ | --------------------------------------------------  
+TOTAL                                    |  45.00% used |   36 interfaces used  /   79 interfaces available 

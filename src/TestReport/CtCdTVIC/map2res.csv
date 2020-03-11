@@ -1,0 +1,23 @@
+#MAP: E:\zFAS-Jenkins\workspace\zFAS_AIT_Master_AAT\SW\0300_ApplicationLayer\branches\CL3_REL_320_3XX\0350_SWC-SET\CtCdTVIC\05_data\CtCdTVIC.map
+#symbol: .interp         0x00008154       0x19
+#symbol: .dynsym         0x00008e5c     0x1b30
+#symbol: .dynstr         0x0000a98c     0x3369
+#symbol: .init           0x0000eb74        0xc
+#symbol: .plt            0x0000eb80      0xdc4
+#symbol: .iplt           0x0000f944        0x0
+#symbol: .text           0x0000f948    0xa0294
+#symbol: .fini           0x000afbfc        0x8
+#symbol: .rodata         0x000afc08    0x18730
+#symbol: .tbss           0x000d34ec        0x4
+#symbol: .jcr            0x000d3508        0x4
+#symbol: .dynamic        0x000d4580      0x190
+#symbol: .got            0x000d4710      0x6bc
+#symbol: .data           0x000d4dd0     0x1af8
+#symbol: .bss            0x000d68c8     0x1e10
+#symbol: .comment        0x00000000       0x11
+LIBS;libCtCdTVIC.a;libCtCdTVICConti.a;lib_CpCdTVIC.a;libc_nonshared.a;libgcc.a;libgcc_eh.a;libpthread_nonshared.a;librt.a;
+#CODE;STACK;ROM;RAM
+FORMAT;ROM_CODE;STACK;ROM;RAM;RAM_CODE;FastRAM;FastRAM_CODE
+HEX;a0294;0;0xba4bc;0xbc2cc;a0294;0;0
+DEC;656020;0;763068;770764;656020;0;0
+KB;640;0;745;752;640;0;0

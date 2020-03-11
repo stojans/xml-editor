@@ -1,0 +1,21 @@
+#MAP: E:\zFAS-Jenkins\workspace\zFAS_AIT_Master_AAT\SW\0300_ApplicationLayer\branches\CL3_REL_320_3XX\0350_SWC-SET\CtCdEDRPiDriving\05_data\CtCdEDRPiDriving.vxe.map
+#symbol: .init           0x800000b4        0xc
+#symbol: .iplt           0x800000c0        0x0
+#symbol: .text           0x800000c0    0x54afc
+#symbol: .fini           0x80054bbc        0xc
+#symbol: .rodata         0x80054bc8     0xd988
+#symbol: .tdata          0x80063000        0x4
+#symbol: .ctors          0x80063004       0x40
+#symbol: .dtors          0x80063044       0x10
+#symbol: .got            0x80063054        0x0
+#symbol: .data           0x80063058     0x9e90
+#symbol: .edata          0x8006cee8        0x0
+#symbol: .bss            0x8006cee8  0x68cb354
+#symbol: .comment        0x00000000       0x2f
+#symbol: .stack          0x00080000        0x0
+LIBS;libCtCdEDRPiDriving_BDL.a;libCtCdEDRPiDriving_Implementation.a;libCtCdEDRPiDriving_ServerRunnables.a;lib_CpCdEDRPiDriving.a;libc.a;libc_internal.a;libdsi.a;libgcc.a;liblincore.a;libnet.a;libstdc++.a;
+#CODE;STACK;ROM;RAM
+FORMAT;ROM_CODE;STACK;ROM;RAM;RAM_CODE;FastRAM;FastRAM_CODE
+HEX;54afc;00080000;0x6c314;0x6937668;54afc;0;0
+DEC;346876;524288;443156;110327400;346876;0;0
+KB;338;512;432;107741;338;0;0
