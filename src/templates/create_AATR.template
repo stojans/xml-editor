@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="A-AcceptTestReport.xsl"?>
+<ns2:A-AcceptTestReport xsi:schemaLocation="http://tttech.com/TestReports TestReportScheme.0.9.1.xsd http://tttech.com/SuplierReleaseNotes ReleaseNotesScheme.0.9.1.xsd" xmlns="http://tttech.com/SuplierReleaseNotes" xmlns:ns2="http://tttech.com/TestReports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns2:Release>{{ release_da.release }}</ns2:Release>
+    <ns2:Platform>{{ release_da.platform }}</ns2:Platform>
+	<ns2:SWC desc="Identification of SWC Release. This information will be used to check version consistency with embedded libraries (version output on target).">
+        <SWC_Name>{{ swc_row.swc_name }}</SWC_Name>
+        <SWC_Version desc="Release Version format must be NNN. BuildTimestamp format must be YYYYMMDDHHMMSS">
+            <ReleaseKind>{{ swc_row.releasekind }}</ReleaseKind>
+            <ReleaseVersion>{{ swc_row.releaseversion }}</ReleaseVersion>
+            <IF-SET_Variant>{{ swc_row.ifset_variant }}</IF-SET_Variant>
+            <IF-SET_Major>{{ swc_row.ifset_major }}</IF-SET_Major>
+            <IF-SET_Minor>{{ swc_row.ifset_minor }}</IF-SET_Minor>
+            <Platform_Major>{{ swc_row.platform_major }}</Platform_Major>
+            <Platform_Minor>{{ swc_row.platform_minor }}</Platform_Minor>
+            <Platform_BuildTimestamp>{{ swc_row.platform_buildtimestamp }}</Platform_BuildTimestamp>
+            <SWC_Major>{{ swc_row.swc_major }}</SWC_Major>
+            <SWC_Minor>{{ swc_row.swc_minor }}</SWC_Minor>
+            <SWC_BuildTimestamp>{{ swc_row.swc_buildtimestamp }}</SWC_BuildTimestamp>
+        </SWC_Version>
+        <SWC_ASIL_Level>{{ swc_row.swc_asil_level }}</SWC_ASIL_Level>
+        <SWC_Host>{{ swc_row.swc_host }}</SWC_Host>
+        <Description>{{ swc_row.description }}</Description>
+    </ns2:SWC>
+    <ns2:Comment>{{ swc_da.comment }}</ns2:Comment>
+    <ns2:DocumentInfo desc="Description of the document (document version, document author, document status)">
+        <DocumentId>{{ swc_da.documentid }}</DocumentId>
+        <DocumentVersion>{{ swc_da.documentversion }}</DocumentVersion>
+        <DocumentStatus>{{ swc_da.documentstatus }}</DocumentStatus>
+        <DocumentDescription>{{ swc_da.documentdescription }} </DocumentDescription>
+        <DocumentAuthor desc="Please add author contact information. He/She releases the delivery and is the first contact person for questions and responsible for the delivery.">
+            <Name>{{ swc_da.name }}</Name>
+            <Company>{{ swc_da.company }}</Company>
+            <Address>{{ swc_da.address }}</Address>
+            <e-mail>{{ swc_da.email }}</e-mail>
+            <Tel>{{ swc_da.tel }}</Tel>
+        </DocumentAuthor>
+        <DocumentCreationDate>{{ swc_da.documentcreationdate }}</DocumentCreationDate>
+    </ns2:DocumentInfo>
+    <ns2:RevisionHistory desc="Note the document revision history (changes in the document)">{% for rev in dbRevisionHistory %}    
+		<Revision desc="Briefly describe the history and changes made to the document, starting from first review.">
+            <Document_Version>{{ rev.Document_Version }}</Document_Version>
+            <Date>{{ rev.Date }}</Date>
+            <ResponsiblePerson>{{ rev.ResponsiblePerson }}</ResponsiblePerson>
+            <Description>{{ rev.Description }}</Description>
+        </Revision>{% endfor %}
+    </ns2:RevisionHistory>
+    <ns2:Test result="{{ swc_da.overallresult }}" integrationRecommendationResult="{{swc_da.ir_rec_result}}" desc="Description of all test cases">{% for test_case in AatTestCases %}        
+		<ns2:TestCase priority="{{ test_case.tcpriority }}" desc="Description of one Application Test Report Test Case" ID="{{ test_case.ID }}" >
+            <Name>{{ test_case.Name }}</Name>
+            <Description>{{ test_case.Description }}</Description>
+            <Comment>{{ test_case.Comment }}</Comment>
+            <Explanation>{{ test_case.Explanation }}</Explanation>
+            <Begin>
+                <Date>{{ test_case.begindate }}</Date>
+                <Time>{{ test_case.begintime }}</Time>
+            </Begin>
+            <End>
+                <Date>{{ test_case.enddate }}</Date>
+                <Time>{{ test_case.endtime }}</Time>
+            </End>
+            <ns2:TestCaseSummary result="{{ test_case.result}}">
+                <Ratio_A>{{ test_case.Ratio_A }}</Ratio_A>
+                <Ratio_B>{{ test_case.Ratio_B }}</Ratio_B>
+            </ns2:TestCaseSummary>
+            <ns2:TestCaseNumber>{{ test_case.TestCaseNumber }}</ns2:TestCaseNumber>{% for bug_ref in test_case.bug_ref_list %}
+			<BugReference>{{ bug_ref }}</BugReference>{% endfor %}
+        </ns2:TestCase>{% endfor %}{% for tct in TestCaseTable_list %}
+		<ns2:TestCaseTable ref="{{ tct.ref }}" name="{{ tct.name }}">
+		    <ns2:TableHeader>{% for h_cell in tct.header %}
+				<ns2:TableCell width="{{ h_cell.width }}" align="{{ h_cell.align }}">{{ h_cell.value }}</ns2:TableCell>{% endfor %}
+             </ns2:TableHeader>{% for row in tct.row_list %}
+			 <ns2:TableRow>{% for r_cell in row %}
+				<ns2:TableCell>{{ r_cell }}</ns2:TableCell>{% endfor %}
+			 </ns2:TableRow>{% endfor %}
+		</ns2:TestCaseTable>{% endfor %}
+    </ns2:Test>
+    <ns2:SupliersTestArtefacts>{% for SupTA in SupTA_list %}        
+		<ns2:TestArtefact>
+            <Filename>{{ SupTA.Filename }}</Filename>
+            <Version>{{ SupTA.Version }}</Version>
+            <Comment>{{ SupTA.Comment }}</Comment>
+        </ns2:TestArtefact>{% endfor %}    
+	</ns2:SupliersTestArtefacts>
+    <ns2:IntegratorsTestArtefacts>{% for IntTA in IntTA_list %}
+		<ns2:TestArtefact>
+            <Filename>{{ IntTA.Filename }}</Filename>
+            <Version>{{ IntTA.Version }}</Version>
+            <Comment>{{ IntTA.Comment }}</Comment>
+        </ns2:TestArtefact>{% endfor %}    
+	</ns2:IntegratorsTestArtefacts>
+    <ns2:TestManagement>
+        <ns2:PTC_IntegrityBaselineLabel>{{ swc_da.ptc_integritybaselinelabel }}</ns2:PTC_IntegrityBaselineLabel>
+        <ns2:PTC_IntegrityTestSession_ID>{{ swc_da.ptc_integritytestsession_id }}</ns2:PTC_IntegrityTestSession_ID>
+        <ns2:PTC_IntegrationTestElement>{{ swc_da.ptc_integrationtestelement }}</ns2:PTC_IntegrationTestElement>
+    </ns2:TestManagement>
+    <ns2:TestEnvironmentDefinition used_AIT-FW_ProvidedByIntegrator="{{ swc_da.used_aitfw_providedbyintegrator }}" desc="Please describe the test enviroment.">
+        <TestFrameworkInfo desc="Information about version of test framework">
+            <TestFrameworkVersion>{{ swc_da.testframeworkversion }}</TestFrameworkVersion>
+        </TestFrameworkInfo>
+        <TestFrameworkDeviation>
+            <ChangeDescription>{{ swc_da.changedescription }}</ChangeDescription>
+            <Effects>{{ swc_da.effects }}</Effects>
+        </TestFrameworkDeviation>
+        <AdditionalSoftwareUsed>{% for add_tool in AdditionalTools %}
+            <AdditionalTool desc="Information about SW Tool">
+                <SoftwareName>{{ add_tool.SoftwareName }}</SoftwareName>
+                <Version>{{ add_tool.Version }}</Version>
+                <Description>{{ add_tool.Description }}</Description>
+            </AdditionalTool>{% endfor %}
+        </AdditionalSoftwareUsed>
+        <ns2:TestPC-SWimage>{{ swc_da.testpcswimage }}</ns2:TestPC-SWimage>
+    </ns2:TestEnvironmentDefinition>
+    <ns2:MisraMeasurement allReportedViolationJustified="{{swc_da.allreportedviolationjustified}}" desc="If YES is set for All Violation Justified, MISRA test will pass even if number of MISRA violations are bigger than 0. Please check zFAS_UserManuals user documentation for clarification.">
+        <MandatoryLevel>{{ swc_da.mandatorylevel }}</MandatoryLevel>
+        <RequiredLevel>{{ swc_da.requiredlevel }}</RequiredLevel>
+        <AdvisoryLevel>{{ swc_da.advisorylevel }}</AdvisoryLevel>
+    </ns2:MisraMeasurement>{% for additional in AdditionalData %}
+   <ns2:SuppliersAdditionalInfo desc="Please add any other information, e.g. company relevant data. Additional Data is not automatically parsed or evaluated during integration">
+		<Additional_Data>{{ additional.Additional_Data }}</Additional_Data>
+    </ns2:SuppliersAdditionalInfo>{% endfor %}{% for limitation in KnownLimitations %}
+    <ns2:KnownLimitation>
+        <CompanyIssueIdentifier>{{ limitation.CompanyIssueIdentifier }}</CompanyIssueIdentifier>
+        <Description>{{ limitation.Description }}</Description>
+    </ns2:KnownLimitation>{% endfor %}
+    <ns2:Acronyms desc="Description of acronyms data">{% for acronym in Acronyms %}
+        <Acronym>
+            <name>{{ acronym.name }}</name>
+            <Description>{{ acronym.Description }}</Description>
+        </Acronym>{% endfor %}
+    </ns2:Acronyms>
+    <ns2:References desc="Add references, e.g. to other documents.">{% for reference in References %}
+        <Reference>
+            <name>{{ reference.name }}</name>
+            <Description>{{ reference.Description }}</Description>
+        </Reference>{% endfor %}
+    </ns2:References>
+</ns2:A-AcceptTestReport>

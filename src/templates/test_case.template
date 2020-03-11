@@ -1,0 +1,20 @@
+<TestCase priority="" desc="Description of one Application Test Report Test Case" ID="" >
+            <Name></Name>
+            <Description></Description>
+            <Comment></Comment>
+            <BugReference></BugReference>
+            <Explanation></Explanation>
+            <Begin>
+                <Date></Date>
+                <Time></Time>
+            </Begin>
+            <End>
+                <Date></Date>
+                <Time></Time>
+            </End>
+            <TestCaseSummary result="">
+                <Ratio_A></Ratio_A>
+                <Ratio_B></Ratio_B>
+            </TestCaseSummary>
+            <TestCaseNumber></TestCaseNumber>
+        </TestCase>

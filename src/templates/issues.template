@@ -1,0 +1,21 @@
+{% for issue in issueList %}
+{% set foobar = {'value': False} %}
+##PY_ISSUE_SWC_NAME##{{ issue.swc }}##PY_ISSUE_MESSAGE##_AAT_
+{% for element in issue.mssg %}
+ - {{element.message}} [{{element.name}}] [{{element.prio}}]
+{% if element.prio == "PRIO_A" %}
+{% if foobar.update({'value': True}) %}
+{% endif %}
+{% endif %}
+{%endfor%}
+
+{% if foobar['value'] %}
+##PY_ISSUE_SWC_NAME##{{ issue.swc }}##PY_ISSUE_MESSAGE##_AAT_comment_It is recommended to integrate since SWC is buildable.
+{%else%}
+##PY_ISSUE_SWC_NAME##{{ issue.swc }}##PY_ISSUE_MESSAGE##_AAT_comment_It is recommended to integrate since SWC is buildable and no PRIO_A fails.
+{% endif %}
+
+##PY_ISSUE_SWC_NAME##{{ issue.swc }}##PY_ISSUE_MESSAGE##Proceed with AIT.
+
+
+{%endfor%}

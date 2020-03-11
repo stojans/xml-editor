@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="A-AcceptTestReport.xsl"?>
+<ns2:A-AcceptTestReport xsi:schemaLocation="http://tttech.com/TestReports TestReportScheme.0.9.1.xsd http://tttech.com/SuplierReleaseNotes ReleaseNotesScheme.0.9.1.xsd" xmlns="http://tttech.com/SuplierReleaseNotes" xmlns:ns2="http://tttech.com/TestReports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns2:Release></ns2:Release>
+    <ns2:Platform></ns2:Platform>
+	<ns2:SWC desc="Identification of SWC Release. This information will be used to check version consistency with embedded libraries (version output on target).">
+        <SWC_Name></SWC_Name>
+        <SWC_Version desc="Release Version format must be NNN. BuildTimestamp format must be YYYYMMDDHHMMSS">
+            <ReleaseKind></ReleaseKind>
+            <ReleaseVersion></ReleaseVersion>
+            <IF-SET_Variant></IF-SET_Variant>
+            <IF-SET_Major></IF-SET_Major>
+            <IF-SET_Minor></IF-SET_Minor>
+            <Platform_Major></Platform_Major>
+            <Platform_Minor></Platform_Minor>
+            <Platform_BuildTimestamp></Platform_BuildTimestamp>
+            <SWC_Major></SWC_Major>
+            <SWC_Minor></SWC_Minor>
+            <SWC_BuildTimestamp></SWC_BuildTimestamp>
+        </SWC_Version>
+        <SWC_ASIL_Level></SWC_ASIL_Level>
+        <SWC_Host></SWC_Host>
+        <Description></Description>
+    </ns2:SWC>
+    <ns2:Comment></ns2:Comment>
+    <ns2:DocumentInfo desc="Description of the document (document version, document author, document status)">
+        <DocumentId></DocumentId>
+        <DocumentVersion></DocumentVersion>
+        <DocumentStatus></DocumentStatus>
+        <DocumentDescription>Automatic creation of the document </DocumentDescription>
+        <DocumentAuthor desc="Please add author contact information. He/She releases the delivery and is the first contact person for questions and responsible for the delivery.">
+            <Name></Name>
+            <Company></Company>
+            <Address></Address>
+            <e-mail></e-mail>
+            <Tel></Tel>
+        </DocumentAuthor>
+        <DocumentCreationDate></DocumentCreationDate>
+    </ns2:DocumentInfo>
+    <ns2:RevisionHistory desc="Note the document revision history (changes in the document)">
+		<Revision desc="Briefly describe the history and changes made to the document, starting from first review.">
+            <Document_Version></Document_Version>
+            <Date></Date>
+            <ResponsiblePerson></ResponsiblePerson>
+            <Description></Description>
+        </Revision>
+    </ns2:RevisionHistory>
+    <ns2:Test result="" integrationRecommendationResult="" desc="Description of all test cases">
+		<ns2:TestCase priority="" desc="Description of one Application Test Report Test Case" ID="" >
+            <Name></Name>
+            <Description></Description>
+            <Comment></Comment>
+            <BugReference></BugReference>
+            <Explanation></Explanation>
+            <Begin>
+                <Date></Date>
+                <Time></Time>
+            </Begin>
+            <End>
+                <Date></Date>
+                <Time></Time>
+            </End>
+            <ns2:TestCaseSummary result="">
+                <Ratio_A></Ratio_A>
+                <Ratio_B></Ratio_B>
+            </ns2:TestCaseSummary>
+            <ns2:TestCaseNumber></ns2:TestCaseNumber>
+        </ns2:TestCase>
+    </ns2:Test>
+    <ns2:SupliersTestArtefacts>
+       
+		<ns2:TestArtefact>
+            <Filename></Filename>
+            <Version></Version>
+            <Comment></Comment>
+        </ns2:TestArtefact>
+	</ns2:SupliersTestArtefacts>
+	
+    <ns2:IntegratorsTestArtefacts>
+		<ns2:TestArtefact>
+            <Filename></Filename>
+            <Version></Version>
+            <Comment></Comment>
+        </ns2:TestArtefact>
+	</ns2:IntegratorsTestArtefacts>
+	
+    <ns2:TestManagement>
+        <ns2:PTC_IntegrityBaselineLabel></ns2:PTC_IntegrityBaselineLabel>
+        <ns2:PTC_IntegrityTestSession_ID></ns2:PTC_IntegrityTestSession_ID>
+        <ns2:PTC_IntegrationTestElement></ns2:PTC_IntegrationTestElement>
+    </ns2:TestManagement>
+	
+    <ns2:TestEnvironmentDefinition used_AIT-FW_ProvidedByIntegrator="yes" desc="Please describe the test enviroment.">
+        <TestFrameworkInfo desc="Information about version of test framework">
+            <TestFrameworkVersion></TestFrameworkVersion>
+        </TestFrameworkInfo>
+        <TestFrameworkDeviation>
+            <ChangeDescription>No changes</ChangeDescription>
+            <Effects>No effects</Effects>
+        </TestFrameworkDeviation>
+        <AdditionalSoftwareUsed>
+            <AdditionalTool desc="Information about SW Tool">
+                <SoftwareName></SoftwareName>
+                <Version></Version>
+                <Description></Description>
+            </AdditionalTool>
+        </AdditionalSoftwareUsed>
+        <ns2:TestPC-SWimage></ns2:TestPC-SWimage>
+    </ns2:TestEnvironmentDefinition>
+	
+    <ns2:MisraMeasurement allReportedViolationJustified="" desc="If YES is set for All Violation Justified, MISRA test will pass even if number of MISRA violations are bigger than 0. Please check zFAS_UserManuals user documentation for clarification.">
+        <MandatoryLevel></MandatoryLevel>
+        <RequiredLevel></RequiredLevel>
+        <AdvisoryLevel></AdvisoryLevel>
+    </ns2:MisraMeasurement>
+	
+    <ns2:SuppliersAdditionalInfo desc="Please add any other information, e.g. company relevant data. Additional Data is not automatically parsed or evaluated during integration">
+        <Additional_Data></Additional_Data>
+    </ns2:SuppliersAdditionalInfo>
+	
+    <ns2:KnownLimitation>
+        <CompanyIssueIdentifier></CompanyIssueIdentifier>
+        <Description></Description>
+    </ns2:KnownLimitation>
+	
+    <ns2:Acronyms desc="Description of acronyms data">
+        <Acronym>
+            <name></name>
+            <Description></Description>
+        </Acronym>
+    </ns2:Acronyms>
+	
+    <ns2:References desc="Add references, e.g. to other documents.">
+        <Reference>
+            <name></name>
+            <Description></Description>
+        </Reference>
+    </ns2:References>
+
+
+</ns2:A-AcceptTestReport>
