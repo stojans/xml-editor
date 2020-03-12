@@ -997,15 +997,21 @@ class MyFrame(wx.Frame):
                 child = self.tree.GetNextSibling(child)
 
     def tree_item_expanded(self, event):
+        self.panel_left.Freeze()
         self.tree_sel_changed(event)
+        self.panel_left.Thaw()
 
     def tree_item_collapsed(self, event):
+        self.panel_left.Freeze()
         self.tree_sel_changed(event)
+        self.panel_left.Thaw()
 
     def tree_item_right_click(self, event):
+        self.panel_left.Freeze()
         self.tree_sel_changed(event)
         self.tree.SelectItem(event.GetItem(), True)
         self.tree_item_context_menu(event)
+        self.panel_left.Thaw()
 
     def tree_item_context_menu(self, event):
 
@@ -1597,7 +1603,7 @@ class MyFrame(wx.Frame):
         self.toolbar.Freeze()
         self.export_all_tool.SetShortHelp("Stop exporting")
         self.export_all_tool.SetLongHelp("Stop the exporting of all files to PDF")
-        img = wx.Image(os.path.join(CURRENT_DIR, 'icons', 'pdf.png'))
+        img = wx.Image(os.path.join(CURRENT_DIR, 'icons', 'ironman.png'))
         img.Rescale(25, 25)
         image = wx.Bitmap(img)
         self.export_all_tool.SetNormalBitmap(image)
