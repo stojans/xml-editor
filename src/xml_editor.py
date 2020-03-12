@@ -1979,6 +1979,8 @@ class MyFrame(wx.Frame):
                         if k == "integrationRecommendationResult":
                             continue
                     if k != "TestArtefact":
+                        if k == "name" and self.tree.GetItemText(parent) in ["Acronym", "Reference"]:
+                            k = "Name"
                         item = self.tree.AppendItem(parent, k, data=None)
                         self.tree.SetItemImage(item, 0,
                                                which=icon_normal)
