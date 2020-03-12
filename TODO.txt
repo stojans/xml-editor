@@ -4,7 +4,7 @@
 - izjednaciti raspored elemenata u ucitanim i kreiranim TestCase tagovima
 + skloniti desc tag iz novih TestCase
 + name vs Name u novom Acronym tagu
-- context menu: umesto Add Child ime taga za dodavanje ako je jedini
++ context menu: umesto Add Child ime taga za dodavanje ako je jedini
 - status bar: threading za akcije
 - status bar: pregledati u kom polju se prikazuju akcije
 - skloniti belu pozadinu sa svih slika
