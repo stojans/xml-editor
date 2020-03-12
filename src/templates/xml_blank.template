@@ -125,14 +125,14 @@
 	
     <ns2:Acronyms desc="Description of acronyms data">
         <Acronym>
-            <name></name>
+            <Name></Name>
             <Description></Description>
         </Acronym>
     </ns2:Acronyms>
 	
     <ns2:References desc="Add references, e.g. to other documents.">
         <Reference>
-            <name></name>
+            <Name></Name>
             <Description></Description>
         </Reference>
     </ns2:References>

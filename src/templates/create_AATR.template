@@ -125,13 +125,13 @@
     </ns2:KnownLimitation>{% endfor %}
     <ns2:Acronyms desc="Description of acronyms data">{% for acronym in Acronyms %}
         <Acronym>
-            <name>{{ acronym.name }}</name>
+            <Name>{{ acronym.name }}</Name>
             <Description>{{ acronym.Description }}</Description>
         </Acronym>{% endfor %}
     </ns2:Acronyms>
     <ns2:References desc="Add references, e.g. to other documents.">{% for reference in References %}
         <Reference>
-            <name>{{ reference.name }}</name>
+            <Name>{{ reference.name }}</Name>
             <Description>{{ reference.Description }}</Description>
         </Reference>{% endfor %}
     </ns2:References>
