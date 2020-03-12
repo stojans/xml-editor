@@ -1007,14 +1007,13 @@ class MyFrame(wx.Frame):
         self.panel_left.Thaw()
 
     def tree_item_right_click(self, event):
-        self.panel_left.Freeze()
         self.tree_sel_changed(event)
         self.tree.SelectItem(event.GetItem(), True)
         self.tree_item_context_menu(event)
-        self.panel_left.Thaw()
 
     def tree_item_context_menu(self, event):
 
+        self.panel_left.Freeze()
         self.popup_menu = wx.Menu()
 
         root = self.tree.GetItemText(self.tree.GetRootItem())
@@ -1093,8 +1092,10 @@ class MyFrame(wx.Frame):
             item = self.popup_menu.Append(-1, "Delete")
             self.Bind(wx.EVT_MENU, self.on_select_context, item)
 
+        
         self.PopupMenu(self.popup_menu, event.GetPoint())
         self.popup_menu.Destroy()
+        self.panel_left.Thaw()
 
     def on_select_context(self, event):
         item = self.popup_menu.FindItemById(event.GetId())
