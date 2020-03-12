@@ -565,6 +565,7 @@ class MyFrame(wx.Frame):
         self.Bind(EVT_COUNT, self.OnExport)
 
         self.toolbar.Bind(wx.EVT_LEAVE_WINDOW, self.on_mouse_leave)
+        
 
 
         self.Bind(wx.EVT_ERASE_BACKGROUND, self.onErase)
@@ -1589,16 +1590,20 @@ class MyFrame(wx.Frame):
 
         print "ON COUNT"
 
-        self.export_all_tool.SetShortHelp("Stop exporting")
+
 
 ####################################################################################
         # PROMENITI SLIKU
+        self.toolbar.Freeze()
+        self.export_all_tool.SetShortHelp("Stop exporting")
+        self.export_all_tool.SetLongHelp("Stop the exporting of all files to PDF")
         img = wx.Image(os.path.join(CURRENT_DIR, 'icons', 'pdf.png'))
         img.Rescale(25, 25)
         image = wx.Bitmap(img)
         self.export_all_tool.SetNormalBitmap(image)
         self.toolbar.Realize()
         self.toolbar.Refresh()
+        self.toolbar.Thaw()
 ####################################################################################
 
 
@@ -1826,12 +1831,18 @@ class MyFrame(wx.Frame):
 
 ####################################################################################
         # VRATITI SLIKU
+        self.toolbar.Freeze()
+        self.export_all_tool.SetShortHelp("Export all to PDF")
+        self.export_all_tool.SetLongHelp("Export all AATR XML files in the " +
+                                    "TestReport directory to their " +
+                                    "respective PDF files")
         img = wx.Image(os.path.join(CURRENT_DIR, 'icons', 'pdf_all.png'))
         img.Rescale(25, 25)
         image = wx.Bitmap(img)
         self.export_all_tool.SetNormalBitmap(image)
         self.toolbar.Realize()
         self.toolbar.Refresh()
+        self.toolbar.Thaw()
 ####################################################################################
 
         if self.stopped == False:
@@ -1848,7 +1859,6 @@ class MyFrame(wx.Frame):
 
 
         self.status_text.SetStatusText("", 1)
-        self.export_all_tool.SetShortHelp("Export all to PDF")
 
         self.Bind(wx.EVT_TOOL, self.export_pdf_all_on_menu, self.export_all_tool)
 
