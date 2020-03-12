@@ -1541,6 +1541,7 @@ class MyFrame(wx.Frame):
         print "ËXPORT ALL"
 
 
+        
 
         cfg = ConfigParser()
         try:
@@ -1581,7 +1582,19 @@ class MyFrame(wx.Frame):
 
         print "ON COUNT"
 
-        self.export_all_tool.Enable(False)
+        self.export_all_tool.SetShortHelp("Stop exporting")
+
+####################################################################################
+        # PROMENITI SLIKU
+        img = wx.Image(os.path.join(CURRENT_DIR, 'icons', 'pdf.png'))
+        img.Rescale(25, 25)
+        image = wx.Bitmap(img)
+        self.export_all_tool.SetNormalBitmap(image)
+        self.toolbar.Realize()
+        self.toolbar.Refresh()
+####################################################################################
+
+
         self.status_text.SetStatusText("(Ctrl + Shift + E to stop)", 2)
         self.stopped = False
         self.Bind(wx.EVT_TOOL, self.stop_export, self.export_all_tool)
@@ -1804,6 +1817,16 @@ class MyFrame(wx.Frame):
     def export_done(self):                     #3
 
 
+####################################################################################
+        # VRATITI SLIKU
+        img = wx.Image(os.path.join(CURRENT_DIR, 'icons', 'pdf_all.png'))
+        img.Rescale(25, 25)
+        image = wx.Bitmap(img)
+        self.export_all_tool.SetNormalBitmap(image)
+        self.toolbar.Realize()
+        self.toolbar.Refresh()
+####################################################################################
+
         if self.stopped == False:
             self.status_text.SetStatusText("PDF generation complete!", 1)
         else:
@@ -1811,15 +1834,16 @@ class MyFrame(wx.Frame):
 
         self.status_text.SetStatusText("", 2)
 
+
         result_dlg = PDFDialog(self, self.succ_file_list, self.fail_file_list, self.tr_path, self.file_num)
         
         result = result_dlg.ShowModal()
 
 
         self.status_text.SetStatusText("", 1)
-        self.export_all_tool.Enable(True)
+        self.export_all_tool.SetShortHelp("Export all to PDF")
+
         self.Bind(wx.EVT_TOOL, self.export_pdf_all_on_menu, self.export_all_tool)
-        self.toolbar.Realize()
 
     def stop_export(self, e):
         self.stopped = True
