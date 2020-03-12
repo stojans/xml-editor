@@ -2233,7 +2233,9 @@ class MyFrame(wx.Frame):
                                which=icon_exp)
 
         for e in new_case["TestCase"]:
-            if e.startswith("@"):
+            if "desc" in e:
+                continue
+            elif e.startswith("@") and "desc" not in e:
                 child = self.tree.AppendItem(item, e[1:], data=None)
 
                 self.tree.SetItemImage(child, 0,
