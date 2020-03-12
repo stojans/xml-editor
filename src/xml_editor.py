@@ -566,8 +566,15 @@ class MyFrame(wx.Frame):
 
         self.toolbar.Bind(wx.EVT_LEAVE_WINDOW, self.on_mouse_leave)
 
+
+        self.Bind(wx.EVT_ERASE_BACKGROUND, self.onErase)
+    def onErase(self, event):
+        pass
+
+
     def __del__(self):
         pass
+
 
     def tree_sel_changed(self, event):
 
