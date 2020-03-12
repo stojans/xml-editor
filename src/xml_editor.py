@@ -1025,23 +1025,44 @@ class MyFrame(wx.Frame):
 
         else:
 
-            if (sel_text == "TestCase" or
-                    "TestCase" in sel_text or
-                    sel_text == "RevisionHistory" or
-                    sel_text == "SupliersTestArtefacts" or
-                    sel_text == "IntegratorsTestArtefacts" or
-                    sel_text == "Acronyms" or
-                    sel_text == "References" or
-                    sel_text == "AdditionalSoftwareUsed" or
-                    sel_text == "TestCaseTable" or
-                    sel_text == "TableHeader" or
-                    sel_text == "TableRow"):
-
+            if sel_text == "TestCase":
                 if sel_text != "TestCaseNumber":
                     if sel_text != "TestCaseSummary":
-
-                        item = self.popup_menu.Append(-1, "Add Child")
+                        item = self.popup_menu.Append(-1, "Add BugReference")
                         self.Bind(wx.EVT_MENU, self.on_select_context, item)
+
+            if sel_text == "TestCaseTable":
+                item = self.popup_menu.Append(-1, "Add TableRow")
+                self.Bind(wx.EVT_MENU, self.on_select_context, item)
+
+            if sel_text == "RevisionHistory":
+                item = self.popup_menu.Append(-1, "Add Revision")
+                self.Bind(wx.EVT_MENU, self.on_select_context, item)
+
+            if sel_text in ["SupliersTestArtefacts", "IntegratorsTestArtefacts"]:
+                item = self.popup_menu.Append(-1, "Add TestArtefact")
+                self.Bind(wx.EVT_MENU, self.on_select_context, item)
+
+            if sel_text == "Acronyms":
+                item = self.popup_menu.Append(-1, "Add Acronym")
+                self.Bind(wx.EVT_MENU, self.on_select_context, item)
+
+            if sel_text == "References":
+                item = self.popup_menu.Append(-1, "Add Reference")
+                self.Bind(wx.EVT_MENU, self.on_select_context, item)
+
+            if sel_text == "AdditionalSoftwareUsed":
+                item = self.popup_menu.Append(-1, "Add AdditionalTool")
+                self.Bind(wx.EVT_MENU, self.on_select_context, item)
+
+            if sel_text in ["SupliersTestArtefacts", "IntegratorsTestArtefacts"]:
+                item = self.popup_menu.Append(-1, "Add TestArtefact")
+                self.Bind(wx.EVT_MENU, self.on_select_context, item)
+
+            if sel_text in ["TableHeader", "TableRow"]:
+                item = self.popup_menu.Append(-1, "Add TableCell")
+                self.Bind(wx.EVT_MENU, self.on_select_context, item)
+##
 
         if (sel_text == "SuppliersAdditionalInfo" or
                 sel_text == "Revision" or
@@ -1066,10 +1087,11 @@ class MyFrame(wx.Frame):
         if item:
             text = item.GetText()
 
-            if text == "Add Child":
-                self.context_menu_add(event)
-            elif text == "Delete":
+            if text == "Delete":
                 self.context_menu_delete(event)
+            else:
+                self.context_menu_add(event)
+
 
     def context_menu_add(self, event):
 
