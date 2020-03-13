@@ -1,5 +1,6 @@
-- izmeniti naziv i sliku export menu itema dok traje
-- ponovni klik na export menuitem treba da prekine export
+- napraviti novu sliku za cancel export
++ izmeniti naziv i sliku export menu itema dok traje
++ ponovni klik na export menuitem treba da prekine export
 - dodati threading za create issues
 - izjednaciti raspored elemenata u ucitanim i kreiranim TestCase tagovima
 + skloniti desc tag iz novih TestCase
@@ -8,3 +9,4 @@
 - status bar: threading za akcije
 - status bar: pregledati u kom polju se prikazuju akcije
 - skloniti belu pozadinu sa svih slika
+- undo
