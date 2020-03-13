@@ -657,7 +657,7 @@ class MyFrame(wx.Frame):
                     return
             elif isinstance(v, dict):
                 self.find_desc(v, tag)
-            elif "result" in tag.lower() or "table" in tag.lower():
+            elif "recommendationresult" in tag.lower() or "testcasetable" in tag.lower():
                 self.desc_text.SetLabel("")
 
     def create_box(self, item, parent_sizer):
@@ -2211,6 +2211,8 @@ class MyFrame(wx.Frame):
                     continue
 
                 elif key.startswith("@"):
+                    if key == "@desc":
+                        continue
                     child = self.tree.AppendItem(item, key[1:], data=None)
                     self.tree.SetItemImage(child, 0,
                                            which=icon_normal)
