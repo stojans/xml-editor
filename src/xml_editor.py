@@ -1885,8 +1885,17 @@ class MyFrame(wx.Frame):
 
     def _edit_search_on_menu(self, event):
 
-        self.search.SetFocus()
-        print "SEARCH"
+        if self.FindFocus() != self.search:
+            self.old_focus = self.FindFocus()
+
+        if self.FindFocus() == self.search:
+            self.old_focus.SetFocus()
+            print "SEARCH OFF"
+
+        else:
+            self.search.SetFocus()
+            print "SEARCH ON"
+
 
     def _edit_add_on_menu(self, event):
         self.context_menu_add(event)
@@ -1924,7 +1933,10 @@ class MyFrame(wx.Frame):
 
     def on_mouse_enter(self, event):
         if event.GetEventObject() == self.tree:
-            self.tree.SetFocus()
+            if self.FindFocus() == self.search:
+                return
+            else:
+                self.tree.SetFocus()
         elif event.GetEventObject() == self.toolbar:
 
             tool_id = event.GetSelection()
@@ -1934,8 +1946,11 @@ class MyFrame(wx.Frame):
                 text = tool.GetLongHelp()
 
         elif event.GetEventObject() == self.tab_parsed or event.GetEventObject() == self.panel_desc:
-            panel = event.GetEventObject()
-            panel.SetFocus()
+            if self.FindFocus() == self.search:
+                return
+            else:
+                panel = event.GetEventObject()
+                panel.SetFocus()
             if isinstance(self.FindFocus(), wx.Choice):
                 child_list = panel.GetChildren()
                 for child in child_list:
